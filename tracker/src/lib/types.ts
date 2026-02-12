@@ -31,6 +31,7 @@ export interface TeamProgress {
   teamMemberId: string;
   missionId: string;
   completed: boolean;
+  completedAt: string | null;
 }
 
 export interface DemoSession {

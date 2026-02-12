@@ -9,6 +9,7 @@ import {
   DemoSession,
 } from "./types";
 import { SEED_MISSIONS, SEED_DEMO_SESSIONS } from "./seed";
+import { getMissionDueDateISO } from "./dates";
 
 function loadFromStorage<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
@@ -30,7 +31,13 @@ export function useMissions() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    setMissions(loadFromStorage("tracker_missions", SEED_MISSIONS));
+    const stored = loadFromStorage("tracker_missions", SEED_MISSIONS);
+    // Backfill due dates for missions saved before due dates were added
+    const migrated = stored.map((m) => ({
+      ...m,
+      dueDate: m.dueDate || getMissionDueDateISO(m.number),
+    }));
+    setMissions(migrated);
     setLoaded(true);
   }, []);
 
@@ -84,7 +91,13 @@ export function useTeam() {
 
   useEffect(() => {
     setMembers(loadFromStorage("tracker_team_members", []));
-    setProgress(loadFromStorage("tracker_team_progress", []));
+    // Backfill completedAt for entries saved before this field existed
+    const stored = loadFromStorage<TeamProgress[]>("tracker_team_progress", []);
+    const migrated = stored.map((p) => ({
+      ...p,
+      completedAt: p.completedAt ?? null,
+    }));
+    setProgress(migrated);
     setLoaded(true);
   }, []);
 
@@ -114,11 +127,18 @@ export function useTeam() {
         if (existing) {
           return prev.map((p) =>
             p.teamMemberId === teamMemberId && p.missionId === missionId
-              ? { ...p, completed: !p.completed }
+              ? {
+                  ...p,
+                  completed: !p.completed,
+                  completedAt: !p.completed ? new Date().toISOString() : null,
+                }
               : p
           );
         }
-        return [...prev, { teamMemberId, missionId, completed: true }];
+        return [
+          ...prev,
+          { teamMemberId, missionId, completed: true, completedAt: new Date().toISOString() },
+        ];
       });
     },
     []

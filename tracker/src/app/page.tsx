@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMissions, useTools, useTeam, useDemos } from "@/lib/store";
+import { getPaceStatus, formatDueDate, isCompletionOnTime } from "@/lib/dates";
 import ProgressBar from "@/components/ProgressBar";
 
 export default function Dashboard() {
@@ -19,17 +20,39 @@ export default function Dashboard() {
   const toolsLogged = tools.length;
   const demosCompleted = demos.filter((d) => d.didDemo).length;
 
-  const coreMissionIds = missions
-    .filter((m) => m.number >= 1 && m.number <= 10)
-    .map((m) => m.id);
-  const membersOnTrack = members.filter((member) => {
+  const coreMissions = missions.filter((m) => m.number >= 1 && m.number <= 10);
+  const coreMissionIds = coreMissions.map((m) => m.id);
+
+  const getMemberLateCount = (memberId: string) =>
+    coreMissions.filter((m) => {
+      const entry = progress.find(
+        (p) => p.teamMemberId === memberId && p.missionId === m.id && p.completed
+      );
+      return entry && !isCompletionOnTime(m.dueDate, entry.completedAt);
+    }).length;
+
+  const membersAllOnTime = members.filter((member) => {
     const memberCompleted = progress.filter(
       (p) => p.teamMemberId === member.id && p.completed && coreMissionIds.includes(p.missionId)
     ).length;
-    return memberCompleted >= 5;
+    return memberCompleted > 0 && getMemberLateCount(member.id) === 0;
   }).length;
+  const membersWithLate = members.filter(
+    (m) => getMemberLateCount(m.id) > 0
+  ).length;
 
   const nextMission = missions.find((m) => m.status !== "complete");
+
+  const pace = getPaceStatus(missions);
+  const paceConfig = {
+    ahead: { label: "Ahead of Schedule", color: "var(--green)", bg: "var(--green-light)" },
+    on_track: { label: "On Track", color: "var(--green)", bg: "var(--green-light)" },
+    behind: { label: "Behind Schedule", color: "var(--red)", bg: "var(--red-light)" },
+  }[pace.status];
+
+  const nextDueMission = missions.find(
+    (m) => m.status !== "complete" && m.dueDate
+  );
 
   const lastTool = tools.length > 0 ? tools[tools.length - 1] : null;
   const lastToolMission = lastTool
@@ -38,6 +61,32 @@ export default function Dashboard() {
 
   return (
     <div className="space-y-8">
+      {/* Schedule Status Banner */}
+      <div
+        className="rounded-xl border p-6 flex items-center justify-between"
+        style={{ backgroundColor: paceConfig.bg, borderColor: paceConfig.color }}
+      >
+        <div>
+          <h2 className="text-lg font-semibold" style={{ color: paceConfig.color }}>
+            {paceConfig.label}
+          </h2>
+          <p className="text-sm mt-1" style={{ color: paceConfig.color, opacity: 0.8 }}>
+            {pace.missionsCompleted} completed &middot; {pace.missionsDue} due by today
+          </p>
+        </div>
+        {nextDueMission?.dueDate && (
+          <div className="text-right">
+            <p className="text-xs text-[var(--gray)]">Next deadline</p>
+            <p className="text-sm font-semibold" style={{ color: paceConfig.color }}>
+              {formatDueDate(nextDueMission.dueDate)}
+            </p>
+            <p className="text-xs text-[var(--gray)]">
+              {nextDueMission.number === 0 ? "Day 0" : `Wk ${nextDueMission.number}`}: {nextDueMission.title}
+            </p>
+          </div>
+        )}
+      </div>
+
       <div className="bg-white rounded-xl border border-[var(--border)] p-6">
         <h2 className="text-lg font-semibold mb-3">Overall Progress</h2>
         <ProgressBar current={completedMissions} total={totalMissions} />
@@ -48,7 +97,7 @@ export default function Dashboard() {
           href="/missions"
           className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
         >
-          <h3 className="font-semibold mb-1">Missions On Time</h3>
+          <h3 className="font-semibold mb-1">Missions</h3>
           <p className="text-sm text-[var(--gray)] mb-4">
             {completedMissions}/{totalMissions} complete
           </p>
@@ -92,18 +141,22 @@ export default function Dashboard() {
           className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
         >
           <h3 className="font-semibold mb-1">Team Progress</h3>
-          <p className="text-sm text-[var(--gray)] mb-4">
-            {members.length === 0
-              ? "No team members added yet"
-              : `${membersOnTrack}/${members.length} on track`}
-          </p>
-          {members.length > 0 && (
-            <ProgressBar
-              current={membersOnTrack}
-              total={members.length}
-              color="var(--amber)"
-              size="sm"
-            />
+          {members.length === 0 ? (
+            <p className="text-sm text-[var(--gray)] mb-4">No team members added yet</p>
+          ) : (
+            <>
+              <div className="flex gap-3 text-sm mb-4">
+                <span className="text-[var(--green)]">{membersAllOnTime} all on time</span>
+                <span className="text-[var(--gray)]">&middot;</span>
+                <span className="text-[var(--red)]">{membersWithLate} with late</span>
+              </div>
+              <ProgressBar
+                current={membersAllOnTime}
+                total={members.length}
+                color="var(--green)"
+                size="sm"
+              />
+            </>
           )}
         </Link>
 

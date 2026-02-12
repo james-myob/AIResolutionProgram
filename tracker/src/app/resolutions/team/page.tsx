@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useMissions, useTeam } from "@/lib/store";
+import { isCompletionOnTime } from "@/lib/dates";
 
 export default function TeamProgressPage() {
   const { missions, loaded: mLoaded } = useMissions();
@@ -15,6 +16,11 @@ export default function TeamProgressPage() {
   // Core missions only (1-10)
   const coreMissions = missions.filter((m) => m.number >= 1 && m.number <= 10);
 
+  const getProgressEntry = (memberId: string, missionId: string) =>
+    progress.find(
+      (p) => p.teamMemberId === memberId && p.missionId === missionId && p.completed
+    );
+
   const getMemberCompleted = (memberId: string) =>
     progress.filter(
       (p) =>
@@ -23,10 +29,17 @@ export default function TeamProgressPage() {
         coreMissions.some((m) => m.id === p.missionId)
     ).length;
 
-  const isCompleted = (memberId: string, missionId: string) =>
-    progress.some(
-      (p) => p.teamMemberId === memberId && p.missionId === missionId && p.completed
-    );
+  const getMemberOnTime = (memberId: string) =>
+    coreMissions.filter((m) => {
+      const entry = getProgressEntry(memberId, m.id);
+      return entry && isCompletionOnTime(m.dueDate, entry.completedAt);
+    }).length;
+
+  const getMemberLate = (memberId: string) =>
+    coreMissions.filter((m) => {
+      const entry = getProgressEntry(memberId, m.id);
+      return entry && !isCompletionOnTime(m.dueDate, entry.completedAt);
+    }).length;
 
   const handleAddMember = () => {
     if (newName.trim()) {
@@ -35,12 +48,10 @@ export default function TeamProgressPage() {
     }
   };
 
-  // Members needing attention (less than half done relative to what's expected)
-  const behindMembers = members.filter((m) => getMemberCompleted(m.id) < 3);
-
-  const membersOnTrack = members.filter(
-    (m) => getMemberCompleted(m.id) >= 5
+  const allOnTime = members.filter(
+    (m) => getMemberCompleted(m.id) > 0 && getMemberLate(m.id) === 0
   ).length;
+  const someLate = members.filter((m) => getMemberLate(m.id) > 0).length;
 
   return (
     <div className="space-y-6">
@@ -48,7 +59,7 @@ export default function TeamProgressPage() {
         <h1 className="text-2xl font-bold">Team Progress</h1>
         {members.length > 0 && (
           <span className="text-sm text-[var(--gray)]">
-            {membersOnTrack}/{members.length} on track
+            {allOnTime} 100% on time &middot; {someLate} with late
           </span>
         )}
       </div>
@@ -77,7 +88,13 @@ export default function TeamProgressPage() {
                   </th>
                 ))}
                 <th className="px-3 py-3 font-semibold text-[var(--gray)] text-center">
-                  Total
+                  Done
+                </th>
+                <th className="px-3 py-3 font-semibold text-[var(--green)] text-center">
+                  On Time
+                </th>
+                <th className="px-3 py-3 font-semibold text-[var(--red)] text-center">
+                  Late
                 </th>
                 <th className="px-3 py-3"></th>
               </tr>
@@ -85,33 +102,55 @@ export default function TeamProgressPage() {
             <tbody className="divide-y divide-[var(--border)]">
               {members.map((member) => {
                 const completed = getMemberCompleted(member.id);
+                const onTime = getMemberOnTime(member.id);
+                const late = getMemberLate(member.id);
                 return (
                   <tr key={member.id} className="hover:bg-[var(--gray-light)]/50">
                     <td className="px-4 py-2 font-medium sticky left-0 bg-white">
                       {member.name}
                     </td>
-                    {coreMissions.map((m) => (
-                      <td key={m.id} className="px-2 py-2 text-center">
-                        <button
-                          onClick={() => toggleProgress(member.id, m.id)}
-                          className={`w-6 h-6 rounded text-xs flex items-center justify-center mx-auto transition-colors ${
-                            isCompleted(member.id, m.id)
-                              ? "bg-[var(--green)] text-white"
-                              : "bg-[var(--gray-light)] text-[var(--gray)] hover:bg-[var(--border)]"
-                          }`}
-                        >
-                          {isCompleted(member.id, m.id) ? (
-                            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                            </svg>
-                          ) : (
-                            "·"
-                          )}
-                        </button>
-                      </td>
-                    ))}
+                    {coreMissions.map((m) => {
+                      const entry = getProgressEntry(member.id, m.id);
+                      const isComplete = !!entry;
+                      const onTimeCompletion = entry
+                        ? isCompletionOnTime(m.dueDate, entry.completedAt)
+                        : true;
+                      return (
+                        <td key={m.id} className="px-2 py-2 text-center">
+                          <button
+                            onClick={() => toggleProgress(member.id, m.id)}
+                            className={`w-6 h-6 rounded text-xs flex items-center justify-center mx-auto transition-colors ${
+                              isComplete
+                                ? onTimeCompletion
+                                  ? "bg-[var(--green)] text-white"
+                                  : "bg-[var(--red)] text-white"
+                                : "bg-[var(--gray-light)] text-[var(--gray)] hover:bg-[var(--border)]"
+                            }`}
+                            title={
+                              entry?.completedAt
+                                ? `Completed ${new Date(entry.completedAt).toLocaleDateString()}`
+                                : undefined
+                            }
+                          >
+                            {isComplete ? (
+                              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                              </svg>
+                            ) : (
+                              "·"
+                            )}
+                          </button>
+                        </td>
+                      );
+                    })}
                     <td className="px-3 py-2 text-center font-medium">
                       {completed}/10
+                    </td>
+                    <td className="px-3 py-2 text-center font-medium text-[var(--green)]">
+                      {onTime}
+                    </td>
+                    <td className="px-3 py-2 text-center font-medium text-[var(--red)]">
+                      {late}
                     </td>
                     <td className="px-3 py-2">
                       <button
@@ -129,10 +168,21 @@ export default function TeamProgressPage() {
         </div>
       )}
 
-      {/* Needs attention */}
-      {behindMembers.length > 0 && (
-        <div className="text-sm text-[var(--amber)] bg-[var(--amber-light)] rounded-lg p-3">
-          Needs attention: {behindMembers.map((m) => `${m.name} (${getMemberCompleted(m.id)}/10)`).join(", ")}
+      {/* Legend */}
+      {members.length > 0 && (
+        <div className="flex gap-4 text-xs text-[var(--gray)]">
+          <span className="flex items-center gap-1.5">
+            <span className="w-3 h-3 rounded bg-[var(--green)] inline-block"></span>
+            On Time
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-3 h-3 rounded bg-[var(--red)] inline-block"></span>
+            Late
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-3 h-3 rounded bg-[var(--gray-light)] inline-block"></span>
+            Not Done
+          </span>
         </div>
       )}
 
