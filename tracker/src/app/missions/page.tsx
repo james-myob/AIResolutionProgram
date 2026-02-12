@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMissions } from "@/lib/store";
 import ProgressBar from "@/components/ProgressBar";
 import { MissionStatus } from "@/lib/types";
+import { formatDueDate } from "@/lib/dates";
 
 const STATUS_DISPLAY: Record<MissionStatus, { label: string; color: string; bg: string }> = {
   complete: { label: "Complete", color: "var(--green)", bg: "var(--green-light)" },
@@ -53,6 +54,10 @@ export default function MissionsPage() {
             <div className="divide-y divide-[var(--border)]">
               {categoryMissions.map((mission) => {
                 const status = STATUS_DISPLAY[mission.status];
+                const isOverdue =
+                  mission.status !== "complete" &&
+                  mission.dueDate &&
+                  new Date(mission.dueDate + "T23:59:59") < new Date();
                 return (
                   <div
                     key={mission.id}
@@ -77,6 +82,14 @@ export default function MissionsPage() {
                         {mission.number === 0 ? "Day 0" : `Wk ${mission.number}`}: {mission.title}
                       </span>
                     </Link>
+                    {mission.dueDate && (
+                      <span
+                        className="text-xs flex-shrink-0"
+                        style={{ color: isOverdue ? "var(--red)" : "var(--gray)" }}
+                      >
+                        Due {formatDueDate(mission.dueDate)}
+                      </span>
+                    )}
                     <span
                       className="text-xs px-2 py-1 rounded-full flex-shrink-0"
                       style={{ color: status.color, backgroundColor: status.bg }}

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMissions, useTools, useTeam, useDemos } from "@/lib/store";
+import { getPaceStatus, formatDueDate } from "@/lib/dates";
 import ProgressBar from "@/components/ProgressBar";
 
 export default function Dashboard() {
@@ -31,6 +32,17 @@ export default function Dashboard() {
 
   const nextMission = missions.find((m) => m.status !== "complete");
 
+  const pace = getPaceStatus(missions);
+  const paceConfig = {
+    ahead: { label: "Ahead of Schedule", color: "var(--green)", bg: "var(--green-light)" },
+    on_track: { label: "On Track", color: "var(--green)", bg: "var(--green-light)" },
+    behind: { label: "Behind Schedule", color: "var(--red)", bg: "var(--red-light)" },
+  }[pace.status];
+
+  const nextDueMission = missions.find(
+    (m) => m.status !== "complete" && m.dueDate
+  );
+
   const lastTool = tools.length > 0 ? tools[tools.length - 1] : null;
   const lastToolMission = lastTool
     ? missions.find((m) => m.id === lastTool.missionId)
@@ -38,6 +50,32 @@ export default function Dashboard() {
 
   return (
     <div className="space-y-8">
+      {/* Schedule Status Banner */}
+      <div
+        className="rounded-xl border p-6 flex items-center justify-between"
+        style={{ backgroundColor: paceConfig.bg, borderColor: paceConfig.color }}
+      >
+        <div>
+          <h2 className="text-lg font-semibold" style={{ color: paceConfig.color }}>
+            {paceConfig.label}
+          </h2>
+          <p className="text-sm mt-1" style={{ color: paceConfig.color, opacity: 0.8 }}>
+            {pace.missionsCompleted} completed &middot; {pace.missionsDue} due by today
+          </p>
+        </div>
+        {nextDueMission?.dueDate && (
+          <div className="text-right">
+            <p className="text-xs text-[var(--gray)]">Next deadline</p>
+            <p className="text-sm font-semibold" style={{ color: paceConfig.color }}>
+              {formatDueDate(nextDueMission.dueDate)}
+            </p>
+            <p className="text-xs text-[var(--gray)]">
+              {nextDueMission.number === 0 ? "Day 0" : `Wk ${nextDueMission.number}`}: {nextDueMission.title}
+            </p>
+          </div>
+        )}
+      </div>
+
       <div className="bg-white rounded-xl border border-[var(--border)] p-6">
         <h2 className="text-lg font-semibold mb-3">Overall Progress</h2>
         <ProgressBar current={completedMissions} total={totalMissions} />
@@ -48,7 +86,7 @@ export default function Dashboard() {
           href="/missions"
           className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
         >
-          <h3 className="font-semibold mb-1">Missions On Time</h3>
+          <h3 className="font-semibold mb-1">Missions</h3>
           <p className="text-sm text-[var(--gray)] mb-4">
             {completedMissions}/{totalMissions} complete
           </p>

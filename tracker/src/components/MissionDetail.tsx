@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMissions } from "@/lib/store";
 import { MissionStatus } from "@/lib/types";
+import { formatDueDate } from "@/lib/dates";
 
 const STATUS_OPTIONS: { value: MissionStatus; label: string }[] = [
   { value: "not_started", label: "Not Started" },
@@ -80,12 +81,23 @@ export default function MissionDetail({ id }: { id: string }) {
           </div>
         </div>
 
-        {mission.dueDate && (
-          <div className="flex items-center gap-4">
-            <label className="text-sm font-medium w-20">Due</label>
-            <span className="text-sm text-[var(--gray)]">{mission.dueDate}</span>
-          </div>
-        )}
+        {mission.dueDate && (() => {
+          const isOverdue =
+            mission.status !== "complete" &&
+            new Date(mission.dueDate + "T23:59:59") < new Date();
+          return (
+            <div className="flex items-center gap-4">
+              <label className="text-sm font-medium w-20">Due</label>
+              <span
+                className="text-sm"
+                style={{ color: isOverdue ? "var(--red)" : "var(--gray)" }}
+              >
+                {formatDueDate(mission.dueDate)}
+                {isOverdue && " — Overdue"}
+              </span>
+            </div>
+          );
+        })()}
 
         {mission.completedAt && (
           <div className="flex items-center gap-4">

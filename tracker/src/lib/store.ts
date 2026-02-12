@@ -9,6 +9,7 @@ import {
   DemoSession,
 } from "./types";
 import { SEED_MISSIONS, SEED_DEMO_SESSIONS } from "./seed";
+import { getMissionDueDateISO } from "./dates";
 
 function loadFromStorage<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
@@ -30,7 +31,13 @@ export function useMissions() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    setMissions(loadFromStorage("tracker_missions", SEED_MISSIONS));
+    const stored = loadFromStorage("tracker_missions", SEED_MISSIONS);
+    // Backfill due dates for missions saved before due dates were added
+    const migrated = stored.map((m) => ({
+      ...m,
+      dueDate: m.dueDate || getMissionDueDateISO(m.number),
+    }));
+    setMissions(migrated);
     setLoaded(true);
   }, []);
 
