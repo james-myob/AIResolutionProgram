@@ -31,11 +31,29 @@
 
 **How I'll track it:** After each mission, ask myself: "Did I use anything new this weekend?" If yes, log it below.
 
-| # | New Tool/Platform | Mission Where I Used It | Real Task I Used It On | What It Does Well | Where It Falls Short |
+| # | New Tool/Platform | Mission | Real Task I Used It On | What It Does Well | Where It Falls Short |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 | | [Mission ?]() | | | |
+| 2 | | [Mission ?]() | | | |
+| 3 | | [Mission ?]() | | | |
+
+<details>
+<summary>Mission links reference</summary>
+
+- [Day 0: Setup](00-day-zero-setup.md)
+- [Mission 1: Resolution Tracker](01-vibe-code-kickoff.md)
+- [Mission 2: Model Topography](02-model-mapping.md)
+- [Mission 3: Deep Research Sprint](03-deep-research-sprint.md)
+- [Mission 4: Data Analysis](04-analysis-project.md)
+- [Mission 5: Visual Reasoning](05-visual-reasoning.md)
+- [Mission 6: Information Pipeline](06-information-pipeline.md)
+- [Mission 7: First Automation](07-first-automation.md)
+- [Mission 8: Second Automation](08-second-automation.md)
+- [Mission 9: Context Engineering](09-context-engineering.md)
+- [Mission 10: AI-Powered Build](10-ai-powered-build.md)
+- [Bonus: Agent Exploration](11-bonus-agent-exploration.md)
+
+</details>
 
 **Done when:** 3+ rows filled in with tools I used on real tasks and can speak to confidently.
 
