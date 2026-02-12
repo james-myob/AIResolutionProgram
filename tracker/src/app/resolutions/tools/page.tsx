@@ -20,7 +20,11 @@ export default function ToolsLogPage() {
   });
 
   if (!mLoaded || !tLoaded) {
-    return <div className="text-[var(--gray)] py-12 text-center">Loading...</div>;
+    return (
+      <div className="py-20 text-center" style={{ color: "var(--notion-text-tertiary)" }}>
+        Loading...
+      </div>
+    );
   }
 
   const resetForm = () => {
@@ -64,70 +68,127 @@ export default function ToolsLogPage() {
   };
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">New AI Tools Explored</h1>
-        <span className="text-sm text-[var(--gray)]">{tools.length}/3 target</span>
+    <div>
+      {/* Page title */}
+      <div className="mb-8 mt-4">
+        <span className="text-5xl mb-2 block">🔧</span>
+        <h1
+          className="text-4xl font-bold tracking-tight"
+          style={{ color: "var(--notion-text)" }}
+        >
+          Tools Log
+        </h1>
+        <p className="mt-1 text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+          {tools.length} of 3 target
+        </p>
       </div>
 
-      <ProgressBar current={Math.min(tools.length, 3)} total={3} color="var(--accent)" />
+      <div className="mb-6">
+        <ProgressBar current={Math.min(tools.length, 3)} total={3} color="var(--notion-accent)" />
+      </div>
 
-      {/* Tool entries */}
-      <div className="space-y-4">
+      {/* Tool entries - Notion style list */}
+      <div className="mb-6">
         {tools.map((tool, index) => {
           const mission = missions.find((m) => m.id === tool.missionId);
           return (
             <div
               key={tool.id}
-              className="bg-white rounded-xl border border-[var(--border)] p-5"
+              className="rounded border mb-3 transition-colors"
+              style={{ borderColor: "var(--notion-border)" }}
             >
-              <div className="flex items-start justify-between mb-2">
-                <div>
-                  <span className="text-sm text-[var(--gray)] mr-2">{index + 1}.</span>
-                  <span className="font-semibold">{tool.toolName}</span>
-                </div>
+              {/* Tool header */}
+              <div
+                className="flex items-center justify-between px-3 py-2"
+                style={{ borderBottom: "1px solid var(--notion-border)" }}
+              >
                 <div className="flex items-center gap-2">
+                  <span className="text-xs font-medium" style={{ color: "var(--notion-text-tertiary)" }}>
+                    {index + 1}.
+                  </span>
+                  <span className="font-semibold text-sm" style={{ color: "var(--notion-text)" }}>
+                    {tool.toolName}
+                  </span>
                   {mission && (
                     <Link
                       href={`/missions/${mission.id}`}
-                      className="text-xs px-2 py-1 rounded-full bg-[var(--accent-light)] text-[var(--accent)] hover:underline"
+                      className="text-xs px-1.5 py-0.5 rounded-sm"
+                      style={{ backgroundColor: "var(--notion-blue-bg)", color: "var(--notion-blue)" }}
                     >
-                      {mission.number === 0 ? "Day 0" : `Weekend ${mission.number}`}
+                      {mission.number === 0 ? "Day 0" : `Wk ${mission.number}`}
                     </Link>
                   )}
+                </div>
+                <div className="flex items-center gap-2">
                   <button
                     onClick={() => startEdit(tool)}
-                    className="text-xs text-[var(--gray)] hover:text-[var(--foreground)]"
+                    className="text-xs transition-colors"
+                    style={{ color: "var(--notion-text-secondary)" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--notion-text)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "var(--notion-text-secondary)")}
                   >
                     Edit
                   </button>
                   <button
                     onClick={() => deleteTool(tool.id)}
-                    className="text-xs text-red-400 hover:text-red-600"
+                    className="text-xs transition-colors"
+                    style={{ color: "var(--notion-text-secondary)" }}
+                    onMouseEnter={(e) => (e.currentTarget.style.color = "var(--notion-red)")}
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "var(--notion-text-secondary)")}
                   >
                     Delete
                   </button>
                 </div>
               </div>
-              <p className="text-sm text-[var(--gray)] mb-3">Task: {tool.taskUsedFor}</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-                <div className="bg-[var(--green-light)] rounded-lg p-3">
-                  <span className="font-medium text-[var(--green)]">Does well: </span>
-                  {tool.strengths}
+
+              {/* Properties */}
+              <div className="text-sm">
+                <div
+                  className="flex px-3 py-1.5"
+                  style={{ borderBottom: "1px solid var(--notion-border)" }}
+                >
+                  <span className="text-xs w-24 flex-shrink-0" style={{ color: "var(--notion-text-secondary)" }}>
+                    Task
+                  </span>
+                  <span style={{ color: "var(--notion-text)" }}>{tool.taskUsedFor || "—"}</span>
                 </div>
-                <div className="bg-[var(--amber-light)] rounded-lg p-3">
-                  <span className="font-medium text-[var(--amber)]">Falls short: </span>
-                  {tool.weaknesses}
+                <div
+                  className="flex px-3 py-1.5"
+                  style={{ borderBottom: "1px solid var(--notion-border)" }}
+                >
+                  <span className="text-xs w-24 flex-shrink-0" style={{ color: "var(--notion-text-secondary)" }}>
+                    Strengths
+                  </span>
+                  <span
+                    className="text-xs px-1.5 py-0.5 rounded-sm"
+                    style={{ backgroundColor: "var(--notion-green-bg)", color: "var(--notion-green)" }}
+                  >
+                    {tool.strengths || "—"}
+                  </span>
+                </div>
+                <div className="flex px-3 py-1.5">
+                  <span className="text-xs w-24 flex-shrink-0" style={{ color: "var(--notion-text-secondary)" }}>
+                    Weaknesses
+                  </span>
+                  <span
+                    className="text-xs px-1.5 py-0.5 rounded-sm"
+                    style={{ backgroundColor: "var(--notion-orange-bg)", color: "var(--notion-orange)" }}
+                  >
+                    {tool.weaknesses || "—"}
+                  </span>
                 </div>
               </div>
             </div>
           );
         })}
 
-        {/* Empty state placeholder */}
+        {/* Empty state */}
         {tools.length < 3 && !showForm && (
-          <div className="border-2 border-dashed border-[var(--border)] rounded-xl p-6 text-center">
-            <p className="text-sm text-[var(--gray)] mb-1">
+          <div
+            className="border border-dashed rounded px-4 py-6 text-center"
+            style={{ borderColor: "var(--notion-border-dark)" }}
+          >
+            <p className="text-sm" style={{ color: "var(--notion-text-tertiary)" }}>
               {tools.length === 0
                 ? "No tools logged yet. Try something new this weekend!"
                 : `${3 - tools.length} more to go`}
@@ -138,82 +199,106 @@ export default function ToolsLogPage() {
 
       {/* Add/Edit Form */}
       {showForm && (
-        <div className="bg-white rounded-xl border border-[var(--border)] p-5 space-y-4">
-          <h3 className="font-semibold">{editingId ? "Edit Tool" : "Log New Tool"}</h3>
+        <div
+          className="rounded border px-4 py-4 mb-4"
+          style={{ borderColor: "var(--notion-border)" }}
+        >
+          <h3 className="font-semibold text-sm mb-3" style={{ color: "var(--notion-text)" }}>
+            {editingId ? "Edit Tool" : "Log New Tool"}
+          </h3>
 
-          <div>
-            <label className="block text-sm font-medium mb-1">Tool / Platform Name</label>
-            <input
-              type="text"
-              value={form.toolName}
-              onChange={(e) => setForm({ ...form, toolName: e.target.value })}
-              placeholder="e.g. Cursor, Midjourney, Claude..."
-              className="w-full text-sm border border-[var(--border)] rounded-lg px-3 py-2 focus:outline-none focus:border-[var(--accent)]"
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-1">Mission Used In</label>
-            <select
-              value={form.missionId}
-              onChange={(e) => setForm({ ...form, missionId: e.target.value })}
-              className="w-full text-sm border border-[var(--border)] rounded-lg px-3 py-2 focus:outline-none focus:border-[var(--accent)]"
-            >
-              <option value="">Select a mission...</option>
-              {missions.map((m) => (
-                <option key={m.id} value={m.id}>
-                  {getMissionLabel(m.id)}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-1">What task did you use it on?</label>
-            <input
-              type="text"
-              value={form.taskUsedFor}
-              onChange={(e) => setForm({ ...form, taskUsedFor: e.target.value })}
-              placeholder="e.g. Built research brief with AI pair coding"
-              className="w-full text-sm border border-[var(--border)] rounded-lg px-3 py-2 focus:outline-none focus:border-[var(--accent)]"
-            />
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="space-y-3">
             <div>
-              <label className="block text-sm font-medium mb-1">What it does well</label>
-              <textarea
-                value={form.strengths}
-                onChange={(e) => setForm({ ...form, strengths: e.target.value })}
-                placeholder="e.g. Great at code generation from natural language"
-                className="w-full text-sm border border-[var(--border)] rounded-lg px-3 py-2 min-h-[80px] resize-y focus:outline-none focus:border-[var(--accent)]"
+              <label className="block text-xs font-medium mb-1" style={{ color: "var(--notion-text-secondary)" }}>
+                Tool / Platform Name
+              </label>
+              <input
+                type="text"
+                value={form.toolName}
+                onChange={(e) => setForm({ ...form, toolName: e.target.value })}
+                placeholder="e.g. Cursor, Midjourney, Claude..."
+                className="w-full text-sm rounded border px-3 py-1.5"
+                style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
               />
             </div>
+
             <div>
-              <label className="block text-sm font-medium mb-1">Where it falls short</label>
-              <textarea
-                value={form.weaknesses}
-                onChange={(e) => setForm({ ...form, weaknesses: e.target.value })}
-                placeholder="e.g. Gets confused on large files"
-                className="w-full text-sm border border-[var(--border)] rounded-lg px-3 py-2 min-h-[80px] resize-y focus:outline-none focus:border-[var(--accent)]"
+              <label className="block text-xs font-medium mb-1" style={{ color: "var(--notion-text-secondary)" }}>
+                Mission Used In
+              </label>
+              <select
+                value={form.missionId}
+                onChange={(e) => setForm({ ...form, missionId: e.target.value })}
+                className="w-full text-sm rounded border px-3 py-1.5"
+                style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
+              >
+                <option value="">Select a mission...</option>
+                {missions.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {getMissionLabel(m.id)}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-xs font-medium mb-1" style={{ color: "var(--notion-text-secondary)" }}>
+                What task did you use it on?
+              </label>
+              <input
+                type="text"
+                value={form.taskUsedFor}
+                onChange={(e) => setForm({ ...form, taskUsedFor: e.target.value })}
+                placeholder="e.g. Built research brief with AI pair coding"
+                className="w-full text-sm rounded border px-3 py-1.5"
+                style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
               />
             </div>
-          </div>
 
-          <div className="flex gap-2">
-            <button
-              onClick={handleSubmit}
-              disabled={!form.toolName.trim()}
-              className="text-sm px-4 py-2 bg-[var(--accent)] text-white rounded-lg hover:opacity-90 disabled:opacity-50 transition-opacity"
-            >
-              {editingId ? "Save Changes" : "Log Tool"}
-            </button>
-            <button
-              onClick={resetForm}
-              className="text-sm px-4 py-2 border border-[var(--border)] rounded-lg hover:bg-[var(--gray-light)] transition-colors"
-            >
-              Cancel
-            </button>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label className="block text-xs font-medium mb-1" style={{ color: "var(--notion-text-secondary)" }}>
+                  What it does well
+                </label>
+                <textarea
+                  value={form.strengths}
+                  onChange={(e) => setForm({ ...form, strengths: e.target.value })}
+                  placeholder="e.g. Great at code generation"
+                  className="w-full text-sm rounded border px-3 py-1.5 min-h-[70px] resize-y"
+                  style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-medium mb-1" style={{ color: "var(--notion-text-secondary)" }}>
+                  Where it falls short
+                </label>
+                <textarea
+                  value={form.weaknesses}
+                  onChange={(e) => setForm({ ...form, weaknesses: e.target.value })}
+                  placeholder="e.g. Gets confused on large files"
+                  className="w-full text-sm rounded border px-3 py-1.5 min-h-[70px] resize-y"
+                  style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
+                />
+              </div>
+            </div>
+
+            <div className="flex gap-2 pt-1">
+              <button
+                onClick={handleSubmit}
+                disabled={!form.toolName.trim()}
+                className="text-xs px-3 py-1.5 rounded text-white transition-opacity disabled:opacity-40"
+                style={{ backgroundColor: "var(--notion-accent)" }}
+              >
+                {editingId ? "Save Changes" : "Log Tool"}
+              </button>
+              <button
+                onClick={resetForm}
+                className="text-xs px-3 py-1.5 rounded border transition-colors"
+                style={{ borderColor: "var(--notion-border)", color: "var(--notion-text-secondary)" }}
+              >
+                Cancel
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -221,9 +306,10 @@ export default function ToolsLogPage() {
       {!showForm && (
         <button
           onClick={() => setShowForm(true)}
-          className="text-sm px-4 py-2 bg-[var(--accent)] text-white rounded-lg hover:opacity-90 transition-opacity"
+          className="text-xs px-3 py-1.5 rounded text-white transition-opacity"
+          style={{ backgroundColor: "var(--notion-accent)" }}
         >
-          + Log New Tool
+          + New Tool
         </button>
       )}
     </div>

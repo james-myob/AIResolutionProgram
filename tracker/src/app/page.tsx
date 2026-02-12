@@ -12,7 +12,11 @@ export default function Dashboard() {
   const { demos, loaded: dLoaded } = useDemos();
 
   if (!mLoaded || !tLoaded || !teamLoaded || !dLoaded) {
-    return <div className="text-[var(--gray)] py-12 text-center">Loading...</div>;
+    return (
+      <div className="py-20 text-center" style={{ color: "var(--notion-text-tertiary)" }}>
+        Loading...
+      </div>
+    );
   }
 
   const completedMissions = missions.filter((m) => m.status === "complete").length;
@@ -42,12 +46,12 @@ export default function Dashboard() {
   ).length;
 
   const nextMission = missions.find((m) => m.status !== "complete");
-
   const pace = getPaceStatus(missions);
+
   const paceConfig = {
-    ahead: { label: "Ahead of Schedule", color: "var(--green)", bg: "var(--green-light)" },
-    on_track: { label: "On Track", color: "var(--green)", bg: "var(--green-light)" },
-    behind: { label: "Behind Schedule", color: "var(--red)", bg: "var(--red-light)" },
+    ahead: { label: "Ahead of Schedule", color: "var(--notion-green)", bg: "var(--notion-green-bg)", icon: "🟢" },
+    on_track: { label: "On Track", color: "var(--notion-green)", bg: "var(--notion-green-bg)", icon: "🟢" },
+    behind: { label: "Behind Schedule", color: "var(--notion-red)", bg: "var(--notion-red-bg)", icon: "🔴" },
   }[pace.status];
 
   const nextDueMission = missions.find(
@@ -60,144 +64,226 @@ export default function Dashboard() {
     : null;
 
   return (
-    <div className="space-y-8">
-      {/* Schedule Status Banner */}
+    <div>
+      {/* Page title - Notion style */}
+      <div className="mb-8 mt-4">
+        <span className="text-5xl mb-2 block">📋</span>
+        <h1
+          className="text-4xl font-bold tracking-tight"
+          style={{ color: "var(--notion-text)" }}
+        >
+          Dashboard
+        </h1>
+      </div>
+
+      {/* Schedule status - Notion callout style */}
       <div
-        className="rounded-xl border p-6 flex items-center justify-between"
-        style={{ backgroundColor: paceConfig.bg, borderColor: paceConfig.color }}
+        className="flex items-center gap-3 rounded px-4 py-3 mb-6"
+        style={{ backgroundColor: paceConfig.bg }}
       >
-        <div>
-          <h2 className="text-lg font-semibold" style={{ color: paceConfig.color }}>
+        <span className="text-lg">{paceConfig.icon}</span>
+        <div className="flex-1">
+          <span className="font-semibold text-sm" style={{ color: paceConfig.color }}>
             {paceConfig.label}
-          </h2>
-          <p className="text-sm mt-1" style={{ color: paceConfig.color, opacity: 0.8 }}>
+          </span>
+          <span className="text-sm ml-3" style={{ color: paceConfig.color, opacity: 0.8 }}>
             {pace.missionsCompleted} completed &middot; {pace.missionsDue} due by today
-          </p>
+          </span>
         </div>
         {nextDueMission?.dueDate && (
           <div className="text-right">
-            <p className="text-xs text-[var(--gray)]">Next deadline</p>
-            <p className="text-sm font-semibold" style={{ color: paceConfig.color }}>
-              {formatDueDate(nextDueMission.dueDate)}
-            </p>
-            <p className="text-xs text-[var(--gray)]">
-              {nextDueMission.number === 0 ? "Day 0" : `Wk ${nextDueMission.number}`}: {nextDueMission.title}
-            </p>
+            <span className="text-xs" style={{ color: "var(--notion-text-secondary)" }}>
+              Next: {formatDueDate(nextDueMission.dueDate)}
+            </span>
           </div>
         )}
       </div>
 
-      <div className="bg-white rounded-xl border border-[var(--border)] p-6">
-        <h2 className="text-lg font-semibold mb-3">Overall Progress</h2>
-        <ProgressBar current={completedMissions} total={totalMissions} />
+      {/* Overall progress - Notion property style */}
+      <div className="mb-8">
+        <div
+          className="text-xs font-medium uppercase tracking-wider mb-2"
+          style={{ color: "var(--notion-text-secondary)" }}
+        >
+          Overall Progress
+        </div>
+        <ProgressBar current={completedMissions} total={totalMissions} color="var(--notion-green)" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* Notion-style database/table view of quick stats */}
+      <div
+        className="rounded border mb-8"
+        style={{ borderColor: "var(--notion-border)" }}
+      >
+        {/* Table header */}
+        <div
+          className="grid grid-cols-4 text-xs font-medium uppercase tracking-wider px-3 py-2"
+          style={{
+            color: "var(--notion-text-secondary)",
+            borderBottom: "1px solid var(--notion-border)",
+            backgroundColor: "var(--notion-sidebar)",
+          }}
+        >
+          <span>Section</span>
+          <span>Progress</span>
+          <span>Status</span>
+          <span>Detail</span>
+        </div>
+
+        {/* Missions row */}
         <Link
           href="/missions"
-          className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
+          className="grid grid-cols-4 items-center px-3 py-2.5 transition-colors"
+          style={{ borderBottom: "1px solid var(--notion-border)" }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+          onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
         >
-          <h3 className="font-semibold mb-1">Missions</h3>
-          <p className="text-sm text-[var(--gray)] mb-4">
-            {completedMissions}/{totalMissions} complete
-          </p>
-          <ProgressBar
-            current={completedMissions}
-            total={totalMissions}
-            color="var(--green)"
-            size="sm"
-          />
-          {nextMission && (
-            <p className="text-xs text-[var(--gray)] mt-3">
-              Next: {nextMission.number === 0 ? "Day 0" : `Weekend ${nextMission.number}`}: {nextMission.title}
-            </p>
-          )}
+          <span className="flex items-center gap-2 text-sm">
+            <span>🚀</span>
+            <span className="font-medium">Missions</span>
+          </span>
+          <span className="text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+            {completedMissions}/{totalMissions}
+          </span>
+          <span>
+            <span
+              className="text-xs px-2 py-0.5 rounded-sm"
+              style={{
+                backgroundColor: completedMissions === totalMissions ? "var(--notion-green-bg)" : "var(--notion-blue-bg)",
+                color: completedMissions === totalMissions ? "var(--notion-green)" : "var(--notion-blue)",
+              }}
+            >
+              {completedMissions === totalMissions ? "Complete" : "In Progress"}
+            </span>
+          </span>
+          <span className="text-xs" style={{ color: "var(--notion-text-secondary)" }}>
+            {nextMission
+              ? `Next: ${nextMission.number === 0 ? "Day 0" : `Wk ${nextMission.number}`}`
+              : "All done"}
+          </span>
         </Link>
 
+        {/* Tools row */}
         <Link
           href="/resolutions/tools"
-          className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
+          className="grid grid-cols-4 items-center px-3 py-2.5 transition-colors"
+          style={{ borderBottom: "1px solid var(--notion-border)" }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+          onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
         >
-          <h3 className="font-semibold mb-1">New AI Tools</h3>
-          <p className="text-sm text-[var(--gray)] mb-4">
-            {toolsLogged}/3 logged
-          </p>
-          <ProgressBar
-            current={Math.min(toolsLogged, 3)}
-            total={3}
-            color="var(--accent)"
-            size="sm"
-          />
-          {lastTool && (
-            <p className="text-xs text-[var(--gray)] mt-3">
-              Last: {lastTool.toolName}
-              {lastToolMission && ` (Wk ${lastToolMission.number})`}
-            </p>
-          )}
+          <span className="flex items-center gap-2 text-sm">
+            <span>🔧</span>
+            <span className="font-medium">Tools Log</span>
+          </span>
+          <span className="text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+            {toolsLogged}/3
+          </span>
+          <span>
+            <span
+              className="text-xs px-2 py-0.5 rounded-sm"
+              style={{
+                backgroundColor: toolsLogged >= 3 ? "var(--notion-green-bg)" : "var(--notion-yellow-bg)",
+                color: toolsLogged >= 3 ? "var(--notion-green)" : "var(--notion-yellow)",
+              }}
+            >
+              {toolsLogged >= 3 ? "Target Met" : `${3 - toolsLogged} to go`}
+            </span>
+          </span>
+          <span className="text-xs" style={{ color: "var(--notion-text-secondary)" }}>
+            {lastTool
+              ? `Last: ${lastTool.toolName}${lastToolMission ? ` (Wk ${lastToolMission.number})` : ""}`
+              : "None yet"}
+          </span>
         </Link>
 
+        {/* Team row */}
         <Link
           href="/resolutions/team"
-          className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
+          className="grid grid-cols-4 items-center px-3 py-2.5 transition-colors"
+          style={{ borderBottom: "1px solid var(--notion-border)" }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+          onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
         >
-          <h3 className="font-semibold mb-1">Team Progress</h3>
-          {members.length === 0 ? (
-            <p className="text-sm text-[var(--gray)] mb-4">No team members added yet</p>
-          ) : (
-            <>
-              <div className="flex gap-3 text-sm mb-4">
-                <span className="text-[var(--green)]">{membersAllOnTime} all on time</span>
-                <span className="text-[var(--gray)]">&middot;</span>
-                <span className="text-[var(--red)]">{membersWithLate} with late</span>
-              </div>
-              <ProgressBar
-                current={membersAllOnTime}
-                total={members.length}
-                color="var(--green)"
-                size="sm"
-              />
-            </>
-          )}
+          <span className="flex items-center gap-2 text-sm">
+            <span>👥</span>
+            <span className="font-medium">Team</span>
+          </span>
+          <span className="text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+            {members.length} member{members.length !== 1 ? "s" : ""}
+          </span>
+          <span>
+            {members.length > 0 ? (
+              <span className="flex gap-2 text-xs">
+                <span style={{ color: "var(--notion-green)" }}>{membersAllOnTime} on time</span>
+                {membersWithLate > 0 && (
+                  <span style={{ color: "var(--notion-red)" }}>{membersWithLate} late</span>
+                )}
+              </span>
+            ) : (
+              <span className="text-xs" style={{ color: "var(--notion-text-tertiary)" }}>
+                No members
+              </span>
+            )}
+          </span>
+          <span className="text-xs" style={{ color: "var(--notion-text-secondary)" }}>
+            Track completion
+          </span>
         </Link>
 
+        {/* Demos row */}
         <Link
           href="/resolutions/demos"
-          className="bg-white rounded-xl border border-[var(--border)] p-6 hover:border-[var(--accent)] transition-colors"
+          className="grid grid-cols-4 items-center px-3 py-2.5 transition-colors"
+          onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+          onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
         >
-          <h3 className="font-semibold mb-1">Demo Sessions</h3>
-          <p className="text-sm text-[var(--gray)] mb-4">
-            {demosCompleted}/10 done
-          </p>
-          <ProgressBar
-            current={demosCompleted}
-            total={10}
-            color="var(--green)"
-            size="sm"
-          />
-          {demosCompleted < 10 && (
-            <p className="text-xs text-[var(--gray)] mt-3">
-              Next: Session {demosCompleted + 1}
-            </p>
-          )}
+          <span className="flex items-center gap-2 text-sm">
+            <span>🎤</span>
+            <span className="font-medium">Demos</span>
+          </span>
+          <span className="text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+            {demosCompleted}/10
+          </span>
+          <span>
+            <span
+              className="text-xs px-2 py-0.5 rounded-sm"
+              style={{
+                backgroundColor: demosCompleted >= 10 ? "var(--notion-green-bg)" : "var(--notion-blue-bg)",
+                color: demosCompleted >= 10 ? "var(--notion-green)" : "var(--notion-blue)",
+              }}
+            >
+              {demosCompleted >= 10 ? "Complete" : `${10 - demosCompleted} remaining`}
+            </span>
+          </span>
+          <span className="text-xs" style={{ color: "var(--notion-text-secondary)" }}>
+            Session {Math.min(demosCompleted + 1, 10)}
+          </span>
         </Link>
       </div>
 
+      {/* Next Up - Notion callout style */}
       {nextMission && (
-        <div className="bg-white rounded-xl border border-[var(--border)] p-6">
-          <h3 className="text-sm font-semibold text-[var(--gray)] uppercase tracking-wide mb-3">
+        <div>
+          <div
+            className="text-xs font-medium uppercase tracking-wider mb-3"
+            style={{ color: "var(--notion-text-secondary)" }}
+          >
             Next Up
-          </h3>
+          </div>
           <Link
             href={`/missions/${nextMission.id}`}
-            className="hover:text-[var(--accent)] transition-colors"
+            className="block rounded border px-4 py-3 transition-colors"
+            style={{ borderColor: "var(--notion-border)" }}
+            onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+            onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
           >
-            <p className="font-semibold text-lg">
+            <div className="font-semibold text-sm" style={{ color: "var(--notion-text)" }}>
               {nextMission.number === 0 ? "Day 0" : `Weekend ${nextMission.number}`}:{" "}
               {nextMission.title}
-            </p>
-            <p className="text-[var(--gray)] text-sm mt-1">
+            </div>
+            <div className="text-sm mt-0.5" style={{ color: "var(--notion-text-secondary)" }}>
               {nextMission.description}
-            </p>
+            </div>
           </Link>
         </div>
       )}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Nav from "@/components/Nav";
+import Sidebar from "@/components/Sidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "AI Resolution Tracker",
@@ -15,10 +16,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <Nav />
-        <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
-          {children}
-        </main>
+        <div className="flex h-screen overflow-hidden">
+          <Sidebar />
+          <main className="flex-1 overflow-y-auto">
+            <div className="max-w-4xl mx-auto px-24 py-8">
+              <Breadcrumb />
+              {children}
+            </div>
+          </main>
+        </div>
       </body>
     </html>
   );

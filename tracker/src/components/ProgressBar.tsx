@@ -11,24 +11,27 @@ interface ProgressBarProps {
 export default function ProgressBar({
   current,
   total,
-  color = "var(--accent)",
+  color = "var(--notion-accent)",
   showLabel = true,
   size = "md",
 }: ProgressBarProps) {
   const pct = total > 0 ? Math.round((current / total) * 100) : 0;
-  const height = size === "sm" ? "h-2" : "h-3";
+  const height = size === "sm" ? "h-1.5" : "h-2";
 
   return (
     <div className="w-full">
       {showLabel && (
-        <div className="flex justify-between text-sm mb-1">
-          <span className="text-[var(--gray)]">
-            {current}/{total}
+        <div className="flex justify-between text-xs mb-1.5">
+          <span style={{ color: "var(--notion-text-secondary)" }}>
+            {current} of {total}
           </span>
-          <span className="text-[var(--gray)]">{pct}%</span>
+          <span style={{ color: "var(--notion-text-secondary)" }}>{pct}%</span>
         </div>
       )}
-      <div className={`w-full bg-[var(--gray-light)] rounded-full ${height}`}>
+      <div
+        className={`w-full rounded-full ${height}`}
+        style={{ backgroundColor: "var(--notion-sidebar)" }}
+      >
         <div
           className={`${height} rounded-full transition-all duration-500`}
           style={{ width: `${pct}%`, backgroundColor: color }}
