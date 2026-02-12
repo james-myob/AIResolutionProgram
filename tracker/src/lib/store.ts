@@ -91,7 +91,13 @@ export function useTeam() {
 
   useEffect(() => {
     setMembers(loadFromStorage("tracker_team_members", []));
-    setProgress(loadFromStorage("tracker_team_progress", []));
+    // Backfill completedAt for entries saved before this field existed
+    const stored = loadFromStorage<TeamProgress[]>("tracker_team_progress", []);
+    const migrated = stored.map((p) => ({
+      ...p,
+      completedAt: p.completedAt ?? null,
+    }));
+    setProgress(migrated);
     setLoaded(true);
   }, []);
 
@@ -121,11 +127,18 @@ export function useTeam() {
         if (existing) {
           return prev.map((p) =>
             p.teamMemberId === teamMemberId && p.missionId === missionId
-              ? { ...p, completed: !p.completed }
+              ? {
+                  ...p,
+                  completed: !p.completed,
+                  completedAt: !p.completed ? new Date().toISOString() : null,
+                }
               : p
           );
         }
-        return [...prev, { teamMemberId, missionId, completed: true }];
+        return [
+          ...prev,
+          { teamMemberId, missionId, completed: true, completedAt: new Date().toISOString() },
+        ];
       });
     },
     []

@@ -23,6 +23,31 @@ export function formatDueDate(isoDate: string): string {
   return d.toLocaleDateString("en-AU", { month: "short", day: "numeric" });
 }
 
+export type TimingStatus = "on_track" | "overdue" | "on_time" | "late";
+
+export function getMissionTimingStatus(
+  dueDate: string | null,
+  status: string,
+  completedAt: string | null
+): TimingStatus {
+  if (!dueDate) return "on_track";
+  const due = new Date(dueDate + "T23:59:59");
+  if (status === "complete") {
+    if (!completedAt) return "on_time";
+    const completed = new Date(completedAt);
+    return completed <= due ? "on_time" : "late";
+  }
+  return new Date() <= due ? "on_track" : "overdue";
+}
+
+export function isCompletionOnTime(
+  dueDate: string | null,
+  completedAt: string | null
+): boolean {
+  if (!dueDate || !completedAt) return true;
+  return new Date(completedAt) <= new Date(dueDate + "T23:59:59");
+}
+
 export type PaceStatus = "ahead" | "on_track" | "behind";
 
 export function getPaceStatus(

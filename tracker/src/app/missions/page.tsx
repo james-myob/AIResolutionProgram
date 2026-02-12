@@ -4,7 +4,14 @@ import Link from "next/link";
 import { useMissions } from "@/lib/store";
 import ProgressBar from "@/components/ProgressBar";
 import { MissionStatus } from "@/lib/types";
-import { formatDueDate } from "@/lib/dates";
+import { formatDueDate, getMissionTimingStatus } from "@/lib/dates";
+
+const TIMING_DISPLAY = {
+  on_track: { label: "On Track", color: "var(--green)", bg: "var(--green-light)" },
+  overdue: { label: "Overdue", color: "var(--red)", bg: "var(--red-light)" },
+  on_time: { label: "On Time", color: "var(--green)", bg: "var(--green-light)" },
+  late: { label: "Late", color: "var(--red)", bg: "var(--red-light)" },
+};
 
 const STATUS_DISPLAY: Record<MissionStatus, { label: string; color: string; bg: string }> = {
   complete: { label: "Complete", color: "var(--green)", bg: "var(--green-light)" },
@@ -54,14 +61,12 @@ export default function MissionsPage() {
             <div className="divide-y divide-[var(--border)]">
               {categoryMissions.map((mission) => {
                 const status = STATUS_DISPLAY[mission.status];
-                const isOverdue =
-                  mission.status !== "complete" &&
-                  mission.dueDate &&
-                  new Date(mission.dueDate + "T23:59:59") < new Date();
+                const timing = getMissionTimingStatus(mission.dueDate, mission.status, mission.completedAt);
+                const timingDisplay = TIMING_DISPLAY[timing];
                 return (
                   <div
                     key={mission.id}
-                    className="flex items-center gap-4 px-5 py-3 hover:bg-[var(--gray-light)]/50 transition-colors"
+                    className="flex items-center gap-3 px-5 py-3 hover:bg-[var(--gray-light)]/50 transition-colors"
                   >
                     <button
                       onClick={() => toggleComplete(mission.id, mission.status)}
@@ -83,10 +88,7 @@ export default function MissionsPage() {
                       </span>
                     </Link>
                     {mission.dueDate && (
-                      <span
-                        className="text-xs flex-shrink-0"
-                        style={{ color: isOverdue ? "var(--red)" : "var(--gray)" }}
-                      >
+                      <span className="text-xs flex-shrink-0 text-[var(--gray)]">
                         Due {formatDueDate(mission.dueDate)}
                       </span>
                     )}
@@ -95,6 +97,12 @@ export default function MissionsPage() {
                       style={{ color: status.color, backgroundColor: status.bg }}
                     >
                       {status.label}
+                    </span>
+                    <span
+                      className="text-xs px-2 py-1 rounded-full flex-shrink-0"
+                      style={{ color: timingDisplay.color, backgroundColor: timingDisplay.bg }}
+                    >
+                      {timingDisplay.label}
                     </span>
                   </div>
                 );
