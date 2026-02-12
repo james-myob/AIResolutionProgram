@@ -3,6 +3,10 @@
 
 **The Deliverable:** A structured personal context system + a Professional Context Document for pasting.
 
+## Mission Briefing
+
+Deep dive into advanced prompting techniques. Learn to structure context, create system prompts, use few-shot examples, and design prompts that consistently produce excellent results.
+
 ## The Work
 
 - **AI OS Structure:** Create sections in Notion/Obsidian: Playbook, Artifacts Library, Automation Log, & Decisions Log.
@@ -10,11 +14,24 @@
 - **Context Doc:** Write your Role, Key Projects, Style preferences, and a "What to Avoid" list.
 - **Deploy:** Save the Context Doc where you can copy-paste it instantly.
 
+## Tips & Tactics
+
+1. Study prompt engineering frameworks
+2. Create a personal prompt library
+3. Test systematic variations
+4. Document what works and why
+
 ## Advanced
 
 - Create multiple context profiles (e.g., separate Work vs. Personal).
 - Include actual examples of your writing/emails in the context file.
 - Build a quarterly context refresh into your calendar.
+
+## Resources
+
+- OpenAI Prompt Engineering Guide
+- Anthropic's Claude documentation
+- DAIR.AI Prompt Engineering Guide
 
 ## Why This Matters
 

@@ -3,6 +3,10 @@
 
 **The Deliverable:** One working automation handling production or distribution + a "How It Works" doc.
 
+## Mission Briefing
+
+Create an automated system that helps you create, adapt, and distribute content across multiple platforms. Learn to repurpose content efficiently while maintaining quality and authenticity.
+
 ## The Work
 
 - **Components:** Must have Trigger, Transform, Route, Approval, and Logging.
@@ -10,12 +14,25 @@
 - **Build:** E.g., Notion note -> Summarize -> Draft Tweets -> Send to Slack.
 - **Default:** Weekly Reading Digest (summarize saved links, email digest).
 
+## Tips & Tactics
+
+1. Map your content distribution channels
+2. Create templates for different platforms
+3. Maintain your authentic voice
+4. Set up scheduling and cross-posting
+
 ## Advanced
 
 - Chain multiple automations together.
 - Add conditional logic for different content types.
 - Add robust error handling for failures.
 - Log detailed analytics.
+
+## Resources
+
+- Buffer, Hootsuite for scheduling
+- Repurpose.io for content adaptation
+- Canva AI for visual content
 
 ## Why It Matters
 
