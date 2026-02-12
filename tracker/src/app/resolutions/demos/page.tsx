@@ -8,74 +8,129 @@ export default function DemoSessionsPage() {
   const { demos, updateDemo, loaded: dLoaded } = useDemos();
 
   if (!mLoaded || !dLoaded) {
-    return <div className="text-[var(--gray)] py-12 text-center">Loading...</div>;
+    return (
+      <div className="py-20 text-center" style={{ color: "var(--notion-text-tertiary)" }}>
+        Loading...
+      </div>
+    );
   }
 
   const demosCompleted = demos.filter((d) => d.didDemo).length;
   const rippleEffects = demos.filter((d) => d.rippleEffect.trim()).length;
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Team Demo Sessions</h1>
-        <span className="text-sm text-[var(--gray)]">{demosCompleted}/10 complete</span>
+    <div>
+      {/* Page title */}
+      <div className="mb-8 mt-4">
+        <span className="text-5xl mb-2 block">🎤</span>
+        <h1
+          className="text-4xl font-bold tracking-tight"
+          style={{ color: "var(--notion-text)" }}
+        >
+          Demo Sessions
+        </h1>
+        <p className="mt-1 text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+          {demosCompleted} of 10 complete
+        </p>
       </div>
 
-      <ProgressBar current={demosCompleted} total={10} color="var(--green)" />
+      <div className="mb-6">
+        <ProgressBar current={demosCompleted} total={10} color="var(--notion-green)" />
+      </div>
 
-      <div className="bg-white rounded-xl border border-[var(--border)] overflow-hidden">
+      {/* Notion-style table */}
+      <div
+        className="rounded border mb-6"
+        style={{ borderColor: "var(--notion-border)" }}
+      >
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-[var(--border)] bg-[var(--gray-light)]">
-              <th className="text-left px-4 py-3 font-semibold text-[var(--gray)] w-8">#</th>
-              <th className="text-left px-4 py-3 font-semibold text-[var(--gray)]">Mission</th>
-              <th className="text-left px-4 py-3 font-semibold text-[var(--gray)] w-32">Date</th>
-              <th className="text-center px-4 py-3 font-semibold text-[var(--gray)] w-20">Demo?</th>
-              <th className="text-left px-4 py-3 font-semibold text-[var(--gray)]">Ripple Effect</th>
+            <tr style={{ backgroundColor: "var(--notion-sidebar)" }}>
+              <th
+                className="text-left px-3 py-2 font-medium text-xs uppercase tracking-wider w-8"
+                style={{ color: "var(--notion-text-secondary)", borderBottom: "1px solid var(--notion-border)" }}
+              >
+                #
+              </th>
+              <th
+                className="text-left px-3 py-2 font-medium text-xs uppercase tracking-wider"
+                style={{ color: "var(--notion-text-secondary)", borderBottom: "1px solid var(--notion-border)" }}
+              >
+                Mission
+              </th>
+              <th
+                className="text-left px-3 py-2 font-medium text-xs uppercase tracking-wider w-32"
+                style={{ color: "var(--notion-text-secondary)", borderBottom: "1px solid var(--notion-border)" }}
+              >
+                Date
+              </th>
+              <th
+                className="text-center px-3 py-2 font-medium text-xs uppercase tracking-wider w-16"
+                style={{ color: "var(--notion-text-secondary)", borderBottom: "1px solid var(--notion-border)" }}
+              >
+                Demo
+              </th>
+              <th
+                className="text-left px-3 py-2 font-medium text-xs uppercase tracking-wider"
+                style={{ color: "var(--notion-text-secondary)", borderBottom: "1px solid var(--notion-border)" }}
+              >
+                Ripple Effect
+              </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-[var(--border)]">
+          <tbody>
             {demos.map((demo) => {
               const mission = missions.find((m) => m.id === demo.missionId);
               return (
-                <tr key={demo.id} className="hover:bg-[var(--gray-light)]/50">
-                  <td className="px-4 py-3 text-[var(--gray)]">{demo.sessionNumber}</td>
-                  <td className="px-4 py-3">
+                <tr
+                  key={demo.id}
+                  className="transition-colors"
+                  style={{ borderBottom: "1px solid var(--notion-border)" }}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+                >
+                  <td className="px-3 py-2" style={{ color: "var(--notion-text-tertiary)" }}>
+                    {demo.sessionNumber}
+                  </td>
+                  <td className="px-3 py-2" style={{ color: "var(--notion-text)" }}>
                     {mission
                       ? `Wk ${mission.number}: ${mission.title}`
                       : `Session ${demo.sessionNumber}`}
                   </td>
-                  <td className="px-4 py-3">
+                  <td className="px-3 py-2">
                     <input
                       type="date"
                       value={demo.date || ""}
                       onChange={(e) => updateDemo(demo.id, { date: e.target.value || null })}
-                      className="text-sm border border-[var(--border)] rounded px-2 py-1 w-full focus:outline-none focus:border-[var(--accent)]"
+                      className="text-sm rounded border px-2 py-0.5 w-full"
+                      style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
                     />
                   </td>
-                  <td className="px-4 py-3 text-center">
+                  <td className="px-3 py-2 text-center">
                     <button
                       onClick={() => updateDemo(demo.id, { didDemo: !demo.didDemo })}
-                      className={`w-6 h-6 rounded border-2 flex items-center justify-center mx-auto transition-colors ${
-                        demo.didDemo
-                          ? "bg-[var(--green)] border-[var(--green)] text-white"
-                          : "border-[var(--border)] hover:border-[var(--gray)]"
-                      }`}
+                      className="w-4 h-4 rounded-sm border flex items-center justify-center mx-auto transition-colors"
+                      style={{
+                        borderColor: demo.didDemo ? "var(--notion-green)" : "var(--notion-border-dark)",
+                        backgroundColor: demo.didDemo ? "var(--notion-green)" : "transparent",
+                        color: "white",
+                      }}
                     >
                       {demo.didDemo && (
-                        <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                        <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       )}
                     </button>
                   </td>
-                  <td className="px-4 py-3">
+                  <td className="px-3 py-2">
                     <input
                       type="text"
                       value={demo.rippleEffect}
                       onChange={(e) => updateDemo(demo.id, { rippleEffect: e.target.value })}
                       placeholder="One thing someone asked or tried after..."
-                      className="text-sm border border-[var(--border)] rounded px-2 py-1 w-full focus:outline-none focus:border-[var(--accent)]"
+                      className="text-sm rounded border px-2 py-0.5 w-full"
+                      style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
                     />
                   </td>
                 </tr>
@@ -85,17 +140,20 @@ export default function DemoSessionsPage() {
         </table>
       </div>
 
-      {/* Ripple effect goal */}
+      {/* Ripple effect callout */}
       <div
-        className={`text-sm rounded-lg p-3 ${
-          rippleEffects >= 3
-            ? "bg-[var(--green-light)] text-[var(--green)]"
-            : "bg-[var(--gray-light)] text-[var(--gray)]"
-        }`}
+        className="flex items-center gap-3 rounded px-4 py-3 text-sm"
+        style={{
+          backgroundColor: rippleEffects >= 3 ? "var(--notion-green-bg)" : "var(--notion-gray-bg)",
+          color: rippleEffects >= 3 ? "var(--notion-green)" : "var(--notion-text-secondary)",
+        }}
       >
-        Ripple effect goal: 3+ sessions where someone tried something new
-        &mdash; currently at {rippleEffects}/3
-        {rippleEffects >= 3 && " — target met!"}
+        <span>{rippleEffects >= 3 ? "🎯" : "💡"}</span>
+        <span>
+          Ripple effect goal: 3+ sessions where someone tried something new
+          — currently at {rippleEffects}/3
+          {rippleEffects >= 3 && " — target met!"}
+        </span>
       </div>
     </div>
   );

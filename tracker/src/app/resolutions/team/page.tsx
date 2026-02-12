@@ -10,10 +10,13 @@ export default function TeamProgressPage() {
   const [newName, setNewName] = useState("");
 
   if (!mLoaded || !tLoaded) {
-    return <div className="text-[var(--gray)] py-12 text-center">Loading...</div>;
+    return (
+      <div className="py-20 text-center" style={{ color: "var(--notion-text-tertiary)" }}>
+        Loading...
+      </div>
+    );
   }
 
-  // Core missions only (1-10)
   const coreMissions = missions.filter((m) => m.number >= 1 && m.number <= 10);
 
   const getProgressEntry = (memberId: string, missionId: string) =>
@@ -54,136 +57,168 @@ export default function TeamProgressPage() {
   const someLate = members.filter((m) => getMemberLate(m.id) > 0).length;
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Team Progress</h1>
+    <div>
+      {/* Page title */}
+      <div className="mb-8 mt-4">
+        <span className="text-5xl mb-2 block">👥</span>
+        <h1
+          className="text-4xl font-bold tracking-tight"
+          style={{ color: "var(--notion-text)" }}
+        >
+          Team Progress
+        </h1>
         {members.length > 0 && (
-          <span className="text-sm text-[var(--gray)]">
-            {allOnTime} 100% on time &middot; {someLate} with late
-          </span>
+          <p className="mt-1 text-sm" style={{ color: "var(--notion-text-secondary)" }}>
+            {allOnTime} all on time &middot; {someLate} with late
+          </p>
         )}
       </div>
 
       {members.length === 0 ? (
-        <div className="bg-white rounded-xl border border-[var(--border)] p-8 text-center">
-          <p className="text-[var(--gray)] mb-4">
-            No team members added yet. Add your team to start tracking their progress.
+        <div
+          className="border border-dashed rounded px-4 py-8 text-center mb-6"
+          style={{ borderColor: "var(--notion-border-dark)" }}
+        >
+          <p className="text-sm" style={{ color: "var(--notion-text-tertiary)" }}>
+            No team members added yet. Add your team to start tracking.
           </p>
         </div>
       ) : (
-        <div className="bg-white rounded-xl border border-[var(--border)] overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-[var(--border)] bg-[var(--gray-light)]">
-                <th className="text-left px-4 py-3 font-semibold text-[var(--gray)] sticky left-0 bg-[var(--gray-light)]">
-                  Name
-                </th>
-                {coreMissions.map((m) => (
+        <>
+          {/* Notion-style table */}
+          <div
+            className="rounded border overflow-x-auto mb-4"
+            style={{ borderColor: "var(--notion-border)" }}
+          >
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ backgroundColor: "var(--notion-sidebar)", borderBottom: "1px solid var(--notion-border)" }}>
                   <th
-                    key={m.id}
-                    className="px-2 py-3 font-semibold text-[var(--gray)] text-center min-w-[40px]"
-                    title={`Wk ${m.number}: ${m.title}`}
+                    className="text-left px-3 py-2 font-medium text-xs uppercase tracking-wider sticky left-0"
+                    style={{ color: "var(--notion-text-secondary)", backgroundColor: "var(--notion-sidebar)" }}
                   >
-                    M{m.number}
+                    Name
                   </th>
-                ))}
-                <th className="px-3 py-3 font-semibold text-[var(--gray)] text-center">
-                  Done
-                </th>
-                <th className="px-3 py-3 font-semibold text-[var(--green)] text-center">
-                  On Time
-                </th>
-                <th className="px-3 py-3 font-semibold text-[var(--red)] text-center">
-                  Late
-                </th>
-                <th className="px-3 py-3"></th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-[var(--border)]">
-              {members.map((member) => {
-                const completed = getMemberCompleted(member.id);
-                const onTime = getMemberOnTime(member.id);
-                const late = getMemberLate(member.id);
-                return (
-                  <tr key={member.id} className="hover:bg-[var(--gray-light)]/50">
-                    <td className="px-4 py-2 font-medium sticky left-0 bg-white">
-                      {member.name}
-                    </td>
-                    {coreMissions.map((m) => {
-                      const entry = getProgressEntry(member.id, m.id);
-                      const isComplete = !!entry;
-                      const onTimeCompletion = entry
-                        ? isCompletionOnTime(m.dueDate, entry.completedAt)
-                        : true;
-                      return (
-                        <td key={m.id} className="px-2 py-2 text-center">
-                          <button
-                            onClick={() => toggleProgress(member.id, m.id)}
-                            className={`w-6 h-6 rounded text-xs flex items-center justify-center mx-auto transition-colors ${
-                              isComplete
-                                ? onTimeCompletion
-                                  ? "bg-[var(--green)] text-white"
-                                  : "bg-[var(--red)] text-white"
-                                : "bg-[var(--gray-light)] text-[var(--gray)] hover:bg-[var(--border)]"
-                            }`}
-                            title={
-                              entry?.completedAt
-                                ? `Completed ${new Date(entry.completedAt).toLocaleDateString()}`
-                                : undefined
-                            }
-                          >
-                            {isComplete ? (
-                              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                              </svg>
-                            ) : (
-                              "·"
-                            )}
-                          </button>
-                        </td>
-                      );
-                    })}
-                    <td className="px-3 py-2 text-center font-medium">
-                      {completed}/10
-                    </td>
-                    <td className="px-3 py-2 text-center font-medium text-[var(--green)]">
-                      {onTime}
-                    </td>
-                    <td className="px-3 py-2 text-center font-medium text-[var(--red)]">
-                      {late}
-                    </td>
-                    <td className="px-3 py-2">
-                      <button
-                        onClick={() => removeMember(member.id)}
-                        className="text-xs text-red-400 hover:text-red-600"
+                  {coreMissions.map((m) => (
+                    <th
+                      key={m.id}
+                      className="px-1.5 py-2 font-medium text-xs text-center min-w-[36px]"
+                      style={{ color: "var(--notion-text-secondary)" }}
+                      title={`Wk ${m.number}: ${m.title}`}
+                    >
+                      M{m.number}
+                    </th>
+                  ))}
+                  <th className="px-2 py-2 font-medium text-xs text-center" style={{ color: "var(--notion-text-secondary)" }}>
+                    Done
+                  </th>
+                  <th className="px-2 py-2 font-medium text-xs text-center" style={{ color: "var(--notion-green)" }}>
+                    On Time
+                  </th>
+                  <th className="px-2 py-2 font-medium text-xs text-center" style={{ color: "var(--notion-red)" }}>
+                    Late
+                  </th>
+                  <th className="px-2 py-2 w-12"></th>
+                </tr>
+              </thead>
+              <tbody>
+                {members.map((member) => {
+                  const completed = getMemberCompleted(member.id);
+                  const onTime = getMemberOnTime(member.id);
+                  const late = getMemberLate(member.id);
+                  return (
+                    <tr
+                      key={member.id}
+                      className="transition-colors"
+                      style={{ borderBottom: "1px solid var(--notion-border)" }}
+                      onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+                      onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+                    >
+                      <td
+                        className="px-3 py-1.5 font-medium text-sm sticky left-0"
+                        style={{ backgroundColor: "inherit", color: "var(--notion-text)" }}
                       >
-                        Remove
-                      </button>
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      )}
+                        {member.name}
+                      </td>
+                      {coreMissions.map((m) => {
+                        const entry = getProgressEntry(member.id, m.id);
+                        const isComplete = !!entry;
+                        const onTimeCompletion = entry
+                          ? isCompletionOnTime(m.dueDate, entry.completedAt)
+                          : true;
+                        return (
+                          <td key={m.id} className="px-1.5 py-1.5 text-center">
+                            <button
+                              onClick={() => toggleProgress(member.id, m.id)}
+                              className="w-5 h-5 rounded-sm text-xs flex items-center justify-center mx-auto transition-colors"
+                              style={{
+                                backgroundColor: isComplete
+                                  ? onTimeCompletion
+                                    ? "var(--notion-green)"
+                                    : "var(--notion-red)"
+                                  : "var(--notion-gray-bg)",
+                                color: isComplete ? "white" : "var(--notion-text-tertiary)",
+                              }}
+                              title={
+                                entry?.completedAt
+                                  ? `Completed ${new Date(entry.completedAt).toLocaleDateString()}`
+                                  : undefined
+                              }
+                            >
+                              {isComplete ? (
+                                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                </svg>
+                              ) : (
+                                ""
+                              )}
+                            </button>
+                          </td>
+                        );
+                      })}
+                      <td className="px-2 py-1.5 text-center text-xs font-medium" style={{ color: "var(--notion-text)" }}>
+                        {completed}/10
+                      </td>
+                      <td className="px-2 py-1.5 text-center text-xs font-medium" style={{ color: "var(--notion-green)" }}>
+                        {onTime}
+                      </td>
+                      <td className="px-2 py-1.5 text-center text-xs font-medium" style={{ color: "var(--notion-red)" }}>
+                        {late}
+                      </td>
+                      <td className="px-2 py-1.5 text-center">
+                        <button
+                          onClick={() => removeMember(member.id)}
+                          className="text-xs transition-colors"
+                          style={{ color: "var(--notion-text-tertiary)" }}
+                          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--notion-red)")}
+                          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--notion-text-tertiary)")}
+                        >
+                          ×
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
 
-      {/* Legend */}
-      {members.length > 0 && (
-        <div className="flex gap-4 text-xs text-[var(--gray)]">
-          <span className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded bg-[var(--green)] inline-block"></span>
-            On Time
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded bg-[var(--red)] inline-block"></span>
-            Late
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded bg-[var(--gray-light)] inline-block"></span>
-            Not Done
-          </span>
-        </div>
+          {/* Legend */}
+          <div className="flex gap-4 text-xs mb-6" style={{ color: "var(--notion-text-secondary)" }}>
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-sm inline-block" style={{ backgroundColor: "var(--notion-green)" }}></span>
+              On Time
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-sm inline-block" style={{ backgroundColor: "var(--notion-red)" }}></span>
+              Late
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-sm inline-block" style={{ backgroundColor: "var(--notion-gray-bg)" }}></span>
+              Not Done
+            </span>
+          </div>
+        </>
       )}
 
       {/* Add member */}
@@ -194,14 +229,16 @@ export default function TeamProgressPage() {
           onChange={(e) => setNewName(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleAddMember()}
           placeholder="Team member name"
-          className="text-sm border border-[var(--border)] rounded-lg px-3 py-2 focus:outline-none focus:border-[var(--accent)]"
+          className="text-sm rounded border px-3 py-1.5"
+          style={{ borderColor: "var(--notion-border)", color: "var(--notion-text)" }}
         />
         <button
           onClick={handleAddMember}
           disabled={!newName.trim()}
-          className="text-sm px-4 py-2 bg-[var(--accent)] text-white rounded-lg hover:opacity-90 disabled:opacity-50 transition-opacity"
+          className="text-xs px-3 py-1.5 rounded text-white transition-opacity disabled:opacity-40"
+          style={{ backgroundColor: "var(--notion-accent)" }}
         >
-          + Add Team Member
+          + Add Member
         </button>
       </div>
     </div>
