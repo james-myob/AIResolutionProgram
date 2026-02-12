@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMissions, useTools, useTeam, useDemos } from "@/lib/store";
-import { getPaceStatus, formatDueDate, isCompletionOnTime } from "@/lib/dates";
+import { getPaceStatus, formatDueDate, isCompletionOnTime, getMissionDueDate, getMissionTimingStatus } from "@/lib/dates";
 import ProgressBar from "@/components/ProgressBar";
 
 export default function Dashboard() {
@@ -54,6 +54,15 @@ export default function Dashboard() {
     behind: { label: "Behind Schedule", color: "var(--notion-red)", bg: "var(--notion-red-bg)", icon: "🔴" },
   }[pace.status];
 
+  // Missions that are due (or overdue) and not yet complete
+  const today = new Date();
+  today.setHours(23, 59, 59, 999);
+  const dueMissions = missions.filter((m) => {
+    if (m.status === "complete") return false;
+    const due = getMissionDueDate(m.number);
+    return due <= today;
+  });
+
   const nextDueMission = missions.find(
     (m) => m.status !== "complete" && m.dueDate
   );
@@ -98,6 +107,77 @@ export default function Dashboard() {
           </div>
         )}
       </div>
+
+      {/* Due Now - clickable list of missions due/overdue */}
+      {dueMissions.length > 0 && (
+        <div
+          className="rounded border mb-6"
+          style={{ borderColor: "var(--notion-border)" }}
+        >
+          <div
+            className="flex items-center gap-2 px-3 py-2 text-xs font-medium uppercase tracking-wider"
+            style={{
+              color: "var(--notion-text-secondary)",
+              borderBottom: "1px solid var(--notion-border)",
+              backgroundColor: "var(--notion-sidebar)",
+            }}
+          >
+            <span>⏰</span>
+            <span>Due Now</span>
+            <span style={{ color: "var(--notion-text-tertiary)" }}>
+              {dueMissions.length} mission{dueMissions.length !== 1 ? "s" : ""} need attention
+            </span>
+          </div>
+          {dueMissions.map((m) => {
+            const timing = getMissionTimingStatus(m.dueDate, m.status, m.completedAt);
+            const isOverdue = timing === "overdue";
+            return (
+              <Link
+                key={m.id}
+                href={`/missions/${m.id}`}
+                className="flex items-center gap-3 px-3 py-2.5 transition-colors"
+                style={{ borderBottom: "1px solid var(--notion-border)" }}
+                onMouseEnter={(e) => (e.currentTarget.style.background = "var(--notion-sidebar)")}
+                onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
+              >
+                <span
+                  className="text-xs px-1.5 py-0.5 rounded-sm flex-shrink-0"
+                  style={{
+                    backgroundColor: isOverdue ? "var(--notion-red-bg)" : "var(--notion-yellow-bg)",
+                    color: isOverdue ? "var(--notion-red)" : "var(--notion-yellow)",
+                  }}
+                >
+                  {isOverdue ? "Overdue" : "Due"}
+                </span>
+                <span className="text-sm font-medium flex-1" style={{ color: "var(--notion-text)" }}>
+                  {m.number === 0 ? "Day 0" : `Wk ${m.number}`}: {m.title}
+                </span>
+                {m.dueDate && (
+                  <span className="text-xs flex-shrink-0" style={{ color: "var(--notion-text-secondary)" }}>
+                    Due {formatDueDate(m.dueDate)}
+                  </span>
+                )}
+                <span
+                  className="text-xs px-1.5 py-0.5 rounded-sm flex-shrink-0"
+                  style={{
+                    backgroundColor: m.status === "in_progress" ? "var(--notion-orange-bg)" : "var(--notion-gray-bg)",
+                    color: m.status === "in_progress" ? "var(--notion-orange)" : "var(--notion-gray)",
+                  }}
+                >
+                  {m.status === "in_progress" ? "In Progress" : "Not Started"}
+                </span>
+                <svg
+                  width="14" height="14" viewBox="0 0 14 14" fill="none"
+                  stroke="var(--notion-text-tertiary)" strokeWidth="1.5"
+                  className="flex-shrink-0"
+                >
+                  <path d="M5.5 3L9.5 7L5.5 11" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            );
+          })}
+        </div>
+      )}
 
       {/* Overall progress - Notion property style */}
       <div className="mb-8">
