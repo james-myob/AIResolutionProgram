@@ -54,13 +54,22 @@ export default function Dashboard() {
     behind: { label: "Behind Schedule", color: "var(--notion-red)", bg: "var(--notion-red-bg)", icon: "🔴" },
   }[pace.status];
 
-  // All missions that are due by today (complete or not)
-  const today = new Date();
-  today.setHours(23, 59, 59, 999);
-  const allDueMissions = missions.filter((m) => {
+  // Split missions into overdue (due before today) and due today
+  const now = new Date();
+  const startOfToday = new Date();
+  startOfToday.setHours(0, 0, 0, 0);
+  const endOfToday = new Date();
+  endOfToday.setHours(23, 59, 59, 999);
+
+  const overdueMissions = missions.filter((m) => {
     const due = getMissionDueDate(m.number);
-    return due <= today;
+    return due < startOfToday;
   });
+  const dueTodayMissions = missions.filter((m) => {
+    const due = getMissionDueDate(m.number);
+    return due >= startOfToday && due <= endOfToday;
+  });
+  const allDueMissions = [...overdueMissions, ...dueTodayMissions];
   // Incomplete ones that need attention
   const dueMissions = allDueMissions.filter((m) => m.status !== "complete");
 
@@ -101,7 +110,10 @@ export default function Dashboard() {
               {paceConfig.label}
             </span>
             <span className="text-sm ml-3" style={{ color: paceConfig.color, opacity: 0.8 }}>
-              {pace.missionsCompleted} completed &middot; {pace.missionsDue} due by today
+              {pace.missionsCompleted} completed
+              {pace.missionsOverdue > 0 && <> &middot; {pace.missionsOverdue} overdue</>}
+              {pace.missionsDueToday > 0 && <> &middot; {pace.missionsDueToday} due today</>}
+              {pace.missionsDue === 0 && <> &middot; 0 due</>}
             </span>
           </div>
           {nextDueMission?.dueDate && (
@@ -112,7 +124,7 @@ export default function Dashboard() {
             </div>
           )}
         </div>
-        {/* Due by today breakdown - always show what's due */}
+        {/* Due/overdue breakdown - always show what's due */}
         {allDueMissions.length > 0 && (
           <div>
             <div
@@ -123,7 +135,9 @@ export default function Dashboard() {
                 borderBottom: "1px solid var(--notion-border)",
               }}
             >
-              Due by today
+              {overdueMissions.length > 0 && dueTodayMissions.length === 0 && "Overdue"}
+              {overdueMissions.length === 0 && dueTodayMissions.length > 0 && "Due today"}
+              {overdueMissions.length > 0 && dueTodayMissions.length > 0 && "Overdue & due today"}
             </div>
             {allDueMissions.map((m) => {
               const isComplete = m.status === "complete";

@@ -52,14 +52,26 @@ export type PaceStatus = "ahead" | "on_track" | "behind";
 
 export function getPaceStatus(
   missions: { number: number; status: string }[]
-): { status: PaceStatus; missionsDue: number; missionsCompleted: number } {
-  const today = new Date();
-  today.setHours(23, 59, 59, 999); // end of today so "due today" counts as due
+): { status: PaceStatus; missionsDue: number; missionsOverdue: number; missionsDueToday: number; missionsCompleted: number } {
+  const now = new Date();
+  const endOfToday = new Date();
+  endOfToday.setHours(23, 59, 59, 999);
+  const startOfToday = new Date();
+  startOfToday.setHours(0, 0, 0, 0);
 
-  const missionsDue = missions.filter((m) => {
+  let missionsOverdue = 0;
+  let missionsDueToday = 0;
+
+  for (const m of missions) {
     const due = getMissionDueDate(m.number);
-    return due <= today;
-  }).length;
+    if (due < startOfToday) {
+      missionsOverdue++;
+    } else if (due <= endOfToday) {
+      missionsDueToday++;
+    }
+  }
+
+  const missionsDue = missionsOverdue + missionsDueToday;
 
   const missionsCompleted = missions.filter(
     (m) => m.status === "complete"
@@ -74,5 +86,5 @@ export function getPaceStatus(
     status = "behind";
   }
 
-  return { status, missionsDue, missionsCompleted };
+  return { status, missionsDue, missionsOverdue, missionsDueToday, missionsCompleted };
 }
