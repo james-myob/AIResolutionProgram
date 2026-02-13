@@ -62,16 +62,16 @@ export default function Dashboard() {
   endOfToday.setHours(23, 59, 59, 999);
 
   const overdueMissions = missions.filter((m) => {
+    if (m.status === "complete") return false;
     const due = getMissionDueDate(m.number);
     return due < startOfToday;
   });
   const dueTodayMissions = missions.filter((m) => {
+    if (m.status === "complete") return false;
     const due = getMissionDueDate(m.number);
     return due >= startOfToday && due <= endOfToday;
   });
   const allDueMissions = [...overdueMissions, ...dueTodayMissions];
-  // Incomplete ones that need attention
-  const dueMissions = allDueMissions.filter((m) => m.status !== "complete");
 
   const nextDueMission = missions.find(
     (m) => m.status !== "complete" && m.dueDate
