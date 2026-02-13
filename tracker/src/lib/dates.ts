@@ -63,6 +63,7 @@ export function getPaceStatus(
   let missionsDueToday = 0;
 
   for (const m of missions) {
+    if (m.status === "complete") continue;
     const due = getMissionDueDate(m.number);
     if (due < startOfToday) {
       missionsOverdue++;
@@ -73,14 +74,20 @@ export function getPaceStatus(
 
   const missionsDue = missionsOverdue + missionsDueToday;
 
+  // Total missions expected by now (including completed) for pace calculation
+  const totalExpectedByNow = missions.filter((m) => {
+    const due = getMissionDueDate(m.number);
+    return due <= endOfToday;
+  }).length;
+
   const missionsCompleted = missions.filter(
     (m) => m.status === "complete"
   ).length;
 
   let status: PaceStatus;
-  if (missionsCompleted > missionsDue) {
+  if (missionsCompleted > totalExpectedByNow) {
     status = "ahead";
-  } else if (missionsCompleted >= missionsDue) {
+  } else if (missionsCompleted >= totalExpectedByNow) {
     status = "on_track";
   } else {
     status = "behind";
