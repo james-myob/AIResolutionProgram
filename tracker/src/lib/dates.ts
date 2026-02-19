@@ -31,13 +31,13 @@ export function getMissionTimingStatus(
   completedAt: string | null
 ): TimingStatus {
   if (!dueDate) return "on_track";
-  const due = new Date(dueDate + "T23:59:59");
+  const today = new Date().toISOString().split("T")[0];
   if (status === "complete") {
     if (!completedAt) return "on_time";
-    const completed = new Date(completedAt);
-    return completed <= due ? "on_time" : "late";
+    const completedDate = new Date(completedAt).toISOString().split("T")[0];
+    return completedDate <= dueDate ? "on_time" : "late";
   }
-  return new Date() <= due ? "on_track" : "overdue";
+  return today <= dueDate ? "on_track" : "overdue";
 }
 
 export function isCompletionOnTime(
@@ -45,7 +45,8 @@ export function isCompletionOnTime(
   completedAt: string | null
 ): boolean {
   if (!dueDate || !completedAt) return true;
-  return new Date(completedAt) <= new Date(dueDate + "T23:59:59");
+  const completedDate = new Date(completedAt).toISOString().split("T")[0];
+  return completedDate <= dueDate;
 }
 
 export type PaceStatus = "ahead" | "on_track" | "behind";
