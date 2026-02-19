@@ -2,6 +2,13 @@
 // Each mission runs for 2 weeks, due on Thursday of the second week
 const MISSION_1_START = new Date(2026, 1, 9); // Feb 9, 2026
 
+function toLocalDateISO(date: Date): string {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 export function getMissionDueDate(missionNumber: number): Date {
   if (missionNumber === 0) {
     // Setup should be done by the time Mission 1 starts
@@ -15,7 +22,7 @@ export function getMissionDueDate(missionNumber: number): Date {
 }
 
 export function getMissionDueDateISO(missionNumber: number): string {
-  return getMissionDueDate(missionNumber).toISOString().split("T")[0];
+  return toLocalDateISO(getMissionDueDate(missionNumber));
 }
 
 export function formatDueDate(isoDate: string): string {
@@ -31,10 +38,10 @@ export function getMissionTimingStatus(
   completedAt: string | null
 ): TimingStatus {
   if (!dueDate) return "on_track";
-  const today = new Date().toISOString().split("T")[0];
+  const today = toLocalDateISO(new Date());
   if (status === "complete") {
     if (!completedAt) return "on_time";
-    const completedDate = new Date(completedAt).toISOString().split("T")[0];
+    const completedDate = toLocalDateISO(new Date(completedAt));
     return completedDate <= dueDate ? "on_time" : "late";
   }
   return today <= dueDate ? "on_track" : "overdue";
@@ -45,7 +52,7 @@ export function isCompletionOnTime(
   completedAt: string | null
 ): boolean {
   if (!dueDate || !completedAt) return true;
-  const completedDate = new Date(completedAt).toISOString().split("T")[0];
+  const completedDate = toLocalDateISO(new Date(completedAt));
   return completedDate <= dueDate;
 }
 
