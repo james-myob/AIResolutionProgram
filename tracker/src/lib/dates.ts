@@ -56,6 +56,24 @@ export function isCompletionOnTime(
   return completedDate <= dueDate;
 }
 
+/** Days between completion and due date. Negative = early, 0 = on time, positive = late */
+export function getDaysDelta(
+  dueDate: string | null,
+  completedAt: string | null
+): number | null {
+  if (!dueDate || !completedAt) return null;
+  const due = new Date(dueDate + "T00:00:00");
+  const completed = new Date(toLocalDateISO(new Date(completedAt)) + "T00:00:00");
+  const diffMs = completed.getTime() - due.getTime();
+  return Math.round(diffMs / (1000 * 60 * 60 * 24));
+}
+
+export function formatDaysDelta(days: number): string {
+  if (days < 0) return `${Math.abs(days)}d early`;
+  if (days === 0) return "On time";
+  return `${days}d late`;
+}
+
 export type PaceStatus = "ahead" | "on_track" | "behind";
 
 export function getPaceStatus(

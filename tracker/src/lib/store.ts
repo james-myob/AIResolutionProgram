@@ -144,7 +144,20 @@ export function useTeam() {
     []
   );
 
-  return { members, progress, addMember, removeMember, toggleProgress, loaded };
+  const updateProgressDate = useCallback(
+    (teamMemberId: string, missionId: string, newDate: string) => {
+      setProgress((prev) =>
+        prev.map((p) =>
+          p.teamMemberId === teamMemberId && p.missionId === missionId
+            ? { ...p, completedAt: newDate }
+            : p
+        )
+      );
+    },
+    []
+  );
+
+  return { members, progress, addMember, removeMember, toggleProgress, updateProgressDate, loaded };
 }
 
 export function useDemos() {
