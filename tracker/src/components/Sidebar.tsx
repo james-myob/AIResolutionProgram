@@ -15,6 +15,11 @@ const NAV_ITEMS = [
     href: "/missions",
     icon: "🚀",
   },
+  {
+    label: "Compare",
+    href: "/compare",
+    icon: "⚡",
+  },
 ];
 
 const RESOLUTION_ITEMS = [
