@@ -9,7 +9,7 @@
 |---------|:---:|
 | Day 0: Setup | [ ] |
 | Weekend 1: Resolution Tracker | [ ] |
-| Weekend 2: Model Topography | [ ] |
+| Weekend 2: Model Topography | [x] |
 | Weekend 3: Deep Research Brief | [ ] |
 | Weekend 4: Data Analysis Memo | [ ] |
 | Weekend 5: Visual Explainer | [ ] |
@@ -114,7 +114,7 @@
 
 | Resolution | Target | Current | Status |
 |---|---|:---:|:---:|
-| 1. Complete all missions on time | 11/11 | 0/11 | Not started |
+| 1. Complete all missions on time | 11/11 | 1/11 | In progress |
 | 2. Expand AI capabilities | 3+ new tools | 0 | Not started |
 | 3. Team members succeed | All complete 10/10 | — | Not started |
 | 4. AI-driven team culture | 10+ share sessions | 0 | Not started |

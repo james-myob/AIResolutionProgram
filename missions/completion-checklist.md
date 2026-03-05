@@ -3,7 +3,7 @@
 ## Foundation
 - [ ] Day 0: Setup Complete — Folders, accounts, rubric saved
 - [ ] Weekend 1: Resolution Tracker — Built, live, and logged
-- [ ] Weekend 2: Model Topography — Topography Sheet + Rules of Thumb
+- [x] Weekend 2: Model Topography — Topography Sheet + Rules of Thumb
 
 ## Core Projects
 - [ ] Weekend 3: Deep Research Brief — 2 pages, clear recommendation
