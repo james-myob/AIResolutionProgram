@@ -37,6 +37,8 @@ const API_MODELS: {
   { id: "gpt-4.1", label: "GPT-4.1", provider: "openai", defaultOn: true },
   { id: "gpt-4.1-mini", label: "GPT-4.1 Mini", provider: "openai", defaultOn: false },
   { id: "o3", label: "o3", provider: "openai", defaultOn: false },
+  { id: "gpt-5.2", label: "GPT-5.2", provider: "openai", defaultOn: false },
+  { id: "gpt-5.3", label: "GPT-5.3", provider: "openai", defaultOn: false },
 ];
 
 const CATEGORIES = ["Writing", "Research", "Strategy", "Code", "Visual", "Other"];

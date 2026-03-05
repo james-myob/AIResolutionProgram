@@ -12,7 +12,7 @@ const ANTHROPIC_MODELS = new Set([
   "claude-haiku-4-5-20251001",
 ]);
 
-const OPENAI_MODELS = new Set(["gpt-4.1", "gpt-4.1-mini", "o3"]);
+const OPENAI_MODELS = new Set(["gpt-4.1", "gpt-4.1-mini", "o3", "gpt-5.2", "gpt-5.3"]);
 
 export async function POST(req: NextRequest) {
   const { prompt, models } = (await req.json()) as {
