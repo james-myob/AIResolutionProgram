@@ -31,7 +31,7 @@ const API_MODELS: {
   provider: "anthropic" | "openai";
   defaultOn: boolean;
 }[] = [
-  { id: "claude-sonnet-4-6", label: "Claude Sonnet 4.6", provider: "anthropic", defaultOn: true },
+  { id: "claude-sonnet-4-6", label: "Claude Sonnet 4.6", provider: "anthropic", defaultOn: false },
   { id: "claude-opus-4-6", label: "Claude Opus 4.6", provider: "anthropic", defaultOn: false },
   { id: "claude-haiku-4-5-20251001", label: "Claude Haiku 4.5", provider: "anthropic", defaultOn: false },
   { id: "gpt-4.1", label: "GPT-4.1", provider: "openai", defaultOn: true },

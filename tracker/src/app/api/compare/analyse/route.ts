@@ -1,4 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 import { NextRequest } from "next/server";
 
 export const runtime = "nodejs";
@@ -12,14 +12,14 @@ export async function POST(req: NextRequest) {
     results: { label: string; text: string }[];
   };
 
-  if (!process.env.ANTHROPIC_API_KEY) {
+  if (!process.env.OPENAI_API_KEY) {
     return Response.json(
-      { error: "ANTHROPIC_API_KEY not set" },
+      { error: "OPENAI_API_KEY not set" },
       { status: 500 }
     );
   }
 
-  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
   const systemPrompt = `You are an expert AI model evaluator helping someone build their personal understanding of different AI models. You will be given a prompt and responses from multiple models. Produce a focused, opinionated comparison.
 
@@ -53,20 +53,21 @@ Keep the whole analysis under 400 words. Be concrete, not generic.`;
   const stream = new ReadableStream({
     async start(controller) {
       try {
-        const msgStream = anthropic.messages.stream({
-          model: "claude-sonnet-4-6",
+        const completion = await openai.chat.completions.create({
+          model: "gpt-4.1",
           max_tokens: 1000,
-          system: systemPrompt,
-          messages: [{ role: "user", content: userContent }],
+          stream: true,
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: userContent },
+          ],
         });
-        for await (const event of msgStream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
+        for await (const chunk of completion) {
+          const delta = chunk.choices[0]?.delta?.content;
+          if (delta) {
             controller.enqueue(
               encoder.encode(
-                `data: ${JSON.stringify({ delta: event.delta.text })}\n\n`
+                `data: ${JSON.stringify({ delta })}\n\n`
               )
             );
           }
