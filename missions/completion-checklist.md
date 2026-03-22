@@ -6,7 +6,7 @@
 - [x] Weekend 2: Model Topography — Topography Sheet + Rules of Thumb
 
 ## Core Projects
-- [ ] Weekend 3: Deep Research Brief — 2 pages, clear recommendation
+- [x] Weekend 3: Deep Research Brief — 2 pages, clear recommendation
 - [ ] Weekend 4: Data Analysis Memo — Cleaned data, 3 insights, 3 actions
 - [ ] Weekend 5: Visual Explainer — One infographic you'd actually use
 - [ ] Weekend 6: Information Pipeline — Summary + FAQ + Deck from source
