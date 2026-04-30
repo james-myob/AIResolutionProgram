@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AU Mid-Market: Risk × Opportunity</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/theme/mermaid.min.css">
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Inter', Arial, sans-serif; background: #FFFFFF; color: #000000; line-height: 1.5; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 24px 48px; }
+header { border-bottom: 3px solid #7B14EF; padding-bottom: 12px; margin-bottom: 24px; }
+header .eyebrow { text-transform: uppercase; letter-spacing: 1px; color: #7B14EF; font-size: 11px; font-weight: 700; margin-bottom: 6px; }
+h1 { margin: 0 0 8px; font-size: 28px; font-weight: 700; color: #000; line-height: 1.15; }
+h2 { font-size: 20px; font-weight: 700; color: #7B14EF; margin: 32px 0 12px; }
+.lead { color: #444; font-size: 15px; margin: 0; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0 8px; }
+.metric { background: #EBDCFD; border-radius: 8px; padding: 14px 12px; text-align: center; }
+.metric .v { font-size: 22px; font-weight: 700; color: #7B14EF; line-height: 1.1; }
+.metric .l { font-size: 11px; color: #444; margin-top: 4px; }
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid #EBDCFD; margin-top: 24px; }
+.tab { padding: 10px 16px; cursor: pointer; border: none; background: none; font-family: inherit; font-size: 14px; font-weight: 600; color: #666; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+.tab.active { color: #7B14EF; border-bottom-color: #7B14EF; }
+.tab:hover:not(.active) { color: #000; }
+.panel { display: none; padding-top: 20px; }
+.panel.active { display: block; }
+.chartbox { background: #F7F6F1; border-radius: 8px; padding: 16px; margin-bottom: 16px; position: relative; height: 480px; }
+.chartbox canvas { background: #FFFFFF; border-radius: 4px; }
+.legend { display: flex; gap: 18px; font-size: 12px; margin-top: 12px; flex-wrap: wrap; }
+.legend .item { display: flex; align-items: center; gap: 6px; }
+.legend .swatch { width: 14px; height: 14px; border-radius: 50%; display: inline-block; border: 1px solid #000; }
+.insight { background: #F7F6F1; border-left: 4px solid #7B14EF; padding: 14px 16px; border-radius: 0 6px 6px 0; margin: 12px 0; }
+.insight .num { display: inline-block; background: #7B14EF; color: #FFF; width: 24px; height: 24px; border-radius: 50%; text-align: center; font-weight: 700; font-size: 13px; line-height: 24px; margin-right: 8px; }
+.insight .head { font-weight: 700; color: #000; margin-bottom: 6px; }
+.insight p { margin: 0; font-size: 14px; color: #222; }
+.action { background: #EBDCFD; padding: 14px 16px; border-radius: 6px; margin: 12px 0; }
+.action .head { font-weight: 700; color: #7B14EF; margin-bottom: 6px; }
+.action p { margin: 0; font-size: 14px; color: #222; }
+.downloads { margin-top: 28px; padding: 16px 18px; background: #F2EFE8; border-radius: 8px; }
+.downloads h3 { margin: 0 0 10px; font-size: 13px; font-weight: 700; color: #7B14EF; text-transform: uppercase; letter-spacing: 0.5px; }
+.downloads ul { margin: 0; padding-left: 20px; font-size: 13px; }
+.downloads li { margin-bottom: 4px; }
+.downloads a { color: #7B14EF; text-decoration: none; font-weight: 600; }
+.downloads a:hover { text-decoration: underline; }
+footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #EBDCFD; font-size: 11px; color: #666; }
+.gridjs-container { font-family: 'Inter', Arial, sans-serif !important; }
+.gridjs-th, .gridjs-td { font-size: 12px !important; padding: 8px !important; }
+.gridjs-th { background: #7B14EF !important; color: #FFFFFF !important; }
+.gridjs-th button { color: #FFFFFF !important; }
+.quad-1 { color: #7B14EF; font-weight: 600; }
+.quad-2 { color: #FE02A7; font-weight: 600; }
+.quad-3 { color: #666; }
+.quad-4 { color: #444; font-weight: 600; }
+@media (max-width: 700px) { .metrics { grid-template-columns: repeat(2, 1fr); } h1 { font-size: 22px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">MYOB Mid-Market • Mission 4 Analysis</div>
+    <h1>Australian mid-market: where to invest, defend, retreat</h1>
+    <p class="lead">A risk × opportunity scorecard across all 19 ANZSIC industry divisions, combining ABS Counts of Australian Businesses (Jul 2021–Jun 2025) with ASIC Insolvency Statistics 2024–25.</p>
+  </header>
+
+  <div class="metrics">
+    <div class="metric"><div class="v">73,203</div><div class="l">Mid-market businesses (20+ FTE)</div></div>
+    <div class="metric"><div class="v">231,742</div><div class="l">Mid-market businesses ($2m+ turnover)</div></div>
+    <div class="metric"><div class="v">393</div><div class="l">Mid-market insolvencies (FY24–25)</div></div>
+    <div class="metric"><div class="v">5.37</div><div class="l">Insolvencies per 1,000 mid-market</div></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-target="matrix">Risk × Opportunity Matrix</button>
+    <button class="tab" data-target="trend">Insolvency Trend</button>
+    <button class="tab" data-target="table">Industry Table</button>
+    <button class="tab" data-target="memo">Insights &amp; Actions</button>
+  </div>
+
+  <div id="matrix" class="panel active">
+    <div class="chartbox"><canvas id="matrixChart"></canvas></div>
+    <div class="legend">
+      <div class="item"><span class="swatch" style="background:#7B14EF"></span> 1. Invest (high opp, low risk)</div>
+      <div class="item"><span class="swatch" style="background:#FE02A7"></span> 2. Defend (high opp, high risk)</div>
+      <div class="item"><span class="swatch" style="background:#999"></span> 3. Maintain (low opp, low risk)</div>
+      <div class="item"><span class="swatch" style="background:#444"></span> 4. Retreat (low opp, high risk)</div>
+    </div>
+    <p style="font-size:12px;color:#666;margin-top:10px;">Bubble size scales with mid-market business count. Hover for industry details.</p>
+  </div>
+
+  <div id="trend" class="panel">
+    <div class="chartbox"><canvas id="trendChart"></canvas></div>
+    <p style="font-size:13px;color:#444;margin-top:12px;">Total insolvencies (all sizes) for the six largest current-year industries. The structural rise since FY20–21 is the headline — and it now sits well above pre-COVID levels in most segments.</p>
+  </div>
+
+  <div id="table" class="panel">
+    <p style="font-size:13px;color:#444;margin-bottom:8px;">Click any column header to sort. Mid-market = 20+ FTE for employment lens, $2m+ turnover for turnover lens.</p>
+    <div id="industryTable"></div>
+  </div>
+
+  <div id="memo" class="panel">
+    <h2 style="margin-top:8px">Three insights</h2>
+    <div class="insight">
+      <div class="head"><span class="num">1</span>Mid-market insolvency has tripled in five years — and it's structural, not COVID-rebound</div>
+      <p>FY24–25 insolvencies are 2.5–6× the FY20–21 base across nearly every industry: Professional Services +565%, Health Care +357%, Manufacturing +284%, Construction +148%. The FY20–21 baseline was suppressed by JobKeeper and safe-harbour provisions, but the post-2021 curve is steeply upward. Cash-flow management is now the price of entry for any AU mid-market ERP value layer.</p>
+    </div>
+    <div class="insight">
+      <div class="head"><span class="num">2</span>Health Care &amp; Social Assistance is the standout invest opportunity — and Acumatica has packaged it globally; MYOB hasn't packaged it for AU</div>
+      <p>Fastest-growing mid-market segment (+6.5% YoY), second-largest by count (7,784 businesses with 20+ FTE), moderate risk (4.5/1,000). NDIS providers, private aged care, allied health groups, primary care networks. Acumatica's healthcare modules exist; the AU-specific layer (NDIS chart-of-accounts, HICAPS/Medicare billing, SCHADS award compliance, multi-site reporting) is the unbuilt opportunity.</p>
+    </div>
+    <div class="insight">
+      <div class="head"><span class="num">3</span>The turnover lens reveals 3× more mid-market opportunity than headcount alone</div>
+      <p>Real Estate has 1,952 mid-market businesses by employment but 17,460 by turnover (8.9×); Financial Services 6.9×; Construction 6.1×; Agriculture 6.0×. These are small-team, high-revenue businesses (property syndicates, advisory firms, specialist subbies, large family farms) — genuinely mid-market commercially but invisible to a headcount-based segmentation. Likely 40–60k AU businesses sitting between MYOB Business and MYOB Mid-Market today.</p>
+    </div>
+
+    <h2>Three actions</h2>
+    <div class="action">
+      <div class="head">A. Make cash-flow control the #1 horizontal investment for the next 12 months</div>
+      <p>Accelerate AR automation, cash-flow forecasting, credit-risk flagging. Target the four highest-volume, highest-rate mid-market segments: Construction (69 insolv, 10.6/1k), Admin &amp; Support (58, 10.0/1k), Other Services (33, 21.7/1k), Transport (21, 8.4/1k). Together they account for 181 of 393 mid-market insolvencies (46%). Brand-fit is exact — MYOB's strength is financial control.</p>
+    </div>
+    <div class="action">
+      <div class="head">B. Stand up an AU Health Care &amp; Social Assistance vertical pack</div>
+      <p>Use Acumatica's existing healthcare modules where possible; build the AU-specific layer (NDIS, HICAPS, SCHADS, multi-entity). Goal: capture meaningful share of the +6.5% mid-market growth in 18 months. The only top-5 strategic-rank segment growing materially — every other large segment is flat or declining.</p>
+    </div>
+    <div class="action">
+      <div class="head">C. Re-segment GTM around turnover bands as well as headcount, prioritising Real Estate, Financial Services, and Construction subbies</div>
+      <p>Run a Q3 discovery sprint with channel partners to identify the small-team, high-revenue businesses currently in the gap between MYOB Business and MYOB Mid-Market. Capturing 10% of the estimated 40–60k addressable population would meaningfully grow the customer base. Counter-call: deprioritise hospitality vertical investment — Accommodation &amp; Food Services is largest but contracting fastest (–5.1%) with low risk. That's consolidation, not failure. Serve, don't over-invest.</p>
+    </div>
+  </div>
+
+  <div class="downloads">
+    <h3>Download the deliverables</h3>
+    <ul>
+      <li><a href="insights-memo.docx" download>Insights Memo (1-page DOCX)</a> — the 3 insights + 3 actions in shareable form</li>
+      <li><a href="dataset.xlsx" download>Cleaned dataset (XLSX)</a> — 9 tabs: Industry Master + all source data merged and division-aggregated</li>
+      <li><a href="chart-matrix.png" download>Risk × Opportunity Matrix (PNG)</a></li>
+      <li><a href="chart-trend.png" download>10-Year Insolvency Trend (PNG)</a></li>
+      <li><a href="chart-lens.png" download>Turnover vs Employment Lens (PNG)</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <strong>Sources:</strong> ABS 8165.0 Counts of Australian Businesses, including Entries and Exits (Jul 2021–Jun 2025), Data Cubes 2 &amp; 3. ASIC Insolvency Statistics Series 3.1 &amp; 3.3 (released Dec 2025). Mid-market = 20–199 + 200+ employees (employment lens) and $2m+ turnover (turnover lens). Caveats: ASIC "Not known" FTE bucket (32% of all reports) excluded from mid-market count; ABS perturbation may shift small-segment values ±10%; FY20–21 baseline is artificially suppressed by JobKeeper/safe-harbour.
+  </footer>
+</div>
+
+<script>
+const DATA = {"industries":[{"division":"Accommodation and Food Services","short":"Accom. & Food","mm_emp":10353,"mm_emp_growth":-5.1,"mm_turn":13175,"insolv":48,"insolv_rate":4.64,"insolv_5y_change":154.9,"opportunity_score":-0.04,"risk_score":-0.3,"quadrant":"3. Maintain (low opp, low risk)"},{"division":"Health Care and Social Assistance","short":"Health Care","mm_emp":7784,"mm_emp_growth":6.5,"mm_turn":12337,"insolv":35,"insolv_rate":4.5,"insolv_5y_change":356.9,"opportunity_score":1.32,"risk_score":0.33,"quadrant":"2. Defend (high opp, high risk)"},{"division":"Professional, Scientific and Technical Services","short":"Prof. Services","mm_emp":7735,"mm_emp_growth":-0.3,"mm_turn":24191,"insolv":12,"insolv_rate":1.55,"insolv_5y_change":564.8,"opportunity_score":0.43,"risk_score":0.75,"quadrant":"2. Defend (high opp, high risk)"},{"division":"Manufacturing","short":"Manufacturing","mm_emp":7128,"mm_emp_growth":-1.7,"mm_turn":15913,"insolv":30,"insolv_rate":4.21,"insolv_5y_change":283.8,"opportunity_score":0.21,"risk_score":0.08,"quadrant":"2. Defend (high opp, high risk)"},{"division":"Retail Trade","short":"Retail","mm_emp":6548,"mm_emp_growth":-2.7,"mm_turn":27865,"insolv":21,"insolv_rate":3.21,"insolv_5y_change":103.9,"opportunity_score":0.04,"risk_score":-0.57,"quadrant":"1. Invest (high opp, low risk)"},{"division":"Construction","short":"Construction","mm_emp":6531,"mm_emp_growth":1.4,"mm_turn":40126,"insolv":69,"insolv_rate":10.56,"insolv_5y_change":147.7,"opportunity_score":0.57,"risk_score":0.15,"quadrant":"2. Defend (high opp, high risk)"},{"division":"Administrative and Support Services","short":"Admin & Support","mm_emp":5792,"mm_emp_growth":1.3,"mm_turn":9602,"insolv":58,"insolv_rate":10.01,"insolv_5y_change":279.7,"opportunity_score":0.49,"risk_score":0.52,"quadrant":"2. Defend (high opp, high risk)"},{"division":"Wholesale Trade","short":"Wholesale","mm_emp":4751,"mm_emp_growth":1.5,"mm_turn":19027,"insolv":9,"insolv_rate":1.89,"insolv_5y_change":90.0,"opportunity_score":0.42,"risk_score":-0.72,"quadrant":"1. Invest (high opp, low risk)"},{"division":"Education and Training","short":"Education","mm_emp":2714,"mm_emp_growth":3.0,"mm_turn":3089,"insolv":9,"insolv_rate":3.32,"insolv_5y_change":22.6,"opportunity_score":0.32,"risk_score":-0.82,"quadrant":"1. Invest (high opp, low risk)"},{"division":"Transport, Postal and Warehousing","short":"Transport","mm_emp":2487,"mm_emp_growth":-2.5,"mm_turn":8684,"insolv":21,"insolv_rate":8.44,"insolv_5y_change":190.3,"opportunity_score":-0.43,"risk_score":0.11,"quadrant":"4. Retreat (low opp, high risk)"},{"division":"Agriculture, Forestry and Fishing","short":"Agriculture","mm_emp":2209,"mm_emp_growth":-1.8,"mm_turn":13282,"insolv":7,"insolv_rate":3.17,"insolv_5y_change":112.0,"opportunity_score":-0.4,"risk_score":-0.55,"quadrant":"3. Maintain (low opp, low risk)"},{"division":"Rental, Hiring and Real Estate Services","short":"Real Estate","mm_emp":1952,"mm_emp_growth":3.2,"mm_turn":17460,"insolv":1,"insolv_rate":0.51,"insolv_5y_change":111.3,"opportunity_score":0.18,"risk_score":-0.76,"quadrant":"1. Invest (high opp, low risk)"},{"division":"Financial and Insurance Services","short":"Financial Svcs","mm_emp":1778,"mm_emp_growth":3.6,"mm_turn":12280,"insolv":6,"insolv_rate":3.37,"insolv_5y_change":103.1,"opportunity_score":0.18,"risk_score":-0.56,"quadrant":"1. Invest (high opp, low risk)"},{"division":"Other Services","short":"Other Services","mm_emp":1522,"mm_emp_growth":-2.8,"mm_turn":6725,"insolv":33,"insolv_rate":21.68,"insolv_5y_change":-6.9,"opportunity_score":-0.72,"risk_score":0.53,"quadrant":"4. Retreat (low opp, high risk)"},{"division":"Arts and Recreation Services","short":"Arts & Rec","mm_emp":1345,"mm_emp_growth":2.5,"mm_turn":1908,"insolv":5,"insolv_rate":3.72,"insolv_5y_change":331.9,"opportunity_score":-0.1,"risk_score":0.19,"quadrant":"4. Retreat (low opp, high risk)"},{"division":"Information Media and Telecommunications","short":"Info & Telco","mm_emp":844,"mm_emp_growth":0.8,"mm_turn":1986,"insolv":9,"insolv_rate":10.66,"insolv_5y_change":111.5,"opportunity_score":-0.56,"risk_score":0.04,"quadrant":"4. Retreat (low opp, high risk)"},{"division":"Mining","short":"Mining","mm_emp":611,"mm_emp_growth":-2.7,"mm_turn":1453,"insolv":7,"insolv_rate":11.46,"insolv_5y_change":67.9,"opportunity_score":-1.18,"risk_score":-0.03,"quadrant":"3. Maintain (low opp, low risk)"},{"division":"Public Administration and Safety","short":"Public Admin","mm_emp":588,"mm_emp_growth":-3.0,"mm_turn":957,"insolv":1,"insolv_rate":1.7,"insolv_5y_change":528.6,"opportunity_score":-1.24,"risk_score":0.65,"quadrant":"4. Retreat (low opp, high risk)"},{"division":"Electricity, Gas, Water and Waste Services","short":"Utilities","mm_emp":531,"mm_emp_growth":10.9,"mm_turn":1682,"insolv":12,"insolv_rate":22.6,"insolv_5y_change":103.4,"opportunity_score":0.51,"risk_score":0.95,"quadrant":"2. Defend (high opp, high risk)"}],"trend":{"years":["2015-2016","2016-2017","2017-2018","2018-2019","2019-2020","2020-2021","2021-2022","2022-2023","2023-2024","2024-2025"],"series":[{"industry":"Construction","data":[1964,1611,1642,1601,1741,953,919,1541,1952,2361]},{"industry":"Accom. & Food","data":[928,884,1064,1159,1198,623,657,835,1095,1588]},{"industry":"Other Services","data":[2889,2230,2150,2114,2100,1132,707,591,742,1054]},{"industry":"Retail","data":[768,596,592,617,522,330,264,364,467,673]},{"industry":"Admin & Support","data":[83,51,66,45,71,158,200,343,430,600]},{"industry":"Transport","data":[546,469,379,369,377,176,201,229,373,511]}]}};
+
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.target).classList.add('active');
+  });
+});
+
+function qColour(q) {
+  if (q.startsWith('1.')) return '#7B14EF';
+  if (q.startsWith('2.')) return '#FE02A7';
+  if (q.startsWith('3.')) return '#999999';
+  return '#444444';
+}
+
+const matrixData = DATA.industries.map(d => ({ x: d.mm_emp_growth, y: d.insolv_rate, r: Math.sqrt(d.mm_emp) / 6, meta: d, backgroundColor: qColour(d.quadrant) + 'AA', borderColor: '#000', borderWidth: 1 }));
+new Chart(document.getElementById('matrixChart').getContext('2d'), {
+  type: 'bubble',
+  data: { datasets: [{ label: 'Industry', data: matrixData, backgroundColor: matrixData.map(d => d.backgroundColor), borderColor: matrixData.map(d => d.borderColor), borderWidth: 1 }] },
+  options: {
+    responsive: true, maintainAspectRatio: false, layout: { padding: 12 },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          title: (items) => items[0].raw.meta.short,
+          label: (item) => {
+            const d = item.raw.meta;
+            return [ d.division, `Mid-market businesses: ${d.mm_emp.toLocaleString()} (${d.mm_emp_growth >= 0 ? '+' : ''}${d.mm_emp_growth}% YoY)`, `Mid-market insolvencies: ${d.insolv} (${d.insolv_rate}/1,000)`, `Quadrant: ${d.quadrant}` ];
+          }
+        }
+      }
+    },
+    scales: {
+      x: { title: { display: true, text: 'Mid-market growth, YoY (%) →  OPPORTUNITY', font: { weight: 'bold' } }, min: -7, max: 13, grid: { color: '#EEE' } },
+      y: { title: { display: true, text: 'Mid-market insolvency rate (per 1,000) →  RISK', font: { weight: 'bold' } }, min: -1, max: 25, grid: { color: '#EEE' } }
+    }
+  },
+  plugins: [{
+    id: 'quadrants',
+    beforeDraw: (chart) => {
+      const { ctx, chartArea, scales } = chart;
+      const xMid = scales.x.getPixelForValue(0);
+      const yMid = scales.y.getPixelForValue(4.5);
+      ctx.save();
+      ctx.fillStyle = 'rgba(123, 20, 239, 0.07)'; ctx.fillRect(xMid, yMid, chartArea.right - xMid, chartArea.bottom - yMid);
+      ctx.fillStyle = 'rgba(254, 2, 167, 0.07)'; ctx.fillRect(xMid, chartArea.top, chartArea.right - xMid, yMid - chartArea.top);
+      ctx.fillStyle = 'rgba(230, 224, 209, 0.4)'; ctx.fillRect(chartArea.left, yMid, xMid - chartArea.left, chartArea.bottom - yMid);
+      ctx.fillStyle = 'rgba(0,0,0,0.04)'; ctx.fillRect(chartArea.left, chartArea.top, xMid - chartArea.left, yMid - chartArea.top);
+      ctx.fillStyle = '#7B14EF'; ctx.font = 'bold 11px Arial'; ctx.textAlign = 'right';
+      ctx.fillText('DEFEND', chartArea.right - 8, chartArea.top + 16);
+      ctx.fillText('INVEST', chartArea.right - 8, chartArea.bottom - 8);
+      ctx.fillStyle = '#666'; ctx.textAlign = 'left';
+      ctx.fillText('RETREAT', chartArea.left + 8, chartArea.top + 16);
+      ctx.fillText('MAINTAIN', chartArea.left + 8, chartArea.bottom - 8);
+      ctx.fillStyle = '#000'; ctx.font = '10px Arial'; ctx.textAlign = 'left';
+      chart.data.datasets[0].data.forEach((pt) => {
+        const px = scales.x.getPixelForValue(pt.x);
+        const py = scales.y.getPixelForValue(pt.y);
+        ctx.fillText(pt.meta.short, px + pt.r + 4, py + 3);
+      });
+      ctx.restore();
+    }
+  }]
+});
+
+const trendColours = ['#7B14EF', '#FE02A7', '#C497FE', '#000000', '#666666', '#E6E0D1'];
+new Chart(document.getElementById('trendChart').getContext('2d'), {
+  type: 'line',
+  data: { labels: DATA.trend.years, datasets: DATA.trend.series.map((s, i) => ({ label: s.industry, data: s.data, borderColor: trendColours[i], backgroundColor: trendColours[i], borderWidth: 2.5, tension: 0.2, pointRadius: 4 })) },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top', labels: { font: { size: 11 } } }, tooltip: { mode: 'index', intersect: false } }, scales: { x: { title: { display: true, text: 'Financial year' }, grid: { display: false } }, y: { title: { display: true, text: 'Insolvencies (initial reports)' }, beginAtZero: true, grid: { color: '#EEE' } } } }
+});
+
+const tableData = DATA.industries.map(d => [ d.short, d.mm_emp, d.mm_emp_growth, d.mm_turn, d.insolv, d.insolv_rate, d.insolv_5y_change, d.quadrant.split(' (')[0] ]);
+new gridjs.Grid({
+  columns: [
+    { name: 'Industry', sort: true },
+    { name: 'MM businesses (FTE)', formatter: c => c.toLocaleString(), sort: true },
+    { name: 'YoY %', formatter: c => (c >= 0 ? '+' : '') + c + '%', sort: true },
+    { name: 'MM businesses ($2m+)', formatter: c => c.toLocaleString(), sort: true },
+    { name: 'Insolvencies', sort: true },
+    { name: 'Insolv./1k', sort: true },
+    { name: '5y insolv Δ%', formatter: c => c == null ? '—' : (c >= 0 ? '+' : '') + c + '%', sort: true },
+    { name: 'Quadrant', formatter: c => { const cls = c.startsWith('1.') ? 'quad-1' : c.startsWith('2.') ? 'quad-2' : c.startsWith('3.') ? 'quad-3' : 'quad-4'; return gridjs.html(`<span class="${cls}">${c}</span>`); }, sort: true }
+  ],
+  data: tableData, sort: true, search: true, pagination: false, resizable: true
+}).render(document.getElementById('industryTable'));
+</script>
+</body>
+</html>
