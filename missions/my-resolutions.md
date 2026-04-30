@@ -7,8 +7,8 @@
 
 | Mission | Deadline Met? |
 |---------|:---:|
-| Day 0: Setup | [ ] |
-| Weekend 1: Resolution Tracker | [ ] |
+| Day 0: Setup | [x] |
+| Weekend 1: Resolution Tracker | [x] |
 | Weekend 2: Model Topography | [x] |
 | Weekend 3: Deep Research Brief | [ ] |
 | Weekend 4: Data Analysis Memo | [ ] |
