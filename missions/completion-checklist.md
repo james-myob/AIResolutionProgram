@@ -1,8 +1,8 @@
 # The AI Resolution Scorecard — 10 Weekends
 
 ## Foundation
-- [ ] Day 0: Setup Complete — Folders, accounts, rubric saved
-- [ ] Weekend 1: Resolution Tracker — Built, live, and logged
+- [x] Day 0: Setup Complete — Folders, accounts, rubric saved
+- [x] Weekend 1: Resolution Tracker — Built, live, and logged
 - [x] Weekend 2: Model Topography — Topography Sheet + Rules of Thumb
 
 ## Core Projects
