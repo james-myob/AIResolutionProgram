@@ -74,6 +74,21 @@ A daily AI briefing — a digestible, opinionated, source-linked newsletter that
 - Concepts are indexed (see §10) so the reader can search the archive for "first mention of X".
 - Threshold: only flag concepts that (a) name something genuinely new or (b) reframe something existing in a way that's catching on. Don't flag every neologism.
 
+### F10. Weekly Recap (Friday EOD)
+- **Trigger:** Friday after the day's daily briefing has shipped.
+- **Input:** that week's 5 daily briefings (Mon-Fri).
+- **Output 1 — `weekly/YYYY-Www.md`:** Auto-generated week-in-review Markdown. Sections: top stories (ranked across the week), themes that recurred, every new concept introduced, deep-dive picks that surfaced, things to watch next week. ~800-1200 words.
+- **Output 2 — NotebookLM audio overview:** ~10 minute AI-podcast-style audio overview. **Best for weekend listening on a commute or run.**
+- **Output 3 — NotebookLM FAQ + glossary** (free byproduct of Output 2).
+- **Delivery:** Weekly Markdown committed to repo + emailed Friday afternoon. Audio file linked from the weekly Markdown once generated.
+
+### F11. Monthly Trend Pack (last weekday of month)
+- **Trigger:** Last weekday of the calendar month.
+- **Input:** that month's daily + weekly outputs.
+- **Output 1 — `monthly/YYYY-MM.md`:** Auto-generated month-in-review Markdown. Sections: month at a glance, top 10 stories, trend lines (which entities/themes accelerated), concept timeline (what entered the vocabulary this month), mid-market roundup (`lens:mid-market` items consolidated), deep dives consumed vs. backlog, "what to watch next month". ~1500-2500 words.
+- **Output 2 — Presentation deck (8-12 slides):** Generated from the monthly Markdown. Use this for the team AI share session (Resolution 4) or for stakeholder briefings.
+- **Delivery:** Monthly Markdown committed + emailed. Deck link committed alongside.
+
 ### F4. Categorisation & indexing
 - Consistent taxonomy (see §5).
 - Tag each item with: category, entities (companies/models/people), and themes.
@@ -265,6 +280,28 @@ Human reviews PR → merge → done
 
 ---
 
+## 7a. Automation Reality — What's Actually Hands-Off
+
+API status verified May 2026. This table is the honest answer to *"can we just automate the whole thing?"*
+
+| Output | API available? | Tier 1 (manual) | Tier 2 (recommended) | Tier 3 (fully hands-off) |
+|---|---|---|---|---|
+| **Daily Markdown** (F1-F9) | ✅ Claude API | Paste raw items into Claude.ai | n8n/Make.com pulls RSS → Claude API → repo commit | Vercel cron → Claude API → repo commit + Resend email |
+| **Weekly Markdown** (F10) | ✅ Claude API | Paste week's 5 dailies into Claude.ai | Friday cron summarises this week's files | Same as Tier 2 |
+| **Weekly audio** (F10) | ⚠️ Limited | Paste weekly Markdown into NotebookLM, click "generate audio" (~2 min) | Same — pipeline emails the corpus + a one-click NotebookLM link Friday at 4pm | NotebookLM Enterprise API (requires GCP Enterprise + NotebookLM Enterprise subscription, ~$$$) OR unofficial `notebooklm-py` (works but unofficial, may break) |
+| **Monthly Markdown** (F11) | ✅ Claude API | Paste month into Claude.ai | Month-end cron summarises the month | Same as Tier 2 |
+| **Monthly deck** (F11) | ✅ Gamma API | Paste monthly Markdown into Gamma.app | Same | Gamma API call (`https://public-api.gamma.app/v1.0/`, GA since Nov 2025, requires Pro+ plan). Returns deck URL + PPTX export. **Fully automatable.** |
+| **Monthly deck (alternative)** | ✅ Claude API | n/a | n/a | Claude API generates HTML/Reveal.js deck via Artifacts-style output. No third-party dep, fully automatable, less polished than Gamma but no extra subscription. |
+
+**Recommended automation path for this project:**
+- **Daily + Weekly Markdown + Monthly Markdown:** Tier 3 (Vercel cron + Claude API). All three are purely text — fully hands-off.
+- **Weekly audio:** Tier 2. NotebookLM consumer audio overview has no official API; semi-manual is the honest answer until Google ships one. The 2-min paste step is acceptable given the weekly cadence.
+- **Monthly deck:** Tier 3 via Gamma API if you have/upgrade to Pro plan ($16/mo at time of writing); otherwise Claude-API HTML deck. **Recommend Gamma — the polish is worth $16/mo for stakeholder-facing decks.**
+
+This means the weekly audio is the only step that ever requires you. Every other output lands in your inbox already done.
+
+---
+
 ## 8. Prompts (v1 outline — to live in `prompts/`)
 
 Three prompt files form the contract between sources and output:
@@ -295,12 +332,13 @@ Full curated list with URLs, RSS availability, cadence, and signal-to-noise rati
 
 ## 10. Indexing & Search
 
-Four derived indexes maintained alongside daily output:
+Five derived indexes maintained alongside daily output:
 
 - **`index/by-category.md`** — Reverse-chronological list per category. Lets you ask "what happened in Policy & Regulation this quarter?"
 - **`index/by-entity.md`** — Items grouped by company/model/topic tag. Lets you ask "what's the rolling story on Anthropic this year?"
 - **`index/by-concept.md`** — Each concept tag with its first-mention date, plain-English explainer, and every subsequent appearance. Lets you ask "when did 'Harness as a Service' first show up, and how has the conversation around it evolved?"
 - **`index/deep-dive-picks.md`** — Reverse-chronological list of every Deep Dive Pick, with format, runtime/length, and the "why it's worth your time" line. Lets you build a backlog or revisit picks you missed.
+- **`index/recaps.md`** — Reverse-chronological list of weekly (`weekly/YYYY-Www.md`) and monthly (`monthly/YYYY-MM.md`) recaps, with audio/deck links. Single hub for the long-form views.
 
 All four are regenerated each run from the front-matter of daily files (so they're always in sync, no manual upkeep).
 
@@ -344,14 +382,14 @@ Per the mission brief — *"You can brief someone on the material in under 7 min
 
 Deliverables for this weekend:
 
-- [ ] `design.md` — this document.
-- [ ] `sources.md` — curated, tiered source list with RSS URLs.
-- [ ] `taxonomy.md` — formal category + tag definitions.
-- [ ] `prompts/editor-system.md`, `prompts/daily-digest.md`, `prompts/categorisation.md`.
-- [ ] `workflow.md` — step-by-step runbook for Tier 1.
-- [ ] `daily/<sample-date>.md` — one real pilot newsletter to prove the pipeline.
-- [ ] **Gamma deck** (8-12 slides) explaining the pipeline + showcasing a sample day's output. Saved into the repo (PDF/link).
-- [ ] **NotebookLM audio overview** of the sample newsletter — saved/linked from `README.md`.
+- [x] `design.md` — this document.
+- [x] `sources.md` — curated, tiered source list with RSS URLs.
+- [ ] `taxonomy.md` — formal category + tag definitions (can also live as §5 here; promote to its own file only if it grows).
+- [ ] `prompts/editor-system.md`, `prompts/daily-digest.md`, `prompts/categorisation.md`, `prompts/weekly-recap.md`, `prompts/monthly-recap.md`.
+- [ ] `workflow.md` — step-by-step runbook for Tier 1, including the weekly NotebookLM paste step and monthly Gamma paste step (or API call).
+- [ ] `daily/2026-05-20.md` — pilot daily briefing (per §15 decision 3).
+- [ ] **Gamma deck** (8-12 slides) generated from the 20 May pilot briefing — proves the monthly-deck flow.
+- [ ] **NotebookLM audio overview** generated from the 20 May pilot briefing — proves the weekly-audio flow.
 - [ ] Time the pilot run end-to-end; record in `workflow.md`.
 
 ---
@@ -367,9 +405,19 @@ This means Mission 6 effort is not throwaway — every artifact (sources list, t
 
 ---
 
-## 15. Open Questions (need your input before implementation)
+## 15. Decisions (locked)
 
-1. **Delivery channel:** Daily commit to repo only? Or also email-to-self via Resend / forward to a dedicated Gmail label?
-2. **Cadence:** True daily (Mon-Fri), or 3x/week (Mon/Wed/Fri)? Daily is more work but builds a tighter habit.
-3. **Pilot corpus:** Use *yesterday's* (20 May 2026) news as the live pilot, or a "synthetic" recent week to derisk?
-4. **NotebookLM/Gamma output:** Do you want the deck/audio about *the pipeline itself* (meta — fits "brief someone in 7 min") or about *a sample day's news* (object-level)? I'd lean meta for Mission 6's Done When.
+| # | Decision | Resolution |
+|---|---|---|
+| 1 | Delivery channel | **Commit to repo + email.** Email address TBC — placeholder until confirmed. |
+| 2 | Cadence | **Weekdays only (Mon-Fri).** Monday edition is a "weekend special" that covers anything newsworthy from Sat-Sun. |
+| 3 | Pilot corpus | **20 May 2026 news** as the live pilot for daily Markdown + NotebookLM audio + Gamma deck. |
+| 4 | NotebookLM/Gamma scope | NotebookLM and Gamma are run on the **daily/weekly/monthly briefing Markdown** as their corpus — not on the pipeline design itself. Mission 6 deliverables = audio + deck generated from the 20 May pilot briefing. |
+| 5 | Weekly recap (added) | Every Friday EOD: auto-generate `weekly/YYYY-Www.md` + paste into NotebookLM for ~10-min audio overview. Emailed Friday afternoon. |
+| 6 | Monthly recap (added) | Last weekday of month: auto-generate `monthly/YYYY-MM.md` + auto-generate 8-12 slide Gamma deck (via Gamma API, Pro plan required). |
+| 7 | Automation tier per output | See §7a matrix. Net effect: only the weekly NotebookLM audio step requires human action (~2 min/week, paste). Everything else fully hands-off. |
+
+### Outstanding (small)
+
+- Confirm email address for daily/weekly/monthly delivery.
+- Confirm willingness to use a Gamma Pro plan ($16/mo) for the fully-automated monthly deck — if not, fall back to Claude-API-generated HTML deck.
