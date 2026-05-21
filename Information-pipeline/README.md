@@ -45,12 +45,14 @@ All outputs commit to this repo + email to `james.peck@myob.com`.
 
 ## Status (as of 2026-05-21)
 
+**Mission 6: ✅ Complete.**
+
 - ✅ Design + sources + taxonomy
 - ✅ Five prompts written
 - ✅ Workflow runbook
-- ✅ Pilot daily briefing for 2026-05-20 (Google I/O cluster + Anthropic momentum cluster, 12 items)
-- ⏳ Pending manual step: paste 2026-05-20 briefing into NotebookLM → audio overview
-- ⏳ Pending manual step: paste 2026-05-20 briefing into claude.ai/design → 8-12 slide deck (Mission 6 "brief in 7 min" deliverable)
+- ✅ Pilot daily briefing for 2026-05-20 (Google I/O cluster + Anthropic momentum cluster, 12 items) — [`daily/2026-05-20.md`](daily/2026-05-20.md)
+- ✅ NotebookLM audio overview generated — [listen](https://notebooklm.google.com/notebook/44d248ef-e5ef-4e1f-804c-6d2ae9371bdc/artifact/6d53661a-d510-4b74-a183-ab1a53375391)
+- ✅ Claude Design 8-12 slide deck generated — [open deck](https://claude.ai/design/p/5e2621ff-b5b2-4806-9dd7-c036e60e1176?file=design%2FDaily+AI+Briefing+-+20+May+2026.html&via=share)
 - ⏳ Mission 7: automate the daily/weekly/monthly Markdown generation via Claude API + cron
 
 ## Mission 7 path
