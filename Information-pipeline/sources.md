@@ -99,6 +99,35 @@ Format key: ✅ = RSS available · 📧 = email-only (use Kill-the-Newsletter or
 
 ---
 
+## Tier 6 — Concept Seeders (long-tail individual essayists)
+**Trust:** Variable, but high signal when they post. **Weight:** 0.6
+**Why this tier exists:** Emerging concepts (per design.md §3 F9 and §5 `concept:` tag namespace) often originate on personal blogs before reaching the established newsletters. The editor is instructed to weight novelty and concept-naming from these sources, not breaking-news velocity.
+
+| Source | URL | RSS | Cadence | Signal |
+|---|---|---|---|---|
+| V. Trivedy | https://www.vtrivedy.com/posts | ✅ (check `/feed` or `/rss.xml`) | Sporadic | High when posting |
+| Eugene Yan | https://eugeneyan.com | ✅ `/rss/` | Monthly-ish | High |
+| Hamel Husain | https://hamel.dev | ✅ `/index.xml` | Sporadic | High |
+| Chip Huyen | https://huyenchip.com | ✅ `/feed.xml` | Sporadic | High |
+| Eliezer Yudkowsky / LessWrong (AI tag) | https://www.lesswrong.com/tag/ai | ✅ `https://www.lesswrong.com/feed.xml?view=tagId&tagId=sWcuTyTB5dP3nas2t` | Continuous | Med (filter needed) |
+
+---
+
+## Deep Dive Pick Sources
+**Why this section exists:** Per design.md §3 F8, Deep Dive Picks (long-form videos / podcasts / essays) need a checklist of where to look — they don't all show up via RSS.
+
+- **Sequoia AI Ascent** — annual; published on Sequoia YouTube + sequoiacap.com/stories each year (the 2026 keynote at https://www.youtube.com/watch?v=96jN2OCOfLs is the canonical example).
+- **a16z Podcast / YouTube** — https://a16z.com/podcasts/ — long-form interviews with founders/researchers.
+- **No Priors (Sarah Guo + Elad Gil)** — https://www.no-priors.com — weekly podcast, frontier AI focus.
+- **Latent Space podcast** — https://www.latent.space — practitioner-oriented long-form.
+- **Dwarkesh Patel podcast** — https://www.dwarkesh.com/podcast — deep technical/strategic interviews; the Anthropic/OpenAI leadership episodes are usually pick-worthy.
+- **Lex Fridman (AI episodes only)** — selective; only when guest is genuinely on the frontier.
+- **Ted/conference talks** — TED AI, NeurIPS keynotes, ICML keynotes — surfaced via YouTube when uploaded.
+
+The editor scans these on Mondays and Thursdays for new long-form content.
+
+---
+
 ## Starter Set — If You Can Only Load 10
 
 For a leaner pilot, this 10-source set covers ~80% of the signal:

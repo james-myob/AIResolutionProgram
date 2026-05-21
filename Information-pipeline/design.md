@@ -3,7 +3,7 @@
 **Mission:** Weekend 6 — The Information Pipeline
 **Owner:** James Peck
 **Status:** Draft v1 (design only — sources list pending research agent return)
-**Last updated:** 2026-05-21
+**Last updated:** 2026-05-21 (v1.1 — added deep-dive picks, concept tracking, mid-market lens)
 
 ---
 
@@ -24,15 +24,20 @@ A daily AI briefing — a digestible, opinionated, source-linked newsletter that
 
 ## 2. Target Reader Profile
 
-- **Role:** Product Manager / Product Lead in a tech company.
+- **Role:** Product Manager / Product Lead in a tech company serving the **mid-market segment**.
 - **Technical depth:** Comfortable with technical concepts, but not reading arXiv. Wants to understand "what does this mean for products and users" not "what's the architecture".
-- **Time budget:** 5 minutes weekday morning, ~10 minutes weekly catch-up.
+- **Time budget:** 5 minutes weekday morning, ~10 minutes weekly catch-up — plus a separate, deliberate slot (commute / gym / evening) for 1-3 deeper reads or videos per day.
 - **Reading context:** Phone or laptop, often before standup.
+- **Two lenses, applied per item:**
+  1. **PM lens** — what does this change about how products get built, scoped, or shipped?
+  2. **Mid-market lens** — what does this mean for software/AI products serving mid-sized businesses (typically 50-1,000 employees)? Captures pricing, packaging, SMB/mid-market launches by labs, vertical agents, compliance, channel partner dynamics. The 2026 Anthropic "Claude for Small Business" plugin launch is the canonical example — high PM signal *and* high mid-market signal.
 - **What they need to know:**
   - Big announcements (models, products, M&A, regulation).
   - PM-applicable thinking — frameworks, case studies, how teams are using AI.
   - Macro signals — funding, market shifts, strategy essays.
+  - Mid-market-relevant moves — SMB/mid-market product launches, vertical AI, pricing/packaging shifts.
   - Just enough technical context to hold a conversation in eng-product syncs.
+  - **Emerging concepts and vocabulary** — new terms entering the discourse (e.g. "Harness as a Service", "agentic eval", "context engineering") with a short explainer so the reader can recognise them next time.
 
 ---
 
@@ -51,9 +56,23 @@ A daily AI briefing — a digestible, opinionated, source-linked newsletter that
 
 ### F3. Distillation
 - 2–3 sentence digest per item, plain English.
-- Always include **"Why it matters for a PM"** sentence — the single biggest differentiator from generic AI newsletters.
+- Always include **"Why it matters"** — one PM-lens sentence by default, plus a second **mid-market lens** sentence when the item has specific mid-market relevance (tag `lens:mid-market`).
 - Always link to the original source(s).
 - No hype language — neutral, calibrated tone.
+
+### F8. Deep Dive Picks
+- Surface **1-3 long-form items per day** that don't fit the 2-3 sentence digest format but reward a 20-60 min investment: keynote videos, podcast episodes, essays >2,000 words, talks, research breakdowns.
+- Example: on the day Sequoia publishes AI Ascent, the keynote video belongs here, not as a Quick Hit.
+- Each pick has: title, format (video / podcast / essay / talk), runtime or word count, source, **why it's worth your time** (one sentence), and the link.
+- Picks can be from earlier than the 24h window if they just surfaced or just became newsworthy.
+- This section is intentionally selective — if nothing meets the bar on a given day, ship fewer (or zero) rather than padding.
+
+### F9. Emerging Concept Tracking
+- The editor flags any **new term, framing, or concept** that appears in source material and is likely to enter wider discourse.
+- Example: "Harness as a Service" from vtrivedy.com on agent infrastructure — exactly the kind of term a PM will hear in a meeting next week and need to recognise.
+- Each concept gets a short standalone entry: term, one-paragraph plain-English explainer, origin/source link, and a `concept:` tag.
+- Concepts are indexed (see §10) so the reader can search the archive for "first mention of X".
+- Threshold: only flag concepts that (a) name something genuinely new or (b) reframe something existing in a way that's catching on. Don't flag every neologism.
 
 ### F4. Categorisation & indexing
 - Consistent taxonomy (see §5).
@@ -109,6 +128,8 @@ These are the **only** top-level categories. Stability matters — historical se
 ### Tag schema
 - **Entities:** `entity:openai`, `entity:anthropic`, `entity:gpt-5.3`, `entity:eu-ai-act`, etc. (lowercase, kebab-case).
 - **Themes:** `theme:agents`, `theme:safety`, `theme:enterprise`, `theme:multimodal`, `theme:eval`, etc.
+- **Concepts:** `concept:harness-as-a-service`, `concept:context-engineering`, `concept:agentic-eval`, etc. — for emerging terminology (F9). One tag per concept; reused on every future mention so the archive shows the concept's trajectory.
+- **Lens:** `lens:pm` (default, implicit) and `lens:mid-market` (added when item carries specific mid-market relevance). Drives whether the "Why it matters (mid-market)" line is generated.
 - **Source-tier:** `tier:lab-official`, `tier:newsletter`, `tier:vc`, `tier:analyst`, `tier:community`.
 
 ---
@@ -122,26 +143,55 @@ Each `daily/YYYY-MM-DD.md` follows this shape:
 date: 2026-05-21
 read_time_min: 4
 items: 12
-top_entities: [anthropic, openai, eu-ai-act]
-categories_covered: [models, products, policy, industry]
+deep_dive_picks: 2
+new_concepts: 1
+top_entities: [anthropic, sequoia, eu-ai-act]
+categories_covered: [models, products, business, industry]
+lenses: [pm, mid-market]
+concepts_introduced: [harness-as-a-service]
 sources_scanned: 32
 ---
 
 # Daily AI Briefing — Thu 21 May 2026
 
 ## TL;DR
-- [One-line] Anthropic ships X; matters because…
+- [One-line] Anthropic ships Claude for Small Business; matters because…
 - [One-line] EU finalises Y; matters because…
 - [One-line] $Nb funding into Z; matters because…
 
 ## 🧠 Models & Capabilities
 ### Anthropic releases Claude Opus 4.8 with native video
 2-3 sentence distilled summary in plain English.
-**Why it matters for a PM:** One sentence on product implications.
+**Why it matters (PM):** One sentence on product implications.
 **Sources:** [Anthropic](url) · [The Neuron](url) · [Stratechery](url)
 **Tags:** `entity:anthropic` `entity:claude-opus-4-8` `theme:multimodal`
 
+## 📦 Products & Tooling
+### Anthropic launches Claude for Small Business plugin
+2-3 sentence distilled summary in plain English.
+**Why it matters (PM):** Shows labs are now shipping vertical packaging, not just horizontal APIs — pricing/onboarding becomes the product surface.
+**Why it matters (mid-market):** First major lab offering a packaged SMB tier with built-in templates — sets the expected baseline for mid-market AI plays and likely forces competitive responses from Microsoft Copilot and Google Workspace AI.
+**Sources:** [Anthropic](https://claude.com/plugins/small-business) · [The Neuron](url)
+**Tags:** `entity:anthropic` `theme:packaging` `lens:mid-market`
+
 […repeat per item, grouped by category…]
+
+## 🎓 Deep Dive Picks (1-3)
+Long-form items worth a dedicated slot in your day.
+
+### 📺 Sequoia AI Ascent 2026 keynote
+**Format:** Video · **Runtime:** 47 min · **Source:** [YouTube](https://www.youtube.com/watch?v=96jN2OCOfLs)
+**Why it's worth your time:** Sequoia's annual state-of-AI map; the framings here (market structure, agent economics, where moats actually sit) tend to become shared vocabulary across the industry for the following 6 months.
+
+### 📝 The Anatomy of an Agent Harness — V. Trivedy
+**Format:** Essay · **~3,200 words · **Source:** [vtrivedy.com](https://www.vtrivedy.com/posts/the-anatomy-of-an-agent-harness)
+**Why it's worth your time:** Introduces the "Harness as a Service" framing for agent infrastructure — useful mental model for evaluating any agent-platform pitch you'll see this quarter.
+
+## 📒 New Concepts
+### Harness as a Service (HaaS)
+**Plain English:** The runtime layer that wraps an LLM with tools, memory, permissions, and loop control — the thing that turns a model into an agent. Vendors are starting to sell the harness as a product separate from the model itself, the way infra companies sold orchestration separate from compute.
+**Origin:** [V. Trivedy — The Anatomy of an Agent Harness](https://www.vtrivedy.com/posts/the-anatomy-of-an-agent-harness)
+**Tag:** `concept:harness-as-a-service`
 
 ## ⚡ Quick Hits
 - Mistral open-sources X — [link]
@@ -245,14 +295,16 @@ Full curated list with URLs, RSS availability, cadence, and signal-to-noise rati
 
 ## 10. Indexing & Search
 
-Two derived indexes maintained alongside daily output:
+Four derived indexes maintained alongside daily output:
 
 - **`index/by-category.md`** — Reverse-chronological list per category. Lets you ask "what happened in Policy & Regulation this quarter?"
 - **`index/by-entity.md`** — Items grouped by company/model/topic tag. Lets you ask "what's the rolling story on Anthropic this year?"
+- **`index/by-concept.md`** — Each concept tag with its first-mention date, plain-English explainer, and every subsequent appearance. Lets you ask "when did 'Harness as a Service' first show up, and how has the conversation around it evolved?"
+- **`index/deep-dive-picks.md`** — Reverse-chronological list of every Deep Dive Pick, with format, runtime/length, and the "why it's worth your time" line. Lets you build a backlog or revisit picks you missed.
 
-Both regenerated each run from the front-matter of daily files (so they're always in sync, no manual upkeep).
+All four are regenerated each run from the front-matter of daily files (so they're always in sync, no manual upkeep).
 
-For v1, both indexes are plain Markdown. Future option: a small Next.js page in the existing tracker app that reads the Markdown and offers full-text search.
+For v1, all indexes are plain Markdown. Future option: a small Next.js page in the existing tracker app that reads the Markdown and offers full-text search.
 
 ---
 
@@ -261,12 +313,15 @@ For v1, both indexes are plain Markdown. Future option: a small Next.js page in 
 A briefing is acceptable if:
 
 1. ✅ Every item has a source link.
-2. ✅ Every item answers "why it matters for a PM" in one sentence.
+2. ✅ Every item answers "why it matters (PM)" in one sentence; mid-market lens added when `lens:mid-market` applies.
 3. ✅ Tone is neutral — no "game-changing", "revolutionary", "mind-blowing".
-4. ✅ Total read time ≤ 5 minutes.
+4. ✅ Total read time ≤ 5 minutes (Deep Dive Picks excluded — they're opt-in).
 5. ✅ At least one item from a T1 lab source (if there was T1-newsworthy activity).
 6. ✅ No invented facts — anything I can't verify against a source gets dropped.
 7. ✅ Categories are stable — same names every day, no ad-hoc one-offs.
+8. ✅ Deep Dive Picks: between 0 and 3, never more. Each justified in one "why it's worth your time" sentence. If nothing meets the bar, omit the section — don't pad.
+9. ✅ New Concepts: only flagged when the term is genuinely new or being repositioned. Each comes with a plain-English explainer a non-engineer can repeat.
+10. ✅ Mid-market lens: applied whenever the item touches SMB/mid-market packaging, pricing, vertical AI, or compliance/channel dynamics — not only when a source explicitly says "mid-market".
 
 ---
 
