@@ -76,6 +76,19 @@ def parse_front_matter(content: str) -> tuple[dict[str, str], str]:
 
 
 def build_subject(fm: dict[str, str], file_path: Path) -> str:
+    """Build a subject line that reflects the briefing cadence.
+
+    Cadence inferred from front-matter fields:
+      - `month:` → "Monthly AI Briefing — <Month YYYY>"
+      - `week:` → "Weekly AI Briefing — <range>"
+      - `date:` (default) → "Daily AI Briefing — <Day DD Mon YYYY>"
+    """
+    if fm.get("month"):
+        label = fm.get("month_friendly") or fm["month"]
+        return f"Monthly AI Briefing — {label}"
+    if fm.get("week"):
+        label = fm.get("range") or fm["week"]
+        return f"Weekly AI Briefing — {label}"
     date = fm.get("date") or file_path.stem
     try:
         from datetime import datetime
