@@ -14,6 +14,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-05-21
+- Anthropic acquires Stainless — SDK and MCP tooling comes in-house — [briefing](../daily/2026-05-21.md)
+
 ### 2026-05-20
 - Gemini Spark — a 24/7 persistent agent assistant — [briefing](../daily/2026-05-20.md)
 - WebMCP enters Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
@@ -22,6 +25,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-21
+- Hark raises $700M Series A at $6B — AI hardware from the Figure AI founder — [briefing](../daily/2026-05-21.md)
 
 ### 2026-05-20
 - Anthropic: first profitable quarter incoming AND $45B compute commitment to xAI — [briefing](../daily/2026-05-20.md)
@@ -33,11 +39,16 @@
 
 ## 🔬 Research & Papers
 
-_(no entries yet)_
+### 2026-05-21
+- Google DeepMind Co-Scientist: multi-agent hypothesis generation published in Nature — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-05-21
+- Trump postpones AI security executive order — "I don't want to get in the way" — [briefing](../daily/2026-05-21.md)
+- Anthropic briefing G20 financial regulators on Claude Mythos cyber discoveries — [briefing](../daily/2026-05-21.md)
 
 ### 2026-05-20
 - OpenAI joins C2PA, embeds SynthID watermarks in ChatGPT/Codex outputs — [briefing](../daily/2026-05-20.md)
@@ -52,6 +63,9 @@ _(no entries yet)_
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-05-21
+- Simon Willison ships Datasette Agent — natural language over any SQLite database — [briefing](../daily/2026-05-21.md)
 
 ### 2026-05-20
 - Simon Willison ships a tokens-per-second visualiser — [briefing](../daily/2026-05-20.md)
