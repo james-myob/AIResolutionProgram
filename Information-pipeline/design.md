@@ -86,8 +86,8 @@ A daily AI briefing — a digestible, opinionated, source-linked newsletter that
 - **Trigger:** Last weekday of the calendar month.
 - **Input:** that month's daily + weekly outputs.
 - **Output 1 — `monthly/YYYY-MM.md`:** Auto-generated month-in-review Markdown. Sections: month at a glance, top 10 stories, trend lines (which entities/themes accelerated), concept timeline (what entered the vocabulary this month), mid-market roundup (`lens:mid-market` items consolidated), deep dives consumed vs. backlog, "what to watch next month". ~1500-2500 words.
-- **Output 2 — Presentation deck (8-12 slides):** Generated from the monthly Markdown. Use this for the team AI share session (Resolution 4) or for stakeholder briefings.
-- **Delivery:** Monthly Markdown committed + emailed. Deck link committed alongside.
+- **Output 2 — Presentation deck (8-12 slides):** Generated from the monthly Markdown via [claude.ai/design](https://claude.ai/design). Export as PPTX/PDF. Use this for the team AI share session (Resolution 4) or for stakeholder briefings.
+- **Delivery:** Monthly Markdown committed + emailed. Deck PPTX/PDF committed under `monthly/decks/YYYY-MM.pptx` (or link if hosted in Claude Design).
 
 ### F4. Categorisation & indexing
 - Consistent taxonomy (see §5).
@@ -290,15 +290,14 @@ API status verified May 2026. This table is the honest answer to *"can we just a
 | **Weekly Markdown** (F10) | ✅ Claude API | Paste week's 5 dailies into Claude.ai | Friday cron summarises this week's files | Same as Tier 2 |
 | **Weekly audio** (F10) | ⚠️ Limited | Paste weekly Markdown into NotebookLM, click "generate audio" (~2 min) | Same — pipeline emails the corpus + a one-click NotebookLM link Friday at 4pm | NotebookLM Enterprise API (requires GCP Enterprise + NotebookLM Enterprise subscription, ~$$$) OR unofficial `notebooklm-py` (works but unofficial, may break) |
 | **Monthly Markdown** (F11) | ✅ Claude API | Paste month into Claude.ai | Month-end cron summarises the month | Same as Tier 2 |
-| **Monthly deck** (F11) | ✅ Gamma API | Paste monthly Markdown into Gamma.app | Same | Gamma API call (`https://public-api.gamma.app/v1.0/`, GA since Nov 2025, requires Pro+ plan). Returns deck URL + PPTX export. **Fully automatable.** |
-| **Monthly deck (alternative)** | ✅ Claude API | n/a | n/a | Claude API generates HTML/Reveal.js deck via Artifacts-style output. No third-party dep, fully automatable, less polished than Gamma but no extra subscription. |
+| **Monthly deck** (F11) | ⚠️ UI only | Paste monthly Markdown into [claude.ai/design](https://claude.ai/design), click generate, export PPTX/PDF (~5 min) | Same — pipeline emails the corpus + one-click link on the last weekday of the month | No public Claude Design API yet (research preview as of April 2026). Fallback for true zero-touch: Claude API generates standalone HTML/Reveal.js deck — less polished than Claude Design but no manual step. |
 
 **Recommended automation path for this project:**
 - **Daily + Weekly Markdown + Monthly Markdown:** Tier 3 (Vercel cron + Claude API). All three are purely text — fully hands-off.
 - **Weekly audio:** Tier 2. NotebookLM consumer audio overview has no official API; semi-manual is the honest answer until Google ships one. The 2-min paste step is acceptable given the weekly cadence.
-- **Monthly deck:** Tier 3 via Gamma API if you have/upgrade to Pro plan ($16/mo at time of writing); otherwise Claude-API HTML deck. **Recommend Gamma — the polish is worth $16/mo for stakeholder-facing decks.**
+- **Monthly deck:** Tier 2 via [claude.ai/design](https://claude.ai/design). No extra subscription beyond existing Claude Pro/Max. ~5-min paste step once a month is acceptable for a stakeholder-facing artifact, and the output quality is closer to Gamma than the raw-HTML fallback.
 
-This means the weekly audio is the only step that ever requires you. Every other output lands in your inbox already done.
+This means the **two manual steps in the entire pipeline are ~2 min/week (NotebookLM audio) and ~5 min/month (Claude Design deck)** — total ~13 min of human time per month. Every other output lands in your inbox already done.
 
 ---
 
@@ -388,7 +387,7 @@ Deliverables for this weekend:
 - [ ] `prompts/editor-system.md`, `prompts/daily-digest.md`, `prompts/categorisation.md`, `prompts/weekly-recap.md`, `prompts/monthly-recap.md`.
 - [ ] `workflow.md` — step-by-step runbook for Tier 1, including the weekly NotebookLM paste step and monthly Gamma paste step (or API call).
 - [ ] `daily/2026-05-20.md` — pilot daily briefing (per §15 decision 3).
-- [ ] **Gamma deck** (8-12 slides) generated from the 20 May pilot briefing — proves the monthly-deck flow.
+- [ ] **claude.ai/design deck** (8-12 slides) generated from the 20 May pilot briefing — proves the monthly-deck flow.
 - [ ] **NotebookLM audio overview** generated from the 20 May pilot briefing — proves the weekly-audio flow.
 - [ ] Time the pilot run end-to-end; record in `workflow.md`.
 
@@ -409,15 +408,10 @@ This means Mission 6 effort is not throwaway — every artifact (sources list, t
 
 | # | Decision | Resolution |
 |---|---|---|
-| 1 | Delivery channel | **Commit to repo + email.** Email address TBC — placeholder until confirmed. |
+| 1 | Delivery channel | **Commit to repo + email to `james.peck@myob.com`.** |
 | 2 | Cadence | **Weekdays only (Mon-Fri).** Monday edition is a "weekend special" that covers anything newsworthy from Sat-Sun. |
-| 3 | Pilot corpus | **20 May 2026 news** as the live pilot for daily Markdown + NotebookLM audio + Gamma deck. |
-| 4 | NotebookLM/Gamma scope | NotebookLM and Gamma are run on the **daily/weekly/monthly briefing Markdown** as their corpus — not on the pipeline design itself. Mission 6 deliverables = audio + deck generated from the 20 May pilot briefing. |
-| 5 | Weekly recap (added) | Every Friday EOD: auto-generate `weekly/YYYY-Www.md` + paste into NotebookLM for ~10-min audio overview. Emailed Friday afternoon. |
-| 6 | Monthly recap (added) | Last weekday of month: auto-generate `monthly/YYYY-MM.md` + auto-generate 8-12 slide Gamma deck (via Gamma API, Pro plan required). |
-| 7 | Automation tier per output | See §7a matrix. Net effect: only the weekly NotebookLM audio step requires human action (~2 min/week, paste). Everything else fully hands-off. |
-
-### Outstanding (small)
-
-- Confirm email address for daily/weekly/monthly delivery.
-- Confirm willingness to use a Gamma Pro plan ($16/mo) for the fully-automated monthly deck — if not, fall back to Claude-API-generated HTML deck.
+| 3 | Pilot corpus | **20 May 2026 news** as the live pilot for daily Markdown + NotebookLM audio + Claude Design deck. |
+| 4 | NotebookLM/Claude Design scope | Both are run on the **daily/weekly/monthly briefing Markdown** as their corpus — not on the pipeline design itself. Mission 6 deliverables = audio + deck generated from the 20 May pilot briefing. |
+| 5 | Weekly recap | Every Friday EOD: auto-generate `weekly/YYYY-Www.md` + paste into NotebookLM for ~10-min audio overview. Emailed Friday afternoon. |
+| 6 | Monthly recap | Last weekday of month: auto-generate `monthly/YYYY-MM.md` + paste into [claude.ai/design](https://claude.ai/design) for 8-12 slide deck (PPTX/PDF export). No extra subscription needed beyond existing Claude Pro/Max. |
+| 7 | Automation tier per output | See §7a matrix. Two manual steps total: ~2 min/week (NotebookLM audio) + ~5 min/month (Claude Design deck) = ~13 min human time per month. Everything else fully hands-off. |
