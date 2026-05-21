@@ -61,17 +61,35 @@ Append today's entries to:
 - `Information-pipeline/index/by-concept.md` — only if a new concept was introduced today
 - `Information-pipeline/index/deep-dive-picks.md` — one row per Deep Dive Pick produced today
 
-## Step 5 — Email the briefing
+## Step 5 — Email the briefing via Microsoft 365
 
-Run the send-briefing script:
+Use the **Microsoft 365 connector** (attached to this routine) to send the briefing as an HTML email. The connector should expose a "send email" / "send mail" tool — exact name depends on the connector but it will take recipient, subject, body parameters.
 
-```bash
-python3 Information-pipeline/scripts/send-briefing.py Information-pipeline/daily/YYYY-MM-DD.md
-```
+- **To:** `james.peck@myob.com`
+- **From:** the authenticated M365 account (which is the same address — sends from self to self)
+- **Subject:** `Daily AI Briefing — <Day DD Mon YYYY>` (e.g. `Daily AI Briefing — Mon 25 May 2026`)
+- **Body format:** HTML
+- **Body content:** convert the Markdown body of `daily/YYYY-MM-DD.md` to HTML. You can do this two ways:
+  1. Use Python with the `markdown` library: `python3 -c "import sys, markdown; print(markdown.markdown(sys.stdin.read(), extensions=['tables','fenced_code','sane_lists']))" < daily/YYYY-MM-DD.md` (skip the YAML front-matter — start from the H1 onward).
+  2. Or render inline using your own knowledge of HTML — the M365 connector will accept any well-formed HTML.
 
-The script reads `RESEND_API_KEY` from the Routine's environment. The default recipient is `james.peck@myob.com`. The default sender is `onboarding@resend.dev` (Resend's unverified default — works for send-to-self).
+**Format guidance for the email body:**
+- Open with a small grey meta line ("X min read · N items · M sources scanned") derived from front-matter
+- Include the H1 ("Daily AI Briefing — <date>") as the email title
+- Preserve all source links as `<a>` tags
+- For weekly emails: prepend a callout block with the NotebookLM audio link if `notebooklm_audio_url` is present in front-matter
+- For monthly emails: prepend a callout block with the Claude Design deck link if `claude_design_deck_url` is present
 
-Confirm the script printed `OK — Resend id: ...` before continuing.
+**Hard rule:** the email body must include ALL the briefing content (TL;DR, all categorised sections, Quick Hits, Sources scanned footer). Do not truncate.
+
+Confirm the send succeeded before continuing to step 6.
+
+### Fallback if Microsoft 365 send fails
+
+If the M365 connector returns an error or the send tool is unavailable:
+1. Still commit the Markdown file (step 6) — the briefing exists and is in the repo.
+2. Open a GitHub issue titled `Daily briefing email failed — YYYY-MM-DD` describing the error so a human can investigate and re-send manually via `Information-pipeline/scripts/send-briefing.py` (which uses Resend as a fallback).
+3. The routine is allowed to "partially succeed" in this state — better to have the briefing in the repo than nothing.
 
 ## Step 6 — Commit and push
 

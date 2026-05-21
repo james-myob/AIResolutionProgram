@@ -52,17 +52,26 @@ Apply the **editor-system.md** + **weekly-recap.md** prompts to the week's daily
 
 Save to `Information-pipeline/weekly/YYYY-Www.md`.
 
-## Step 5 — Email the weekly recap
+## Step 5 — Email the weekly recap via Microsoft 365
 
-Run the send-briefing script:
+Use the **Microsoft 365 connector** (attached to this routine) to send the weekly recap as an HTML email. Same approach as the daily routine — see `daily.md` step 5 for the conversion guidance.
 
-```bash
-python3 Information-pipeline/scripts/send-briefing.py Information-pipeline/weekly/YYYY-Www.md
+- **To:** `james.peck@myob.com`
+- **From:** the authenticated M365 account
+- **Subject:** `Weekly AI Briefing — <range>` (e.g. `Weekly AI Briefing — Mon 18 — Fri 22 May 2026`)
+- **Body format:** HTML, full content (no truncation), all source links preserved
+
+If `notebooklm_audio_url` is already populated in the front-matter (i.e. you somehow have a pre-generated audio link), prepend a callout block:
+```html
+<div style="background:#f6f8fa;border:1px solid #d0d7de;border-radius:6px;padding:12px 16px;margin-bottom:20px;">
+  🎧 <a href="<audio-url>">Listen — NotebookLM audio overview</a>
+</div>
 ```
+If it's still `TBD` (which is the default for a fresh weekly), skip the callout. The GitHub issue from step 6 reminds the user to add the audio link after generating it.
 
-The script handles weekly/monthly files the same way as dailies — same `RESEND_API_KEY`, same recipient, subject line auto-built from front-matter.
+### Fallback if Microsoft 365 send fails
 
-Confirm `OK — Resend id: ...` before continuing.
+Same as daily routine: still commit the Markdown, open a GitHub issue, allow partial success.
 
 ## Step 6 — Open a NotebookLM reminder issue
 

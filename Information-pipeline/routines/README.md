@@ -17,48 +17,44 @@
 
 ## One-time setup
 
-These routines need to be configured **once** in the Claude Code on the Web UI. The repo + prompts are version-controlled here; only the routine configuration itself (schedule + env vars) lives in your Claude account settings.
+These routines need to be configured **once** in the Claude Code on the Web UI. The repo + prompts are version-controlled here; only the routine configuration itself (schedule + connectors) lives in your Claude account settings.
 
-### 1. Add the Resend API key as a Routine environment variable
+### Email delivery: Microsoft 365 (preferred) vs. Resend (fallback)
 
-Both routines call `Information-pipeline/scripts/send-briefing.py`, which reads `RESEND_API_KEY` from the environment.
+Two paths exist for the email-send step:
 
-- Go to **Claude Code on the Web** → **Settings** → **Environment variables** (or the Routine-specific env var section if it has one).
-- Add: `RESEND_API_KEY = re_TeW8LY3x_ADYajEvBuDox15Z4dTs5891m`
-- (Optional, recommended once Resend domain is verified) `BRIEFING_FROM = "Daily AI Briefing <briefing@yourdomain.com>"`
+1. **Microsoft 365 connector (preferred).** Both routines attach the M365 connector and use its "send email" tool. Emails come from your real MYOB account (best deliverability inside the org, no spam-folder issues, no API key to manage).
+2. **Resend (fallback).** If the M365 connector doesn't expose a send tool or send fails at runtime, the routine commits the briefing anyway and opens a GitHub issue. A human can then re-send manually using `Information-pipeline/scripts/send-briefing.py` — that script uses Resend and requires `RESEND_API_KEY` in env. The key currently in use: `re_TeW8LY3x_ADYajEvBuDox15Z4dTs5891m` (rotate at https://resend.com/api-keys if needed).
 
-The key is held in the Routine's environment, **not** in the repo. If it ever leaks, rotate at https://resend.com/api-keys and update the Routine env var.
+### 1. Create the daily routine
 
-### 2. Create the daily routine
-
-- **Claude Code on the Web** → **Triggers / Routines** → **New routine**
+- **Claude Code on the Web** → **Routines** → **New routine**
 - **Name:** `Daily AI Briefing`
-- **Repository:** `james-myob/AIResolutionProgram`
-- **Branch:** `main`
-- **Schedule:**
-  - Cron expression: `0 21 * * 0-4`
-    (Sun-Thu 21:00 UTC = Mon-Fri 07:00 AEST)
-  - Or natural language: *"Every weekday at 7:00 AM Sydney time"*
-- **Prompt:** paste the entire contents of [`daily.md`](daily.md). Or, if Routines supports referencing a repo file as the prompt source, point it at `Information-pipeline/routines/daily.md`.
-- **Permissions:** allow `WebSearch`, `WebFetch`, `Bash`, `Edit`, `Write`, `Read`, and the GitHub MCP tools (needed for committing + opening issues).
+- **Repository:** `james-myob/AIResolutionProgram` (already selected in the form's chip area)
+- **Trigger:** `Weekdays` at `08:00 GMT+10` (= 8am AEST, Mon-Fri)
+- **Instructions:** see the [`Instructions text`](#instructions-text-daily) section below — copy-paste into the Instructions field
+- **Connectors:** include **Microsoft 365** (already in default list)
+- **Behavior / Permissions:** allow `WebSearch`, `WebFetch`, `Bash`, `Edit`, `Write`, `Read`, GitHub tools
 
-### 3. Create the weekly routine
+### 2. Create the weekly routine
 
 - **Name:** `Weekly AI Recap`
 - **Repository:** `james-myob/AIResolutionProgram`
-- **Branch:** `main`
-- **Schedule:**
-  - Cron expression: `0 7 * * 5`
-    (Fri 07:00 UTC = Fri 17:00 AEST)
-  - Or natural language: *"Every Friday at 5:00 PM Sydney time"*
-- **Prompt:** paste the entire contents of [`weekly.md`](weekly.md).
-- **Permissions:** same as the daily routine.
+- **Trigger:** `Weekly` → Friday at `17:00 GMT+10` (= 5pm AEST, every Friday)
+- **Instructions:** see the [`Instructions text`](#instructions-text-weekly) section below
+- **Connectors:** Microsoft 365 (same as daily)
 
-### 4. (Recommended) Manual dry-run
+### 3. Manual dry-run
 
-After creating each routine, click **"Run now"** once to verify it works end-to-end. The daily run should produce a briefing for today's date, email it, and push a commit; the weekly run should produce a weekly recap, email it, push a commit, and open a NotebookLM reminder issue.
+After creating each routine, use the "Run now" option once to verify it works end-to-end. The daily run should produce a briefing for today's date, email it via M365, and push a commit. The weekly run should produce a weekly recap, email it, push a commit, and open a NotebookLM reminder issue.
 
-If a dry-run fails, the routine session transcript is captured in Claude Code on the Web — read it to diagnose.
+### Instructions text (Daily)
+
+Paste the entire contents of [`daily.md`](daily.md) into the routine's Instructions field. (Or, if Routines supports referencing a repo file as the prompt source, point it at `Information-pipeline/routines/daily.md`.)
+
+### Instructions text (Weekly)
+
+Paste the entire contents of [`weekly.md`](weekly.md) into the weekly routine's Instructions field.
 
 ---
 
