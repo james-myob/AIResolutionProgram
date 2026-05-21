@@ -51,6 +51,10 @@ EMAIL_CSS = """
   ul, ol { padding-left: 22px; }
   li { margin-bottom: 4px; }
   .meta { color: #57606a; font-size: 13px; margin-bottom: 16px; }
+  .artifacts { background: #f6f8fa; border: 1px solid #d0d7de;
+               border-radius: 6px; padding: 12px 16px; margin-bottom: 20px;
+               font-size: 14px; }
+  .artifacts a { display: inline-block; }
 """
 
 
@@ -94,10 +98,30 @@ def build_html(body_md: str, fm: dict[str, str]) -> str:
         meta_bits.append(f"{fm['sources_scanned']} sources scanned")
     meta_line = " · ".join(meta_bits)
     meta_html = f'<div class="meta">{meta_line}</div>' if meta_line else ""
+
+    # Optional artifact block — rendered when front-matter carries links to
+    # the NotebookLM audio overview and/or Claude Design deck for this issue.
+    artifact_links = []
+    if fm.get("notebooklm_audio_url"):
+        artifact_links.append(
+            f'<a href="{fm["notebooklm_audio_url"]}">🎧 Listen — NotebookLM audio overview</a>'
+        )
+    if fm.get("claude_design_deck_url"):
+        artifact_links.append(
+            f'<a href="{fm["claude_design_deck_url"]}">📊 View deck — Claude Design</a>'
+        )
+    artifacts_html = ""
+    if artifact_links:
+        artifacts_html = (
+            '<div class="artifacts">'
+            + " &nbsp;·&nbsp; ".join(artifact_links)
+            + "</div>"
+        )
+
     return (
         "<!doctype html><html><head><meta charset='utf-8'>"
         f"<style>{EMAIL_CSS}</style></head><body>"
-        f"{meta_html}{html_body}"
+        f"{meta_html}{artifacts_html}{html_body}"
         "</body></html>"
     )
 
@@ -144,8 +168,16 @@ def main() -> int:
     fm, body_md = parse_front_matter(content)
     subject = build_subject(fm, args.markdown_file)
     html = build_html(body_md, fm)
-    # Plain-text fallback: just send the body Markdown sans front-matter.
-    text = body_md.strip()
+
+    # Plain-text fallback: artifacts (if any) at the top, then the body
+    # Markdown sans front-matter.
+    text_artifacts = []
+    if fm.get("notebooklm_audio_url"):
+        text_artifacts.append(f"🎧 Listen (NotebookLM): {fm['notebooklm_audio_url']}")
+    if fm.get("claude_design_deck_url"):
+        text_artifacts.append(f"📊 Deck (Claude Design): {fm['claude_design_deck_url']}")
+    text_header = ("\n".join(text_artifacts) + "\n\n---\n\n") if text_artifacts else ""
+    text = text_header + body_md.strip()
 
     print(f"Sending '{subject}' to {args.to} (from {args.sender}) ...")
     try:
