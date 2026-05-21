@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>Mission 6 — I Built a Daily AI Briefing</title>
+<style>
+  :root {
+    --ink: #1f2328;
+    --muted: #57606a;
+    --line: #d0d7de;
+    --soft: #f6f8fa;
+    --accent: #6B2C91;
+    --accent-soft: #ede4f3;
+    --good: #1a7f37;
+    --warn: #9a6700;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #ebebeb;
+    line-height: 1.5;
+  }
+  .deck {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .slide {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    padding: 56px 80px 64px;
+    display: none;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .slide.active { display: flex; }
+
+  /* Header strip */
+  .slide-header {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 12px; margin-bottom: 28px;
+  }
+  .slide-tag {
+    text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px;
+    color: var(--muted);
+  }
+  .slide-counter {
+    font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+
+  /* Typography */
+  h1 { font-size: 44px; margin: 0 0 16px; letter-spacing: -0.01em; line-height: 1.15; }
+  h2 { font-size: 32px; margin: 0 0 20px; letter-spacing: -0.01em; line-height: 1.2; }
+  h3 { font-size: 20px; margin: 24px 0 8px; }
+  p  { font-size: 19px; margin: 0 0 14px; }
+  ul, ol { font-size: 19px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  a  { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  a:hover { border-bottom-color: var(--accent); }
+  code { font-family: "SF Mono", Monaco, Consolas, monospace; font-size: 90%;
+         background: var(--soft); padding: 2px 6px; border-radius: 4px; }
+  small { font-size: 14px; color: var(--muted); }
+
+  .accent  { color: var(--accent); }
+  .muted   { color: var(--muted); }
+  .center  { text-align: center; }
+  .pill    { display: inline-block; padding: 2px 10px; border-radius: 100px;
+             background: var(--accent-soft); color: var(--accent);
+             font-size: 13px; font-weight: 500; letter-spacing: 0.02em; }
+
+  /* Footer */
+  .slide-footer {
+    margin-top: auto;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+    display: flex; justify-content: space-between;
+    font-size: 12px; color: var(--muted);
+  }
+
+  /* Quote block */
+  .quote {
+    border-left: 3px solid var(--accent);
+    padding: 8px 0 8px 20px;
+    margin: 18px 0;
+    font-size: 22px; font-style: italic; color: var(--ink);
+    max-width: 900px;
+  }
+  .quote-source { font-size: 14px; color: var(--muted); font-style: normal; margin-top: 8px; }
+
+  /* Cover slide */
+  .cover {
+    justify-content: center;
+    background: linear-gradient(135deg, #fff 0%, #f6f3f9 100%);
+    padding: 80px;
+  }
+  .cover-eyebrow { color: var(--accent); text-transform: uppercase;
+                   letter-spacing: 0.18em; font-size: 14px; font-weight: 600; margin-bottom: 24px; }
+  .cover h1 { font-size: 64px; margin-bottom: 24px; max-width: 900px; }
+  .cover-sub { font-size: 26px; color: var(--muted); max-width: 800px; margin-bottom: 60px; }
+  .cover-meta { font-size: 16px; color: var(--muted); }
+  .cover-meta b { color: var(--ink); font-weight: 600; }
+
+  /* Two-column layouts */
+  .two-col {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 36px;
+    margin-top: 24px;
+  }
+  .three-col {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;
+    margin-top: 24px;
+  }
+  .col-card {
+    background: var(--soft); border: 1px solid var(--line); border-radius: 10px;
+    padding: 24px;
+  }
+  .col-card h3 { margin-top: 0; }
+
+  /* Comparison table */
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 17px; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--soft); font-weight: 600; }
+  td.good { color: var(--good); font-weight: 600; }
+  td.warn { color: var(--warn); font-weight: 500; }
+
+  /* Lesson list */
+  .lessons { counter-reset: lesson; margin-top: 24px; padding: 0; list-style: none; }
+  .lessons li {
+    counter-increment: lesson;
+    padding: 18px 24px 18px 64px;
+    background: var(--soft);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    position: relative;
+    font-size: 19px;
+    border-left: 4px solid var(--accent);
+  }
+  .lessons li::before {
+    content: counter(lesson);
+    position: absolute; left: 20px; top: 16px;
+    width: 32px; height: 32px;
+    background: var(--accent); color: white;
+    border-radius: 50%;
+    font-weight: 600; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lessons b { color: var(--ink); }
+
+  /* Artifact tiles */
+  .artifact-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 28px; }
+  .artifact-tile {
+    border: 1px solid var(--line); border-radius: 10px; padding: 20px;
+    display: flex; flex-direction: column; gap: 8px;
+    background: #fff;
+    transition: border-color 0.15s;
+  }
+  .artifact-tile:hover { border-color: var(--accent); }
+  .artifact-icon { font-size: 32px; }
+  .artifact-tile h3 { margin: 0; font-size: 17px; }
+  .artifact-tile p  { margin: 0; font-size: 14px; color: var(--muted); }
+  .artifact-tile a  { font-size: 14px; margin-top: 4px; word-break: break-all; }
+
+  /* Stat callout */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 28px 0; }
+  .stat {
+    text-align: center; padding: 24px; background: var(--accent-soft);
+    border-radius: 10px;
+  }
+  .stat-value { font-size: 44px; font-weight: 700; color: var(--accent); line-height: 1; margin-bottom: 6px; }
+  .stat-label { font-size: 14px; color: var(--muted); }
+
+  /* Architecture diagram */
+  .arch-diagram { width: 100%; max-width: 1100px; margin: 8px auto; }
+  .arch-diagram text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                        Helvetica, Arial, sans-serif; }
+
+  /* Nav controls */
+  .controls {
+    position: fixed; bottom: 16px; right: 16px;
+    display: flex; gap: 8px; z-index: 100;
+  }
+  .controls button {
+    width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line);
+    background: #fff; cursor: pointer; font-size: 16px;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s;
+  }
+  .controls button:hover { background: var(--soft); }
+  .controls button:disabled { opacity: 0.3; cursor: default; }
+
+  /* Progress bar */
+  .progress {
+    position: fixed; top: 0; left: 0; height: 3px; background: var(--accent);
+    transition: width 0.2s;
+    z-index: 100;
+  }
+
+  /* Print */
+  @media print {
+    body, .deck { background: white; height: auto; width: auto; }
+    .slide { display: flex; page-break-after: always; height: auto;
+             min-height: 100vh; box-shadow: none; }
+    .controls, .progress { display: none; }
+  }
+
+  @media (max-width: 1000px) {
+    .slide { padding: 36px 32px 48px; }
+    h1 { font-size: 32px; }
+    h2 { font-size: 26px; }
+    .cover h1 { font-size: 44px; }
+    .two-col, .three-col, .artifact-tiles, .stat-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="deck">
+
+<!-- ========== SLIDE 1: COVER ========== -->
+<section class="slide cover active" data-slide="1">
+  <div class="cover-eyebrow">AI Resolution Program — Mission 6</div>
+  <h1>I built a daily AI&nbsp;briefing</h1>
+  <p class="cover-sub">From 30+ AI sources to a 5-minute daily brief, in my inbox, automatically.</p>
+  <div class="cover-meta">
+    <p><b>James Peck</b> · Product Manager, MYOB</p>
+    <p>May 2026</p>
+    <p><a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a></p>
+  </div>
+</section>
+
+<!-- ========== SLIDE 2: THE MISSION ========== -->
+<section class="slide" data-slide="2">
+  <div class="slide-header">
+    <span class="slide-tag">The brief</span>
+    <span class="slide-counter">2 / 10</span>
+  </div>
+
+  <h2>Mission 6: The Information Pipeline</h2>
+
+  <div class="quote">
+    "Design and implement an information pipeline that automatically collects data
+    from multiple sources, processes it with AI, and delivers insights in a useful
+    format. Think of it as your personal AI news/research assistant."
+    <div class="quote-source">— Mission 6 briefing</div>
+  </div>
+
+  <p><span class="pill">Done when</span> &nbsp; I can brief someone on the material in under 7 minutes using my deck.</p>
+
+  <h3>What the brief actually demanded</h3>
+  <ul>
+    <li><b>Multi-source ingestion</b> — not a one-shot summariser; a system that hoovers up many feeds</li>
+    <li><b>AI-driven filtering and synthesis</b> — judgement about what's signal vs noise, not just compression</li>
+    <li><b>A repeatable workflow</b> — sources, prompts, taxonomy and runbook captured so it ships every weekday, not just once</li>
+  </ul>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 3: WHAT I BUILT ========== -->
+<section class="slide" data-slide="3">
+  <div class="slide-header">
+    <span class="slide-tag">What I built</span>
+    <span class="slide-counter">3 / 10</span>
+  </div>
+
+  <h2>The pipeline, end to end</h2>
+
+  <svg class="arch-diagram" viewBox="0 0 1100 420" xmlns="http://www.w3.org/2000/svg">
+    <!-- Defs: arrow marker -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#57606a"/>
+      </marker>
+      <marker id="arrowhead-accent" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#6B2C91"/>
+      </marker>
+    </defs>
+
+    <!-- ============== LEFT: SOURCES ============== -->
+    <g>
+      <text x="40" y="32" font-size="13" fill="#57606a" font-weight="600" letter-spacing="1">SOURCES (38, TIERED)</text>
+
+      <!-- Source tier rows -->
+      <g font-size="13" fill="#1f2328">
+        <rect x="40" y="50"  width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="69">T1 · Lab announcements</text>
+        <text x="56" y="84" font-size="11" fill="#57606a">Anthropic · OpenAI · Google · xAI</text>
+
+        <rect x="40" y="100" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="119">T2 · Newsletters &amp; analysts</text>
+        <text x="56" y="134" font-size="11" fill="#57606a">Stratechery · One Useful Thing · The Neuron</text>
+
+        <rect x="40" y="150" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="169">T3 · VC AI thinking</text>
+        <text x="56" y="184" font-size="11" fill="#57606a">Sequoia · a16z · YC · Bessemer</text>
+
+        <rect x="40" y="200" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="219">T4 · PM thought leaders</text>
+        <text x="56" y="234" font-size="11" fill="#57606a">Lenny · SVPG · Platformer</text>
+
+        <rect x="40" y="250" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="269">T5 · Aggregators</text>
+        <text x="56" y="284" font-size="11" fill="#57606a">Simon Willison · HF Papers · HN</text>
+
+        <rect x="40" y="300" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+        <text x="56" y="319">T6 · Concept seeders</text>
+        <text x="56" y="334" font-size="11" fill="#57606a">Eugene Yan · Hamel · vtrivedy</text>
+      </g>
+    </g>
+
+    <!-- Arrow: sources → editor -->
+    <line x1="290" y1="195" x2="395" y2="195" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+    <!-- ============== MIDDLE: EDITOR ============== -->
+    <g>
+      <rect x="395" y="120" width="210" height="160" rx="10" fill="#ede4f3" stroke="#6B2C91" stroke-width="2"/>
+      <text x="500" y="150" text-anchor="middle" font-size="15" font-weight="600" fill="#6B2C91">EDITOR (Claude)</text>
+      <text x="500" y="175" text-anchor="middle" font-size="11" fill="#57606a">5 prompts · 1 persona</text>
+
+      <text x="415" y="205" font-size="12" fill="#1f2328">• Read &amp; dedupe</text>
+      <text x="415" y="223" font-size="12" fill="#1f2328">• Categorise (8 categories)</text>
+      <text x="415" y="241" font-size="12" fill="#1f2328">• Two-lens "why it matters"</text>
+      <text x="415" y="259" font-size="12" fill="#1f2328">• Score &amp; rank by importance</text>
+    </g>
+
+    <!-- Arrow: editor → outputs -->
+    <line x1="615" y1="195" x2="720" y2="195" stroke="#6B2C91" stroke-width="2" marker-end="url(#arrowhead-accent)"/>
+
+    <!-- ============== RIGHT: OUTPUTS ============== -->
+    <g>
+      <text x="720" y="32" font-size="13" fill="#57606a" font-weight="600" letter-spacing="1">CADENCES</text>
+
+      <!-- Daily -->
+      <rect x="720" y="50" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
+      <text x="736" y="73" font-size="15" font-weight="600" fill="#1f2328">📰 Daily (Mon-Fri, 8am AEST)</text>
+      <text x="736" y="92" font-size="12" fill="#57606a">Markdown briefing · 5-min read · 12 items</text>
+      <text x="736" y="110" font-size="12" fill="#57606a">→ Email to inbox</text>
+      <text x="736" y="128" font-size="12" fill="#57606a">→ Commit to repo + indexes</text>
+
+      <!-- Weekly -->
+      <rect x="720" y="160" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
+      <text x="736" y="183" font-size="15" font-weight="600" fill="#1f2328">📑 Weekly (Fri 5pm AEST)</text>
+      <text x="736" y="202" font-size="12" fill="#57606a">Synthesises week's dailies · ~10-min read</text>
+      <text x="736" y="220" font-size="12" fill="#57606a">→ NotebookLM audio overview (manual paste)</text>
+      <text x="736" y="238" font-size="12" fill="#57606a">→ Email + commit</text>
+
+      <!-- Monthly -->
+      <rect x="720" y="270" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
+      <text x="736" y="293" font-size="15" font-weight="600" fill="#1f2328">📊 Monthly (last weekday)</text>
+      <text x="736" y="312" font-size="12" fill="#57606a">Trend pack · 1500-2500 words</text>
+      <text x="736" y="330" font-size="12" fill="#57606a">→ Claude Design deck (manual paste)</text>
+      <text x="736" y="348" font-size="12" fill="#57606a">→ Email + commit</text>
+    </g>
+
+    <!-- Bottom annotation -->
+    <text x="550" y="395" text-anchor="middle" font-size="13" fill="#57606a">
+      Indexed by category · entity · concept — so the archive is searchable on day 30, not just day 1
+    </text>
+  </svg>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 4: TWO-LENS FRAMING ========== -->
+<section class="slide" data-slide="4">
+  <div class="slide-header">
+    <span class="slide-tag">The differentiator</span>
+    <span class="slide-counter">4 / 10</span>
+  </div>
+
+  <h2>Why this isn't just another AI newsletter</h2>
+
+  <p>Every item answers <b>two</b> questions, not one. That's it. That's the secret sauce.</p>
+
+  <div class="two-col">
+    <div class="col-card">
+      <span class="pill">Why it matters (PM)</span>
+      <h3>What changes about how I build products?</h3>
+      <p style="font-size: 16px; color: var(--muted);">
+        Default lens. On every item. Connects raw AI news to roadmap, scoping, packaging, eng-product conversations.
+      </p>
+    </div>
+    <div class="col-card">
+      <span class="pill">Why it matters (mid-market)</span>
+      <h3>What changes for MYOB's segment?</h3>
+      <p style="font-size: 16px; color: var(--muted);">
+        Added when an item touches SMB/mid-market packaging, pricing, vertical AI, or compliance. Filters generic "AI is big" coverage into the things that actually move our customers.
+      </p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 32px;">Real example: Anthropic ships "Claude for Small Business" (20 May)</h3>
+  <p style="font-size: 16px;"><b>Why it matters (PM):</b> Labs are now shipping vertical packaging, not just horizontal APIs — pricing and onboarding become the product surface.</p>
+  <p style="font-size: 16px;"><b>Why it matters (mid-market):</b> First major lab with a packaged SMB tier and built-in templates — sets the baseline for mid-market AI plays and forces a response from Microsoft Copilot and Google Workspace AI.</p>
+  <p style="margin-top: 16px;"><small>Tagged <code>lens:mid-market</code> — surfaces in the weekly Mid-Market Roundup and the by-concept index.</small></p>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 5: PILOT IN ACTION ========== -->
+<section class="slide" data-slide="5">
+  <div class="slide-header">
+    <span class="slide-tag">Pilot run</span>
+    <span class="slide-counter">5 / 10</span>
+  </div>
+
+  <h2>Wed 20 May 2026 — pilot in action</h2>
+
+  <p>One day's news, three artifacts. Same source corpus, three different formats for three different consumption moments.</p>
+
+  <div class="stat-row">
+    <div class="stat">
+      <div class="stat-value">30</div>
+      <div class="stat-label">sources scanned</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">12</div>
+      <div class="stat-label">items in briefing</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">5 min</div>
+      <div class="stat-label">read time</div>
+    </div>
+  </div>
+
+  <div class="artifact-tiles">
+    <div class="artifact-tile">
+      <div class="artifact-icon">📰</div>
+      <h3>Markdown briefing</h3>
+      <p>Daily-Driver. Skim on the train; deep-read at the desk.</p>
+      <a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/daily/2026-05-20.md">View on GitHub</a>
+    </div>
+    <div class="artifact-tile">
+      <div class="artifact-icon">🎧</div>
+      <h3>NotebookLM audio</h3>
+      <p>AI-podcast format, ~10 min. For a commute or a walk.</p>
+      <a href="https://notebooklm.google.com/notebook/44d248ef-e5ef-4e1f-804c-6d2ae9371bdc/artifact/6d53661a-d510-4b74-a183-ab1a53375391">Listen</a>
+    </div>
+    <div class="artifact-tile">
+      <div class="artifact-icon">📊</div>
+      <h3>Claude Design deck</h3>
+      <p>8-12 slide brief. For stakeholders who need 7-min context.</p>
+      <a href="https://claude.ai/design/p/5e2621ff-b5b2-4806-9dd7-c036e60e1176?file=design%2FDaily+AI+Briefing+-+20+May+2026.html&via=share">Open deck</a>
+    </div>
+  </div>
+
+  <p style="margin-top: 28px; font-size: 17px;">
+    <span class="pill">Goal hit</span>
+    &nbsp; I can brief any of you on the AI news of 20 May in under 7 minutes — using a deck I didn't design and an audio I didn't record.
+  </p>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 6: AUTOMATION DECISION ========== -->
+<section class="slide" data-slide="6">
+  <div class="slide-header">
+    <span class="slide-tag">Architectural choice</span>
+    <span class="slide-counter">6 / 10</span>
+  </div>
+
+  <h2>Why Claude Code Routines, not GitHub Actions</h2>
+
+  <p>Standard answer for "run this daily" is a GitHub Actions cron. I went the other way. Here's why.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>GitHub Actions cron</th>
+        <th>Claude Code Routine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>News gathering</b></td>
+        <td class="warn">Brittle Python: parsing RSS, scraping HTML, fragile to layout changes</td>
+        <td class="good">Native WebSearch + WebFetch, adapts to layout changes</td>
+      </tr>
+      <tr>
+        <td><b>Editorial judgement</b></td>
+        <td class="warn">Has to be encoded in code (it can't)</td>
+        <td class="good">Literally what Claude is for</td>
+      </tr>
+      <tr>
+        <td><b>Failure modes</b></td>
+        <td class="warn">Hard fails on unexpected input</td>
+        <td class="good">Reasons through edge cases, notes them in the briefing</td>
+      </tr>
+      <tr>
+        <td><b>Auth / billing</b></td>
+        <td class="warn">Needs ANTHROPIC_API_KEY + per-token billing</td>
+        <td class="good">Uses existing Claude Code subscription</td>
+      </tr>
+      <tr>
+        <td><b>Maintenance</b></td>
+        <td class="warn">Per-source code maintenance</td>
+        <td class="good">"Update the source list" = edit one Markdown file</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 24px;">
+    <b class="accent">The insight:</b> news gathering + editorial judgement is irreducibly agentic.
+    Scripting it would mean re-implementing Claude in Python — and losing every advantage the model gives me.
+  </p>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 7: WHAT CAN'T BE AUTOMATED ========== -->
+<section class="slide" data-slide="7">
+  <div class="slide-header">
+    <span class="slide-tag">Pragmatism</span>
+    <span class="slide-counter">7 / 10</span>
+  </div>
+
+  <h2>What I deliberately didn't automate (and why that's fine)</h2>
+
+  <p>Two pieces of the pipeline still need a human paste. I kept them manual on purpose.</p>
+
+  <div class="two-col" style="margin-top: 32px;">
+    <div class="col-card">
+      <div style="font-size: 32px;">🎧</div>
+      <h3>Weekly NotebookLM audio</h3>
+      <p style="font-size: 16px;">
+        Paste the weekly Markdown into NotebookLM, click "Generate Audio Overview".
+        <br><br>
+        Google's consumer audio API doesn't exist yet. Enterprise API exists but isn't worth the bill for a personal workflow.
+      </p>
+      <p style="font-size: 14px; color: var(--muted);">~2 minutes, once a week.</p>
+    </div>
+    <div class="col-card">
+      <div style="font-size: 32px;">📊</div>
+      <h3>Monthly Claude Design deck</h3>
+      <p style="font-size: 16px;">
+        Paste the monthly Markdown into claude.ai/design, get a deck back, export PPTX.
+        <br><br>
+        Claude Design is still research preview — no public API.
+      </p>
+      <p style="font-size: 14px; color: var(--muted);">~5 minutes, once a month.</p>
+    </div>
+  </div>
+
+  <div class="stat" style="margin-top: 32px; max-width: 520px;">
+    <div class="stat-value">~13 min / month</div>
+    <div class="stat-label">total human-attention time across the whole pipeline</div>
+  </div>
+
+  <p style="margin-top: 28px;">
+    <b class="accent">The lesson:</b> "must automate everything" is a great way to never ship.
+    A pipeline that's 95% automated and runs for years beats one that's 100% automated and never quite gets out the door.
+  </p>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 8: LESSONS ========== -->
+<section class="slide" data-slide="8">
+  <div class="slide-header">
+    <span class="slide-tag">Takeaways</span>
+    <span class="slide-counter">8 / 10</span>
+  </div>
+
+  <h2>5 lessons that transfer to any AI-driven workflow</h2>
+
+  <ol class="lessons">
+    <li><b>Two-lens framing doubles value at low cost.</b> "Why it matters for X" + "Why it matters for Y" — pick two lenses your audience actually has, ask both questions of every item.</li>
+    <li><b>Structured metadata is leverage.</b> YAML front-matter on each Markdown file drove email subject lines, deck URLs, and search indexes — all generated, not hand-maintained.</li>
+    <li><b>Tag discipline compounds.</b> A consistent taxonomy looks like overkill on day 1 and pays off on day 30 when you can search "everything that mentioned Anthropic this quarter".</li>
+    <li><b>Manual paste steps are acceptable.</b> When the API doesn't exist, design around it instead of waiting for it. Most of the value lives in the corpus, not the delivery channel.</li>
+    <li><b>Match the tool to the task.</b> Agentic work (judgement, synthesis, fuzzy inputs) belongs in agents. Deterministic work (HTTP requests, file IO) belongs in scripts. Don't force one into the other.</li>
+  </ol>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 9: WHAT'S NEXT ========== -->
+<section class="slide" data-slide="9">
+  <div class="slide-header">
+    <span class="slide-tag">What's next</span>
+    <span class="slide-counter">9 / 10</span>
+  </div>
+
+  <h2>This is a pattern, not a one-off</h2>
+
+  <p>The pipeline shape — <i>sources → editor → cadenced outputs → inbox</i> — works for far more than AI news.</p>
+
+  <div class="three-col" style="margin-top: 32px;">
+    <div class="col-card">
+      <h3>🔍 Competitive intel</h3>
+      <p style="font-size: 15px;">
+        Swap T1-T6 for competitor blogs, support pages, pricing pages, exec LinkedIn posts. Daily digest of moves to track.
+      </p>
+    </div>
+    <div class="col-card">
+      <h3>💬 Customer feedback</h3>
+      <p style="font-size: 15px;">
+        Sources become reviews, support tickets, NPS verbatims, Reddit threads, sales-call transcripts. Editor extracts themes and quotes.
+      </p>
+    </div>
+    <div class="col-card">
+      <h3>📜 Regulatory tracking</h3>
+      <p style="font-size: 15px;">
+        Sources become regulator feeds, industry-body newsletters, gov.au, EU Commission. Tag what's mandatory vs guidance vs commentary.
+      </p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 36px;">For this specific pipeline:</h3>
+  <ul>
+    <li><b>Mission 7</b> automates the email-send via the Microsoft 365 connector (configured today — runs from Monday onwards).</li>
+    <li>First <b>monthly recap</b> drops Friday 29 May — with Claude Design deck for the team meeting.</li>
+    <li><b>Concept timeline</b> in the by-concept index already has its first entry: <code>agent-harness</code>. By August it'll be a useful artifact in its own right.</li>
+  </ul>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+<!-- ========== SLIDE 10: STEAL THIS ========== -->
+<section class="slide" data-slide="10">
+  <div class="slide-header">
+    <span class="slide-tag">Steal this</span>
+    <span class="slide-counter">10 / 10</span>
+  </div>
+
+  <h2>Take what's useful</h2>
+
+  <p>Everything is in the repo. Three pieces are particularly easy to fork for your own missions:</p>
+
+  <div class="three-col" style="margin-top: 24px;">
+    <div class="col-card">
+      <h3>1. The source list</h3>
+      <p style="font-size: 15px;">
+        38 hand-picked AI sources across 6 tiers, with RSS URLs and signal ratings. Drop in your domain's sources, keep the structure.
+      </p>
+      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/sources.md">sources.md →</a></p>
+    </div>
+    <div class="col-card">
+      <h3>2. The editor prompt</h3>
+      <p style="font-size: 15px;">
+        Persona, hard rules, two-lens framing, source-tier weighting. Change the audience profile and the two lenses — the rest carries.
+      </p>
+      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/editor-system.md">editor-system.md →</a></p>
+    </div>
+    <div class="col-card">
+      <h3>3. The weekly recap prompt</h3>
+      <p style="font-size: 15px;">
+        Audio-friendly writing rules baked in (NotebookLM paraphrases prose better than bullets — this prompt knows that).
+      </p>
+      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/weekly-recap.md">weekly-recap.md →</a></p>
+    </div>
+  </div>
+
+  <div style="background: var(--accent-soft); border-radius: 10px; padding: 28px; margin-top: 40px;">
+    <h3 style="margin: 0 0 8px;">Happy to pair on setup</h3>
+    <p style="margin: 0; font-size: 16px;">
+      If you want to try this pattern for one of your own workflows — competitive intel, support tickets, regulatory watch — DM me. Easier to walk through it together than read the README cold.
+    </p>
+    <p style="margin: 16px 0 0; font-size: 14px;">
+      Repo: <a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a>
+    </p>
+  </div>
+
+  <div class="slide-footer">
+    <span>Mission 6 — Information Pipeline · Thanks 👋</span>
+    <span>James Peck · MYOB</span>
+  </div>
+</section>
+
+</div>
+
+<!-- Controls -->
+<div class="controls">
+  <button id="prev" aria-label="Previous">←</button>
+  <button id="next" aria-label="Next">→</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  const progress = document.getElementById('progress');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let i = 0;
+
+  function show(idx) {
+    i = Math.max(0, Math.min(total - 1, idx));
+    slides.forEach((s, k) => s.classList.toggle('active', k === i));
+    progress.style.width = ((i + 1) / total * 100) + '%';
+    prev.disabled = i === 0;
+    next.disabled = i === total - 1;
+    if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+  }
+
+  prev.addEventListener('click', () => show(i - 1));
+  next.addEventListener('click', () => show(i + 1));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); show(i + 1); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); show(i - 1); }
+    else if (e.key === 'Home') { show(0); }
+    else if (e.key === 'End') { show(total - 1); }
+  });
+
+  // Click to advance (but not on links/buttons)
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('a, button, .controls')) return;
+    // Right half of screen = next, left half = prev
+    if (e.clientX > window.innerWidth / 2) show(i + 1);
+    else show(i - 1);
+  });
+
+  // Restore from hash
+  if (location.hash) {
+    const n = parseInt(location.hash.slice(1), 10);
+    if (!isNaN(n)) show(n - 1);
+  } else {
+    show(0);
+  }
+</script>
+
+</body>
+</html>
