@@ -13,7 +13,7 @@
 | Weekend 3: Deep Research Brief | [ ] |
 | Weekend 4: Data Analysis Memo | [ ] |
 | Weekend 5: Visual Explainer | [ ] |
-| Weekend 6: Information Pipeline | [ ] |
+| Weekend 6: Information Pipeline | [x] |
 | Weekend 7: First Automation | [ ] |
 | Weekend 8: Second Automation | [ ] |
 | Weekend 9: Personal Context OS | [ ] |
@@ -33,8 +33,8 @@
 
 | # | New Tool/Platform | Mission | Real Task I Used It On | What It Does Well | Where It Falls Short |
 |---|---|---|---|---|---|
-| 1 | | [Mission ?]() | | | |
-| 2 | | [Mission ?]() | | | |
+| 1 | NotebookLM | [Mission 6](06-information-pipeline.md) | Generated ~10-min AI-podcast audio overview of the 20 May 2026 daily AI briefing for weekend consumption | Audio output is genuinely listenable; two-host format makes dense source material easy to follow on a commute; FAQ + glossary are free byproducts | No public API for consumer audio generation; can't be fully automated yet; quality drops when fed bullet-heavy Markdown (needs prose) |
+| 2 | Claude Design (claude.ai/design) | [Mission 6](06-information-pipeline.md) | Generated 8-12 slide HTML deck from the 20 May 2026 daily AI briefing for a 7-min stakeholder brief | Native Claude integration means content fidelity is high; HTML export is shareable via URL with zero friction; one prompt → finished deck | No public API yet (research preview); HTML output rather than PPTX-native; visual polish lower than Gamma for stakeholder-facing decks |
 | 3 | | [Mission ?]() | | | |
 
 <details>
@@ -114,7 +114,7 @@
 
 | Resolution | Target | Current | Status |
 |---|---|:---:|:---:|
-| 1. Complete all missions on time | 11/11 | 1/11 | In progress |
-| 2. Expand AI capabilities | 3+ new tools | 0 | Not started |
+| 1. Complete all missions on time | 11/11 | 3/11 | In progress |
+| 2. Expand AI capabilities | 3+ new tools | 2 | In progress |
 | 3. Team members succeed | All complete 10/10 | — | Not started |
 | 4. AI-driven team culture | 10+ share sessions | 0 | Not started |
