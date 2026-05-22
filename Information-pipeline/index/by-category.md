@@ -17,6 +17,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-05-22
+- OpenAI Codex Goal Mode GA + Appshots + locked-Mac remote use — [briefing](../daily/2026-05-22.md)
+- OpenAI ChatGPT Personal Finance: Plaid bank connections for Pro US users — [briefing](../daily/2026-05-22.md)
+
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
 
@@ -28,6 +32,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-22
+- Anthropic $30B round closing at $900B valuation (Sequoia/Dragoneer/Greenoaks/Altimeter) — [briefing](../daily/2026-05-22.md)
+- OpenAI confidential S-1 IPO filing (Goldman/Morgan Stanley; Q4 2026 target) — [briefing](../daily/2026-05-22.md)
+- Andrej Karpathy joins Anthropic pretraining team — [briefing](../daily/2026-05-22.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +58,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-05-22
+- Project Glasswing progress update: Claude Mythos Preview finds 27-yr OpenBSD + 16-yr FFmpeg zero-days — [briefing](../daily/2026-05-22.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +70,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-05-22
+- Chinese AI models 61% of OpenRouter token consumption; DeepSeek V4 at $0.0036/M tokens vs GPT-5.5 at $0.50/M — [briefing](../daily/2026-05-22.md)
+- Jack Clark Oxford lecture: Nobel within 12 months, AI self-improvement by 2028, "non-zero extinction risk" — [briefing](../daily/2026-05-22.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
