@@ -2,218 +2,512 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=1200">
+<meta name="viewport" content="width=1280">
 <title>Mission 6 — I Built a Daily AI Briefing</title>
 <style>
+  /* ========== Design tokens ========== */
   :root {
-    --ink: #1f2328;
-    --muted: #57606a;
-    --line: #d0d7de;
-    --soft: #f6f8fa;
-    --accent: #6B2C91;
-    --accent-soft: #ede4f3;
-    --good: #1a7f37;
-    --warn: #9a6700;
+    --ink:        #1a1a26;
+    --ink-soft:   #2f3142;
+    --muted:      #6b6f80;
+    --line:       #e3e5ec;
+    --line-soft:  #f0f2f7;
+    --bg:         #fafbfd;
+    --paper:      #ffffff;
+    --soft:       #f4f6fa;
+    --soft-2:     #eef0f7;
+
+    --brand:        #6B2C91;
+    --brand-deep:   #4d1f6b;
+    --brand-light:  #b079d1;
+    --brand-soft:   #efe3f7;
+    --brand-softer: #f7eefb;
+
+    --gold:       #c69214;
+    --gold-soft:  #fdf3d8;
+    --teal:       #1f7a8c;
+    --teal-soft:  #d8f0f4;
+    --good:       #1a7f37;
+    --warn:       #b14803;
+    --bad:        #82071e;
   }
+
   * { box-sizing: border-box; }
   html, body {
     margin: 0; padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                  Helvetica, Arial, sans-serif;
     color: var(--ink);
-    background: #ebebeb;
+    background: #1a1a26;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
   }
+  body::before {
+    content: ""; position: fixed; inset: 0;
+    background: radial-gradient(circle at 30% 20%, #2a2640, #1a1a26 70%);
+    z-index: -1;
+  }
+
+  /* ========== Deck container ========== */
   .deck {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    display: flex; align-items: center; justify-content: center;
   }
   .slide {
     position: absolute;
-    inset: 0;
-    background: #fff;
-    padding: 56px 80px 64px;
+    width: min(1180px, 96vw);
+    height: min(720px, 92vh);
+    background: var(--paper);
+    border-radius: 16px;
+    padding: 56px 72px 64px;
     display: none;
     flex-direction: column;
     overflow: auto;
+    box-shadow:
+      0 32px 60px -16px rgba(0, 0, 0, 0.45),
+      0 0 0 1px rgba(255, 255, 255, 0.04);
+    animation: slideIn 0.5s cubic-bezier(0.22, 0.71, 0.36, 1);
   }
   .slide.active { display: flex; }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 
-  /* Header strip */
+  /* ========== Header strip ========== */
   .slide-header {
     display: flex; justify-content: space-between; align-items: baseline;
-    border-bottom: 1px solid var(--line);
-    padding-bottom: 12px; margin-bottom: 28px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    position: relative;
+  }
+  .slide-header::after {
+    content: ""; position: absolute; left: 0; bottom: 0;
+    width: 48px; height: 3px; background: var(--brand); border-radius: 2px;
   }
   .slide-tag {
-    text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px;
-    color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.14em; font-size: 11px;
+    color: var(--brand); font-weight: 700;
   }
   .slide-counter {
     font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
   }
 
-  /* Typography */
-  h1 { font-size: 44px; margin: 0 0 16px; letter-spacing: -0.01em; line-height: 1.15; }
-  h2 { font-size: 32px; margin: 0 0 20px; letter-spacing: -0.01em; line-height: 1.2; }
-  h3 { font-size: 20px; margin: 24px 0 8px; }
-  p  { font-size: 19px; margin: 0 0 14px; }
-  ul, ol { font-size: 19px; padding-left: 22px; }
+  /* ========== Typography ========== */
+  h1 {
+    font-size: 48px; margin: 0 0 18px; letter-spacing: -0.022em;
+    line-height: 1.1; font-weight: 700;
+  }
+  h2 {
+    font-size: 36px; margin: 0 0 16px; letter-spacing: -0.018em;
+    line-height: 1.15; font-weight: 700;
+  }
+  h3 { font-size: 19px; margin: 16px 0 6px; font-weight: 600; }
+  p  { font-size: 18px; margin: 0 0 12px; color: var(--ink-soft); }
+  ul, ol { font-size: 18px; padding-left: 22px; color: var(--ink-soft); }
   li { margin-bottom: 8px; }
-  a  { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
-  a:hover { border-bottom-color: var(--accent); }
-  code { font-family: "SF Mono", Monaco, Consolas, monospace; font-size: 90%;
-         background: var(--soft); padding: 2px 6px; border-radius: 4px; }
+  a  {
+    color: var(--brand); text-decoration: none;
+    border-bottom: 1px solid var(--brand-soft);
+    transition: border-color 0.15s;
+  }
+  a:hover { border-bottom-color: var(--brand); }
+  code {
+    font-family: "JetBrains Mono", "SF Mono", Monaco, Consolas, monospace;
+    font-size: 87%;
+    background: var(--soft);
+    padding: 2px 7px; border-radius: 5px;
+    color: var(--ink);
+  }
   small { font-size: 14px; color: var(--muted); }
 
-  .accent  { color: var(--accent); }
+  .accent  { color: var(--brand); font-weight: 600; }
   .muted   { color: var(--muted); }
-  .center  { text-align: center; }
-  .pill    { display: inline-block; padding: 2px 10px; border-radius: 100px;
-             background: var(--accent-soft); color: var(--accent);
-             font-size: 13px; font-weight: 500; letter-spacing: 0.02em; }
+  .lead    { font-size: 22px; color: var(--ink-soft); line-height: 1.45; }
 
-  /* Footer */
+  .pill {
+    display: inline-block; padding: 3px 11px; border-radius: 100px;
+    background: var(--brand-soft); color: var(--brand-deep);
+    font-size: 12px; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .pill.gold { background: var(--gold-soft); color: var(--gold); }
+  .pill.teal { background: var(--teal-soft); color: var(--teal); }
+
+  /* ========== Footer strip ========== */
   .slide-footer {
     margin-top: auto;
-    border-top: 1px solid var(--line);
-    padding-top: 12px;
-    display: flex; justify-content: space-between;
-    font-size: 12px; color: var(--muted);
+    padding-top: 16px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 11px; color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  .slide-footer .brand-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--brand); margin-right: 8px;
+    vertical-align: middle;
   }
 
-  /* Quote block */
-  .quote {
-    border-left: 3px solid var(--accent);
-    padding: 8px 0 8px 20px;
-    margin: 18px 0;
-    font-size: 22px; font-style: italic; color: var(--ink);
-    max-width: 900px;
-  }
-  .quote-source { font-size: 14px; color: var(--muted); font-style: normal; margin-top: 8px; }
-
-  /* Cover slide */
+  /* ========== Cover slide ========== */
   .cover {
+    background: linear-gradient(135deg, #2a1f3d 0%, #1a1a26 100%);
+    color: #fff;
+    padding: 80px 88px;
     justify-content: center;
-    background: linear-gradient(135deg, #fff 0%, #f6f3f9 100%);
-    padding: 80px;
+    position: relative;
+    overflow: hidden;
   }
-  .cover-eyebrow { color: var(--accent); text-transform: uppercase;
-                   letter-spacing: 0.18em; font-size: 14px; font-weight: 600; margin-bottom: 24px; }
-  .cover h1 { font-size: 64px; margin-bottom: 24px; max-width: 900px; }
-  .cover-sub { font-size: 26px; color: var(--muted); max-width: 800px; margin-bottom: 60px; }
-  .cover-meta { font-size: 16px; color: var(--muted); }
-  .cover-meta b { color: var(--ink); font-weight: 600; }
+  .cover::before {
+    content: ""; position: absolute;
+    width: 600px; height: 600px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(107, 44, 145, 0.4) 0%, transparent 70%);
+    top: -200px; right: -200px;
+    pointer-events: none;
+  }
+  .cover::after {
+    content: ""; position: absolute;
+    width: 400px; height: 400px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(198, 146, 20, 0.18) 0%, transparent 70%);
+    bottom: -150px; left: -150px;
+    pointer-events: none;
+  }
+  .cover-eyebrow {
+    color: var(--brand-light); text-transform: uppercase;
+    letter-spacing: 0.22em; font-size: 13px; font-weight: 700;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  .cover h1 {
+    font-size: 88px; margin: 0 0 28px; max-width: 920px;
+    line-height: 1.02; letter-spacing: -0.03em;
+    background: linear-gradient(180deg, #fff 0%, #c8b8d4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+  }
+  .cover h1 .ampersand {
+    color: var(--brand-light); -webkit-text-fill-color: var(--brand-light);
+  }
+  .cover-sub {
+    font-size: 28px; color: #c5c8d4; max-width: 800px;
+    margin-bottom: 60px; line-height: 1.35;
+    position: relative;
+  }
+  .cover-meta {
+    font-size: 16px; color: #9b9eab;
+    display: flex; gap: 32px; flex-wrap: wrap;
+    position: relative;
+  }
+  .cover-meta b { color: #fff; font-weight: 600; }
+  .cover-meta a { color: var(--brand-light); border-bottom-color: transparent; }
+  .cover-meta a:hover { border-bottom-color: var(--brand-light); }
 
-  /* Two-column layouts */
-  .two-col {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 36px;
-    margin-top: 24px;
-  }
-  .three-col {
-    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;
-    margin-top: 24px;
-  }
+  /* ========== Two/three column layouts ========== */
+  .two-col  { display: grid; grid-template-columns: 1fr 1fr;   gap: 28px; margin-top: 20px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 20px; }
+
   .col-card {
-    background: var(--soft); border: 1px solid var(--line); border-radius: 10px;
-    padding: 24px;
+    background: var(--paper); border: 1px solid var(--line);
+    border-radius: 12px; padding: 24px;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   }
-  .col-card h3 { margin-top: 0; }
+  .col-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -8px rgba(107, 44, 145, 0.15);
+    border-color: var(--brand-light);
+  }
+  .col-card.brand   { border-left: 4px solid var(--brand); padding-left: 22px; }
+  .col-card.gold    { border-left: 4px solid var(--gold);  padding-left: 22px; }
+  .col-card.teal    { border-left: 4px solid var(--teal);  padding-left: 22px; }
+  .col-card h3 { margin-top: 6px; font-size: 18px; }
+  .col-card .icon { font-size: 26px; line-height: 1; margin-bottom: 6px; }
 
-  /* Comparison table */
-  table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 17px; }
-  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  th { background: var(--soft); font-weight: 600; }
-  td.good { color: var(--good); font-weight: 600; }
-  td.warn { color: var(--warn); font-weight: 500; }
+  /* ========== Quote ========== */
+  .quote {
+    background: linear-gradient(135deg, var(--brand-softer), var(--soft-2));
+    border-left: 4px solid var(--brand);
+    padding: 22px 28px;
+    margin: 16px 0 20px;
+    font-size: 22px; color: var(--ink);
+    border-radius: 0 8px 8px 0;
+    max-width: 900px;
+    line-height: 1.4;
+    position: relative;
+  }
+  .quote::before {
+    content: "\201C"; font-size: 60px; color: var(--brand-light);
+    position: absolute; top: -10px; left: 10px; font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.5;
+  }
+  .quote-source {
+    font-size: 13px; color: var(--muted);
+    margin-top: 10px; font-weight: 500;
+    letter-spacing: 0.02em;
+  }
 
-  /* Lesson list */
-  .lessons { counter-reset: lesson; margin-top: 24px; padding: 0; list-style: none; }
+  /* ========== Comparison table ========== */
+  .compare {
+    width: 100%; border-collapse: separate; border-spacing: 0;
+    margin-top: 12px; font-size: 16px;
+    border-radius: 10px; overflow: hidden;
+    border: 1px solid var(--line);
+  }
+  .compare th, .compare td {
+    text-align: left; padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .compare tr:last-child td { border-bottom: 0; }
+  .compare th {
+    background: var(--soft); font-weight: 700; font-size: 14px;
+    color: var(--ink); letter-spacing: 0.02em;
+  }
+  .compare th:first-child { background: var(--soft-2); }
+  .compare td:first-child { background: var(--soft-2); font-weight: 600; }
+  .compare td.good { color: var(--good); }
+  .compare td.warn { color: var(--warn); }
+  .compare td.good::before { content: "✓ "; font-weight: 700; }
+  .compare td.warn::before { content: "✗ "; font-weight: 700; opacity: 0.6; }
+
+  /* ========== Lessons (with builds) ========== */
+  .lessons { counter-reset: lesson; margin-top: 16px; padding: 0; list-style: none; }
   .lessons li {
     counter-increment: lesson;
-    padding: 18px 24px 18px 64px;
-    background: var(--soft);
-    border-radius: 10px;
+    padding: 22px 28px 22px 76px;
+    background: linear-gradient(135deg, var(--paper), var(--soft));
+    border-radius: 12px;
     margin-bottom: 12px;
     position: relative;
-    font-size: 19px;
-    border-left: 4px solid var(--accent);
+    font-size: 18px;
+    border: 1px solid var(--line);
+    line-height: 1.4;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.4s, transform 0.4s;
+  }
+  .lessons li.revealed {
+    opacity: 1; transform: translateY(0);
   }
   .lessons li::before {
     content: counter(lesson);
-    position: absolute; left: 20px; top: 16px;
-    width: 32px; height: 32px;
-    background: var(--accent); color: white;
-    border-radius: 50%;
-    font-weight: 600; font-size: 15px;
+    position: absolute; left: 20px; top: 18px;
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, var(--brand), var(--brand-deep));
+    color: white; border-radius: 50%;
+    font-weight: 700; font-size: 17px;
     display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 8px -2px rgba(107, 44, 145, 0.5);
   }
-  .lessons b { color: var(--ink); }
-
-  /* Artifact tiles */
-  .artifact-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 28px; }
-  .artifact-tile {
-    border: 1px solid var(--line); border-radius: 10px; padding: 20px;
-    display: flex; flex-direction: column; gap: 8px;
-    background: #fff;
-    transition: border-color 0.15s;
+  .lessons b { color: var(--ink); font-weight: 700; }
+  .lessons-hint {
+    margin-top: 14px; font-size: 13px; color: var(--muted);
+    text-align: center; font-style: italic;
   }
-  .artifact-tile:hover { border-color: var(--accent); }
-  .artifact-icon { font-size: 32px; }
-  .artifact-tile h3 { margin: 0; font-size: 17px; }
-  .artifact-tile p  { margin: 0; font-size: 14px; color: var(--muted); }
-  .artifact-tile a  { font-size: 14px; margin-top: 4px; word-break: break-all; }
 
-  /* Stat callout */
-  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 28px 0; }
+  /* ========== Stat hero ========== */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0 28px; }
   .stat {
-    text-align: center; padding: 24px; background: var(--accent-soft);
-    border-radius: 10px;
+    text-align: center; padding: 28px 20px;
+    background: linear-gradient(135deg, var(--brand-softer), var(--paper));
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    position: relative; overflow: hidden;
   }
-  .stat-value { font-size: 44px; font-weight: 700; color: var(--accent); line-height: 1; margin-bottom: 6px; }
-  .stat-label { font-size: 14px; color: var(--muted); }
+  .stat::after {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--brand), var(--brand-light));
+  }
+  .stat-value {
+    font-size: 52px; font-weight: 800; color: var(--brand-deep);
+    line-height: 1; margin-bottom: 8px;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label {
+    font-size: 13px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+  }
 
-  /* Architecture diagram */
-  .arch-diagram { width: 100%; max-width: 1100px; margin: 8px auto; }
-  .arch-diagram text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                        Helvetica, Arial, sans-serif; }
+  .hero-stat {
+    background: linear-gradient(135deg, var(--brand), var(--brand-deep));
+    color: white;
+    border-radius: 14px;
+    padding: 32px 40px;
+    max-width: 580px;
+    margin: 24px auto;
+    text-align: center;
+    box-shadow: 0 12px 30px -10px rgba(107, 44, 145, 0.4);
+    position: relative; overflow: hidden;
+  }
+  .hero-stat::before {
+    content: ""; position: absolute;
+    width: 200px; height: 200px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15), transparent 70%);
+    top: -100px; right: -50px;
+  }
+  .hero-stat-value {
+    font-size: 62px; font-weight: 800; line-height: 1;
+    margin-bottom: 6px; letter-spacing: -0.025em;
+    position: relative;
+  }
+  .hero-stat-label {
+    font-size: 14px; color: rgba(255, 255, 255, 0.85);
+    text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;
+    position: relative;
+  }
 
-  /* Nav controls */
+  /* ========== Artifact tiles ========== */
+  .artifact-tiles {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+    margin-top: 18px;
+  }
+  .artifact-tile {
+    border: 1px solid var(--line); border-radius: 12px; padding: 22px;
+    display: flex; flex-direction: column; gap: 8px;
+    background: var(--paper);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .artifact-tile::before {
+    content: ""; position: absolute; top: 0; left: 0;
+    height: 100%; width: 4px;
+    background: linear-gradient(180deg, var(--brand), var(--brand-light));
+  }
+  .artifact-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px -10px rgba(107, 44, 145, 0.25);
+    border-color: var(--brand-light);
+  }
+  .artifact-icon { font-size: 36px; line-height: 1; }
+  .artifact-tile h3 { margin: 4px 0 0; font-size: 17px; font-weight: 700; }
+  .artifact-tile p { margin: 0; font-size: 14px; color: var(--muted); flex-grow: 1; }
+  .artifact-tile a {
+    font-size: 14px; font-weight: 600; margin-top: 6px;
+    border-bottom: none;
+    color: var(--brand);
+  }
+  .artifact-tile a::after { content: " →"; transition: transform 0.2s; display: inline-block; }
+  .artifact-tile a:hover::after { transform: translateX(3px); }
+
+  /* ========== Example block ========== */
+  .example {
+    background: var(--soft-2);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 18px;
+    font-size: 16px;
+  }
+  .example h3 { margin: 0 0 10px; font-size: 16px; }
+  .example p { font-size: 15px; margin-bottom: 8px; }
+  .example b { color: var(--brand-deep); }
+
+  /* ========== Insight callout ========== */
+  .insight {
+    margin-top: 18px;
+    padding: 18px 24px;
+    background: linear-gradient(135deg, var(--gold-soft), #fff8e0);
+    border-left: 4px solid var(--gold);
+    border-radius: 0 10px 10px 0;
+    font-size: 17px; color: var(--ink);
+  }
+  .insight b { color: var(--gold); font-weight: 700; }
+
+  .closing-cta {
+    background: linear-gradient(135deg, var(--brand-deep), var(--brand));
+    color: white;
+    border-radius: 14px;
+    padding: 28px 32px;
+    margin-top: 28px;
+    box-shadow: 0 12px 30px -10px rgba(107, 44, 145, 0.4);
+    position: relative; overflow: hidden;
+  }
+  .closing-cta::before {
+    content: ""; position: absolute;
+    width: 250px; height: 250px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.12), transparent 70%);
+    top: -125px; right: -75px;
+  }
+  .closing-cta h3 { margin: 0 0 8px; font-size: 22px; color: white; position: relative; }
+  .closing-cta p  { margin: 0; font-size: 16px; color: rgba(255, 255, 255, 0.9); position: relative; }
+  .closing-cta a {
+    color: white; font-weight: 600;
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+  }
+  .closing-cta a:hover { border-bottom-color: white; }
+
+  /* ========== Architecture diagram ========== */
+  .arch-diagram { width: 100%; max-width: 1080px; margin: 4px auto; display: block; }
+  .arch-diagram text {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 Helvetica, Arial, sans-serif;
+  }
+
+  /* ========== Controls ========== */
   .controls {
-    position: fixed; bottom: 16px; right: 16px;
+    position: fixed; bottom: 20px; right: 24px;
     display: flex; gap: 8px; z-index: 100;
+    align-items: center;
   }
   .controls button {
-    width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line);
-    background: #fff; cursor: pointer; font-size: 16px;
+    width: 38px; height: 38px; border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    cursor: pointer; font-size: 16px;
     display: flex; align-items: center; justify-content: center;
-    transition: background 0.15s;
+    transition: background 0.15s, border-color 0.15s;
+    backdrop-filter: blur(8px);
   }
-  .controls button:hover { background: var(--soft); }
-  .controls button:disabled { opacity: 0.3; cursor: default; }
+  .controls button:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+  .controls button:disabled { opacity: 0.25; cursor: default; }
+  .controls .counter {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 12px; padding: 0 8px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+  }
 
-  /* Progress bar */
+  /* ========== Progress bar ========== */
   .progress {
-    position: fixed; top: 0; left: 0; height: 3px; background: var(--accent);
-    transition: width 0.2s;
+    position: fixed; top: 0; left: 0; height: 3px;
+    background: linear-gradient(90deg, var(--brand-light), var(--brand));
+    transition: width 0.4s cubic-bezier(0.22, 0.71, 0.36, 1);
     z-index: 100;
+    box-shadow: 0 1px 4px rgba(107, 44, 145, 0.3);
   }
 
-  /* Print */
+  /* ========== Print ========== */
   @media print {
-    body, .deck { background: white; height: auto; width: auto; }
-    .slide { display: flex; page-break-after: always; height: auto;
-             min-height: 100vh; box-shadow: none; }
-    .controls, .progress { display: none; }
+    body, .deck { background: white; height: auto; width: auto; overflow: visible; }
+    body::before { display: none; }
+    .deck { display: block; }
+    .slide {
+      display: flex !important; position: static !important;
+      page-break-after: always; height: 100vh; width: 100%;
+      box-shadow: none; border-radius: 0; max-width: none;
+      animation: none;
+    }
+    .lessons li { opacity: 1 !important; transform: none !important; }
+    .controls, .progress { display: none !important; }
   }
 
-  @media (max-width: 1000px) {
-    .slide { padding: 36px 32px 48px; }
-    h1 { font-size: 32px; }
-    h2 { font-size: 26px; }
-    .cover h1 { font-size: 44px; }
+  /* ========== Responsive ========== */
+  @media (max-width: 1100px) {
+    .slide { padding: 40px 40px 56px; }
+    h1 { font-size: 36px; }
+    h2 { font-size: 28px; }
+    .cover h1 { font-size: 56px; }
+    .cover-sub { font-size: 20px; }
     .two-col, .three-col, .artifact-tiles, .stat-row { grid-template-columns: 1fr; }
   }
 </style>
@@ -226,151 +520,200 @@
 
 <!-- ========== SLIDE 1: COVER ========== -->
 <section class="slide cover active" data-slide="1">
-  <div class="cover-eyebrow">AI Resolution Program — Mission 6</div>
-  <h1>I built a daily AI&nbsp;briefing</h1>
-  <p class="cover-sub">From 30+ AI sources to a 5-minute daily brief, in my inbox, automatically.</p>
+  <div class="cover-eyebrow">AI Resolution Program · Mission 6</div>
+  <h1>I built a daily<br>AI briefing<span class="ampersand">.</span></h1>
+  <p class="cover-sub">From 30+ AI sources to a 5-minute brief, in my inbox, automatically.</p>
   <div class="cover-meta">
-    <p><b>James Peck</b> · Product Manager, MYOB</p>
-    <p>May 2026</p>
-    <p><a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a></p>
+    <span><b>James Peck</b> · Product Manager, MYOB</span>
+    <span>May 2026</span>
+    <span><a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a></span>
   </div>
 </section>
 
-<!-- ========== SLIDE 2: THE MISSION ========== -->
+<!-- ========== SLIDE 2: THE BRIEF ========== -->
 <section class="slide" data-slide="2">
   <div class="slide-header">
     <span class="slide-tag">The brief</span>
-    <span class="slide-counter">2 / 10</span>
+    <span class="slide-counter">02 / 10</span>
   </div>
 
-  <h2>Mission 6: The Information Pipeline</h2>
+  <h2>Mission 6 — the Information Pipeline</h2>
 
   <div class="quote">
-    "Design and implement an information pipeline that automatically collects data
+    Design and implement an information pipeline that automatically collects data
     from multiple sources, processes it with AI, and delivers insights in a useful
-    format. Think of it as your personal AI news/research assistant."
+    format. Think of it as your personal AI news/research assistant.
     <div class="quote-source">— Mission 6 briefing</div>
   </div>
 
-  <p><span class="pill">Done when</span> &nbsp; I can brief someone on the material in under 7 minutes using my deck.</p>
+  <p style="margin-top: 8px;">
+    <span class="pill gold">Done when</span>
+    &nbsp; I can brief someone on the material in under 7 minutes using my deck.
+  </p>
 
-  <h3>What the brief actually demanded</h3>
-  <ul>
-    <li><b>Multi-source ingestion</b> — not a one-shot summariser; a system that hoovers up many feeds</li>
-    <li><b>AI-driven filtering and synthesis</b> — judgement about what's signal vs noise, not just compression</li>
-    <li><b>A repeatable workflow</b> — sources, prompts, taxonomy and runbook captured so it ships every weekday, not just once</li>
-  </ul>
+  <h3 style="margin-top: 24px;">What the brief actually demanded</h3>
+  <div class="three-col">
+    <div class="col-card brand">
+      <div class="icon">📡</div>
+      <h3>Multi-source ingestion</h3>
+      <p style="font-size: 15px; color: var(--muted);">Not a one-shot summariser. A system that pulls many feeds in parallel and dedupes.</p>
+    </div>
+    <div class="col-card gold">
+      <div class="icon">🧠</div>
+      <h3>AI filtering &amp; synthesis</h3>
+      <p style="font-size: 15px; color: var(--muted);">Judgement about signal vs noise — not compression.</p>
+    </div>
+    <div class="col-card teal">
+      <div class="icon">🔁</div>
+      <h3>A repeatable workflow</h3>
+      <p style="font-size: 15px; color: var(--muted);">Sources, prompts, taxonomy and runbook captured. Ships every weekday, not just once.</p>
+    </div>
+  </div>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
 
-<!-- ========== SLIDE 3: WHAT I BUILT ========== -->
+<!-- ========== SLIDE 3: ARCHITECTURE ========== -->
 <section class="slide" data-slide="3">
   <div class="slide-header">
     <span class="slide-tag">What I built</span>
-    <span class="slide-counter">3 / 10</span>
+    <span class="slide-counter">03 / 10</span>
   </div>
 
   <h2>The pipeline, end to end</h2>
 
-  <svg class="arch-diagram" viewBox="0 0 1100 420" xmlns="http://www.w3.org/2000/svg">
-    <!-- Defs: arrow marker -->
+  <svg class="arch-diagram" viewBox="0 0 1080 460" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-        <polygon points="0 0, 10 3.5, 0 7" fill="#57606a"/>
+        <polygon points="0 0, 10 3.5, 0 7" fill="#6b6f80"/>
       </marker>
-      <marker id="arrowhead-accent" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <marker id="arrowhead-brand" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
         <polygon points="0 0, 10 3.5, 0 7" fill="#6B2C91"/>
       </marker>
+      <linearGradient id="editorBg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%"  stop-color="#efe3f7"/>
+        <stop offset="100%" stop-color="#f7eefb"/>
+      </linearGradient>
+      <linearGradient id="dailyBg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%"  stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#fafbfd"/>
+      </linearGradient>
+      <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="3" result="offsetblur"/>
+        <feFlood flood-color="#6B2C91" flood-opacity="0.12"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
     </defs>
 
     <!-- ============== LEFT: SOURCES ============== -->
     <g>
-      <text x="40" y="32" font-size="13" fill="#57606a" font-weight="600" letter-spacing="1">SOURCES (38, TIERED)</text>
+      <text x="20" y="28" font-size="11" fill="#6b6f80" font-weight="700" letter-spacing="1.5">SOURCES · 38 · 6 TIERS</text>
 
-      <!-- Source tier rows -->
-      <g font-size="13" fill="#1f2328">
-        <rect x="40" y="50"  width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="69">T1 · Lab announcements</text>
-        <text x="56" y="84" font-size="11" fill="#57606a">Anthropic · OpenAI · Google · xAI</text>
+      <g font-size="12.5" fill="#1a1a26">
+        <rect x="20" y="46"  width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="68" r="6" fill="#6B2C91"/>
+        <text x="50" y="65" font-weight="600">T1 · Lab announcements</text>
+        <text x="50" y="80" font-size="10.5" fill="#6b6f80">Anthropic · OpenAI · Google · xAI</text>
 
-        <rect x="40" y="100" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="119">T2 · Newsletters &amp; analysts</text>
-        <text x="56" y="134" font-size="11" fill="#57606a">Stratechery · One Useful Thing · The Neuron</text>
+        <rect x="20" y="100" width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="122" r="6" fill="#8649a8"/>
+        <text x="50" y="119" font-weight="600">T2 · Newsletters &amp; analysts</text>
+        <text x="50" y="134" font-size="10.5" fill="#6b6f80">Stratechery · Mollick · The Neuron</text>
 
-        <rect x="40" y="150" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="169">T3 · VC AI thinking</text>
-        <text x="56" y="184" font-size="11" fill="#57606a">Sequoia · a16z · YC · Bessemer</text>
+        <rect x="20" y="154" width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="176" r="6" fill="#a26ac0"/>
+        <text x="50" y="173" font-weight="600">T3 · VC AI thinking</text>
+        <text x="50" y="188" font-size="10.5" fill="#6b6f80">Sequoia · a16z · YC · Bessemer</text>
 
-        <rect x="40" y="200" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="219">T4 · PM thought leaders</text>
-        <text x="56" y="234" font-size="11" fill="#57606a">Lenny · SVPG · Platformer</text>
+        <rect x="20" y="208" width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="230" r="6" fill="#b785d4"/>
+        <text x="50" y="227" font-weight="600">T4 · PM thought leaders</text>
+        <text x="50" y="242" font-size="10.5" fill="#6b6f80">Lenny · SVPG · Platformer</text>
 
-        <rect x="40" y="250" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="269">T5 · Aggregators</text>
-        <text x="56" y="284" font-size="11" fill="#57606a">Simon Willison · HF Papers · HN</text>
+        <rect x="20" y="262" width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="284" r="6" fill="#c9a2df"/>
+        <text x="50" y="281" font-weight="600">T5 · Aggregators</text>
+        <text x="50" y="296" font-size="10.5" fill="#6b6f80">Simon Willison · HF Papers · HN</text>
 
-        <rect x="40" y="300" width="240" height="40" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
-        <text x="56" y="319">T6 · Concept seeders</text>
-        <text x="56" y="334" font-size="11" fill="#57606a">Eugene Yan · Hamel · vtrivedy</text>
+        <rect x="20" y="316" width="240" height="44" rx="8" fill="#fafbfd" stroke="#e3e5ec"/>
+        <circle cx="36" cy="338" r="6" fill="#dbc0e9"/>
+        <text x="50" y="335" font-weight="600">T6 · Concept seeders</text>
+        <text x="50" y="350" font-size="10.5" fill="#6b6f80">Eugene Yan · Hamel · vtrivedy</text>
       </g>
     </g>
 
     <!-- Arrow: sources → editor -->
-    <line x1="290" y1="195" x2="395" y2="195" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    <line x1="270" y1="200" x2="380" y2="200" stroke="#6b6f80" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrowhead)"/>
 
     <!-- ============== MIDDLE: EDITOR ============== -->
-    <g>
-      <rect x="395" y="120" width="210" height="160" rx="10" fill="#ede4f3" stroke="#6B2C91" stroke-width="2"/>
-      <text x="500" y="150" text-anchor="middle" font-size="15" font-weight="600" fill="#6B2C91">EDITOR (Claude)</text>
-      <text x="500" y="175" text-anchor="middle" font-size="11" fill="#57606a">5 prompts · 1 persona</text>
+    <g filter="url(#softShadow)">
+      <rect x="380" y="120" width="220" height="170" rx="12" fill="url(#editorBg)" stroke="#6B2C91" stroke-width="2"/>
+      <text x="490" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#6B2C91" letter-spacing="1.5">EDITOR</text>
+      <text x="490" y="174" text-anchor="middle" font-size="17" font-weight="700" fill="#1a1a26">Claude</text>
+      <text x="490" y="194" text-anchor="middle" font-size="11" fill="#6b6f80">5 prompts · 1 persona</text>
 
-      <text x="415" y="205" font-size="12" fill="#1f2328">• Read &amp; dedupe</text>
-      <text x="415" y="223" font-size="12" fill="#1f2328">• Categorise (8 categories)</text>
-      <text x="415" y="241" font-size="12" fill="#1f2328">• Two-lens "why it matters"</text>
-      <text x="415" y="259" font-size="12" fill="#1f2328">• Score &amp; rank by importance</text>
+      <line x1="400" y1="208" x2="580" y2="208" stroke="#dbc0e9" stroke-width="1"/>
+
+      <text x="400" y="228" font-size="12" fill="#2f3142">⃟ Read &amp; dedupe</text>
+      <text x="400" y="246" font-size="12" fill="#2f3142">⃟ 8-category taxonomy</text>
+      <text x="400" y="264" font-size="12" fill="#2f3142">⃟ Two-lens "why it matters"</text>
+      <text x="400" y="282" font-size="12" fill="#2f3142">⃟ Score &amp; rank by importance</text>
     </g>
 
     <!-- Arrow: editor → outputs -->
-    <line x1="615" y1="195" x2="720" y2="195" stroke="#6B2C91" stroke-width="2" marker-end="url(#arrowhead-accent)"/>
+    <line x1="610" y1="200" x2="720" y2="200" stroke="#6B2C91" stroke-width="2.2" marker-end="url(#arrowhead-brand)"/>
 
     <!-- ============== RIGHT: OUTPUTS ============== -->
     <g>
-      <text x="720" y="32" font-size="13" fill="#57606a" font-weight="600" letter-spacing="1">CADENCES</text>
+      <text x="720" y="28" font-size="11" fill="#6b6f80" font-weight="700" letter-spacing="1.5">CADENCES</text>
 
       <!-- Daily -->
-      <rect x="720" y="50" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
-      <text x="736" y="73" font-size="15" font-weight="600" fill="#1f2328">📰 Daily (Mon-Fri, 8am AEST)</text>
-      <text x="736" y="92" font-size="12" fill="#57606a">Markdown briefing · 5-min read · 12 items</text>
-      <text x="736" y="110" font-size="12" fill="#57606a">→ Email to inbox</text>
-      <text x="736" y="128" font-size="12" fill="#57606a">→ Commit to repo + indexes</text>
+      <g>
+        <rect x="720" y="46" width="340" height="98" rx="10" fill="url(#dailyBg)" stroke="#6B2C91" stroke-width="1.5"/>
+        <rect x="720" y="46" width="6" height="98" rx="3" fill="#6B2C91"/>
+        <text x="740" y="71" font-size="11" font-weight="700" fill="#6B2C91" letter-spacing="1.2">DAILY · MON-FRI · 8AM AEST</text>
+        <text x="740" y="93" font-size="15" font-weight="700" fill="#1a1a26">📰 Markdown briefing</text>
+        <text x="740" y="113" font-size="12" fill="#6b6f80">5-min read · 12 items · two-lens "why"</text>
+        <text x="740" y="131" font-size="12" fill="#6b6f80">→ Email · → Commit + indexes</text>
+      </g>
 
       <!-- Weekly -->
-      <rect x="720" y="160" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
-      <text x="736" y="183" font-size="15" font-weight="600" fill="#1f2328">📑 Weekly (Fri 5pm AEST)</text>
-      <text x="736" y="202" font-size="12" fill="#57606a">Synthesises week's dailies · ~10-min read</text>
-      <text x="736" y="220" font-size="12" fill="#57606a">→ NotebookLM audio overview (manual paste)</text>
-      <text x="736" y="238" font-size="12" fill="#57606a">→ Email + commit</text>
+      <g>
+        <rect x="720" y="158" width="340" height="98" rx="10" fill="url(#dailyBg)" stroke="#8649a8" stroke-width="1.5"/>
+        <rect x="720" y="158" width="6" height="98" rx="3" fill="#8649a8"/>
+        <text x="740" y="183" font-size="11" font-weight="700" fill="#8649a8" letter-spacing="1.2">WEEKLY · FRI 5PM AEST</text>
+        <text x="740" y="205" font-size="15" font-weight="700" fill="#1a1a26">🎧 + Audio overview</text>
+        <text x="740" y="225" font-size="12" fill="#6b6f80">Week synthesis · NotebookLM podcast</text>
+        <text x="740" y="243" font-size="12" fill="#6b6f80">→ Email · → Commit · ~2 min paste</text>
+      </g>
 
       <!-- Monthly -->
-      <rect x="720" y="270" width="340" height="90" rx="8" fill="#fff" stroke="#6B2C91" stroke-width="1.5"/>
-      <text x="736" y="293" font-size="15" font-weight="600" fill="#1f2328">📊 Monthly (last weekday)</text>
-      <text x="736" y="312" font-size="12" fill="#57606a">Trend pack · 1500-2500 words</text>
-      <text x="736" y="330" font-size="12" fill="#57606a">→ Claude Design deck (manual paste)</text>
-      <text x="736" y="348" font-size="12" fill="#57606a">→ Email + commit</text>
+      <g>
+        <rect x="720" y="270" width="340" height="98" rx="10" fill="url(#dailyBg)" stroke="#a26ac0" stroke-width="1.5"/>
+        <rect x="720" y="270" width="6" height="98" rx="3" fill="#a26ac0"/>
+        <text x="740" y="295" font-size="11" font-weight="700" fill="#a26ac0" letter-spacing="1.2">MONTHLY · LAST WEEKDAY</text>
+        <text x="740" y="317" font-size="15" font-weight="700" fill="#1a1a26">📊 + Slide deck</text>
+        <text x="740" y="337" font-size="12" fill="#6b6f80">Trend pack · Claude Design deck</text>
+        <text x="740" y="355" font-size="12" fill="#6b6f80">→ Email · → Commit · ~5 min paste</text>
+      </g>
     </g>
 
     <!-- Bottom annotation -->
-    <text x="550" y="395" text-anchor="middle" font-size="13" fill="#57606a">
-      Indexed by category · entity · concept — so the archive is searchable on day 30, not just day 1
-    </text>
+    <g>
+      <rect x="280" y="408" width="500" height="32" rx="16" fill="#fdf3d8" stroke="#c69214" stroke-width="1"/>
+      <text x="530" y="428" text-anchor="middle" font-size="12" fill="#1a1a26">
+        Indexed by category, entity, concept — searchable archive on day 30, not just day 1
+      </text>
+    </g>
   </svg>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
@@ -379,37 +722,40 @@
 <section class="slide" data-slide="4">
   <div class="slide-header">
     <span class="slide-tag">The differentiator</span>
-    <span class="slide-counter">4 / 10</span>
+    <span class="slide-counter">04 / 10</span>
   </div>
 
   <h2>Why this isn't just another AI newsletter</h2>
-
-  <p>Every item answers <b>two</b> questions, not one. That's it. That's the secret sauce.</p>
+  <p class="lead">Every item answers <b>two</b> questions, not one. That's the whole trick.</p>
 
   <div class="two-col">
-    <div class="col-card">
+    <div class="col-card brand">
       <span class="pill">Why it matters (PM)</span>
       <h3>What changes about how I build products?</h3>
-      <p style="font-size: 16px; color: var(--muted);">
-        Default lens. On every item. Connects raw AI news to roadmap, scoping, packaging, eng-product conversations.
+      <p style="font-size: 15px; color: var(--muted);">
+        Default lens. Every item. Connects raw AI news to roadmap, scoping, packaging, eng-product conversations.
       </p>
     </div>
-    <div class="col-card">
-      <span class="pill">Why it matters (mid-market)</span>
+    <div class="col-card gold">
+      <span class="pill gold">Why it matters (mid-market)</span>
       <h3>What changes for MYOB's segment?</h3>
-      <p style="font-size: 16px; color: var(--muted);">
-        Added when an item touches SMB/mid-market packaging, pricing, vertical AI, or compliance. Filters generic "AI is big" coverage into the things that actually move our customers.
+      <p style="font-size: 15px; color: var(--muted);">
+        Added when items touch SMB/mid-market packaging, pricing, vertical AI, or compliance. Filters generic "AI is big" coverage into things that actually move our customers.
       </p>
     </div>
   </div>
 
-  <h3 style="margin-top: 32px;">Real example: Anthropic ships "Claude for Small Business" (20 May)</h3>
-  <p style="font-size: 16px;"><b>Why it matters (PM):</b> Labs are now shipping vertical packaging, not just horizontal APIs — pricing and onboarding become the product surface.</p>
-  <p style="font-size: 16px;"><b>Why it matters (mid-market):</b> First major lab with a packaged SMB tier and built-in templates — sets the baseline for mid-market AI plays and forces a response from Microsoft Copilot and Google Workspace AI.</p>
-  <p style="margin-top: 16px;"><small>Tagged <code>lens:mid-market</code> — surfaces in the weekly Mid-Market Roundup and the by-concept index.</small></p>
+  <div class="example">
+    <h3>🟣 Real example — Anthropic ships "Claude for Small Business" (20 May)</h3>
+    <p><b>Why it matters (PM):</b> Labs are now shipping vertical packaging, not just horizontal APIs — pricing and onboarding become the product surface.</p>
+    <p><b>Why it matters (mid-market):</b> First major lab with a packaged SMB tier and built-in templates — sets the baseline for mid-market AI plays and forces a response from Microsoft Copilot and Google Workspace AI.</p>
+    <p style="margin-top: 12px; font-size: 13px; color: var(--muted);">
+      Tagged <code>lens:mid-market</code> — surfaces in the weekly Mid-Market Roundup and the by-concept index.
+    </p>
+  </div>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
@@ -418,12 +764,11 @@
 <section class="slide" data-slide="5">
   <div class="slide-header">
     <span class="slide-tag">Pilot run</span>
-    <span class="slide-counter">5 / 10</span>
+    <span class="slide-counter">05 / 10</span>
   </div>
 
   <h2>Wed 20 May 2026 — pilot in action</h2>
-
-  <p>One day's news, three artifacts. Same source corpus, three different formats for three different consumption moments.</p>
+  <p class="lead">One day's news, three artifacts. Same corpus, three consumption moments.</p>
 
   <div class="stat-row">
     <div class="stat">
@@ -435,7 +780,7 @@
       <div class="stat-label">items in briefing</div>
     </div>
     <div class="stat">
-      <div class="stat-value">5 min</div>
+      <div class="stat-value">5<small style="font-size: 22px; opacity: 0.7;"> min</small></div>
       <div class="stat-label">read time</div>
     </div>
   </div>
@@ -444,8 +789,8 @@
     <div class="artifact-tile">
       <div class="artifact-icon">📰</div>
       <h3>Markdown briefing</h3>
-      <p>Daily-Driver. Skim on the train; deep-read at the desk.</p>
-      <a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/daily/2026-05-20.md">View on GitHub</a>
+      <p>Daily-driver. Skim on the train; deep-read at the desk.</p>
+      <a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/daily/2026-05-20.md">Read</a>
     </div>
     <div class="artifact-tile">
       <div class="artifact-icon">🎧</div>
@@ -457,33 +802,32 @@
       <div class="artifact-icon">📊</div>
       <h3>Claude Design deck</h3>
       <p>8-12 slide brief. For stakeholders who need 7-min context.</p>
-      <a href="https://claude.ai/design/p/5e2621ff-b5b2-4806-9dd7-c036e60e1176?file=design%2FDaily+AI+Briefing+-+20+May+2026.html&via=share">Open deck</a>
+      <a href="https://claude.ai/design/p/5e2621ff-b5b2-4806-9dd7-c036e60e1176?file=design%2FDaily+AI+Briefing+-+20+May+2026.html&via=share">Open</a>
     </div>
   </div>
 
-  <p style="margin-top: 28px; font-size: 17px;">
-    <span class="pill">Goal hit</span>
-    &nbsp; I can brief any of you on the AI news of 20 May in under 7 minutes — using a deck I didn't design and an audio I didn't record.
+  <p style="margin-top: 22px; text-align: center; font-size: 18px;">
+    <span class="pill gold">Done-when criterion · hit</span>
+    &nbsp; I'm briefing you in 7 minutes — using a deck I didn't design and an audio I didn't record.
   </p>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
 
-<!-- ========== SLIDE 6: AUTOMATION DECISION ========== -->
+<!-- ========== SLIDE 6: ROUTINES VS GHA ========== -->
 <section class="slide" data-slide="6">
   <div class="slide-header">
     <span class="slide-tag">Architectural choice</span>
-    <span class="slide-counter">6 / 10</span>
+    <span class="slide-counter">06 / 10</span>
   </div>
 
   <h2>Why Claude Code Routines, not GitHub Actions</h2>
+  <p class="lead">Default answer for "run daily" is a cron. I went the other way — here's why.</p>
 
-  <p>Standard answer for "run this daily" is a GitHub Actions cron. I went the other way. Here's why.</p>
-
-  <table>
+  <table class="compare">
     <thead>
       <tr>
         <th></th>
@@ -493,113 +837,118 @@
     </thead>
     <tbody>
       <tr>
-        <td><b>News gathering</b></td>
-        <td class="warn">Brittle Python: parsing RSS, scraping HTML, fragile to layout changes</td>
+        <td>News gathering</td>
+        <td class="warn">Brittle Python: RSS parsing, HTML scraping, fragile to layout changes</td>
         <td class="good">Native WebSearch + WebFetch, adapts to layout changes</td>
       </tr>
       <tr>
-        <td><b>Editorial judgement</b></td>
-        <td class="warn">Has to be encoded in code (it can't)</td>
+        <td>Editorial judgement</td>
+        <td class="warn">Has to be encoded in code — it can't</td>
         <td class="good">Literally what Claude is for</td>
       </tr>
       <tr>
-        <td><b>Failure modes</b></td>
+        <td>Failure modes</td>
         <td class="warn">Hard fails on unexpected input</td>
         <td class="good">Reasons through edge cases, notes them in the briefing</td>
       </tr>
       <tr>
-        <td><b>Auth / billing</b></td>
+        <td>Auth / billing</td>
         <td class="warn">Needs ANTHROPIC_API_KEY + per-token billing</td>
         <td class="good">Uses existing Claude Code subscription</td>
       </tr>
       <tr>
-        <td><b>Maintenance</b></td>
+        <td>Maintenance</td>
         <td class="warn">Per-source code maintenance</td>
         <td class="good">"Update the source list" = edit one Markdown file</td>
       </tr>
     </tbody>
   </table>
 
-  <p style="margin-top: 24px;">
-    <b class="accent">The insight:</b> news gathering + editorial judgement is irreducibly agentic.
-    Scripting it would mean re-implementing Claude in Python — and losing every advantage the model gives me.
-  </p>
+  <div class="insight">
+    <b>The insight.</b> News gathering plus editorial judgement is <i>irreducibly agentic</i>. Scripting it would mean re-implementing Claude in Python — and losing every advantage the model gives me.
+  </div>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
 
-<!-- ========== SLIDE 7: WHAT CAN'T BE AUTOMATED ========== -->
+<!-- ========== SLIDE 7: WHAT I DIDN'T AUTOMATE ========== -->
 <section class="slide" data-slide="7">
   <div class="slide-header">
     <span class="slide-tag">Pragmatism</span>
-    <span class="slide-counter">7 / 10</span>
+    <span class="slide-counter">07 / 10</span>
   </div>
 
-  <h2>What I deliberately didn't automate (and why that's fine)</h2>
+  <h2>What I deliberately didn't automate</h2>
+  <p class="lead">Two pieces still need a human paste. I kept them manual on purpose.</p>
 
-  <p>Two pieces of the pipeline still need a human paste. I kept them manual on purpose.</p>
-
-  <div class="two-col" style="margin-top: 32px;">
-    <div class="col-card">
-      <div style="font-size: 32px;">🎧</div>
+  <div class="two-col" style="margin-top: 24px;">
+    <div class="col-card brand">
+      <div class="icon">🎧</div>
       <h3>Weekly NotebookLM audio</h3>
-      <p style="font-size: 16px;">
-        Paste the weekly Markdown into NotebookLM, click "Generate Audio Overview".
-        <br><br>
-        Google's consumer audio API doesn't exist yet. Enterprise API exists but isn't worth the bill for a personal workflow.
+      <p style="font-size: 15px;">
+        Paste weekly Markdown into NotebookLM, click "Generate Audio Overview".
       </p>
-      <p style="font-size: 14px; color: var(--muted);">~2 minutes, once a week.</p>
+      <p style="font-size: 14px; color: var(--muted);">
+        No public consumer API. Enterprise API exists but isn't worth the bill for a personal workflow.
+      </p>
+      <p style="margin-top: 14px;">
+        <span class="pill">~2 min / week</span>
+      </p>
     </div>
-    <div class="col-card">
-      <div style="font-size: 32px;">📊</div>
+    <div class="col-card brand">
+      <div class="icon">📊</div>
       <h3>Monthly Claude Design deck</h3>
-      <p style="font-size: 16px;">
-        Paste the monthly Markdown into claude.ai/design, get a deck back, export PPTX.
-        <br><br>
-        Claude Design is still research preview — no public API.
+      <p style="font-size: 15px;">
+        Paste monthly Markdown into claude.ai/design, get a deck back, export PPTX.
       </p>
-      <p style="font-size: 14px; color: var(--muted);">~5 minutes, once a month.</p>
+      <p style="font-size: 14px; color: var(--muted);">
+        Claude Design is still research preview — no public API yet.
+      </p>
+      <p style="margin-top: 14px;">
+        <span class="pill">~5 min / month</span>
+      </p>
     </div>
   </div>
 
-  <div class="stat" style="margin-top: 32px; max-width: 520px;">
-    <div class="stat-value">~13 min / month</div>
-    <div class="stat-label">total human-attention time across the whole pipeline</div>
+  <div class="hero-stat">
+    <div class="hero-stat-value">~13 min / month</div>
+    <div class="hero-stat-label">total human-attention time across the whole pipeline</div>
   </div>
 
-  <p style="margin-top: 28px;">
-    <b class="accent">The lesson:</b> "must automate everything" is a great way to never ship.
-    A pipeline that's 95% automated and runs for years beats one that's 100% automated and never quite gets out the door.
-  </p>
+  <div class="insight">
+    <b>The lesson.</b> "Must automate everything" is a great way to never ship. A pipeline that's 95% automated and runs for years beats one that's 100% automated and never quite gets out the door.
+  </div>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
 
-<!-- ========== SLIDE 8: LESSONS ========== -->
-<section class="slide" data-slide="8">
+<!-- ========== SLIDE 8: LESSONS (with builds) ========== -->
+<section class="slide" data-slide="8" data-builds="5">
   <div class="slide-header">
     <span class="slide-tag">Takeaways</span>
-    <span class="slide-counter">8 / 10</span>
+    <span class="slide-counter">08 / 10</span>
   </div>
 
-  <h2>5 lessons that transfer to any AI-driven workflow</h2>
+  <h2>5 lessons that transfer to any AI workflow</h2>
 
   <ol class="lessons">
-    <li><b>Two-lens framing doubles value at low cost.</b> "Why it matters for X" + "Why it matters for Y" — pick two lenses your audience actually has, ask both questions of every item.</li>
-    <li><b>Structured metadata is leverage.</b> YAML front-matter on each Markdown file drove email subject lines, deck URLs, and search indexes — all generated, not hand-maintained.</li>
-    <li><b>Tag discipline compounds.</b> A consistent taxonomy looks like overkill on day 1 and pays off on day 30 when you can search "everything that mentioned Anthropic this quarter".</li>
-    <li><b>Manual paste steps are acceptable.</b> When the API doesn't exist, design around it instead of waiting for it. Most of the value lives in the corpus, not the delivery channel.</li>
-    <li><b>Match the tool to the task.</b> Agentic work (judgement, synthesis, fuzzy inputs) belongs in agents. Deterministic work (HTTP requests, file IO) belongs in scripts. Don't force one into the other.</li>
+    <li data-build="1"><b>Two-lens framing doubles value at low cost.</b> Pick two lenses your audience actually has — ask both questions of every item. Cost of the second question is near zero; value of the second answer is huge.</li>
+    <li data-build="2"><b>Structured metadata is leverage.</b> YAML at the top of every Markdown file in this pipeline drives email subject lines, deck URLs, and search indexes. None of it is hand-maintained. Invest in structure on day one.</li>
+    <li data-build="3"><b>Tag discipline compounds.</b> A consistent taxonomy looks like overkill on day one and pays off on day thirty when you can search a quarter of history in seconds.</li>
+    <li data-build="4"><b>Manual paste steps are acceptable.</b> Most of the value lives in the corpus, not the delivery channel. If the API doesn't exist, design around it instead of waiting for it.</li>
+    <li data-build="5"><b>Match the tool to the task.</b> Agentic work belongs in agents — judgement, synthesis, fuzzy inputs. Deterministic work belongs in scripts. Don't force one into the shape of the other.</li>
   </ol>
 
+  <p class="lessons-hint" id="lessons-hint">→ click or press space to reveal each lesson</p>
+
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
@@ -608,43 +957,45 @@
 <section class="slide" data-slide="9">
   <div class="slide-header">
     <span class="slide-tag">What's next</span>
-    <span class="slide-counter">9 / 10</span>
+    <span class="slide-counter">09 / 10</span>
   </div>
 
   <h2>This is a pattern, not a one-off</h2>
+  <p class="lead">The shape — <i>sources → editor → cadenced outputs → inbox</i> — works far beyond AI news.</p>
 
-  <p>The pipeline shape — <i>sources → editor → cadenced outputs → inbox</i> — works for far more than AI news.</p>
-
-  <div class="three-col" style="margin-top: 32px;">
-    <div class="col-card">
-      <h3>🔍 Competitive intel</h3>
-      <p style="font-size: 15px;">
-        Swap T1-T6 for competitor blogs, support pages, pricing pages, exec LinkedIn posts. Daily digest of moves to track.
+  <div class="three-col" style="margin-top: 26px;">
+    <div class="col-card brand">
+      <div class="icon">🔍</div>
+      <h3>Competitive intel</h3>
+      <p style="font-size: 14px;">
+        Sources become competitor blogs, support pages, pricing pages, exec LinkedIn posts. Daily digest of moves to track.
       </p>
     </div>
-    <div class="col-card">
-      <h3>💬 Customer feedback</h3>
-      <p style="font-size: 15px;">
-        Sources become reviews, support tickets, NPS verbatims, Reddit threads, sales-call transcripts. Editor extracts themes and quotes.
+    <div class="col-card gold">
+      <div class="icon">💬</div>
+      <h3>Customer feedback</h3>
+      <p style="font-size: 14px;">
+        Sources become reviews, support tickets, NPS verbatims, Reddit, sales-call transcripts. Editor extracts themes and quotes.
       </p>
     </div>
-    <div class="col-card">
-      <h3>📜 Regulatory tracking</h3>
-      <p style="font-size: 15px;">
-        Sources become regulator feeds, industry-body newsletters, gov.au, EU Commission. Tag what's mandatory vs guidance vs commentary.
+    <div class="col-card teal">
+      <div class="icon">📜</div>
+      <h3>Regulatory tracking</h3>
+      <p style="font-size: 14px;">
+        Sources become regulator feeds, industry bodies, gov.au, EU Commission. Tag mandatory vs guidance vs commentary.
       </p>
     </div>
   </div>
 
-  <h3 style="margin-top: 36px;">For this specific pipeline:</h3>
-  <ul>
-    <li><b>Mission 7</b> automates the email-send via the Microsoft 365 connector (configured today — runs from Monday onwards).</li>
-    <li>First <b>monthly recap</b> drops Friday 29 May — with Claude Design deck for the team meeting.</li>
-    <li><b>Concept timeline</b> in the by-concept index already has its first entry: <code>agent-harness</code>. By August it'll be a useful artifact in its own right.</li>
+  <h3 style="margin-top: 30px;">For this specific pipeline</h3>
+  <ul style="font-size: 16px;">
+    <li><b>Mission 7</b> finishes the email automation via the M365 connector — runs from Monday onwards.</li>
+    <li><b>First monthly recap</b> drops Friday 29 May with a Claude Design deck for the team meeting.</li>
+    <li><b>Concept timeline</b> already has its first entry: <code>agent-harness</code>. By August it'll be a useful artifact in its own right.</li>
   </ul>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
@@ -657,45 +1008,47 @@
   </div>
 
   <h2>Take what's useful</h2>
+  <p class="lead">Everything's in the repo. Three pieces fork particularly well into your own missions.</p>
 
-  <p>Everything is in the repo. Three pieces are particularly easy to fork for your own missions:</p>
-
-  <div class="three-col" style="margin-top: 24px;">
-    <div class="col-card">
-      <h3>1. The source list</h3>
-      <p style="font-size: 15px;">
-        38 hand-picked AI sources across 6 tiers, with RSS URLs and signal ratings. Drop in your domain's sources, keep the structure.
+  <div class="three-col" style="margin-top: 22px;">
+    <div class="col-card brand">
+      <div style="font-size: 14px; color: var(--brand); font-weight: 700;">01</div>
+      <h3>The source list</h3>
+      <p style="font-size: 14px;">
+        38 hand-picked sources across 6 tiers, with RSS URLs and signal ratings. Swap the URLs, keep the structure.
       </p>
-      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/sources.md">sources.md →</a></p>
+      <p style="font-size: 13px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/sources.md">sources.md →</a></p>
     </div>
-    <div class="col-card">
-      <h3>2. The editor prompt</h3>
-      <p style="font-size: 15px;">
-        Persona, hard rules, two-lens framing, source-tier weighting. Change the audience profile and the two lenses — the rest carries.
+    <div class="col-card brand">
+      <div style="font-size: 14px; color: var(--brand); font-weight: 700;">02</div>
+      <h3>The editor prompt</h3>
+      <p style="font-size: 14px;">
+        Persona, hard rules, two-lens framing, source-tier weighting. Change the audience and the two lenses — the rest carries.
       </p>
-      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/editor-system.md">editor-system.md →</a></p>
+      <p style="font-size: 13px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/editor-system.md">editor-system.md →</a></p>
     </div>
-    <div class="col-card">
-      <h3>3. The weekly recap prompt</h3>
-      <p style="font-size: 15px;">
-        Audio-friendly writing rules baked in (NotebookLM paraphrases prose better than bullets — this prompt knows that).
+    <div class="col-card brand">
+      <div style="font-size: 14px; color: var(--brand); font-weight: 700;">03</div>
+      <h3>The weekly recap prompt</h3>
+      <p style="font-size: 14px;">
+        Audio-friendly writing rules baked in. NotebookLM paraphrases prose better than bullets — this prompt knows that.
       </p>
-      <p style="font-size: 14px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/weekly-recap.md">weekly-recap.md →</a></p>
+      <p style="font-size: 13px;"><a href="https://github.com/james-myob/AIResolutionProgram/blob/main/Information-pipeline/prompts/weekly-recap.md">weekly-recap.md →</a></p>
     </div>
   </div>
 
-  <div style="background: var(--accent-soft); border-radius: 10px; padding: 28px; margin-top: 40px;">
-    <h3 style="margin: 0 0 8px;">Happy to pair on setup</h3>
-    <p style="margin: 0; font-size: 16px;">
-      If you want to try this pattern for one of your own workflows — competitive intel, support tickets, regulatory watch — DM me. Easier to walk through it together than read the README cold.
+  <div class="closing-cta">
+    <h3>Happy to pair on setup ✨</h3>
+    <p>
+      Want to try this pattern for your own workflow — competitive intel, support tickets, regulatory watch? DM me. Easier to walk through it together than read the README cold.
     </p>
-    <p style="margin: 16px 0 0; font-size: 14px;">
-      Repo: <a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a>
+    <p style="margin-top: 14px; font-size: 14px;">
+      Repo · <a href="https://github.com/james-myob/AIResolutionProgram">github.com/james-myob/AIResolutionProgram</a>
     </p>
   </div>
 
   <div class="slide-footer">
-    <span>Mission 6 — Information Pipeline · Thanks 👋</span>
+    <span><span class="brand-dot"></span>Mission 6 · Information Pipeline · Thanks 👋</span>
     <span>James Peck · MYOB</span>
   </div>
 </section>
@@ -705,48 +1058,126 @@
 <!-- Controls -->
 <div class="controls">
   <button id="prev" aria-label="Previous">←</button>
+  <span class="counter" id="counter">1 / 10</span>
   <button id="next" aria-label="Next">→</button>
 </div>
 
 <script>
-  const slides = document.querySelectorAll('.slide');
+  const slides = Array.from(document.querySelectorAll('.slide'));
   const total = slides.length;
   const progress = document.getElementById('progress');
   const prev = document.getElementById('prev');
   const next = document.getElementById('next');
+  const counter = document.getElementById('counter');
   let i = 0;
+  let buildStep = 0;  // how many builds revealed on the current slide
 
-  function show(idx) {
-    i = Math.max(0, Math.min(total - 1, idx));
-    slides.forEach((s, k) => s.classList.toggle('active', k === i));
-    progress.style.width = ((i + 1) / total * 100) + '%';
-    prev.disabled = i === 0;
-    next.disabled = i === total - 1;
-    if (location.hash !== '#' + (i + 1)) history.replaceState(null, '', '#' + (i + 1));
+  function currentSlide() { return slides[i]; }
+  function buildsOnSlide(s) { return parseInt(s.dataset.builds || '0', 10); }
+  function buildItems(s) {
+    return Array.from(s.querySelectorAll('[data-build]'))
+      .sort((a, b) => parseInt(a.dataset.build, 10) - parseInt(b.dataset.build, 10));
   }
 
-  prev.addEventListener('click', () => show(i - 1));
-  next.addEventListener('click', () => show(i + 1));
+  function show(idx, opts = {}) {
+    const target = Math.max(0, Math.min(total - 1, idx));
+    const previousIdx = i;
+    i = target;
+
+    slides.forEach((s, k) => s.classList.toggle('active', k === i));
+
+    // Reset builds on the slide we landed on.
+    const items = buildItems(currentSlide());
+    if (opts.revealAll) {
+      items.forEach(el => el.classList.add('revealed'));
+      buildStep = items.length;
+    } else {
+      items.forEach(el => el.classList.remove('revealed'));
+      buildStep = 0;
+    }
+
+    const slideProgress = (i + (buildsOnSlide(currentSlide()) ? buildStep / buildsOnSlide(currentSlide()) : 1)) / total;
+    progress.style.width = (slideProgress * 100) + '%';
+
+    counter.textContent = (i + 1) + ' / ' + total;
+    prev.disabled = i === 0 && buildStep === 0;
+    next.disabled = i === total - 1 && buildStep === buildsOnSlide(currentSlide());
+
+    const hash = '#' + (i + 1);
+    if (location.hash !== hash) history.replaceState(null, '', hash);
+  }
+
+  function advance() {
+    const s = currentSlide();
+    const max = buildsOnSlide(s);
+    if (buildStep < max) {
+      buildStep += 1;
+      const item = s.querySelector('[data-build="' + buildStep + '"]');
+      if (item) item.classList.add('revealed');
+      if (buildStep === max) {
+        const hint = s.querySelector('#lessons-hint');
+        if (hint) hint.style.display = 'none';
+      }
+      const slideProgress = (i + buildStep / max) / total;
+      progress.style.width = (slideProgress * 100) + '%';
+      next.disabled = i === total - 1 && buildStep === max;
+      prev.disabled = i === 0 && buildStep === 0;
+    } else {
+      show(i + 1);
+    }
+  }
+
+  function retreat() {
+    const s = currentSlide();
+    const max = buildsOnSlide(s);
+    if (buildStep > 0) {
+      const item = s.querySelector('[data-build="' + buildStep + '"]');
+      if (item) item.classList.remove('revealed');
+      buildStep -= 1;
+      const hint = s.querySelector('#lessons-hint');
+      if (hint) hint.style.display = '';
+      const slideProgress = (i + (max ? buildStep / max : 0)) / total;
+      progress.style.width = (slideProgress * 100) + '%';
+      prev.disabled = i === 0 && buildStep === 0;
+      next.disabled = false;
+    } else {
+      // Going back enters previous slide with all its builds revealed.
+      show(i - 1, { revealAll: true });
+    }
+  }
+
+  prev.addEventListener('click', retreat);
+  next.addEventListener('click', advance);
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); show(i + 1); }
-    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); show(i - 1); }
-    else if (e.key === 'Home') { show(0); }
-    else if (e.key === 'End') { show(total - 1); }
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+      e.preventDefault(); advance();
+    } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+      e.preventDefault(); retreat();
+    } else if (e.key === 'Home') {
+      show(0);
+    } else if (e.key === 'End') {
+      show(total - 1, { revealAll: true });
+    } else if (e.key === 'f' || e.key === 'F') {
+      // toggle fullscreen
+      if (document.fullscreenElement) document.exitFullscreen();
+      else document.documentElement.requestFullscreen();
+    }
   });
 
-  // Click to advance (but not on links/buttons)
+  // Click-to-advance, but not on links / buttons / interactive elements
   document.addEventListener('click', (e) => {
-    if (e.target.closest('a, button, .controls')) return;
-    // Right half of screen = next, left half = prev
-    if (e.clientX > window.innerWidth / 2) show(i + 1);
-    else show(i - 1);
+    if (e.target.closest('a, button, .controls, input, textarea')) return;
+    if (e.clientX > window.innerWidth / 2) advance();
+    else retreat();
   });
 
   // Restore from hash
   if (location.hash) {
     const n = parseInt(location.hash.slice(1), 10);
     if (!isNaN(n)) show(n - 1);
+    else show(0);
   } else {
     show(0);
   }
