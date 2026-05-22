@@ -4,10 +4,14 @@
 
 ---
 
+## `entity:andrej-karpathy`
+- 2026-05-22 — Joins Anthropic pretraining team; will start a new team using Claude to accelerate pretraining research — [briefing](../daily/2026-05-22.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-05-22 — $30B round closing at $900B valuation; Glasswing progress update (27-yr OpenBSD + 16-yr FFmpeg zero-days); Jack Clark Oxford predictions; Karpathy hire — [briefing](../daily/2026-05-22.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +49,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-05-22 — Confidential S-1 IPO filing (Goldman/Morgan Stanley); Codex Goal Mode GA + Appshots + locked Mac; ChatGPT Personal Finance (Plaid) — [briefing](../daily/2026-05-22.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -63,8 +68,23 @@
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
+## `entity:chatgpt`
+- 2026-05-22 — Personal Finance feature launched: Plaid bank connections, spending dashboard, Pro US users — [briefing](../daily/2026-05-22.md)
+
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-mythos-preview`
+- 2026-05-22 — Used in Project Glasswing to find 27-yr OpenBSD + 16-yr FFmpeg zero-days; 83.1% vuln reproduction accuracy — [briefing](../daily/2026-05-22.md)
+
+## `entity:codex`
+- 2026-05-22 — Goal Mode GA, Appshots (macOS), locked-Mac remote operation — [briefing](../daily/2026-05-22.md)
+
+## `entity:deepseek`
+- 2026-05-22 — V4 at $0.0036/M input tokens; Chinese models now 61% of OpenRouter token consumption — [briefing](../daily/2026-05-22.md)
+
+## `entity:jack-clark`
+- 2026-05-22 — Oxford lecture: Nobel prediction within 12 months, AI self-improvement by 2028, "non-zero extinction risk" — [briefing](../daily/2026-05-22.md)
 
 ## `entity:cohere`
 - 2026-05-21 — Command A+ open-sourced under Apache 2.0; 218B MoE, runs on single B200 GPU — [briefing](../daily/2026-05-21.md)
