@@ -4,6 +4,29 @@
 
 ---
 
+## 📦 Products & Tooling
+
+### 2026-05-24
+- Anthropic Project Glasswing update: Claude Mythos finds 10,000+ critical vulnerabilities across 50 partners in one month — [briefing](../daily/2026-05-24.md)
+
+## ⚖️ Policy, Safety & Regulation
+
+### 2026-05-24
+- Illinois SB315 passes Senate 52-5 — frontier AI transparency + audit bill, effective 2028 — [briefing](../daily/2026-05-24.md)
+- VS Code supply chain attack (TeamPCP) hits GitHub, OpenAI, Mistral — 3,800 repos stolen — [briefing](../daily/2026-05-24.md)
+
+## 💰 Business & Funding
+
+### 2026-05-24
+- Meta "Model Capability Initiative": keystroke/screenshot logging on employee laptops before layoffs — [briefing](../daily/2026-05-24.md)
+
+## 📈 Industry Analysis
+
+### 2026-05-24
+- Jack Clark Oxford lecture: 60%+ probability recursive AI self-improvement by end 2028 — [briefing](../daily/2026-05-24.md)
+
+---
+
 ## 🧠 Models & Capabilities
 
 ### 2026-05-21
