@@ -4,10 +4,20 @@
 
 ---
 
+## `entity:jack-clark`
+- 2026-05-24 — Oxford lecture: 60%+ probability recursive self-improvement by end 2028; Nobel discovery in 12 months — [briefing](../daily/2026-05-24.md)
+
+## `entity:github`
+- 2026-05-24 — Internal repos breached via trojanized VS Code Nx Console extension; 3,800 repos stolen — [briefing](../daily/2026-05-24.md)
+
+## `entity:mistral`
+- 2026-05-24 — Device compromised in TeamPCP VS Code supply chain attack; $25K extortion demand — [briefing](../daily/2026-05-24.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-05-24 — Project Glasswing update: Claude Mythos finds 10,000+ critical vulnerabilities across 50 partners — [briefing](../daily/2026-05-24.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +55,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-05-24 — Two devices compromised in TeamPCP supply chain attack; macOS certificate revocation June 12 — [briefing](../daily/2026-05-24.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -73,6 +84,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-05-24 — "Model Capability Initiative": keystroke/screenshot surveillance on US employee laptops before layoffs — [briefing](../daily/2026-05-24.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`

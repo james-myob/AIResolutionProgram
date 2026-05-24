@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-05-24
+
+- [ ] 📝 **"A Tale of Two Anthropics"** — Jack Clark in Time Magazine · Essay · ~3,500 words (est.) · [link](https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/) · *Clark's probability estimates and benchmark evidence for recursive self-improvement by 2028; the "two Anthropics" framing is useful vocabulary for AI risk governance conversations with stakeholders.* — from [briefing](../daily/2026-05-24.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
