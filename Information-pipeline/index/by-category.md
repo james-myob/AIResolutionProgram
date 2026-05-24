@@ -17,6 +17,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-05-24
+- Project Glasswing first-month update: Claude Mythos finds 10,000+ vulnerabilities across partner systems — [briefing](../daily/2026-05-24.md)
+- Anthropic acquires Stainless for $300M+ — SDK infrastructure for Claude, OpenAI, and Google now Anthropic-controlled — [briefing](../daily/2026-05-24.md)
+
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
 
@@ -28,6 +32,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-24
+- Intuit cuts 3,000 jobs (17%) explicitly to fund multi-year AI deals with OpenAI and Anthropic — [briefing](../daily/2026-05-24.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +56,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-05-24
+- EU AI Act Digital Omnibus: high-risk compliance deadline shifts from Aug 2026 to Dec 2027; new SME/small mid-cap relief category — [briefing](../daily/2026-05-24.md)
+- Jack Clark (Anthropic co-founder): Mythos has "national-level cyberweapon" capabilities; 60% odds on recursive self-improvement by 2028 — [briefing](../daily/2026-05-24.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +69,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-05-24
+- AI GPU (HBM) demand expected to consume 20% of memory wafer capacity by end of 2026, constraining consumer device RAM for years — [briefing](../daily/2026-05-24.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
