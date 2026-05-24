@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-05-24 — Project Glasswing first-month update (10,000+ vulns via Mythos); Stainless acquisition; Intuit multi-year AI deal; Jack Clark recursive self-improvement statements — [briefing](../daily/2026-05-24.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -33,6 +34,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-05-24 — Gemini adds Canva (live), Adobe Firefly and CapCut (coming soon) as native creative connectors — [briefing](../daily/2026-05-24.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -44,7 +46,26 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:claude-mythos`
+- 2026-05-24 — Project Glasswing first-month update: 10,000+ critical/high vulns found; wolfSSL cert-forging exploit constructed — [briefing](../daily/2026-05-24.md)
+
+## `entity:eu-ai-act`
+- 2026-05-24 — Digital Omnibus: high-risk compliance delayed to Dec 2027; new small mid-cap relief category; deepfake/CSAM bans unchanged (Dec 2026) — [briefing](../daily/2026-05-24.md)
+
+## `entity:european-ai-office`
+- 2026-05-24 — Gains supervisory authority over GPAI and VLOP-integrated AI under Digital Omnibus — [briefing](../daily/2026-05-24.md)
+
+## `entity:glasswing`
+- 2026-05-24 — First-month update: 10,000+ vulns across partner systems; 10× bug-finding rate improvement — [briefing](../daily/2026-05-24.md)
+
+## `entity:intuit`
+- 2026-05-24 — Cuts 3,000 jobs (17%) to fund multi-year AI deals with OpenAI and Anthropic; expects $500M annualised cost savings — [briefing](../daily/2026-05-24.md)
+
+## `entity:jack-clark`
+- 2026-05-24 — Mythos has "national-level cyberweapon" capabilities; 60% odds on recursive self-improvement by 2028 — [briefing](../daily/2026-05-24.md)
+
 ## `entity:openai`
+- 2026-05-24 — Intuit multi-year AI deal (embed ChatGPT in QuickBooks/TurboTax) — [briefing](../daily/2026-05-24.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -62,6 +83,9 @@
 
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:stainless`
+- 2026-05-24 — Acquired by Anthropic for $300M+; hosted SDK generator being wound down — [briefing](../daily/2026-05-24.md)
 
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
