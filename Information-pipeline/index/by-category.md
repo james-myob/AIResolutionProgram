@@ -17,6 +17,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-05-25
+- OpenAI Codex ships "Locked Use" — desktop agent now operates Mac apps while screen is locked — [briefing](../daily/2026-05-25.md)
+
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
 
@@ -28,6 +31,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-25
+- Anthropic closes $30B+ funding round at $900B+ valuation — surpasses OpenAI as world's most valuable private AI company — [briefing](../daily/2026-05-25.md)
+- OpenAI files confidential S-1 with SEC — IPO targets Q4 2026 at ~$1T valuation — [briefing](../daily/2026-05-25.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +56,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-05-25
+- Pope Leo XIV releases AI encyclical "Magnifica Humanitas" — first Vatican doctrine on AI, co-presented with Anthropic's Chris Olah — [briefing](../daily/2026-05-25.md)
+- Project Glasswing: Claude Mythos found 10,000 critical vulnerabilities in one month across 50 partner organisations — [briefing](../daily/2026-05-25.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +69,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-05-25
+- Chinese open-weights models now >45% of OpenRouter traffic — Kimi K2.6, DeepSeek V3.2, Qwen 3.6 Plus leading on cost-efficiency — [briefing](../daily/2026-05-25.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
