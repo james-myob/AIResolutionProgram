@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-05-25
+
+- [ ] 📝 **Too Dangerous to Deploy: Anthropic's Mythos and What Comes Next** — Just Security · Essay · ~2,500 words · [link](https://www.justsecurity.org/138011/too-dangerous-anthropic-mythos/) · *Clearest policy analysis of what a model with autonomous zero-day-exploit capability means for supply chains and international AI governance; the voluntary-safeguards-can't-hold argument is the question boards will be asking in 6 months.* — from [briefing](../daily/2026-05-25.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
