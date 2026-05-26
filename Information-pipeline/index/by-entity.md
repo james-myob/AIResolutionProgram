@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-05-26 — $30B round closing at $900B valuation; Project Glasswing/Claude Mythos 10,000+ vulns; Stainless acquisition ($300M+); Chris Olah at Vatican — [briefing](../daily/2026-05-26.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-05-26 — Confidential S-1 IPO filing with SEC; Q4 2026 debut targeted; $852B–$1T valuation; $14B projected operating loss 2026 — [briefing](../daily/2026-05-26.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -63,6 +65,9 @@
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
+## `entity:claude-mythos`
+- 2026-05-26 — Project Glasswing update: 10,000+ high/critical vulnerabilities found across 40+ major tech partners — [briefing](../daily/2026-05-26.md)
+
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
@@ -80,3 +85,27 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:pope-leo-xiv`
+- 2026-05-26 — Published Magnifica Humanitas: first papal encyclical on AI (42,300 words); personally presented at Vatican — [briefing](../daily/2026-05-26.md)
+
+## `entity:mistral`
+- 2026-05-26 — Acquired Emmi AI (Vienna physics-simulation startup); part of four-lab consolidation wave — [briefing](../daily/2026-05-26.md)
+
+## `entity:google-deepmind`
+- 2026-05-26 — Acqui-hired full Contextual AI team (Douwe Kiela + 20+ researchers); $80–90M licensing structure — [briefing](../daily/2026-05-26.md)
+
+## `entity:stainless`
+- 2026-05-26 — Acquired by Anthropic for $300M+; SDK infrastructure previously powering Anthropic, OpenAI, and Google SDKs — [briefing](../daily/2026-05-26.md)
+
+## `entity:contextual-ai`
+- 2026-05-26 — Full team acqui-hired by Google DeepMind via $80–90M licensing structure — [briefing](../daily/2026-05-26.md)
+
+## `entity:emmi-ai`
+- 2026-05-26 — Acquired by Mistral; Vienna-based physics-simulation startup with 30+ researchers — [briefing](../daily/2026-05-26.md)
+
+## `entity:ethan-mollick`
+- 2026-05-26 — "Nobody knows anything" AI economy speech at NYPL; 0.1% macro vs. 30% micro productivity gap framing — [briefing](../daily/2026-05-26.md)
+
+## `entity:sequoia`
+- 2026-05-26 — Co-leads Anthropic $30B round at $900B valuation alongside Dragoneer, Altimeter, Greenoaks — [briefing](../daily/2026-05-26.md)
