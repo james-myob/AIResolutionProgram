@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-05-26
+*(no model releases in this edition)*
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-05-26
+- Claude Mythos / Project Glasswing: 10,000+ critical vulnerabilities found across 40+ major tech partners — [briefing](../daily/2026-05-26.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-26
+- Anthropic set to close $30B at $900B valuation this week, eclipsing OpenAI — [briefing](../daily/2026-05-26.md)
+- OpenAI files confidential S-1 IPO prospectus with SEC, targets Q4 2026 debut — [briefing](../daily/2026-05-26.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-05-26
+- Pope Leo XIV publishes Magnifica Humanitas — first papal encyclical on AI (42,300 words) — [briefing](../daily/2026-05-26.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +71,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-05-26
+- Four labs, four acquisitions in five days: AI stack consolidation signal — [briefing](../daily/2026-05-26.md)
+- AI productivity paradox: 0.1% economy-wide vs. 30% in teams that ship (Ethan Mollick / Fortune) — [briefing](../daily/2026-05-26.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

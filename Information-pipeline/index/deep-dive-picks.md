@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-05-26
+
+- [ ] 📝 **Magnifica Humanitas** — Pope Leo XIV · Essay · ~42,300 words · [Vatican.va](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html) · *First papal encyclical on AI; the Catholic Social Doctrine framework on labor, power concentration, and the common good maps directly onto product decisions — start with Vatican News summary, then sections IV–V.* — from [briefing](../daily/2026-05-26.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
