@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-05-27 — Closes $30B+ funding at ~$900B valuation; world's most valuable private AI company; Seoul office opened — [briefing](../daily/2026-05-27.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,10 +46,12 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-05-27 — Product-market fit in enterprise coding agents per Simon Willison analysis — [briefing](../daily/2026-05-27.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-05-27 — Essay: Anthropic and OpenAI have found product-market fit in enterprise coding agents — [briefing](../daily/2026-05-27.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
 ## `entity:spacex`
@@ -63,8 +66,20 @@
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
+## `entity:alibaba`
+- 2026-05-27 — AI talent overseas travel now requires pre-approval under expanded Chinese restrictions — [briefing](../daily/2026-05-27.md)
+
+## `entity:china`
+- 2026-05-27 — Expands AI researcher travel restrictions to private firms (Alibaba, DeepSeek) — [briefing](../daily/2026-05-27.md)
+
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-security`
+- 2026-05-27 — Public beta for Claude Enterprise: scans codebases, patches 2,100+ vulnerabilities in first 3 weeks — [briefing](../daily/2026-05-27.md)
+
+## `entity:cognition`
+- 2026-05-27 — Raises $1B at $26B valuation for Devin; $492M ARR, 50% MoM enterprise growth — [briefing](../daily/2026-05-27.md)
 
 ## `entity:cohere`
 - 2026-05-21 — Command A+ open-sourced under Apache 2.0; 218B MoE, runs on single B200 GPU — [briefing](../daily/2026-05-21.md)
@@ -80,3 +95,15 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:deepmind`
+- 2026-05-27 — Hassabis interview: AGI ~2029–2030; current agents are "practice run" — [briefing](../daily/2026-05-27.md)
+
+## `entity:demis-hassabis`
+- 2026-05-27 — Pegs AGI at 2029–2030 in Axios interview; warns governments to prepare — [briefing](../daily/2026-05-27.md)
+
+## `entity:devin`
+- 2026-05-27 — Cognition's AI software engineer; $492M ARR, 50% MoM enterprise growth — [briefing](../daily/2026-05-27.md)
+
+## `entity:sequoia`
+- 2026-05-27 — Co-leads Anthropic's $30B+ round at ~$900B valuation — [briefing](../daily/2026-05-27.md)
