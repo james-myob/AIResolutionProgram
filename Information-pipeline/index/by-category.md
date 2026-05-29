@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-05-29
+- Claude Opus 4.8 ships with dynamic multi-agent orchestration, effort control, 3× cheaper fast mode — [briefing](../daily/2026-05-29.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-05-29
+- OpenAI launches Rosalind Biodefense — restricted GPT-Rosalind access for biodefense and pandemic preparedness — [briefing](../daily/2026-05-29.md)
+- Meta launches paid subscription tiers (Instagram/Facebook/WhatsApp Plus) with AI upsell tier — [briefing](../daily/2026-05-29.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-05-29
+- Anthropic raises $65B Series H at $965B valuation, surpassing OpenAI; run-rate revenue $47B — [briefing](../daily/2026-05-29.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-05-29
+- OpenAI publishes Frontier Governance Framework — first explicit EU/California regulatory alignment document — [briefing](../daily/2026-05-29.md)
+- California's 30 AI bills clear house-of-origin crossover deadline; move to second chamber June 1 — [briefing](../daily/2026-05-29.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +72,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-05-29
+- DeepMind CEO Hassabis calls AI a "species-level transition", moves AGI timeline to 2029, calls for binding international regulation — [briefing](../daily/2026-05-29.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

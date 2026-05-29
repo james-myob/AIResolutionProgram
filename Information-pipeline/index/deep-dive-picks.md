@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-05-29
+
+- [ ] 📺 **Demis Hassabis: AGI by 2030, curing disease, life after AGI** — The Rundown AI exclusive · Video · ~45 min · [link](https://youtu.be/4tVCHeAv0D4) · *The full interview behind today's "species-level transition" headlines — Hassabis goes into the specific technical gaps remaining before AGI (world physics, memory, consistency, continual learning) and what a post-AGI research agenda looks like.* — from [briefing](../daily/2026-05-29.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
