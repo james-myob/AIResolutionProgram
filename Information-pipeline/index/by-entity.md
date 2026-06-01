@@ -4,10 +4,41 @@
 
 ---
 
+## `entity:anthropic`
+- 2026-06-01 — Confidential S-1 filed with SEC; $65B Series H at $965B post-money; $47B run-rate revenue; Claude Opus 4.8 released with Dynamic Workflows — [briefing](../daily/2026-06-01.md)
+
+## `entity:claude-opus-4-8`
+- 2026-06-01 — Released: agentic coding 64.3% → 69.2%; 4× better flaw detection; Dynamic Workflows parallel subagent orchestration; Fast Mode 3× cheaper — [briefing](../daily/2026-06-01.md)
+
+## `entity:cnn`
+- 2026-06-01 — Sues Perplexity over 17,000 scraped articles in SDNY; first TV network AI copyright action — [briefing](../daily/2026-06-01.md)
+
+## `entity:cognition-ai`
+- 2026-06-01 — $1B Series D at $26B valuation; $492M ARR; 89% of committed code written by Devin — [briefing](../daily/2026-06-01.md)
+
+## `entity:deepmind`
+- 2026-06-01 — CEO Hassabis at Stanford: AI "species-level transition," 10× faster than Industrial Revolution, calls for global coordination — [briefing](../daily/2026-06-01.md)
+
+## `entity:demis-hassabis`
+- 2026-06-01 — Stanford GSB talk: "species-level transition," "foothills of the singularity," endorses periodic independent model evaluations — [briefing](../daily/2026-06-01.md)
+
+## `entity:devin`
+- 2026-06-01 — Now writes 89% of all code committed at Cognition AI — [briefing](../daily/2026-06-01.md)
+
+## `entity:github`
+- 2026-06-01 — Copilot transitions to usage-based AI Credits billing (1 credit = $0.01); PRU model retired June 1 — [briefing](../daily/2026-06-01.md)
+
+## `entity:grok-composer-2-5`
+- 2026-06-01 — Launched: agentic coding model on Kimi K2.5 base, 25× synthetic tasks vs predecessor; part of Grok Build — [briefing](../daily/2026-06-01.md)
+
+## `entity:perplexity`
+- 2026-06-01 — Sued by CNN over 17,000 scraped articles; also faces suits from NYT and Chicago Tribune — [briefing](../daily/2026-06-01.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-01 — Confidential S-1 filed with SEC; $65B Series H at $965B post-money; $47B run-rate revenue; Claude Opus 4.8 released with Dynamic Workflows — [briefing](../daily/2026-06-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +76,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-01 — Frontier Governance Framework maps Preparedness Framework to EU AI Act + California law; Rosalind Biodefense launched; o3/GPT-4.5 retirements announced — [briefing](../daily/2026-06-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -61,9 +93,11 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-06-01 — Grok Composer 2.5 launched (Kimi K2.5 base); Grok Connectors adds SharePoint/Notion/GitHub/Linear integrations — [briefing](../daily/2026-06-01.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
+- 2026-06-01 — Dynamic Workflows: orchestrates hundreds of parallel subagents for large-scale codebase migrations — [briefing](../daily/2026-06-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
 ## `entity:cohere`
@@ -73,6 +107,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-06-01 — AI support chatbot exploited via prompt injection to hijack Instagram accounts including @obamawhitehouse; patched Friday; subscription tiers launched — [briefing](../daily/2026-06-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`

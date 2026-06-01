@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-01
+- Anthropic releases Claude Opus 4.8 — agentic coding up 64.3% → 69.2%; Dynamic Workflows for parallel subagent orchestration; Fast Mode 3× cheaper — [briefing](../daily/2026-06-01.md)
+- xAI launches Grok Composer 2.5 (Kimi K2.5 base, 25× synthetic tasks) + Grok Connectors (SharePoint, Notion, GitHub, Linear, MCP) — [briefing](../daily/2026-06-01.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-01
+- GitHub Copilot switches to usage-based AI Credits billing (1 credit = $0.01/token); flat PRU model retired — [briefing](../daily/2026-06-01.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-01
+- Anthropic files confidential S-1 with SEC; follows $65B Series H at $965B post-money valuation; $47B run-rate revenue — [briefing](../daily/2026-06-01.md)
+- Cognition AI raises $1B Series D at $26B valuation; Devin writes 89% of Cognition's own code; $492M ARR — [briefing](../daily/2026-06-01.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +60,11 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-01
+- Meta AI support chatbot exploited via prompt injection to hijack Instagram accounts, bypassing 2FA; patched Friday — [briefing](../daily/2026-06-01.md)
+- CNN sues Perplexity over 17,000 scraped articles — first major TV network AI copyright action — [briefing](../daily/2026-06-01.md)
+- OpenAI Frontier Governance Framework maps safety practices to EU AI Act and California Transparency law — [briefing](../daily/2026-06-01.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +74,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-01
+- DeepMind CEO Hassabis at Stanford: AI is a "species-level transition" advancing 10× faster than the Industrial Revolution; calls for global coordination within 5–10 years — [briefing](../daily/2026-06-01.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
