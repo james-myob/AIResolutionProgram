@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-02
+
+- [ ] 📺 **Microsoft Build 2026 — Opening Keynote** — Microsoft · Video · ~90 min · [link](https://www.youtube.com/watch?v=FFMm454fxNA) · *Best single view of Microsoft's enterprise AI strategy post-OpenAI dependency: seven MAI models, Project Solara (agent-first OS), Scout Autopilot agent, and Agent Control Specification — Satya Nadella's "agents as the new apps" framing is a specific product architecture claim worth stress-testing against your own roadmap.* — from [briefing](../daily/2026-06-02.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

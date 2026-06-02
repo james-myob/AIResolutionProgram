@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:just-in-time-ui`
+**First mention:** 2026-06-02
+
+**Plain English:** A pattern introduced by Microsoft's Project Solara where an AI agent generates and adapts its user interface dynamically based on the device it's currently running on — rather than requiring developers to build and maintain separate experiences per form factor. Instead of designing "phone UI vs. desktop UI vs. badge UI" in advance, the agent assesses the device it's on and renders appropriate controls on the fly. The functional analogy is responsive web design, but applied to agent actions rather than layout: the agent adjusts which options it surfaces, not just how it displays them. If the pattern holds, it substantially reduces the cost of multi-device agentic deployment, particularly in frontline-worker scenarios with heterogeneous device inventories.
+
+**Origin:** Microsoft Build 2026 — [Project Solara announcement](https://thenextweb.com/news/microsoft-project-solara-agent-first-devices-build-2026) · [Thurrott coverage](https://www.thurrott.com/smart-tech/336967/build-2026-microsoft-project-solara-envisions-a-future-of-agent-first-devices)
+
+**Appearances:**
+- 2026-06-02 — [briefing](../daily/2026-06-02.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
