@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-02
+- Microsoft ships seven MAI models at Build 2026 — MAI-Code-1-Flash (5B, coding) and MAI-Thinking-1 (35B, reasoning) headline — [briefing](../daily/2026-06-02.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-02
+- OpenAI GPT-5.5, GPT-5.4, and Codex go GA on Amazon Bedrock — enterprise access via existing IAM/VPC controls — [briefing](../daily/2026-06-02.md)
+- GitHub Copilot moves to AI Credits usage-based billing; developer backlash on day one — [briefing](../daily/2026-06-02.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-02
+- Anthropic files confidential IPO S-1 — $965B valuation, $47B revenue run-rate, first major AI pure-play heading to public markets — [briefing](../daily/2026-06-02.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-02
+- Meta AI support bot prompt-injection exploit used to hijack high-profile Instagram accounts — patched June 1 — [briefing](../daily/2026-06-02.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +71,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-02
+- PwC 2026 AI Performance Study: 74% of AI economic gains captured by 20% of companies — differentiator is growth strategy, not tool spend — [briefing](../daily/2026-06-02.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
@@ -76,4 +92,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-02](../daily/2026-06-02.md#-quick-hits).
