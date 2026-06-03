@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-03
+- Microsoft launches seven in-house MAI models at Build 2026 (MAI-Thinking-1, MAI-Code-1, MAI-Image-2.5, MAI-Transcribe-1.5, MAI-Voice-2) — [briefing](../daily/2026-06-03.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-03
+- OpenAI Codex expands beyond developers — role-specific plugins, Sites, Annotations; 5M weekly users — [briefing](../daily/2026-06-03.md)
+- Anthropic formalises Claude Partner Network with tiered Services Track (Select / Preferred / Global Premier) — [briefing](../daily/2026-06-03.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-03
+- Anthropic files confidential S-1 with SEC — $965B valuation target, $44B ARR, October IPO window — [briefing](../daily/2026-06-03.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -42,12 +52,18 @@
 
 ## 🔬 Research & Papers
 
+### 2026-06-03
+- Anthropic maps year of AI-enabled cyber threats: medium-or-higher risk actors up 1.7x; Project Glasswing expanded to 150 new orgs — [briefing](../daily/2026-06-03.md)
+
 ### 2026-05-21
 - OpenAI reasoning model disproves the Erdős unit-distance conjecture — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-03
+- Colorado AI Act reset: June 30 deadline stayed; replacement law SB 26-189 takes effect January 1, 2027 — [briefing](../daily/2026-06-03.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -76,4 +92,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-03](../daily/2026-06-03.md#-quick-hits).
