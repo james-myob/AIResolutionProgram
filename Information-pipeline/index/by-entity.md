@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-04 — S-1 filed (Jun 1); $65B Series H at $965B valuation (May 28); Claude Opus 4.8 (May 28); Project Glasswing expanded; MITRE cyber report; Partner Network Services Track — [briefing](../daily/2026-06-04.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -61,7 +62,26 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-06-04 — Pauses hiring of human trainers (Jun 3); UK MP lawsuit over Grok-generated images — [briefing](../daily/2026-06-04.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:microsoft`
+- 2026-06-04 — Build 2026: MAI-Thinking-1 reasoning model, MAI-Code-1-Flash in GitHub Copilot, Autopilots, Windows Agent Framework — [briefing](../daily/2026-06-04.md)
+
+## `entity:mai-thinking-1`
+- 2026-06-04 — Microsoft's first in-house reasoning model (35B active params MoE); beats Claude Sonnet 4.6 in blind eval — [briefing](../daily/2026-06-04.md)
+
+## `entity:mai-code-1-flash`
+- 2026-06-04 — 5B-param coding model rolling out in GitHub Copilot across all tiers; +16 pts over Claude Haiku 4.5 on SWE-Bench Pro — [briefing](../daily/2026-06-04.md)
+
+## `entity:claude-opus-4-8`
+- 2026-06-04 — Released May 28; user-controlled effort levels, dynamic workflows, fast mode 3× cheaper — [briefing](../daily/2026-06-04.md)
+
+## `entity:alphabet`
+- 2026-06-04 — $80B stock raise with Berkshire Hathaway as $10B anchor for AI compute infrastructure — [briefing](../daily/2026-06-04.md)
+
+## `entity:eu-ai-act`
+- 2026-06-04 — Omnibus agreement May 7: Annex III deferred 16 months to Dec 2027; two new prohibitions confirmed — [briefing](../daily/2026-06-04.md)
 
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)

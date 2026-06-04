@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-04
+
+- [ ] 🎤 **Microsoft Build 2026 Keynote — The Agent-First Platform** — Microsoft · Keynote video · ~90 min · [link](https://news.microsoft.com/build-2026-live-blog/microsoft-build-2026-live/) · *The clearest single articulation of Microsoft's bet that Windows becomes the OS layer for autonomous agents — MAI models, Autopilots, Windows Agent Framework, and the Microsoft IQ intelligence stack.* — from [briefing](../daily/2026-06-04.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

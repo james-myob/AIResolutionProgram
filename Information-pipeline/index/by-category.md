@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-04
+- Microsoft ships MAI-Thinking-1 (35B active MoE) and MAI-Code-1-Flash — first in-house reasoning model, independent of OpenAI — [briefing](../daily/2026-06-04.md)
+- Anthropic releases Claude Opus 4.8 — user-controlled effort levels, 3× cheaper fast mode — [briefing](../daily/2026-06-04.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-04
+- Anthropic Project Glasswing expands to 150 organisations in 15+ countries; 10,000+ critical vulnerabilities found — [briefing](../daily/2026-06-04.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-04
+- Anthropic files confidential S-1 to SEC; $965B post-money valuation after $65B Series H — [briefing](../daily/2026-06-04.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -48,6 +58,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-04
+- Anthropic MITRE ATT&CK report: AI-enabled cyberattack risk up 1.7× YoY; agentic attack chains not yet in MITRE framework — [briefing](../daily/2026-06-04.md)
+- EU AI Act omnibus: Annex III high-risk deadlines deferred 16 months to December 2027 — [briefing](../daily/2026-06-04.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
