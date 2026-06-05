@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-05 — Confidential IPO S-1 filed; $965B post-Series-H valuation; $47B ARR run rate — [briefing](../daily/2026-06-05.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -44,7 +45,32 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:cognition`
+- 2026-06-05 — $1B Series D at $26B valuation; $492M ARR; 50% MoM enterprise growth; Devin writes 89% of company code — [briefing](../daily/2026-06-05.md)
+
+## `entity:chatgpt`
+- 2026-06-05 — Dreaming V3 memory rollout to US Plus/Pro users; 5× compute reduction vs prior system — [briefing](../daily/2026-06-05.md)
+
+## `entity:devin`
+- 2026-06-05 — Authors 89% of Cognition's production code; enterprise customers include Mercedes-Benz, NASA, Goldman Sachs — [briefing](../daily/2026-06-05.md)
+
+## `entity:demis-hassabis`
+- 2026-06-05 — AGI prediction: 2030 ± 1 year; criticises AI-driven layoffs as "ulterior motives" — [briefing](../daily/2026-06-05.md)
+
+## `entity:gemma-4-12b`
+- 2026-06-05 — Google releases Gemma 4 12B: encoder-free, audio-native, Apache 2.0, 16GB laptop-runnable — [briefing](../daily/2026-06-05.md)
+
+## `entity:great-american-ai-act`
+- 2026-06-05 — Bipartisan discussion draft; 3-year state preemption; Frontier AI Framework requirement for $500M+ revenue companies — [briefing](../daily/2026-06-05.md)
+
+## `entity:mai-thinking-1`
+- 2026-06-05 — Microsoft's first reasoning model, trained without OpenAI distillation; matches Claude Opus 4.6 on SWE Bench Pro — [briefing](../daily/2026-06-05.md)
+
+## `entity:microsoft`
+- 2026-06-05 — Build 2026: 7 MAI models + Scout M365 agent; strategic pivot toward AI self-sufficiency — [briefing](../daily/2026-06-05.md)
+
 ## `entity:openai`
+- 2026-06-05 — Dreaming V3 memory rollout; Codex hits 5M weekly users with 6 role plugins; GPT-5.5-Cyber for EU — [briefing](../daily/2026-06-05.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -76,7 +102,9 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`
+- 2026-06-05 — AI EO signed: voluntary pre-release review, Treasury cybersecurity clearinghouse, AI Litigation Task Force — [briefing](../daily/2026-06-05.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-06-05 — AI EO signed June 2; voluntary frontier model review + state-law challenge mechanism via Litigation Task Force — [briefing](../daily/2026-06-05.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
