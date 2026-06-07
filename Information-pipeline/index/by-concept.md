@@ -14,6 +14,7 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 **Origin:** Anthropic Code with Claude 2026 — [event page](https://claude.com/code-with-claude) · [MindStudio breakdown](https://www.mindstudio.ai/blog/code-with-claude-2026-new-agent-features)
 
 **Appearances:**
+- 2026-06-07 — OpenAI adopts the same pattern as "Dreaming V3" in ChatGPT memory (background synthesis, time-aware updates) — [briefing](../daily/2026-06-07.md)
 - 2026-05-21 — [briefing](../daily/2026-05-21.md)
 
 ---

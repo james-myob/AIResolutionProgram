@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-07
+- Google releases Gemma 4 12B — open multimodal model (text/image/audio) that runs on a 16GB laptop under Apache 2.0 — [briefing](../daily/2026-06-07.md)
+- Microsoft unveils MAI-Thinking-1 — first in-house reasoning model; 35B active params; trained without OpenAI data — [briefing](../daily/2026-06-07.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-07
+- Apple to rebuild Siri on custom Google Gemini (1.2T params, $1B/year) — announced at WWDC June 8 — [briefing](../daily/2026-06-07.md)
+- OpenAI expands Codex to non-developers with Sites, Annotations, and 6 role-specific plugin bundles — [briefing](../daily/2026-06-07.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +36,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-07
+- Anthropic files confidential S-1 with SEC — revenue run-rate ~$47B, Series H valuation ~$965B — [briefing](../daily/2026-06-07.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +60,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-07
+- Anthropic "brake pedal" essay: Claude writes 80% of Anthropic's own code; calls for global AI development coordination — [briefing](../daily/2026-06-07.md)
+- Sanders introduces American AI Sovereign Wealth Fund Act — 50% stock-tax on OpenAI, Anthropic, xAI — [briefing](../daily/2026-06-07.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +73,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-07
+- Charity Majors (via Simon Willison): AI enthusiasm and skepticism are both correct — the missing piece is organisational feedback loops — [briefing](../daily/2026-06-07.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

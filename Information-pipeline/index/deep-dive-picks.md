@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-07
+
+- [ ] 📝 **"When AI builds itself"** — Anthropic Institute (Jack Clark & Marina Favaro) · Essay · ~3,500 words · [link](https://www.anthropic.com/institute/recursive-self-improvement) · *80% of Anthropic's code by Claude, task horizons doubling every 4 months — the most specific empirical progress metrics a frontier lab has published; read before any governance timeline conversation.* — from [briefing](../daily/2026-06-07.md)
+
+- [ ] 📝 **"Dark Patterns in AI Chatbots: A Taxonomy to Inform Better Design"** — Center for Democracy & Technology · Report · ~30 pages · [link](https://cdt.org/wp-content/uploads/2026/05/2026-05-28-CDT-Research-Dark-Patterns-in-AI-Chatbots-Report-final-2.pdf) · *37-pattern taxonomy across ChatGPT, Gemini, and Claude; ready-made audit checklist for any AI chat feature before a regulator uses it against you.* — from [briefing](../daily/2026-06-07.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
