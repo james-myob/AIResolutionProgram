@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-08
+- Claude Opus 4.8 released as default on Max, Team, Enterprise; Fast mode at 2×/2.5× — [briefing](../daily/2026-06-08.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-08
+- Apple WWDC: Siri rebuilt on Google Gemini (1.2T params, ~$1B/yr); Claude natively on 2B Apple devices; iOS 27 AI Extensions — [briefing](../daily/2026-06-08.md)
+- OpenAI Codex Enterprise: 6 business plugins, Sites feature, 20% non-developer users — [briefing](../daily/2026-06-08.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-08
+- Anthropic files confidential S-1; $65B Series H at $965B valuation; $44B ARR — [briefing](../daily/2026-06-08.md)
+- SpaceX-xAI IPO roadshow begins; $75B raise target; $75B in AI compute contracts (Anthropic + Google) — [briefing](../daily/2026-06-08.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -48,6 +59,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-08
+- Anthropic "When AI Builds Itself": 80% self-authored code, calls for coordinated global development pause — [briefing](../daily/2026-06-08.md)
+- Sanders American AI Sovereign Wealth Fund Act (50% stock tax); Trump aligns on AI equity stakes — [briefing](../daily/2026-06-08.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -76,4 +91,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-08](../daily/2026-06-08.md#-quick-hits).
