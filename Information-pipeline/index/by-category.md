@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-09
+- Anthropic releases Claude Fable 5 — first public Mythos-class model; $10/$50/M tokens; automatic domain safety fallback — [briefing](../daily/2026-06-09.md)
+- Google releases Gemma 4 12B — multimodal (text/image/audio/video), Apache 2.0, runs on 16GB RAM laptop — [briefing](../daily/2026-06-09.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-09
+- OpenAI plans ChatGPT "superapp" overhaul ahead of IPO — Codex elevated, third-party integrations, agent-first UI — [briefing](../daily/2026-06-09.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-09
+- Anthropic files confidential IPO S-1 with SEC — ~$965B valuation, $47B run-rate revenue, first frontier lab to formally begin public offering process — [briefing](../daily/2026-06-09.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,11 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-09
+- Anthropic calls for global "brake pedal" on frontier AI — 80%+ of Anthropic's own code now written by Claude; recursive self-improvement warning — [briefing](../daily/2026-06-09.md)
+- EU orders Meta to open WhatsApp to rival AI assistants within 5 days — DMA interim order; 10% revenue fine threat; Meta appealing — [briefing](../daily/2026-06-09.md)
+- Great American AI Act draft would preempt state AI laws for 3 years — bipartisan; includes federal audit requirements; widespread opposition — [briefing](../daily/2026-06-09.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -68,6 +83,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-06-09
+- Uber caps AI tool spending at $1,500/month after burning 2026 budget in 4 months — first large public case study of agentic tool cost governance failure — [briefing](../daily/2026-06-09.md)
 
 ### 2026-05-20
 - Simon Willison ships a tokens-per-second visualiser — [briefing](../daily/2026-05-20.md)

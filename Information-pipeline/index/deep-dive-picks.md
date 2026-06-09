@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-09
+
+- [ ] 📝 **When AI Builds Itself** — Anthropic Institute · Essay · ~8,000 words · [link](https://www.anthropic.com/institute/recursive-self-improvement) · *Anthropic's most data-rich public disclosure to date: 80% AI-written code, 8× engineer velocity, task-completion doubling every 4 months. The three-scenario framework (plateau / human-directed compounding / recursive self-improvement) is a concrete structure for any leadership conversation about whether today's AI investment assumptions will hold in 12 months.* — from [briefing](../daily/2026-06-09.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
