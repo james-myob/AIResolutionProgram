@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-09 — Claude Fable 5 released; IPO S-1 filed at ~$965B valuation; "When AI Builds Itself" recursive self-improvement warning; Project Glasswing expanded to ~200 orgs — [briefing](../daily/2026-06-09.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -35,6 +36,10 @@
 ## `entity:google`
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
+## `entity:google`
+- 2026-06-09 — Gemma 4 12B released under Apache 2.0; multimodal, laptop-deployable — [briefing](../daily/2026-06-09.md)
+- 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
+
 ## `entity:grok-4-3`
 - 2026-05-20 — Default model post 15 May retirements; per-request cost field added — [briefing](../daily/2026-05-20.md)
 
@@ -44,7 +49,26 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:claude-fable`
+- 2026-06-09 — Public release of Mythos-class model; $10/$50/M tokens; domain-based safety fallback to Opus 4.8; first to score 90%+ on Hex analytics benchmark — [briefing](../daily/2026-06-09.md)
+
+## `entity:colorado-ai-act`
+- 2026-06-09 — June 30 compliance deadline; potentially frozen by Great American AI Act if enacted — [briefing](../daily/2026-06-09.md)
+
+## `entity:eu-dma`
+- 2026-06-09 — Interim order requiring Meta to restore WhatsApp Business access to rival AI assistants within 5 days — [briefing](../daily/2026-06-09.md)
+
+## `entity:gemma-4`
+- 2026-06-09 — Gemma 4 12B released; Apache 2.0; multimodal (text/image/audio/video); runs on 16GB RAM laptop; 256K context — [briefing](../daily/2026-06-09.md)
+
+## `entity:great-american-ai-act`
+- 2026-06-09 — Discussion draft released June 4; 3-year preemption of state AI development laws; bipartisan but near-universal opposition from consumer advocates — [briefing](../daily/2026-06-09.md)
+
+## `entity:mistral`
+- 2026-06-09 — Rebranded Le Chat as Vibe; single work + code agent; €14.99/month Pro — [briefing](../daily/2026-06-09.md)
+
 ## `entity:openai`
+- 2026-06-09 — Confidential IPO filing; ChatGPT "superapp" overhaul planned; ChatGPT Dreaming V3 memory; ChatGPT hits 1B MAU — [briefing](../daily/2026-06-09.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -60,7 +84,17 @@
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
+## `entity:uber`
+- 2026-06-09 — Imposed $1,500/month cap on AI coding tools after burning 2026 AI budget in 4 months — [briefing](../daily/2026-06-09.md)
+
+## `entity:vibe`
+- 2026-06-09 — Mistral rebrand of Le Chat; agentic work + code product on single license — [briefing](../daily/2026-06-09.md)
+
+## `entity:whatsapp`
+- 2026-06-09 — EU DMA interim order forcing Meta to restore rival AI assistant access to WhatsApp Business API — [briefing](../daily/2026-06-09.md)
+
 ## `entity:xai`
+- 2026-06-09 — Grok training team restructured; Starlink exec hired to lead; V9-Medium (1.5T params) expected mid-June — [briefing](../daily/2026-06-09.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -73,6 +107,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-06-09 — EU DMA interim order requiring Meta to restore WhatsApp Business access to rival AI assistants — [briefing](../daily/2026-06-09.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`
