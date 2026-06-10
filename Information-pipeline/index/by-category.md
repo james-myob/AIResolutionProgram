@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-10
+- Anthropic releases Claude Fable 5 (Mythos-class, general access); Claude Mythos 5 (limited, Project Glasswing) — [briefing](../daily/2026-06-10.md)
+- Google releases DiffusionGemma — 26B MoE, Apache 2.0, parallel text generation at 4× speed — [briefing](../daily/2026-06-10.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -29,6 +33,10 @@
 
 ## 💰 Business & Funding
 
+### 2026-06-10
+- OpenAI files confidential S-1 with SEC; targeting September 2026 IPO at $1T+ valuation — [briefing](../daily/2026-06-10.md)
+- Google signs $920M/month compute deal with SpaceX (Oct 2026–Jun 2029, 110k GPUs) — [briefing](../daily/2026-06-10.md)
+
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
 
@@ -42,12 +50,18 @@
 
 ## 🔬 Research & Papers
 
+### 2026-06-10
+- ICLR 2026: Pangram Labs flags 21% of 75,800 peer reviews as fully AI-generated — [briefing](../daily/2026-06-10.md)
+
 ### 2026-05-21
 - OpenAI reasoning model disproves the Erdős unit-distance conjecture — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-10
+- Anthropic publishes "Policy on the AI Exponential" — labor market disruption framework — [briefing](../daily/2026-06-10.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -58,6 +72,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-10
+- Claude Fable 5's silent safeguards: Simon Willison on invisible capability reduction and what it means for builders — [briefing](../daily/2026-06-10.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

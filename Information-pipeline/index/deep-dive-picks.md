@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-10
+
+- [ ] 📝 **Claude Fable 5 and Claude Mythos 5** — Anthropic · Essay/announcement · ~3,000 words · [link](https://www.anthropic.com/news/claude-fable-5-mythos-5) · *The Stripe and drug-design case studies are unusually specific about what the model did autonomously vs. what required human checkpoints — better calibration for production-ready autonomy at enterprise scale than any benchmark score.* — from [briefing](../daily/2026-06-10.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
