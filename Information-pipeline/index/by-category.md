@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-11
+- Anthropic releases Claude Fable 5 — Mythos-class model publicly available at $10/$50/M tokens with built-in safety architecture — [briefing](../daily/2026-06-11.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-11
+- OpenAI acquires Ona — persistent cloud environments for Codex long-running agentic tasks — [briefing](../daily/2026-06-11.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-11
+- Anthropic S-1 at $965B / OpenAI S-1 at $852B — dual IPO filings within 10 days; Anthropic $47B ARR run-rate — [briefing](../daily/2026-06-11.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -42,12 +51,18 @@
 
 ## 🔬 Research & Papers
 
+### 2026-06-11
+- Google DeepMind opens $10M multi-agent AI safety research funding call — [briefing](../daily/2026-06-11.md)
+
 ### 2026-05-21
 - OpenAI reasoning model disproves the Erdős unit-distance conjecture — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-11
+- EU publishes final Code of Practice on AI-generated content labelling — obligations binding August 2, 2026 — [briefing](../daily/2026-06-11.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -58,6 +73,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-11
+- AI pricing war enters structural phase: DeepSeek permanent 75% cut + GitHub Copilot token-billing backlash — [briefing](../daily/2026-06-11.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

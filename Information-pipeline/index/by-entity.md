@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-11 — Claude Fable 5 released (Mythos-class, public, $10/$50 per M tokens); Mythos 5 via Project Glasswing; S-1 filed at $965B — [briefing](../daily/2026-06-11.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-11 — Acquires Ona (cloud environments for Codex); announces Oracle Cloud UCM access; S-1 filed at $852B — [briefing](../daily/2026-06-11.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -80,3 +82,36 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-fable-5`
+- 2026-06-11 — Released publicly; Mythos-class with safety classifiers; $10/$50 per million input/output tokens — [briefing](../daily/2026-06-11.md)
+
+## `entity:claude-mythos-5`
+- 2026-06-11 — Same model as Fable 5, reduced safeguards for verified cyberdefenders via Project Glasswing — [briefing](../daily/2026-06-11.md)
+
+## `entity:codex`
+- 2026-06-11 — Ona acquisition to add persistent cloud environments for long-running agentic tasks — [briefing](../daily/2026-06-11.md)
+
+## `entity:ona`
+- 2026-06-11 — Acquired by OpenAI; 2M developers; secure reproducible cloud environments for agentic coding — [briefing](../daily/2026-06-11.md)
+
+## `entity:oracle`
+- 2026-06-11 — Enterprise customers can access OpenAI/Codex via Oracle Universal Credits (UCM) — [briefing](../daily/2026-06-11.md)
+
+## `entity:google-deepmind`
+- 2026-06-11 — $10M multi-agent AI safety research funding call (with Schmidt Sciences, ARIA, Cooperative AI Foundation) — [briefing](../daily/2026-06-11.md)
+
+## `entity:eu-ai-act`
+- 2026-06-11 — Final Code of Practice on AI-generated content transparency published; obligations binding August 2, 2026 — [briefing](../daily/2026-06-11.md)
+
+## `entity:european-commission`
+- 2026-06-11 — Published Code of Practice on Article 50 AI content labelling — [briefing](../daily/2026-06-11.md)
+
+## `entity:deepseek`
+- 2026-06-11 — V4-Pro 75% price cut made permanent; 20-35× cheaper than Western flagship models for some workloads — [briefing](../daily/2026-06-11.md)
+
+## `entity:github-copilot`
+- 2026-06-11 — Token-based billing triggered developer backlash; 10-50× cost increases reported — [briefing](../daily/2026-06-11.md)
+
+## `entity:uber`
+- 2026-06-11 — Caps Claude Code usage at $1,500/user/month; enterprise AI cost governance benchmark — [briefing](../daily/2026-06-11.md)

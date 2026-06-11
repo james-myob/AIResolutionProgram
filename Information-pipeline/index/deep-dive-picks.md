@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-11
+
+- [ ] 📝 **When AI Builds Itself** — Anthropic Institute · Essay · ~5,800 words · [link](https://www.anthropic.com/institute/recursive-self-improvement) · *Jack Clark and Marina Favaro's call for a coordinated AI pause built on internal Anthropic data: 80% of production code written by Claude, engineers shipping 8× more code per quarter — the most detailed public picture of AI-driven self-acceleration inside a leading lab.* — from [briefing](../daily/2026-06-11.md)
+
+- [ ] 📝 **Google DeepMind Is Worried About What Happens When Millions of Agents Interact** — MIT Technology Review · Feature article · ~1,800 words · [link](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) · *Clearest accessible explanation of the multi-agent safety gap — emergent collective behaviour, instruction-chain security, monitoring challenges — with direct input from DeepMind's Rohin Shah.* — from [briefing](../daily/2026-06-11.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
