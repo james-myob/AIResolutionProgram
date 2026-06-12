@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-12
+
+- [ ] 📝 **Dario Amodei — "The Economic Future of AI"** — Anthropic/darioamodei.com · Essay · ~3,000 words (est.) · [Fortune coverage](https://fortune.com/2026/06/11/anthropic-dario-amodei-ai-jobs-tax-displacement-fund/) · *Amodei's case for progressive AI taxation to fund displaced workers; his previous essay ("Machines of Loving Grace") became shared vocabulary for the field — this follow-up on labour disruption will shape boardroom and policy conversations this quarter.* — from [briefing](../daily/2026-06-12.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

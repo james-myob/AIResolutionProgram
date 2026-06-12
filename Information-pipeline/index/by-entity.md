@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-12 — Claude Fable 5 / Mythos 5 released; S-1 filed for ~$965B IPO; $200M economic research commitment; first profitable quarter ($10.9B Q2, $47B run rate) — [briefing](../daily/2026-06-12.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-12 — S-1 filed for ~$850B–$1T IPO; acquires Ona for Codex persistent sessions; Visa payment partnership; bans China-linked influence campaign accounts; Codex at 5M weekly users — [briefing](../daily/2026-06-12.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -52,6 +54,7 @@
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
 ## `entity:spacex`
+- 2026-06-12 — IPO debuts on Nasdaq (SPCX) at $1.75T valuation, +19% first day — largest US IPO in history — [briefing](../daily/2026-06-12.md)
 - 2026-05-20 — S-1 filing revealed $45B Anthropic compute commitment — [briefing](../daily/2026-05-20.md)
 
 ## `entity:synthid`
@@ -76,7 +79,36 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`
+- 2026-06-12 — Signs AI executive order: voluntary 30-day frontier model pre-release review, no mandatory licensing — [briefing](../daily/2026-06-12.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
+## `entity:apple`
+- 2026-06-12 — WWDC: unveils Siri AI complete overhaul with conversational responses, on-screen awareness, cloud via Google deal — [briefing](../daily/2026-06-12.md)
+
+## `entity:claude-fable-5`
+- 2026-06-12 — Released June 9: first public Mythos-class model; $10/$50 per million tokens; free for subscribers through June 22 — [briefing](../daily/2026-06-12.md)
+
+## `entity:claude-mythos-5`
+- 2026-06-12 — Restricted sibling of Fable 5; cybersecurity/biology safeguards removed; available via Project Glasswing to vetted researchers — [briefing](../daily/2026-06-12.md)
+
+## `entity:codex`
+- 2026-06-12 — 5M weekly active users; Ona acquisition adds persistent cloud sessions; Visa partnership adds payment credentials — [briefing](../daily/2026-06-12.md)
+
+## `entity:dario-amodei`
+- 2026-06-12 — Personal essay on AI labour disruption; argues for progressive AI taxation to fund displaced workers — [briefing](../daily/2026-06-12.md)
+
+## `entity:ona`
+- 2026-06-12 — Acquired by OpenAI to extend Codex with persistent, multi-day cloud agent sessions — [briefing](../daily/2026-06-12.md)
+
+## `entity:oracle`
+- 2026-06-12 — Q4 FY2026: $638B AI infrastructure backlog, $19.2B revenue; stock -7% despite record results — [briefing](../daily/2026-06-12.md)
+
+## `entity:siri-ai`
+- 2026-06-12 — Launched at WWDC June 8: complete Siri overhaul; developer build now, public beta July, wide release fall 2026 — [briefing](../daily/2026-06-12.md)
+
+## `entity:visa`
+- 2026-06-12 — Partners with OpenAI to embed payment rails into AI agents; agents can transact within user-set spending limits — [briefing](../daily/2026-06-12.md)
+
 ## `entity:white-house`
+- 2026-06-12 — AI EO signed: voluntary 30-day frontier model pre-release review; no mandatory licensing — [briefing](../daily/2026-06-12.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
