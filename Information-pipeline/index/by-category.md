@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-12
+- Anthropic releases Claude Fable 5 and Claude Mythos 5 — first public Mythos-class model, exceeds Opus on coding, vision, and long-context tasks — [briefing](../daily/2026-06-12.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,11 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-12
+- OpenAI acquires Ona — persistent cloud sessions for Codex agents — [briefing](../daily/2026-06-12.md)
+- Visa + OpenAI — agent payment infrastructure; AI agents can transact within user-defined limits — [briefing](../daily/2026-06-12.md)
+- Apple unveils Siri AI at WWDC — conversational, on-device + Google cloud intelligence, default OS feature — [briefing](../daily/2026-06-12.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +36,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-12
+- SpaceX begins trading (SPCX) — $1.75T market cap, +19% debut; largest US IPO in history — [briefing](../daily/2026-06-12.md)
+- Anthropic files confidential S-1 (June 1) + OpenAI files confidential S-1 (June 8) — both targeting Q3/Q4 2026 IPOs — [briefing](../daily/2026-06-12.md)
+- Oracle Q4 FY2026: $638B AI infrastructure backlog (up 363% YoY), $19.2B revenue; stock -7% on capex concerns — [briefing](../daily/2026-06-12.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +62,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-12
+- White House signs AI executive order (June 2): voluntary 30-day frontier model pre-release review; no mandatory licensing — [briefing](../daily/2026-06-12.md)
+- Anthropic pledges $200M to study AI's economic impact; Dario Amodei calls for progressive AI taxation — [briefing](../daily/2026-06-12.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +75,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-12
+- OpenAI Codex crosses 5M weekly active users (up from 3M in April) — agent adoption at production scale — [briefing](../daily/2026-06-12.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
