@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-13
+
+- [ ] 📺 **Apple WWDC 2026 — Full Keynote** — Apple · Video · ~2 hours · [Apple Events](https://www.apple.com/apple-events/) · *The Siri/Gemini reveal and iOS 27 cross-app context demo define what Apple now considers the baseline AI-native device experience for 1.5 billion iPhone users — significant enough to watch rather than read about.* — from [briefing](../daily/2026-06-13.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-13
+- Anthropic releases Claude Fable 5 — first publicly accessible Mythos-class model, free for Pro/Max users through June 22 — [briefing](../daily/2026-06-13.md)
+- Google DeepMind ships DiffusionGemma — 26B MoE open-weights model, 4× faster via text diffusion, Apache 2.0 — [briefing](../daily/2026-06-13.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-13
+- Apple WWDC 2026: iOS 27 ships rebuilt Siri powered by Google Gemini with cross-app context awareness — [briefing](../daily/2026-06-13.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-13
+- SpaceX (SPCX) closes IPO debut up 25% at $1.75T market cap — largest public offering in history — [briefing](../daily/2026-06-13.md)
+- Anthropic hits $30B annual run-rate, 1,000+ enterprise accounts at $1M+; S-1 filed June 1 targeting October IPO — [briefing](../daily/2026-06-13.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +60,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-13
+- White House signs AI executive order promoting innovation and deregulation (June 2) — no pre-release review requirements — [briefing](../daily/2026-06-13.md)
+- Google DeepMind and partners launch $10M multi-agent AI safety research fund; applications open until August 8 — [briefing](../daily/2026-06-13.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +73,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-13
+- Ramp AI Index: Anthropic overtakes OpenAI in US business adoption (34.4% vs 32.3%); IDC depth gap, partner tensions, and revenue recognition dispute shadow IPO run-up — [briefing](../daily/2026-06-13.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
