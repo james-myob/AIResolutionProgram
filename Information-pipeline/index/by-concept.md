@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:text-diffusion-inference`
+**First mention:** 2026-06-13
+
+**Plain English:** A method of generating text by starting with a sequence of random "noise" tokens and iteratively refining all of them in parallel — the opposite of how GPT-style models work, which write text one token at a time left to right. Because all tokens are updated simultaneously in each pass, the model can produce 256+ tokens per step rather than one, yielding 4× or higher throughput on the same hardware. The quality trade-off is real: current text-diffusion models score lower than autoregressive models on knowledge and coding benchmarks, but they win on raw output speed. DiffusionGemma is the first major-lab production release of this approach.
+
+**Origin:** [Google DeepMind — DiffusionGemma](https://deepmind.google/models/gemma/diffusiongemma/) · [MarkTechPost](https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/)
+
+**Appearances:**
+- 2026-06-13 — [briefing](../daily/2026-06-13.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
