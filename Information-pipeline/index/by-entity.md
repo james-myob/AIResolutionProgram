@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-14 — Fable 5/Mythos 5 suspended June 12 by US govt; confidential S-1 filed June 1; overtakes OpenAI in business adoption (Ramp AI Index) — [briefing](../daily/2026-06-14.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-14 — Confidential S-1 filed June 8; ~$1T target valuation; Goldman Sachs/Morgan Stanley underwriters; ChatGPT hits 1B MAU — [briefing](../daily/2026-06-14.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -78,5 +80,31 @@
 ## `entity:trump`
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
+## `entity:apple`
+- 2026-06-14 — WWDC 2026: rebuilt Siri AI, system-wide Apple Intelligence, iOS 27/macOS Golden Gate, Apple Foundation Models v2 — [briefing](../daily/2026-06-14.md)
+
+## `entity:apple-intelligence`
+- 2026-06-14 — System-wide AI integration across iOS 27/iPadOS 27/macOS Golden Gate; APIs open to developers — [briefing](../daily/2026-06-14.md)
+
+## `entity:david-sacks`
+- 2026-06-14 — Published June 14 counter-statement on Fable 5 suspension claiming Anthropic refused to fix jailbreak — [briefing](../daily/2026-06-14.md)
+
+## `entity:fable-5`
+- 2026-06-14 — Launched June 9 with 80.3% SWE-Bench Pro SOTA; suspended June 12 by US government export-control directive — [briefing](../daily/2026-06-14.md)
+
+## `entity:microsoft`
+- 2026-06-14 — MAI-Thinking-1 in private preview on Foundry: first in-house reasoning model, 35B active params, 256K context — [briefing](../daily/2026-06-14.md)
+
+## `entity:mythos-5`
+- 2026-06-14 — Launched June 9 alongside Fable 5; suspended June 12 by US government directive — [briefing](../daily/2026-06-14.md)
+
+## `entity:siri-ai`
+- 2026-06-14 — Rebuilt at WWDC 2026: extended reasoning, document critique, brainstorm — moves from voice shortcut to reasoning partner — [briefing](../daily/2026-06-14.md)
+
+## `entity:spacex`
+- 2026-06-14 — SPCX IPO closes day 1 +25% at $168.70/share, $1.77T market cap — largest IPO in history — [briefing](../daily/2026-06-14.md)
+- 2026-05-20 — S-1 filing revealed $45B Anthropic compute commitment — [briefing](../daily/2026-05-20.md)
+
 ## `entity:white-house`
+- 2026-06-14 — David Sacks June 14 counter-statement on Fable 5 ban; June 2 AI Innovation & Security EO establishes voluntary 30-day model review framework — [briefing](../daily/2026-06-14.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)

@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-14
+- Claude Fable 5 launches (June 9) with SOTA 80.3% SWE-Bench Pro; suspended by US government directive June 12 for foreign national access — [briefing](../daily/2026-06-14.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-14
+- Apple WWDC 2026 closes: rebuilt Siri AI, system-wide Apple Intelligence, macOS drops Intel support — [briefing](../daily/2026-06-14.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-14
+- Anthropic (June 1) and OpenAI (June 8) simultaneously file confidential S-1s — first dual frontier-lab IPO race — [briefing](../daily/2026-06-14.md)
+- Anthropic overtakes OpenAI in business tool adoption for the first time (Ramp AI Index: 34.4% vs 32.3%) — [briefing](../daily/2026-06-14.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-14
+- US government suspends Fable 5/Mythos 5 globally for foreign nationals (June 12); David Sacks fires back June 14 — [briefing](../daily/2026-06-14.md)
+- US states advancing AI regulation as federal governance stalls; Colorado AI Act operative; 10+ states in active legislation — [briefing](../daily/2026-06-14.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +72,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-14
+- Bloomberg (June 14): AI-enabled cyber scams accelerating; deepfake executive fraud and AI phishing outpacing defensive tooling — [briefing](../daily/2026-06-14.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
@@ -76,4 +93,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-14](../daily/2026-06-14.md#-quick-hits).
