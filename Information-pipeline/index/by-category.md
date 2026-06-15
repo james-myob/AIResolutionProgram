@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-15
+- Claude Fable 5 and Mythos 5 launch (June 9), then suspended globally via US export-control directive three days later — [briefing](../daily/2026-06-15.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-15
+- OpenAI ships "Dreaming" V3 — background memory synthesis for ChatGPT; 82.8% factual recall — [briefing](../daily/2026-06-15.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-15
+- Anthropic overtakes OpenAI in enterprise adoption (Ramp: 41% vs 32%); both file confidential S-1s with SEC — [briefing](../daily/2026-06-15.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -42,12 +51,18 @@
 
 ## 🔬 Research & Papers
 
+### 2026-06-15
+- Anthropic "When AI Builds Itself": 80% of Anthropic code now Claude-written; calls for global AI pause option — [briefing](../daily/2026-06-15.md)
+
 ### 2026-05-21
 - OpenAI reasoning model disproves the Erdős unit-distance conjecture — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-15
+- US Commerce Department export-control directive orders Anthropic to suspend Fable 5 and Mythos 5 globally — first frontier model recalled mid-deployment by government order — [briefing](../daily/2026-06-15.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -58,6 +73,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-15
+- Goldman Sachs: $7.6T in cumulative AI infrastructure capex 2026–2031; Nvidia captures ~75% of compute spend — [briefing](../daily/2026-06-15.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

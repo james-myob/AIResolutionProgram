@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-15 — Fable 5/Mythos 5 suspended by US export-control directive; Anthropic overtakes OpenAI in enterprise; confidential S-1 filed; "When AI Builds Itself" paper (80% Claude-written code); TCS partnership; Claude Corps; Public Record — [briefing](../daily/2026-06-15.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-15 — Ships "Dreaming" V3 memory for ChatGPT; confidential S-1 filed June 8 — [briefing](../daily/2026-06-15.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -64,7 +66,14 @@
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
+- 2026-06-15 — /fork command (git-style session branching), Opus 4.8 now default, nested sub-agents — [briefing](../daily/2026-06-15.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-fable-5`
+- 2026-06-15 — Launched June 9 (50M-line codebase migration in one day); suspended June 12 by US export-control directive — [briefing](../daily/2026-06-15.md)
+
+## `entity:claude-mythos-5`
+- 2026-06-15 — Launched June 9 for vetted security/research professionals; suspended June 12 alongside Fable 5 — [briefing](../daily/2026-06-15.md)
 
 ## `entity:cohere`
 - 2026-05-21 — Command A+ open-sourced under Apache 2.0; 218B MoE, runs on single B200 GPU — [briefing](../daily/2026-05-21.md)
@@ -72,11 +81,19 @@
 ## `entity:command-a-plus`
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
+## `entity:goldman-sachs`
+- 2026-06-15 — $7.6T cumulative AI infrastructure capex forecast 2026–2031; Nvidia capturing ~75% of compute spend — [briefing](../daily/2026-06-15.md)
+
+## `entity:google-deepmind`
+- 2026-06-15 — Multi-agent safety research funding call: up to $10M with Schmidt Sciences, Cooperative AI Foundation, ARIA — [briefing](../daily/2026-06-15.md)
+
 ## `entity:meta`
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`
+- 2026-06-15 — Commerce Department export-control directive orders Anthropic to suspend Fable 5/Mythos 5; meeting with Anthropic scheduled today — [briefing](../daily/2026-06-15.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-06-15 — Commerce Department export-control directive suspends Anthropic's Fable 5/Mythos 5 — [briefing](../daily/2026-06-15.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)

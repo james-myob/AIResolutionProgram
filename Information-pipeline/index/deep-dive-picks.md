@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-15
+
+- [ ] 📝 **When AI Builds Itself** — Anthropic · Essay · ~3,500 words · [link](https://www.anthropic.com/news/) · *Anthropic's first-person account of recursive self-improvement in practice: 80% AI-written code, task horizons doubling every four months, and a specific policy argument for preserving a global pause option — directly applicable to any engineering org governing AI-written code.* — from [briefing](../daily/2026-06-15.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
