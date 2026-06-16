@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-16 — Fable 5/Mythos 5 export ban; cybersecurity open letter; Daniela Amodei Bloomberg IPO case; Claude Sonnet 4/Opus 4 retirement — [briefing](../daily/2026-06-16.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-16 — S-1 IPO filing June 8; Ona acquisition for Codex; GPT-5.5 on Amazon Bedrock — [briefing](../daily/2026-06-16.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -62,6 +64,21 @@
 
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:daniela-amodei`
+- 2026-06-16 — Bloomberg Tech appearance: Anthropic IPO necessity; compute economics; $47B revenue run rate — [briefing](../daily/2026-06-16.md)
+
+## `entity:fable-5`
+- 2026-06-16 — Launched June 9, suspended June 12 by US export control; Pack Hunt jailbreak; 120k system prompt leak; open letter from 100+ security experts — [briefing](../daily/2026-06-16.md)
+
+## `entity:goldman-sachs`
+- 2026-06-16 — $7.6T cumulative AI infrastructure spend forecast 2026-2031 — [briefing](../daily/2026-06-16.md)
+
+## `entity:mythos-5`
+- 2026-06-16 — Suspended alongside Fable 5 by US export control directive June 12 — [briefing](../daily/2026-06-16.md)
+
+## `entity:ona`
+- 2026-06-16 — Acquired by OpenAI for Codex long-horizon agent sessions — [briefing](../daily/2026-06-16.md)
 
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)

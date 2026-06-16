@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-16
+- Fable 5 "Pack Hunt" jailbreak technical analysis and 120,000-character system prompt leaked to GitHub — [briefing](../daily/2026-06-16.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -49,6 +52,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-16
+- 100+ cybersecurity experts open letter demands US lift Fable 5 / Mythos 5 export ban — [briefing](../daily/2026-06-16.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +64,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-16
+- Daniela Amodei at Bloomberg Tech on Anthropic IPO necessity; Goldman Sachs $7.6T AI capex forecast 2026-2031 — [briefing](../daily/2026-06-16.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
