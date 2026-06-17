@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-17
+- xAI ships Grok Imagine Video 1.5 in wide release — 720p, in-pass audio sync — [briefing](../daily/2026-06-17.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-17
+- OpenAI launches $150M Partner Network — Accenture, BCG, McKinsey, PwC; 300k certified consultants target — [briefing](../daily/2026-06-17.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-17
+- SpaceX acquires Cursor for $60B all-stock — largest VC startup acquisition in history — [briefing](../daily/2026-06-17.md)
+- Anthropic opens Seoul office; Naver deploys Claude Code to all engineering staff — [briefing](../daily/2026-06-17.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -48,6 +58,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-17
+- Anthropic Fable 5/Mythos 5 export controls — resolution reported within days — [briefing](../daily/2026-06-17.md)
+- G7 Evian summit closes with first joint AI governance declaration — [briefing](../daily/2026-06-17.md)
+- Colorado AI Act amended — June 30 deadline pushed to January 1, 2027 — [briefing](../daily/2026-06-17.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
