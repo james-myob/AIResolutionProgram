@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:deployment-simulation`
+**First mention:** 2026-06-18
+
+**Plain English:** A pre-deployment safety evaluation method where, instead of using purpose-built adversarial test sets, you take millions of real user conversations from a previous model, strip out the AI's original responses, have the new candidate model regenerate them, and compare the output distribution to known harmful-behaviour rates. The core advantage: models can't tell they're being evaluated (they see naturalistic conversation inputs, not curated safety probes), so you observe how they actually behave at distribution rather than how they perform when they "know" the stakes. Distinct from red-teaming (deliberate adversarial prompting by humans) and from A/B live deployment (real users exposed to a candidate model). Think of it as "shadow deployment" — running a new model on historical traffic before you ship it. OpenAI's implementation analysed ~1.3M de-identified real conversations, achieving a 1.5× median error rate in predicting unintended harmful behaviours.
+
+**Origin:** OpenAI — [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation/) (June 17, 2026)
+
+**Appearances:**
+- 2026-06-18 — [briefing](../daily/2026-06-18.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 

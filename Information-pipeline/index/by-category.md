@@ -17,6 +17,11 @@
 
 ## 📦 Products & Tooling
 
+### 2026-06-18
+- Google sunsets Gemini CLI; Antigravity CLI replaces it today with no 1:1 feature parity — [briefing](../daily/2026-06-18.md)
+- ChatGPT gains scheduled tasks; Pulse retired — [briefing](../daily/2026-06-18.md)
+- Grok 4.3 now GA on Amazon Bedrock with 1M-token context — [briefing](../daily/2026-06-18.md)
+
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
 
@@ -28,6 +33,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-18
+- SpaceX acquires Cursor for $60B (largest VC-backed startup acquisition ever) — [briefing](../daily/2026-06-18.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -42,12 +50,20 @@
 
 ## 🔬 Research & Papers
 
+### 2026-06-18
+- OpenAI LifeSciBench: best AI clears only 36% of real life-science research tasks — [briefing](../daily/2026-06-18.md)
+- OpenAI Deployment Simulation: predict harmful model behaviour before release using real traffic — [briefing](../daily/2026-06-18.md)
+
 ### 2026-05-21
 - OpenAI reasoning model disproves the Erdős unit-distance conjecture — [briefing](../daily/2026-05-21.md)
 
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-18
+- Fable 5 + Mythos 5 remain offline — Day 6 of US export-control directive — [briefing](../daily/2026-06-18.md)
+- G7 AI summit closes: Amodei + Hassabis call for US-led AI coalition; SoftBank commits €45B to European data centres — [briefing](../daily/2026-06-18.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
@@ -58,6 +74,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-18
+- AI coding market fully consolidated inside big tech — SpaceX/Cursor acquisition completes the picture — [briefing](../daily/2026-06-18.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
@@ -76,4 +95,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-18](../daily/2026-06-18.md#-quick-hits).
