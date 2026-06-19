@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-19
+- Claude Fable 5 (GA) and Mythos 5 (limited preview) released June 9; disabled globally June 12 under US export control directive — [briefing](../daily/2026-06-19.md)
+- Microsoft MAI-Thinking-1 (1T-param MoE reasoning) + MAI-Code-1-Flash (5B-param coding) launched at Build 2026 — [briefing](../daily/2026-06-19.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-19
+- Anthropic enterprise-managed MCP auth with Okta — zero-touch connector provisioning for Team/Enterprise — [briefing](../daily/2026-06-19.md)
+- Mistral Vibe (formerly Le Chat) — unified work + code agent with VS Code extension and cloud sandboxes — [briefing](../daily/2026-06-19.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +36,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-19
+- Anthropic (June 1) and OpenAI (June 8) both file confidential S-1s — $965B and $730B–$1T valuations respectively — [briefing](../daily/2026-06-19.md)
+- John Jumper (Nobel/AlphaFold) leaves DeepMind for Anthropic; Noam Shazeer (Gemini co-lead) leaves Google for OpenAI — 48-hour talent exodus — [briefing](../daily/2026-06-19.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -48,6 +60,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-19
+- US export control directive pulls Fable 5 and Mythos 5 from global market (June 12) — first capability-based AI model ban — [briefing](../daily/2026-06-19.md)
+- Trump AI executive order signed June 2 — voluntary 30-day frontier model pre-release access framework; Colorado AI Act replaced by narrower SB 26-189 ADMT law (effective Jan 2027) — [briefing](../daily/2026-06-19.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)

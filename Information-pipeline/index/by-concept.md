@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:ai-model-export-controls`
+**First mention:** 2026-06-19
+
+**Plain English:** The application of export control law — historically used to restrict dual-use hardware (chips, sensors) and materials — to the deployment of specific AI model *capabilities*. Distinct from existing controls on model weights or training data: this is a ban on *access* to a deployed, commercially available model, triggered by a capability threshold the government identifies post-release. The Fable 5/Mythos 5 directive (June 12, 2026) is the first case in which a frontier model was pulled from the global market mid-deployment using this authority. The mechanism works by requiring the developer — not the customer — to disable access, because real-time nationality verification at user scale is infeasible. This shifts the compliance burden from customs officers to the lab's own access control system, and creates a new category of vendor risk for enterprise buyers: model availability is now a government-controlled variable, not just a vendor SLA.
+
+**Origin:** US Commerce Department export control directive on Claude Fable 5 and Mythos 5, June 12, 2026 — [National Law Review analysis](https://natlawreview.com/article/ai-company-anthropic-suspends-access-claude-fable-5-claude-mythos-5-following-us)
+
+**Appearances:**
+- 2026-06-19 — [briefing](../daily/2026-06-19.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
