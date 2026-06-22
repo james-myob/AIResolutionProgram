@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:agentjacking`
+**First mention:** 2026-06-22
+
+**Plain English:** An attack class where a malicious actor hijacks an AI coding agent by exploiting a third-party tool or service the agent trusts — rather than manipulating the model's input (prompt injection) or bypassing its safety rules (jailbreaking). In the initial Tenet Security disclosure, Sentry's error-tracking platform was the attack vector: a crafted HTTP POST using a public credential triggers arbitrary code execution on the developer's machine with an 85% success rate, affecting Claude Code, Cursor, and Codex. The name draws on "carjacking" — someone takes control of something you thought you owned. As AI coding agents are granted broader environment permissions (file access, shell, MCP tools), the agentjacking surface grows proportionally.
+
+**Origin:** Tenet Security — [Agentjacking attack research](https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry) · [The Hacker News](https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html)
+
+**Appearances:**
+- 2026-06-22 — [briefing](../daily/2026-06-22.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 

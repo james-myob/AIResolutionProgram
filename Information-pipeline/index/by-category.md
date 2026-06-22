@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-22
+- Z.ai GLM-5.2 (753B MoE, MIT licence) beats GPT-5.5 on SWE-bench Pro and FrontierSWE at ~1/6th the cost — [briefing](../daily/2026-06-22.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-22
+- OpenAI launches GPT-5.5-Cyber, Codex Security plugin, and Patch the Planet open-source security programme — [briefing](../daily/2026-06-22.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-22
+- Google talent double-exit: Noam Shazeer (Transformer co-author) → OpenAI; John Jumper (Nobel/AlphaFold) → Anthropic — [briefing](../daily/2026-06-22.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +58,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-22
+- Fable 5 and Mythos 5 still offline (day 10); US export directive; complimentary access period expires today — [briefing](../daily/2026-06-22.md)
+- "Agentjacking" attack: 2,388 orgs exposed via Sentry + AI coding agent exploit — [briefing](../daily/2026-06-22.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +71,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-22
+- ChatGPT below 50% market share for first time (46.4%); Gemini 27.7%, Grok 15.2%, Claude 10.3%; 42 state AGs open OpenAI probe — [briefing](../daily/2026-06-22.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

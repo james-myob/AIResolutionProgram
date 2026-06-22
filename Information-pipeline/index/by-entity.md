@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-22 — Fable 5 / Mythos 5 offline (day 10, US export directive); Nobel laureate John Jumper joins AI-for-science programme — [briefing](../daily/2026-06-22.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -33,6 +34,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-06-22 — Lost Noam Shazeer and John Jumper in 48-hour talent exodus; DeepMind invests $75M in A24; Android 17 ships with Gemini Omni — [briefing](../daily/2026-06-22.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -45,6 +47,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-22 — Launches Patch the Planet + GPT-5.5-Cyber + Codex Security; ChatGPT market share falls below 50% (46.4%); 42 state AGs investigation; Noam Shazeer joins as Architecture Lead — [briefing](../daily/2026-06-22.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -62,6 +65,30 @@
 
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:zhipu-ai`
+- 2026-06-22 — Released GLM-5.2 (753B MoE, MIT licence); beats GPT-5.5 on SWE-bench Pro at ~1/6th cost — [briefing](../daily/2026-06-22.md)
+
+## `entity:glm-5-2`
+- 2026-06-22 — 753B-param open-weight model; MIT licence; 62.1 SWE-bench Pro vs GPT-5.5's 58.6; $1.40/M input tokens — [briefing](../daily/2026-06-22.md)
+
+## `entity:noam-shazeer`
+- 2026-06-22 — Left Google DeepMind (June 18) to join OpenAI as Architecture Lead; co-author of "Attention Is All You Need"; Google paid ~$2.7B to reacquire him in 2024 — [briefing](../daily/2026-06-22.md)
+
+## `entity:john-jumper`
+- 2026-06-22 — Left Google DeepMind (June 20) to join Anthropic's AI-for-science programme after nine years; 2024 Nobel laureate in Chemistry for AlphaFold — [briefing](../daily/2026-06-22.md)
+
+## `entity:fable-5`
+- 2026-06-22 — Offline since June 12 via US DoC export directive; complimentary access period expired today (June 22); paid credit access from June 23 but model still unavailable — [briefing](../daily/2026-06-22.md)
+
+## `entity:mythos-5`
+- 2026-06-22 — Offline since June 12 alongside Fable 5; government cited a specific cybersecurity jailbreak technique — [briefing](../daily/2026-06-22.md)
+
+## `entity:gpt-5-5-cyber`
+- 2026-06-22 — Launched as part of OpenAI Daybreak expansion; 85.6% on CyberGym vs 81.8% for standard GPT-5.5; powers Patch the Planet initiative — [briefing](../daily/2026-06-22.md)
+
+## `entity:a24`
+- 2026-06-22 — Google DeepMind invests $75M; first Alphabet studio stake; partnership to co-develop AI filmmaking tools — [briefing](../daily/2026-06-22.md)
 
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
