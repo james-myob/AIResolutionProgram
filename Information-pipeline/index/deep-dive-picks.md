@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-23
+
+- [ ] 📝 **Securing Internal Systems Against Increasingly Capable AI** — Google DeepMind · Essay · ~3,000 words (est.) · [link](https://deepmind.google/blog/securing-the-future-of-ai-agents/) · *The most detailed public account of how a frontier lab designs security for production AI agents — threat modelling, supervisor-agent architecture, and capability-scaled controls that any production-agent team can adapt.* — from [briefing](../daily/2026-06-23.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

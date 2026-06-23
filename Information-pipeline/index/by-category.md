@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-23
+- OpenAI releases GPT-5.5-Cyber — first domain-specialised frontier model (85.6% CyberGym, vetted-access) — [briefing](../daily/2026-06-23.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,11 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-23
+- Anthropic removes Fable 5 from Pro/Max/Team subscriptions — credits-only at $10/$50 per million tokens from June 23 — [briefing](../daily/2026-06-23.md)
+- OpenAI launches Patch the Planet — AI-accelerated open-source security patching with Trail of Bits and HackerOne — [briefing](../daily/2026-06-23.md)
+- Samsung deploys ChatGPT Enterprise and Codex to all employees — reversal of 2023 ban, one of OpenAI's largest enterprise rollouts — [briefing](../daily/2026-06-23.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +36,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-23
+- SpaceX signs $6.3B compute deal with Reflection AI for Colossus 2 Nvidia GB300 access — [briefing](../daily/2026-06-23.md)
+- Google loses Noam Shazeer (to OpenAI) and John Jumper (to Anthropic) in five days — [briefing](../daily/2026-06-23.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +61,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-23
+- Google DeepMind publishes AI Control Roadmap — defence-in-depth framework for securing production AI agents — [briefing](../daily/2026-06-23.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -69,6 +84,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-06-23
+- Black Duck Security study: 97% devs use AI coding tools but only 33% of orgs have governance frameworks — [briefing](../daily/2026-06-23.md)
+
 ### 2026-05-20
 - Simon Willison ships a tokens-per-second visualiser — [briefing](../daily/2026-05-20.md)
 
@@ -76,4 +94,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-23](../daily/2026-06-23.md#-quick-hits).
