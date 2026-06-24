@@ -17,6 +17,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-06-24
+- Anthropic launches Claude Tag — shared team agent with ambient intelligence in Slack — [briefing](../daily/2026-06-24.md)
+- OpenAI launches Patch the Planet — GPT-5.5-Cyber fixes open-source security vulnerabilities with Trail of Bits — [briefing](../daily/2026-06-24.md)
+
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
 
@@ -28,6 +32,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-24
+- Google DeepMind loses four headline researchers in seven days — Jumper, Shazeer, Adler, Pritzel — to Anthropic and OpenAI — [briefing](../daily/2026-06-24.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -48,6 +55,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-06-24
+- Anthropic accuses Alibaba of 28.8M-exchange distillation attack — escalated to US Senate — [briefing](../daily/2026-06-24.md)
+- August regulatory double-bill: California AI Transparency Act + EU AI Act transparency obligations take effect — [briefing](../daily/2026-06-24.md)
 
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)

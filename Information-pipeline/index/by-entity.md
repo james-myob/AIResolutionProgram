@@ -4,10 +4,14 @@
 
 ---
 
+## `entity:alibaba`
+- 2026-06-24 — Accused by Anthropic of 28.8M-exchange distillation attack on Claude using 25,000 fake accounts — [briefing](../daily/2026-06-24.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-24 — Claude Tag launch (Slack shared-team agent); Alibaba distillation accusation; received Jonas Adler + Alexander Pritzel + John Jumper from Google DeepMind — [briefing](../daily/2026-06-24.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,8 +49,31 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-24 — Patch the Planet: GPT-5.5-Cyber fixes open-source vulnerabilities with Trail of Bits — [briefing](../daily/2026-06-24.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:qwen`
+- 2026-06-24 — Operators linked to Alibaba's Qwen lab carried out 28.8M-exchange distillation attack on Claude — [briefing](../daily/2026-06-24.md)
+
+## `entity:gpt-5-5-cyber`
+- 2026-06-24 — Deployed in OpenAI Patch the Planet initiative; 85.6% on CyberGym benchmark — [briefing](../daily/2026-06-24.md)
+
+## `entity:claude-tag`
+- 2026-06-24 — Launched as shared team Claude agent in Slack; research preview for Enterprise + Team — [briefing](../daily/2026-06-24.md)
+
+## `entity:google-deepmind`
+- 2026-06-24 — Lost four headline researchers (Jumper, Shazeer, Adler, Pritzel) to Anthropic/OpenAI in seven days; $75M A24 filmmaking partnership — [briefing](../daily/2026-06-24.md)
+
+## `entity:a24`
+- 2026-06-24 — $75M filmmaking research partnership with Google DeepMind; Veo 3.1 for production workflows — [briefing](../daily/2026-06-24.md)
+
+## `entity:eu-ai-act`
+- 2026-06-24 — Transparency obligations for general-purpose AI take effect August 2026 — [briefing](../daily/2026-06-24.md)
+- 2026-05-20 — OpenAI joins C2PA, embeds SynthID watermarks in ChatGPT/Codex outputs — [briefing](../daily/2026-05-20.md)
+
+## `entity:california-sb-942`
+- 2026-06-24 — AI Transparency Act takes effect August 2, 2026; requires watermarking and detection tools — [briefing](../daily/2026-06-24.md)
 
 ## `entity:simon-willison`
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
