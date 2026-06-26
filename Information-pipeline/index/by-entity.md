@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-26 — Claude Tag Slack agent (Enterprise/Team); Andrej Karpathy joins pretraining team (Quick Hit) — [briefing](../daily/2026-06-26.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-26 — GPT-5.6 Sol preview + system card; Codex Remote GA; Jalapeño chip with Broadcom — [briefing](../daily/2026-06-26.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -60,11 +62,32 @@
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
+## `entity:eu-ai-act`
+- 2026-06-26 — Annex III high-risk obligations delayed from Aug 2, 2026 to Dec 2, 2027 via Digital Omnibus — [briefing](../daily/2026-06-26.md)
+
+## `entity:gpt-5-6-sol`
+- 2026-06-26 — Preview system card published; voluntary US government pre-release security assessment; GA expected within weeks — [briefing](../daily/2026-06-26.md)
+
+## `entity:jalapeno`
+- 2026-06-26 — OpenAI/Broadcom custom LLM inference chip; reticle-sized ASIC; 9-month development; target deployment end of 2026 — [briefing](../daily/2026-06-26.md)
+
+## `entity:nsa`
+- 2026-06-26 — Will benchmark frontier AI cyber capabilities under new White House AI EO framework — [briefing](../daily/2026-06-26.md)
+
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
+## `entity:broadcom`
+- 2026-06-26 — Co-designed Jalapeño inference chip with OpenAI; 9-month ASIC development cycle — [briefing](../daily/2026-06-26.md)
+
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-tag`
+- 2026-06-26 — Anthropic Slack agent for Enterprise/Team; multiplayer, async, Opus 4.8 — [briefing](../daily/2026-06-26.md)
+
+## `entity:codex`
+- 2026-06-26 — Codex Remote reaches GA on all ChatGPT plans; runs on local Mac/Windows host — [briefing](../daily/2026-06-26.md)
 
 ## `entity:cohere`
 - 2026-05-21 — Command A+ open-sourced under Apache 2.0; 218B MoE, runs on single B200 GPU — [briefing](../daily/2026-05-21.md)
@@ -76,7 +99,9 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:trump`
+- 2026-06-26 — AI Innovation and Security EO signed June 2 (after May 21 cancellation) — voluntary frontier model pre-release framework — [briefing](../daily/2026-06-26.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-06-26 — AI Innovation and Security EO signed June 2; deliverables due July 2 and August 1 — [briefing](../daily/2026-06-26.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
