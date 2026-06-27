@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-27
+- OpenAI previews GPT-5.6 Sol, Terra, and Luna — government-gated limited release, tiered pricing from $1/$6 to $5/$30 per M tokens — [briefing](../daily/2026-06-27.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +19,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-27
+- Anthropic launches Claude Tag — shared multiplayer @Claude for Slack; channel-scoped permissions — [briefing](../daily/2026-06-27.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +34,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-27
+- OpenAI considers 2027 IPO and weighs significant token price cuts amid enterprise competition from Anthropic and Chinese open-weight models — [briefing](../daily/2026-06-27.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +58,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-27
+- Colorado AI Act (SB 26-189) takes effect Monday June 30 — first comprehensive US state AI law to go live — [briefing](../daily/2026-06-27.md)
+- Anthropic accuses Alibaba of "largest known distillation attack" — 25,000 accounts, 28.8M interactions — [briefing](../daily/2026-06-27.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +71,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-27
+- Four senior Google DeepMind researchers depart to OpenAI and Anthropic in six days; Alphabet loses ~$225B market cap — [briefing](../daily/2026-06-27.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

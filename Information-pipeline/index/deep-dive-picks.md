@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-27
+
+- [ ] 📝 **AINews: OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners** — Latent Space · Essay · ~8,000 words · [link](https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna) · *Most technically grounded breakdown of Sol/Terra/Luna including the METR eval's concerning findings and the government-mediated access model — worth reading before any roadmap conversation involving OpenAI's new model tier.* — from [briefing](../daily/2026-06-27.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)

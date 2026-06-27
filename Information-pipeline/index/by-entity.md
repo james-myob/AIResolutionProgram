@@ -4,15 +4,31 @@
 
 ---
 
+## `entity:alibaba`
+- 2026-06-27 — Accused by Anthropic of "largest known distillation attack" — 25,000 fraudulent accounts, 28.8M Claude interactions — [briefing](../daily/2026-06-27.md)
+
+## `entity:alphabet`
+- 2026-06-27 — Lost ~$225B market cap in a single day following DeepMind talent exodus — [briefing](../daily/2026-06-27.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-27 — Claude Tag (multiplayer Slack AI) launched; Alibaba distillation accusation filed with Congress and White House — [briefing](../daily/2026-06-27.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
+## `entity:broadcom`
+- 2026-06-27 — Co-unveiled Jalapeño, OpenAI's first custom LLM inference chip; ~50% cost savings claimed vs Nvidia GPUs — [briefing](../daily/2026-06-27.md)
+
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
+
+## `entity:claude-tag`
+- 2026-06-27 — Launched as multiplayer shared @Claude for Slack; replaces per-user bot — [briefing](../daily/2026-06-27.md)
+
+## `entity:colorado-ai-act`
+- 2026-06-27 — SB 26-189 takes effect June 30; covers automated decisioning in employment, credit, healthcare, education, housing — [briefing](../daily/2026-06-27.md)
 
 ## `entity:c2pa`
 - 2026-05-20 — OpenAI joins as Conforming Generator — [briefing](../daily/2026-05-20.md)
@@ -32,6 +48,27 @@
 ## `entity:gemini-spark`
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
+## `entity:google-deepmind`
+- 2026-06-27 — Noam Shazeer and John Jumper among four senior researchers departing to OpenAI and Anthropic — [briefing](../daily/2026-06-27.md)
+
+## `entity:gpt-5-6-sol`
+- 2026-06-27 — Flagship tier of GPT-5.6 family; $5/$30 per M tokens; government-gated limited preview — [briefing](../daily/2026-06-27.md)
+
+## `entity:gpt-5-6-terra`
+- 2026-06-27 — Mid tier of GPT-5.6; $2.50/$15 per M tokens; limited preview — [briefing](../daily/2026-06-27.md)
+
+## `entity:gpt-5-6-luna`
+- 2026-06-27 — Fast/affordable tier of GPT-5.6; $1/$6 per M tokens; limited preview — [briefing](../daily/2026-06-27.md)
+
+## `entity:jalapeno`
+- 2026-06-27 — OpenAI's first custom LLM inference ASIC, co-designed with Broadcom; ~50% cost savings claimed; production ramp 2027 — [briefing](../daily/2026-06-27.md)
+
+## `entity:john-jumper`
+- 2026-06-27 — Nobel Prize winner (AlphaFold2 lead), departed Google DeepMind to join Anthropic — [briefing](../daily/2026-06-27.md)
+
+## `entity:noam-shazeer`
+- 2026-06-27 — VP Engineering at Google (Gemini co-lead, Transformer paper co-author), departed to OpenAI — [briefing](../daily/2026-06-27.md)
+
 ## `entity:google`
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +82,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-27 — GPT-5.6 Sol/Terra/Luna limited preview; Jalapeño chip unveiled; IPO 2027 consideration; pricing cuts under review — [briefing](../daily/2026-06-27.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
