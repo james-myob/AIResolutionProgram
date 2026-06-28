@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-28
+- OpenAI previews GPT-5.6 Sol/Terra/Luna family under US government-gated access — [briefing](../daily/2026-06-28.md)
+- Anthropic Fable 5 and Mythos 5 suspended by US export control directive (Jun 12) — [briefing](../daily/2026-06-28.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-28
+- Google DeepMind enters co-design research partnership with A24 (Jun 27) — [briefing](../daily/2026-06-28.md)
+- Anthropic launches Claude Tag for in-thread team collaboration (Jun 23) — [briefing](../daily/2026-06-28.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +36,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-28
+- OpenAI and Broadcom unveil Jalapeño — OpenAI's first custom LLM inference chip (Jun 24) — [briefing](../daily/2026-06-28.md)
+- Google DeepMind loses two more top researchers Jonas Adler and Alexander Pritzel to Anthropic (Jun 24) — [briefing](../daily/2026-06-28.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +61,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-28
+- EU AI Act: 35 days until full applicability August 2 — high-risk AI system compliance sprint — [briefing](../daily/2026-06-28.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +73,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-28
+- "Not about Anthropic vs. OpenAI anymore" — market shifts toward efficiency and multi-player competition (Jun 26) — [briefing](../daily/2026-06-28.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)
@@ -76,4 +94,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-28](../daily/2026-06-28.md#-quick-hits).
