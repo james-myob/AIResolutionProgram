@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-06-29
+
+- [ ] 🎙️ **An AI State of the Union: We've Passed the Inflection Point** — Simon Willison on Lenny's Podcast · Podcast · ~90 min · [link](https://www.lennysnewsletter.com/p/an-ai-state-of-the-union) · *Willison marks November 2025 as the engineering inflection point, maps the "dark factory" pattern where AI runs its own QA, and explains why prompt injection is still AI's unsolved security problem — essential context as government-managed model access reshapes which tools teams can actually build on.* — from [briefing](../daily/2026-06-29.md)
+
 ## 2026-05-21
 
 - [ ] 📺 **Code with Claude 2026 | London — Opening Keynote** — Anthropic · Video · ~60 min (est.) · [link](https://www.youtube.com/watch?v=AgQ4cwL5eOM) · *Best single view of Anthropic's production-agent stack: Dreaming, Outcomes, and multi-agent orchestration shown live alongside a candid discussion of AI-native engineering, team structure, and code review at scale.* — from [briefing](../daily/2026-05-21.md)
