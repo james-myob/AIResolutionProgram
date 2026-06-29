@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-29
+- GPT-5.6 (Sol, Terra, Luna) launches to ~20 government-approved partners only — first frontier model under government-managed access list — [briefing](../daily/2026-06-29.md)
+- Anthropic Mythos 5 cleared for ~100 US institutions by Commerce Secretary; Fable 5 expected back within days after 15-day ban — [briefing](../daily/2026-06-29.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-29
+- Claude Tag: Anthropic ships Claude as a persistent Slack team member with channel context; 65% of Anthropic's own code now written by internal equivalent — [briefing](../daily/2026-06-29.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -28,6 +35,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-06-29
+- Baseten raises $1.5B Series F at $13B valuation for AI inference infrastructure — record private inference compute round — [briefing](../daily/2026-06-29.md)
 
 ### 2026-05-21
 - Meta begins 8,000 layoffs (10% of workforce) amid record $56B quarterly revenue — [briefing](../daily/2026-05-21.md)
@@ -49,6 +59,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-29
+- Government-managed frontier model access becomes live mechanism: OpenAI GPT-5.6 and Anthropic Mythos 5 both restricted under TRAINS program — [briefing](../daily/2026-06-29.md)
+- Colorado AI Act enforcement pushed to January 1, 2027; law substantially amended to disclosure-only framework — [briefing](../daily/2026-06-29.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -58,6 +72,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-06-29
+- Inference investment surges to record (Baseten $1.5B) while AI public stocks shed ~$2.7T in June — market bifurcation between inference layer (validated) and training infrastructure (questioned) — [briefing](../daily/2026-06-29.md)
 
 ### 2026-05-21
 - MIT Technology Review: coding's future "whether you like it or not" — AI code shipping unreviewed at scale — [briefing](../daily/2026-05-21.md)

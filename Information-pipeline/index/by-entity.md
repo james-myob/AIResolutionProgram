@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-29 — Mythos 5 cleared for ~100 US institutions; Fable 5 expected back; Claude Tag launched; confidential S-1 filed June 1 at ~$965B valuation — [briefing](../daily/2026-06-29.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -45,6 +46,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-06-29 — GPT-5.6 (Sol, Terra, Luna) launched to ~20 government-approved partners; Ona acquisition; Broadcom inference chip; IPO S-1 filed June 10 — [briefing](../daily/2026-06-29.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
@@ -79,4 +81,29 @@
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-06-29 — Pressing Meta to join AI pre-release review pact; TRAINS program managing GPT-5.6 and Mythos 5 access — [briefing](../daily/2026-06-29.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:us-government`
+- 2026-06-29 — Cleared Mythos 5 for ~100 US institutions; restricted GPT-5.6 to ~20 approved partners via TRAINS program — [briefing](../daily/2026-06-29.md)
+
+## `entity:baseten`
+- 2026-06-29 — Raised $1.5B Series F at $13B valuation; record private inference compute funding — [briefing](../daily/2026-06-29.md)
+
+## `entity:gpt-5-6-sol`
+- 2026-06-29 — Launched under government-managed access list; first frontier model release gated by US government approval — [briefing](../daily/2026-06-29.md)
+
+## `entity:mythos-5`
+- 2026-06-29 — Cleared by Commerce Secretary for ~100 US institutions after 15-day emergency export ban — [briefing](../daily/2026-06-29.md)
+
+## `entity:fable-5`
+- 2026-06-29 — Expected to return within days after 15-day ban; jailbreak technique disputed by Anthropic — [briefing](../daily/2026-06-29.md)
+
+## `entity:claude-tag`
+- 2026-06-29 — Launched as Slack-native AI team member with persistent channel context; auto-migration August 3 — [briefing](../daily/2026-06-29.md)
+
+## `entity:grok-4-5`
+- 2026-06-29 — Entered private beta at Tesla and SpaceX (June 28) — [briefing](../daily/2026-06-29.md)
+
+## `entity:colorado-ai-act`
+- 2026-06-29 — Enforcement delayed to January 1, 2027; law substantially amended to disclosure-only framework — [briefing](../daily/2026-06-29.md)
