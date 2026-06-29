@@ -29,6 +29,7 @@ Monday is a **weekend special edition** — extended source window to cover Sat�
 | What | Page ID | URL |
 |---|---|---|
 | AI Daily Brief homepage | `12024578071` | https://myobconfluence.atlassian.net/wiki/spaces/~712020456db008c5c746a684901e35cea3e13a/pages/12024578071/AI+Daily+Brief |
+| **Daily briefs container** (parent for every issue) | `12031984216` | https://myobconfluence.atlassian.net/wiki/spaces/~712020456db008c5c746a684901e35cea3e13a/pages/12031984216/Daily+briefs |
 | Tags index | `12026511459` | https://myobconfluence.atlassian.net/wiki/spaces/~712020456db008c5c746a684901e35cea3e13a/pages/12026511459/Tags+AI+Daily+Brief |
 | About this publication | `12024578165` | https://myobconfluence.atlassian.net/wiki/spaces/~712020456db008c5c746a684901e35cea3e13a/pages/12024578165/About+this+publication |
 | cloudId | `4fdd78ef-1f86-405c-ab28-40469e369529` | (MYOB Confluence cloud) |
@@ -65,7 +66,7 @@ Monday is a **weekend special edition** — extended source window to cover Sat�
 9. **Publish to Confluence.** Call `mcp__Atlassian__createConfluencePage`:
    - `cloudId`: `4fdd78ef-1f86-405c-ab28-40469e369529`
    - `spaceId`: `10554835614`
-   - `parentId`: `12024578071` (the AI Daily Brief homepage)
+   - `parentId`: `12031984216` (the **Daily briefs container**, NOT the homepage)
    - `title`: `Daily AI Briefing — <Day> <D> <Month> <YYYY>` (e.g. `Daily AI Briefing — Mon 29 June 2026`) — keep the em-dash `—` exactly
    - `contentFormat`: `html`
    - `body`: the HTML from step 8
