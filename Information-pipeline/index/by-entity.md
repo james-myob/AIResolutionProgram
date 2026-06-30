@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-06-30 — Launches Claude Sonnet 5 and Claude Science workbench; Mythos 5 export-control partially restored for trusted partners — [briefing](../daily/2026-06-30.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
@@ -33,6 +34,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-06-30 — Ships Nano Banana 2 Lite (GA) and previews Gemini Omni Flash for conversational video editing — [briefing](../daily/2026-06-30.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -80,3 +82,12 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-sonnet-5`
+- 2026-06-30 — Launched: closes most of the gap to Opus 4.8 at $2/$10 per million tokens intro pricing — [briefing](../daily/2026-06-30.md)
+
+## `entity:claude-science`
+- 2026-06-30 — AI research workbench for genomics, proteomics, structural biology, cheminformatics; beta on macOS/Linux — [briefing](../daily/2026-06-30.md)
+
+## `entity:lennys-newsletter`
+- 2026-06-30 — Publishes three-ladder framework for PM leverage with AI (personal/product/systems) — [briefing](../daily/2026-06-30.md)

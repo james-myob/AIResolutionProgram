@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-06-30
+- Anthropic launches Claude Sonnet 5 — closes most of the gap to Opus 4.8 at a third of the price — [briefing](../daily/2026-06-30.md)
+- Google ships Nano Banana 2 Lite (GA) and previews Gemini Omni Flash — [briefing](../daily/2026-06-30.md)
+
 ### 2026-05-21
 - Cohere open-sources Command A+ under Apache 2.0 — enterprise-grade 218B MoE, single B200 GPU — [briefing](../daily/2026-05-21.md)
 
@@ -16,6 +20,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-06-30
+- Anthropic launches Claude Science — AI research workbench for genomics/proteomics/cheminformatics — [briefing](../daily/2026-06-30.md)
 
 ### 2026-05-21
 - Anthropic ships Dreaming and Outcomes — two new agentic patterns at Code with Claude London — [briefing](../daily/2026-05-21.md)
@@ -49,6 +56,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-06-30
+- Commerce Department partially restores access to Anthropic's export-controlled Mythos 5 for trusted partners — [briefing](../daily/2026-06-30.md)
+
 ### 2026-05-21
 - Trump pulls AI executive order hours before signing: "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
@@ -69,6 +79,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-06-30
+- Lenny Rachitsky publishes a three-ladder framework for PM leverage with AI — [briefing](../daily/2026-06-30.md)
+
 ### 2026-05-20
 - Simon Willison ships a tokens-per-second visualiser — [briefing](../daily/2026-05-20.md)
 
@@ -76,4 +89,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-05-21](../daily/2026-05-21.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-06-30](../daily/2026-06-30.md#-quick-hits).
