@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-02
+- Fable 5's relaunch gets a mixed verdict — tops CursorBench but quietly falls back to Opus 4.8 on some coding tasks — [briefing](../daily/2026-07-02.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-02
+- Google ships Genkit Agents API + ADK Go 2.0, a full agent-orchestration stack — [briefing](../daily/2026-07-02.md)
+- xAI launches a no-code Grok Voice agent builder ($0.05/min) — [briefing](../daily/2026-07-02.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-02
+- Together AI raises $800M at $8.3B as enterprises route more work to open models — [briefing](../daily/2026-07-02.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +71,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-02
+- OpenAI proposes a 5% US government equity stake, pitches the same to Anthropic, Google, Meta — [briefing](../daily/2026-07-02.md)
+- UN's first independent AI science panel warns safeguards can't keep pace with capabilities — [briefing](../daily/2026-07-02.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +112,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-02](../daily/2026-07-02.md#-quick-hits).

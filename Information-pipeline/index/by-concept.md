@@ -26,4 +26,5 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 **Origin:** V. Trivedy — *The Anatomy of an Agent Harness* ([vtrivedy.com](https://www.vtrivedy.com/posts/the-anatomy-of-an-agent-harness)). Reached named-product credibility in mainstream developer publications on 20 May 2026 ([NVIDIA Developer Blog](https://developer.nvidia.com/blog/)).
 
 **Appearances:**
+- 2026-07-02 — Google formalizes the pattern with Genkit Agents API + ADK Go 2.0 — [briefing](../daily/2026-07-02.md)
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
