@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-03 — Opens talks with Samsung to build a custom 2nm AI inference chip — [briefing](../daily/2026-07-03.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,11 +71,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-03 — Moves GPT-5.6 Sol onto Cerebras hardware, targeting 750 tokens/sec — [briefing](../daily/2026-07-03.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-07-03 — Releases `llm-coding-agent` 0.1a0; recaps Geoffrey Litt's AIE talk on collaborating with coding agents — [briefing](../daily/2026-07-03.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -88,6 +91,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-03 — Grok 4.5 enters private beta at SpaceX/Tesla on a 1.5T-parameter V9 model — [briefing](../daily/2026-07-03.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,6 +104,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-03 — WIRED: contractors posed as teens to stress-test rival chatbots without consent ("Project Cannes") — [briefing](../daily/2026-07-03.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -110,7 +115,30 @@
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:trump`
+- 2026-07-03 — Signs frontier-AI EO setting voluntary 30-day early-access framework for government — [briefing](../daily/2026-07-03.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-07-03 — Frontier-AI EO: voluntary 30-day early-access framework, no mandatory licensing — [briefing](../daily/2026-07-03.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:grok-4-5`
+- 2026-07-03 — Private beta at SpaceX/Tesla; 1.5T-parameter V9 foundation model — [briefing](../daily/2026-07-03.md)
+
+## `entity:cerebras`
+- 2026-07-03 — Hosts GPT-5.6 Sol at up to 750 tokens/sec under $20B+ OpenAI compute contract — [briefing](../daily/2026-07-03.md)
+
+## `entity:samsung`
+- 2026-07-03 — In early talks with Anthropic on a custom 2nm AI inference chip — [briefing](../daily/2026-07-03.md)
+
+## `entity:together-ai`
+- 2026-07-03 — Raises $800M Series C at $8.3B valuation, led by Aramco Ventures — [briefing](../daily/2026-07-03.md)
+
+## `entity:tenet-security`
+- 2026-07-03 — Publishes "agentjacking" research: Sentry-key attack hijacks Claude Code/Cursor/Codex — [briefing](../daily/2026-07-03.md)
+
+## `entity:sentry`
+- 2026-07-03 — MCP integration exploited in "agentjacking" attack; declines structural fix — [briefing](../daily/2026-07-03.md)
+
+## `entity:geoffrey-litt`
+- 2026-07-03 — AIE talk: have coding agents quiz you on their own diffs — [briefing](../daily/2026-07-03.md)

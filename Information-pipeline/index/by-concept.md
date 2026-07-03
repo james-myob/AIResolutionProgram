@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:agentjacking`
+**First mention:** 2026-07-03
+
+**Plain English:** A named class of attack against AI coding agents where the attacker never touches the victim's systems and the developer never approves anything unusual — the agent just does exactly what it was asked to do with data it wrongly trusts. An attacker plants a malicious instruction inside data an agent treats as legitimate context (e.g. a bug-tracker error report retrieved via MCP), and the agent executes it as part of its normal workflow. The name echoes "clickjacking," an established web attack pattern, applied to the new surface area that tool-using agents create.
+
+**Origin:** Tenet Security — [*One Fake Bug Report Hijacked a $250B Company's AI Agent*](https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/)
+
+**Appearances:**
+- 2026-07-03 — [briefing](../daily/2026-07-03.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
