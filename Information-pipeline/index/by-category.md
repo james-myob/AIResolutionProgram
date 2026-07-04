@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-04
+- Mistral releases Leanstral 1.5 — free open model for formal verification, 100% on miniF2F — [briefing](../daily/2026-07-04.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-04
+- Anthropic overhauls Claude API rate limits (5x headroom) and adds admin spend-control tools — [briefing](../daily/2026-07-04.md)
+- xAI launches no-code Grok Voice Agent Builder — [briefing](../daily/2026-07-04.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-04
+- Microsoft launches Frontier Company — $2.5B enterprise AI services arm, ~6,000 embedded engineers — [briefing](../daily/2026-07-04.md)
+- Together AI raises $800M at $8.3B valuation — [briefing](../daily/2026-07-04.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +63,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-04
+- "Program-as-Weights" compiles fuzzy tasks into small reusable models instead of repeated LLM calls — [briefing](../daily/2026-07-04.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +75,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-04
+- Anthropic details Fable 5 cybersecurity safeguards and joint "Cyber Jailbreak Severity" scale (with Amazon, Microsoft, Google) — [briefing](../daily/2026-07-04.md)
+- Altman proposes IAEA-style AI safety forum; OpenAI reportedly discussed 5% government equity stake — [briefing](../daily/2026-07-04.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -74,6 +92,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-04
+- Platformer: the AI industry can't keep up with its own backlash (data centres, jobs, inflation) — [briefing](../daily/2026-07-04.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +119,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-04](../daily/2026-07-04.md#-quick-hits).

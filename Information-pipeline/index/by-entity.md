@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-04 — Publishes Fable 5 cybersecurity safeguards + joint Cyber Jailbreak Severity scale; overhauls API rate limits and admin spend controls; reportedly in chip talks with Samsung — [briefing](../daily/2026-07-04.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -16,6 +17,7 @@
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-fable-5`
+- 2026-07-04 — Gets four-tier cybersecurity classifier + Cyber Jailbreak Severity scale — [briefing](../daily/2026-07-04.md)
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
@@ -58,6 +60,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-04 — Co-develops Cyber Jailbreak Severity scale with Anthropic, Amazon, Microsoft — [briefing](../daily/2026-07-04.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,6 +73,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-04 — Altman proposes IAEA-style AI safety forum; reportedly discussed 5% US government equity stake — [briefing](../daily/2026-07-04.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -88,6 +92,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-04 — Launches no-code Grok Voice Agent Builder, $0.05/min — [briefing](../daily/2026-07-04.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -114,3 +119,27 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:mistral`
+- 2026-07-04 — Releases Leanstral 1.5, free open model for formal verification (Lean 4), 100% on miniF2F — [briefing](../daily/2026-07-04.md)
+
+## `entity:leanstral-1-5`
+- 2026-07-04 — 119B/6B MoE, solves 587/672 PutnamBench problems, finds real repo bugs — [briefing](../daily/2026-07-04.md)
+
+## `entity:microsoft`
+- 2026-07-04 — Launches Frontier Company, $2.5B enterprise AI services arm with ~6,000 embedded engineers — [briefing](../daily/2026-07-04.md)
+
+## `entity:together-ai`
+- 2026-07-04 — Raises $800M Series C at $8.3B valuation, led by Aramco Ventures — [briefing](../daily/2026-07-04.md)
+
+## `entity:hugging-face`
+- 2026-07-04 — "Program-as-Weights" paper: compiles fuzzy tasks into compact reusable models — [briefing](../daily/2026-07-04.md)
+
+## `entity:amazon`
+- 2026-07-04 — Co-develops Cyber Jailbreak Severity scale with Anthropic, Microsoft, Google — [briefing](../daily/2026-07-04.md)
+
+## `entity:sam-altman`
+- 2026-07-04 — FT op-ed proposes IAEA-style global AI safety forum — [briefing](../daily/2026-07-04.md)
+
+## `entity:casey-newton`
+- 2026-07-04 — Platformer: AI industry can't keep pace with its own backlash — [briefing](../daily/2026-07-04.md)

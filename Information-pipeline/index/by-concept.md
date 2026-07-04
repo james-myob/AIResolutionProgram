@@ -18,6 +18,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:cyber-jailbreak-severity-scale`
+**First mention:** 2026-07-04
+
+**Plain English:** A standardised 5-point scale (CJS-0 "informational" through CJS-4 "critical") for rating how dangerous a successful jailbreak of an AI model's cybersecurity safeguards actually is — the same idea as CVSS scoring for software vulnerabilities, but applied to AI jailbreaks. It was developed jointly by Anthropic, Amazon, Microsoft, and Google, making it a shared cross-industry attempt at a common yardstick rather than one lab's internal metric.
+
+**Origin:** Anthropic — [Fable 5 cyber safeguards and jailbreak framework](https://www.anthropic.com/news/fable-safeguards-jailbreak-framework)
+
+**Appearances:**
+- 2026-07-04 — [briefing](../daily/2026-07-04.md)
+
+---
+
 ## `concept:agent-harness`
 **First mention:** 2026-05-20
 
