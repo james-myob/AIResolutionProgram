@@ -21,6 +21,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-06
+- xAI launches Voice Agent Builder, a no-code platform for production voice agents — [briefing](../daily/2026-07-06.md)
+- Meta pivots toward selling its excess AI compute as a cloud business ("Meta Compute") — [briefing](../daily/2026-07-06.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +39,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-06
+- Anthropic: Government of Alberta deploys Claude to find and fix cybersecurity vulnerabilities — [briefing](../daily/2026-07-06.md)
+- Together AI raises $800M Series C at $8.3B, led by Aramco Ventures — [briefing](../daily/2026-07-06.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +70,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-06
+- OpenAI floats giving the US government a 5% equity stake, modeled on Alaska's oil fund — [briefing](../daily/2026-07-06.md)
+- Anthropic closes China-access loopholes for Claude, details Fable 5's jailbreak safeguards — [briefing](../daily/2026-07-06.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +86,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-06
+- Zuckerberg tells staff AI agent progress "hasn't accelerated" as hoped — [briefing](../daily/2026-07-06.md)
+- Mistral's CEO argues closed AI models give vendors "immense leverage" over enterprise customers — [briefing](../daily/2026-07-06.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +114,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-06](../daily/2026-07-06.md#-quick-hits).
