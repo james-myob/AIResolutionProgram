@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-07
+
+- [ ] 📝 **The Making of Claude Code** — Anthropic · Essay/oral history · [link](https://www.anthropic.com/features/making-of-claude-code) · *Anthropic's own account of how Claude Code went from an internal CLI to its flagship coding agent, told by the researchers and engineers who built it.* — from [briefing](../daily/2026-07-07.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
