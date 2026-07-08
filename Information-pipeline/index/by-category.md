@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-08
+- OpenAI ships GPT-5.6 as three explicitly tiered models (Sol/Terra/Luna) — [briefing](../daily/2026-07-08.md)
+- xAI ships Grok 4.5, co-developed with Cursor for coding — [briefing](../daily/2026-07-08.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -20,6 +24,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-07-08
+- Claude Code and Claude Cowork enter public beta for US government (FedRAMP High) — [briefing](../daily/2026-07-08.md)
+- Meta launches Muse Image, previews Muse Video — [briefing](../daily/2026-07-08.md)
 
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
@@ -52,6 +60,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-08
+- Anthropic finds a hidden internal "workspace" ("J-space") where Claude manipulates concepts before answering — [briefing](../daily/2026-07-08.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +72,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-08
+- Anthropic publishes Fable 5's safety gating and a draft cyber-jailbreak severity scale (CJS-0 to CJS-4) — [briefing](../daily/2026-07-08.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -75,6 +89,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-07-08
+- a16z: enterprise software is losing its "head" to AI agents — introduces `concept:headless-software` — [briefing](../daily/2026-07-08.md)
+
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
 
@@ -88,6 +105,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-08
+- Claude Code audits 466 million lines of Alberta government code in 20 hours (vs. an estimated 6.5 years manually) — [briefing](../daily/2026-07-08.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +118,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-08](../daily/2026-07-08.md#-quick-hits).

@@ -5,9 +5,11 @@
 ---
 
 ## `entity:a16z`
+- 2026-07-08 — "Is Software Losing Its Head?" — argues enterprise value is shifting from UI to data/API layer as agents become primary users; introduces `concept:headless-software` — [briefing](../daily/2026-07-08.md)
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-08 — Claude Code audits 466M lines of Alberta gov code; publishes Fable 5 safety gating + draft CJS jailbreak-severity scale; finds "J-space" internal workspace in Claude; Claude Code/Cowork public beta for US government — [briefing](../daily/2026-07-08.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -16,6 +18,7 @@
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-fable-5`
+- 2026-07-08 — Anthropic publishes safety-gating classifiers and a draft Cyber Jailbreak Severity (CJS-0 to CJS-4) scoring framework — [briefing](../daily/2026-07-08.md)
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
@@ -70,6 +73,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-08 — Ships GPT-5.6 as three explicitly tiered models (Sol/Terra/Luna); launches GPT-Live full-duplex voice models — [briefing](../daily/2026-07-08.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -87,10 +91,18 @@
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
+## `entity:grok-4-5`
+- 2026-07-08 — Ships as xAI's coding/agentic flagship, co-developed with Cursor — [briefing](../daily/2026-07-08.md)
+
+## `entity:government-of-alberta`
+- 2026-07-08 — Uses Claude Code to audit 466M lines of government code for vulnerabilities in ~20 hours — [briefing](../daily/2026-07-08.md)
+
 ## `entity:xai`
+- 2026-07-08 — Ships Grok 4.5, co-developed with Cursor for coding — [briefing](../daily/2026-07-08.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
+- 2026-07-08 — Enters public beta for US government (FedRAMP High); audits 466M lines of Alberta government code — [briefing](../daily/2026-07-08.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
 ## `entity:cohere`
@@ -100,6 +112,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-08 — Launches Muse Image, previews Muse Video, agentic generative models rolling out to Instagram/WhatsApp/Meta AI app — [briefing](../daily/2026-07-08.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 

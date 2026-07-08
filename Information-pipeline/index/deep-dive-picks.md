@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-08
+
+- [ ] 📝 **Dan Luu on what LLM coding agents are actually good at** — danluu.com · Essay · ~8,000 words · [link](https://danluu.com/ai-coding/) · *Argues coding agents shine at property-based testing/fuzzing rather than direct test-writing, and that single-metric coding benchmarks hide huge task-to-task variance.* — from [briefing](../daily/2026-07-08.md)
+
+- [ ] 🎙️ **Grant Sanderson on AI and the future of math** — Dwarkesh Podcast · Podcast · ~97 min · [link](https://www.dwarkesh.com/podcast) · *Argues AI progress in mathematics is a leading indicator for other domains — a useful lens for reading frontier math benchmark claims.* — from [briefing](../daily/2026-07-08.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)

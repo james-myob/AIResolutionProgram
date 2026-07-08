@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:headless-software`
+**First mention:** 2026-07-08
+
+**Plain English:** As AI agents (not humans clicking through screens) become the primary "users" of enterprise software, the software's real value moves away from its user interface toward the underlying data model and API surface those agents actually call. This runs counter to the popular "AI kills the SaaS UI" narrative — it implies whoever already owns the data/API layer, often the incumbent, may be better positioned to capture agent-driven value than a new UI-first challenger.
+
+**Origin:** a16z — Seema Amble, with Steven Sinofsky and Elena Burger, *"Is Software Losing Its Head?"* ([a16z.news](https://www.a16z.news/p/is-software-losing-its-head)), tied to Salesforce's "Headless 360" announcement.
+
+**Appearances:**
+- 2026-07-08 — [briefing](../daily/2026-07-08.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
