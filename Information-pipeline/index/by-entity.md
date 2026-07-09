@@ -8,9 +8,19 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-09 — Opens Claude for Government beta, expands Cowork to mobile/web; signs $19B TeraWulf compute lease; backed Illinois AI safety law — [briefing](../daily/2026-07-09.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:cursor`
+- 2026-07-09 — Grok 4.5 is the first model jointly trained with Cursor on developer session data — [briefing](../daily/2026-07-09.md)
+
+## `entity:eu-ai-act`
+- 2026-07-09 — Digital Omnibus finalised; high-risk obligations deferred 16 months to Dec 2027 — [briefing](../daily/2026-07-09.md)
+
+## `entity:ethan-mollick`
+- 2026-07-09 — "The twilight of the chatbots" — experts now manage agents instead of prompting them — [briefing](../daily/2026-07-09.md)
 
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
@@ -30,10 +40,20 @@
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
+## `entity:gemini-3-5-pro`
+- 2026-07-09 — Launch slips to 17 July after architecture rebuild; coincides with DeepMind researcher exits — [briefing](../daily/2026-07-09.md)
+
+## `entity:grok-4-5`
+- 2026-07-09 — xAI's "Opus-class" release, jointly trained with Cursor — [briefing](../daily/2026-07-09.md)
+
+## `entity:illinois`
+- 2026-07-09 — Signs first US state law mandating frontier-AI safety plans and annual third-party audits — [briefing](../daily/2026-07-09.md)
+
 ## `entity:factory`
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
 ## `entity:gpt-5-6`
+- 2026-07-09 — Sol/Terra/Luna family reaches general availability with new pricing tiers — [briefing](../daily/2026-07-09.md)
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 
 ## `entity:ben-thompson`
@@ -58,6 +78,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-09 — Delays Gemini 3.5 Pro to 17 July amid DeepMind talent exodus; Dialogflow CX "Rogue Agent" flaw patched — [briefing](../daily/2026-07-09.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -88,6 +109,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-09 — Launches Grok 4.5, jointly trained with Cursor — [briefing](../daily/2026-07-09.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -99,12 +121,21 @@
 ## `entity:command-a-plus`
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
+## `entity:mistral`
+- 2026-07-09 — Introduces Robostral Navigate, its first embodied-navigation robotics model — [briefing](../daily/2026-07-09.md)
+
 ## `entity:meta`
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
+
+## `entity:sequoia`
+- 2026-07-09 — Julien Bek's "Services: The New Software" — AI "autopilots" selling outsourced work, not software — [briefing](../daily/2026-07-09.md)
+
+## `entity:terawulf`
+- 2026-07-09 — Signs $19B, 20-year data-center lease with Anthropic in Kentucky — [briefing](../daily/2026-07-09.md)
 
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
