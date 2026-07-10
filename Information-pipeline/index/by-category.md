@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-10
+- OpenAI ships GPT-5.6 (Sol/Terra/Luna) in three price tiers; SpaceXAI (formerly xAI) answers hours later with Grok 4.5 — [briefing](../daily/2026-07-10.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,11 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-10
+- Meta opens a paid Muse Spark 1.1 API — its first time charging for its own model — [briefing](../daily/2026-07-10.md)
+- Claude Cowork goes mobile the same day ChatGPT Work launches — [briefing](../daily/2026-07-10.md)
+- Anthropic launches "Reflect with Claude," a usage-insight dashboard — [briefing](../daily/2026-07-10.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +43,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-10
+- AI chipmaker SambaNova raises $1B at $11B valuation, lands JPMorgan Chase as an inference customer — [briefing](../daily/2026-07-10.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +73,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-10
+- Ben Bernanke joins Anthropic's Long-Term Benefit Trust — [briefing](../daily/2026-07-10.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +88,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-10
+- The frontier field splits into price tiers, not one leaderboard — five priced tiers live simultaneously for the first time — [briefing](../daily/2026-07-10.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +115,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-10](../daily/2026-07-10.md#-quick-hits).

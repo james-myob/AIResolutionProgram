@@ -8,12 +8,22 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-10 — Claude Cowork goes mobile/web same day as ChatGPT Work; launches "Reflect with Claude"; Ben Bernanke joins Long-Term Benefit Trust — [briefing](../daily/2026-07-10.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
+## `entity:ben-bernanke`
+- 2026-07-10 — Former Fed Chair joins Anthropic's Long-Term Benefit Trust — [briefing](../daily/2026-07-10.md)
+
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
+
+## `entity:chatgpt-work`
+- 2026-07-10 — OpenAI's competing background-agent product, folds Codex into unified desktop app — [briefing](../daily/2026-07-10.md)
+
+## `entity:claude-cowork`
+- 2026-07-10 — Expands to iOS/Android/web; usage data shows most sessions are non-coding business ops — [briefing](../daily/2026-07-10.md)
 
 ## `entity:claude-fable-5`
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
@@ -34,7 +44,14 @@
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
 ## `entity:gpt-5-6`
+- 2026-07-10 — Public launch in three price tiers (Sol/Terra/Luna) alongside GPT-Live-1 voice model — [briefing](../daily/2026-07-10.md)
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
+## `entity:grok-4-5`
+- 2026-07-10 — SpaceXAI's first flagship release; 4th on AA Intelligence Index, hallucination rate rose 25%→54% — [briefing](../daily/2026-07-10.md)
+
+## `entity:jpmorgan-chase`
+- 2026-07-10 — Named SambaNova its on-premises inference-infrastructure partner — [briefing](../daily/2026-07-10.md)
 
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
@@ -69,7 +86,11 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:muse-spark`
+- 2026-07-10 — Meta's Muse Spark 1.1 opens as a paid Meta Model API, ~1/4 the price of Opus 4.8/GPT-5.5 — [briefing](../daily/2026-07-10.md)
+
 ## `entity:openai`
+- 2026-07-10 — Launches GPT-5.6 (Sol/Terra/Luna) and ChatGPT Work agent, same day as Anthropic's Claude Cowork mobile expansion — [briefing](../daily/2026-07-10.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -78,8 +99,14 @@
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
+## `entity:sambanova`
+- 2026-07-10 — Raises $1B Series F at $11B valuation; lands JPMorgan Chase as inference customer — [briefing](../daily/2026-07-10.md)
+
 ## `entity:spacex`
 - 2026-05-20 — S-1 filing revealed $45B Anthropic compute commitment — [briefing](../daily/2026-05-20.md)
+
+## `entity:spacexai`
+- 2026-07-10 — xAI rebrands as SpaceXAI following SpaceX acquisition; ships Grok 4.5 — [briefing](../daily/2026-07-10.md)
 
 ## `entity:synthid`
 - 2026-05-20 — OpenAI embeds in ChatGPT/Codex/API images — [briefing](../daily/2026-05-20.md)
@@ -88,6 +115,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-10 — Rebrands as SpaceXAI; ships Grok 4.5 same day as GPT-5.6 and Muse Spark 1.1 — [briefing](../daily/2026-07-10.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
