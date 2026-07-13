@@ -20,18 +20,37 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # need HEAD~1 to diff against
+
+      - name: Skip if no daily markdown changed in this push
+        id: check
+        run: |
+          if git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -q "^Information-pipeline/daily/.*\.md$"; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "→ Daily markdown changed in this push; running publisher."
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "→ Manual workflow_dispatch; running publisher regardless of file changes."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "→ Publisher code changed but no new daily markdown; skipping Confluence calls."
+          fi
 
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.run == 'true'
         with:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: Information-pipeline/publisher/requirements.txt
 
       - name: Install dependencies
+        if: steps.check.outputs.run == 'true'
         working-directory: Information-pipeline/publisher
         run: pip install -r requirements.txt
 
       - name: Publish to Confluence
+        if: steps.check.outputs.run == 'true'
         working-directory: Information-pipeline/publisher
         env:
           CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
