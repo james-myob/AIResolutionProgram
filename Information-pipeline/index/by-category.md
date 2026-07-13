@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-03
+- xAI puts Grok 4.5 into private beta at SpaceX/Tesla, built on a 1.5T-parameter V9 model — [briefing](../daily/2026-07-03.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-03
+- OpenAI moves GPT-5.6 Sol onto Cerebras wafer-scale hardware, targeting 750 tokens/sec — [briefing](../daily/2026-07-03.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-03
+- Anthropic opens talks with Samsung to build a custom 2nm AI inference chip — [briefing](../daily/2026-07-03.md)
+- Together AI raises $800M Series C at $8.3B valuation — [briefing](../daily/2026-07-03.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +62,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-03
+- "Agentjacking": a public Sentry bug-tracking key hijacks Claude Code, Cursor, and Codex in 85% of tests — [briefing](../daily/2026-07-03.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +74,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-03
+- WIRED: Meta contractors posed as teenagers to stress-test rival chatbots without consent — [briefing](../daily/2026-07-03.md)
+- White House frontier-AI executive order sets voluntary 30-day early-access framework for government — [briefing](../daily/2026-07-03.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +115,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-03](../daily/2026-07-03.md#-quick-hits).
