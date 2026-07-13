@@ -1,0 +1,39 @@
+name: Publish daily brief to Confluence
+
+on:
+  push:
+    paths:
+      - "Information-pipeline/daily/*.md"
+      - "Information-pipeline/publisher/**"
+      - ".github/workflows/publish-daily-brief.yml"
+  workflow_dispatch:
+    # Manual trigger for backfills / testing.
+
+concurrency:
+  group: publish-daily-brief
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: Information-pipeline/publisher/requirements.txt
+
+      - name: Install dependencies
+        working-directory: Information-pipeline/publisher
+        run: pip install -r requirements.txt
+
+      - name: Publish to Confluence
+        working-directory: Information-pipeline/publisher
+        env:
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+        run: python publish.py
