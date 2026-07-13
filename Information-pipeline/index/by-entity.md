@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:apple`
+- 2026-07-13 — Sues OpenAI for alleged trade-secret theft tied to its hardware push — [briefing](../daily/2026-07-13.md)
+
 ## `entity:anthropic`
+- 2026-07-13 — Named as the incumbent whose MCP protocol a Google/Microsoft/Salesforce/Snowflake/ServiceNow alliance is positioning against — [briefing](../daily/2026-07-13.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,6 +74,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-13 — Sued by Apple for alleged trade-secret theft; sparks public Musk-Altman feud — [briefing](../daily/2026-07-13.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -86,6 +91,21 @@
 
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
+
+## `entity:google`
+- 2026-07-13 — Joins Microsoft/Salesforce/Snowflake/ServiceNow alliance backing a rival standard to Anthropic's MCP — [briefing](../daily/2026-07-13.md)
+
+## `entity:microsoft`
+- 2026-07-13 — Joins Google/Salesforce/Snowflake/ServiceNow alliance backing a rival standard to Anthropic's MCP — [briefing](../daily/2026-07-13.md)
+
+## `entity:elon-musk`
+- 2026-07-13 — Public feud with Sam Altman over the Apple-OpenAI lawsuit — [briefing](../daily/2026-07-13.md)
+
+## `entity:sam-altman`
+- 2026-07-13 — Public feud with Elon Musk over the Apple-OpenAI lawsuit — [briefing](../daily/2026-07-13.md)
+
+## `entity:eu-ai-act`
+- 2026-07-13 — Article 50 transparency rules become enforceable 2 August, fines retroactive to 2025 — [briefing](../daily/2026-07-13.md)
 
 ## `entity:xai`
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)

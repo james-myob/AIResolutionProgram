@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-13
+
+- [ ] 📝 **Apple Sues OpenAI, Apple's Real Problem** — Ben Thompson, Stratechery · Essay · ~2,000+ words · [link](https://stratechery.com/2026/apple-sues-openai-apples-real-problem/) · *Goes past the trade-secret headline to argue the lawsuit is a symptom of Apple's deeper strategic weakness in AI.* — from [briefing](../daily/2026-07-13.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
