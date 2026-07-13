@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-07 — Government of Alberta case study: Claude scans 466M lines of code for vulnerabilities in 20 hours — [briefing](../daily/2026-07-07.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -88,7 +89,26 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-07 — Grok Imagine's core build declared "done" by Musk — [briefing](../daily/2026-07-07.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:grok-imagine`
+- 2026-07-07 — Image/video generation feature reaches feature-complete state — [briefing](../daily/2026-07-07.md)
+
+## `entity:mistral-ai`
+- 2026-07-07 — Confirms new "fat but sparse" open-weight MoE model entering early access; ships Leanstral 1.5 (587/672 PutnamBench) — [briefing](../daily/2026-07-07.md)
+
+## `entity:leanstral`
+- 2026-07-07 — Leanstral 1.5 saturates miniF2F, solves 587/672 PutnamBench problems — [briefing](../daily/2026-07-07.md)
+
+## `entity:microsoft`
+- 2026-07-07 — Cuts 4,800 jobs (~2% of staff); restructures/spins off Xbox studios amid record AI capex — [briefing](../daily/2026-07-07.md)
+
+## `entity:united-nations`
+- 2026-07-07 — First Global Dialogue on AI Governance opens in Geneva; 169 countries; four priorities set by Guterres — [briefing](../daily/2026-07-07.md)
+
+## `entity:government-of-alberta`
+- 2026-07-07 — Uses Claude Code to scan 466M lines of government code for vulnerabilities in 20 hours — [briefing](../daily/2026-07-07.md)
 
 ## `entity:claude-code`
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)

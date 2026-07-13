@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-07
+- xAI declares Grok Imagine's core build "done" — image/video generation moves to stable feature-complete state — [briefing](../daily/2026-07-07.md)
+- Mistral confirms a new "fat but sparse" open-weight MoE model entering early access this month — [briefing](../daily/2026-07-07.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -36,6 +40,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-07-07
+- Microsoft cuts 4,800 jobs (~2% of staff), restructures Xbox division amid record AI capex — [briefing](../daily/2026-07-07.md)
+
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -52,6 +59,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-07
+- Mistral's Leanstral 1.5 solves 587/672 PutnamBench problems — Apache 2.0 formal-verification model — [briefing](../daily/2026-07-07.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +71,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-07
+- UN holds first-ever Global Dialogue on AI Governance in Geneva — 169 countries, four priorities set by Guterres — [briefing](../daily/2026-07-07.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -88,6 +101,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-07
+- Anthropic: Government of Alberta uses Claude to scan 466M lines of code for vulnerabilities in 20 hours — [briefing](../daily/2026-07-07.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +114,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-07](../daily/2026-07-07.md#-quick-hits).
