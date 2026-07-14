@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-14
+- OpenAI's GPT-5.6 (Sol/Terra/Luna) reaches general availability after government-reviewed rollout — [briefing](../daily/2026-07-14.md)
+- Google delays Gemini 3.5 Pro to 17 July for a full architectural rebuild — [briefing](../daily/2026-07-14.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-14
+- OpenAI ships ChatGPT Work and returns ChatGPT to WhatsApp in the EEA — [briefing](../daily/2026-07-14.md)
+- Anthropic localizes Claude pricing for India, its second-largest market — [briefing](../daily/2026-07-14.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +43,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-14
+- Apple sues OpenAI, alleging trade-secret theft via ex-Apple hires — [briefing](../daily/2026-07-14.md)
+- Anthropic hires Monzo founder Tom Blomfield onto its compute team — [briefing](../daily/2026-07-14.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +64,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-14
+- Anthropic finds a hidden "J-space" of words inside Claude that never reach its output — [briefing](../daily/2026-07-14.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +76,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-14
+- Anthropic triples Project Glasswing's reach to 150 organizations across 15 countries — [briefing](../daily/2026-07-14.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -74,6 +92,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-14
+- Four labs (OpenAI, xAI, Meta, Mistral) ship frontier or near-frontier models within the same week — [briefing](../daily/2026-07-14.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +119,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-14](../daily/2026-07-14.md#-quick-hits).

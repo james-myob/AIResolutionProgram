@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:j-space`
+**First mention:** 2026-07-14
+
+**Plain English:** A newly identified region inside Claude's internal representations that holds words the model appears to "think in" but never outputs — tracking progress through a task, flagging a recognition moment, or narrating its own reasoning, all invisibly. Not a memory store or chat log; closer to an internal scratch vocabulary the model generates and consults but never shows the user. Researchers hope monitoring it could eventually flag problems (bias, shortcuts) that never surface in the visible answer — a research direction, not a shipped capability.
+
+**Origin:** Anthropic interpretability research, via [MIT Technology Review](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/).
+
+**Appearances:**
+- 2026-07-14 — [briefing](../daily/2026-07-14.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
