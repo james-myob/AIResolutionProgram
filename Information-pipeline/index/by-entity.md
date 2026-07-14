@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-14 — Localizes Claude pricing for India; hires Tom Blomfield to compute team; discovers "J-space"; Project Glasswing reaches 150 orgs — [briefing](../daily/2026-07-14.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -33,9 +34,6 @@
 ## `entity:factory`
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
-## `entity:gpt-5-6`
-- 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
-
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
 
@@ -58,6 +56,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-14 — Delays Gemini 3.5 Pro to 17 July for a full architectural rebuild — [briefing](../daily/2026-07-14.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,6 +69,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-14 — GPT-5.6 reaches general availability with government clearance; ships ChatGPT Work; sued by Apple over alleged trade-secret theft — [briefing](../daily/2026-07-14.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -88,6 +88,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-14 — Grok 4.5 ships as part of a compressed same-week frontier-model release wave — [briefing](../daily/2026-07-14.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,6 +101,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-14 — Muse Spark 1.1 (first paid model, first public API) ships in same-week frontier release wave — [briefing](../daily/2026-07-14.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -108,6 +110,19 @@
 
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
+
+## `entity:apple`
+- 2026-07-14 — Sues OpenAI, alleging trade-secret theft via ex-Apple hires including CHO Tang Tan — [briefing](../daily/2026-07-14.md)
+
+## `entity:gemini-3-5-pro`
+- 2026-07-14 — Launch delayed to 17 July for a full architectural rebuild — [briefing](../daily/2026-07-14.md)
+
+## `entity:gpt-5-6`
+- 2026-07-14 — Reaches general availability (Sol/Terra/Luna) after government-reviewed rollout — [briefing](../daily/2026-07-14.md)
+- 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
+## `entity:tom-blomfield`
+- 2026-07-14 — Monzo founder hired onto Anthropic's compute team — [briefing](../daily/2026-07-14.md)
 
 ## `entity:trump`
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
