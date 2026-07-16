@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-16
+- Gemini 3.5 Pro's launch slips again, now targeting 17 July after token-efficiency/coding shortfalls — [briefing](../daily/2026-07-16.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-16
+- xAI open-sources Grok Build after privacy backlash over silent directory uploads — [briefing](../daily/2026-07-16.md)
+- Anthropic launches Claude for Teachers — [briefing](../daily/2026-07-16.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-16
+- Anthropic, Blackstone and partners launch $1.5B "Ode" AI-implementation venture — [briefing](../daily/2026-07-16.md)
+- Anthropic lines up IPO investor meetings — [briefing](../daily/2026-07-16.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +72,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-16
+- EU AI Act's chatbot-disclosure rule now live and enforceable (effective 10 July) — [briefing](../daily/2026-07-16.md)
+- Anthropic and OpenAI publicly diverge on state vs. federal AI regulation — [briefing](../daily/2026-07-16.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +113,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-16](../daily/2026-07-16.md#-quick-hits).

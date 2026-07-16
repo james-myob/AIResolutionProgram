@@ -8,9 +8,13 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-16 — Launches Claude for Teachers; co-launches $1.5B "Ode" implementation venture with Blackstone; lines up IPO investor meetings; endorses state AI safety bills — [briefing](../daily/2026-07-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:blackstone`
+- 2026-07-16 — Co-launches $1.5B "Ode with Anthropic" AI-implementation venture — [briefing](../daily/2026-07-16.md)
 
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
@@ -27,11 +31,17 @@
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
 
+## `entity:eu-ai-act`
+- 2026-07-16 — Chatbot-disclosure requirement now live and enforceable (effective 10 July); other deadlines pushed back under the Digital Omnibus — [briefing](../daily/2026-07-16.md)
+
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
 ## `entity:factory`
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
+
+## `entity:gemini-3-5-pro`
+- 2026-07-16 — Launch slips again after token-efficiency/coding shortfalls, now targeting 17 July — [briefing](../daily/2026-07-16.md)
 
 ## `entity:gpt-5-6`
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -58,6 +68,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-16 — Gemini 3.5 Pro launch slips again, now targeting 17 July — [briefing](../daily/2026-07-16.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -66,13 +77,20 @@
 ## `entity:grok-build`
 - 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
 
+## `entity:grok-build`
+- 2026-07-16 — Open-sourced under Apache 2.0 after privacy backlash over silent directory uploads — [briefing](../daily/2026-07-16.md)
+
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-16 — Diverges from Anthropic on AI regulation, pushing federal preemption over state-level rules — [briefing](../daily/2026-07-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:ode`
+- 2026-07-16 — $1.5B AI-implementation venture launched by Anthropic, Blackstone and partners, built on Fractional AI acquisition — [briefing](../daily/2026-07-16.md)
 
 ## `entity:simon-willison`
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -88,6 +106,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-16 — Open-sources Grok Build after privacy backlash over silent directory uploads — [briefing](../daily/2026-07-16.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
