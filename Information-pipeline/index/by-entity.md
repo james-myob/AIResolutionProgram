@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-16 — Begins IPO investor meetings, targeting an October listing near its $965B valuation — [briefing](../daily/2026-07-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -26,6 +27,16 @@
 
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
+
+## `entity:grok-build`
+- 2026-07-16 — xAI open-sources the full codebase (Apache 2.0) after cloud-upload privacy backlash — [briefing](../daily/2026-07-16.md)
+- 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
+
+## `entity:huggingface`
+- 2026-07-16 — Daily Papers surfaces Long-Horizon-Terminal-Bench, a partial-credit agent eval — [briefing](../daily/2026-07-16.md)
+
+## `entity:instalily`
+- 2026-07-16 — Raises $60M Series B; launches Lily, an "AI Forward Deployed Engineer" — [briefing](../daily/2026-07-16.md)
 
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -88,6 +99,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-16 — Open-sources Grok Build under Apache 2.0; sues user over CSAM allegedly made with Grok — [briefing](../daily/2026-07-16.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,6 +112,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-16 — 26 employees sue alleging AI helped select who got laid off — [briefing](../daily/2026-07-16.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
