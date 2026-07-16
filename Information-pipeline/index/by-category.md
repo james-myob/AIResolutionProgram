@@ -21,6 +21,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-16
+- xAI open-sources Grok Build (Apache 2.0) after cloud-upload privacy backlash — [briefing](../daily/2026-07-16.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +38,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-16
+- Anthropic begins IPO investor meetings, targeting an October listing — [briefing](../daily/2026-07-16.md)
+- InstaLILY raises $60M Series B, launches "AI Forward Deployed Engineer" Lily — [briefing](../daily/2026-07-16.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +59,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-16
+- Long-Horizon-Terminal-Bench: partial-credit benchmark for long-horizon coding agents — [briefing](../daily/2026-07-16.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +71,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-16
+- xAI sues user over CSAM allegedly generated with Grok — [briefing](../daily/2026-07-16.md)
+- 26 Meta employees sue, alleging AI helped select who got laid off — [briefing](../daily/2026-07-16.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +112,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-16](../daily/2026-07-16.md#-quick-hits).
