@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<title>Adventures of Wilfrid</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #0b1024;
+    touch-action: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  #stage {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b1024;
+  }
+  canvas {
+    display: block;
+    background: #7ec8e3;
+    max-width: 100%;
+    max-height: 100%;
+    touch-action: none;
+  }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="game"></canvas>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  // ---------- Canvas / viewport setup (portrait, phone-shaped) ----------
+  const canvas = document.getElementById("game");
+  const ctx = canvas.getContext("2d");
+
+  const LOGICAL_W = 400;
+  const LOGICAL_H = 720;
+  let dpr = Math.max(1, window.devicePixelRatio || 1);
+
+  function resize() {
+    const stage = document.getElementById("stage");
+    const availW = stage.clientWidth;
+    const availH = stage.clientHeight;
+    const scale = Math.min(availW / LOGICAL_W, availH / LOGICAL_H);
+    const cssW = LOGICAL_W * scale;
+    const cssH = LOGICAL_H * scale;
+    dpr = Math.max(1, window.devicePixelRatio || 1);
+    canvas.style.width = cssW + "px";
+    canvas.style.height = cssH + "px";
+    canvas.width = Math.round(LOGICAL_W * dpr);
+    canvas.height = Math.round(LOGICAL_H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener("resize", resize);
+  window.addEventListener("orientationchange", resize);
+  resize();
+
+  const W = LOGICAL_W, H = LOGICAL_H;
+  const GROUND_Y = H - 120;
+
+  // ---------- Input: tap vs double-tap vs hold ----------
+  const DOUBLE_TAP_MS = 300;
+  const input = {
+    down: false,
+    lastDownTime: -9999,
+    justTapped: false,      // single tap edge this frame
+    justDoubleTapped: false // double tap edge this frame
+  };
+
+  function onDown(e) {
+    e.preventDefault();
+    const now = performance.now();
+    const isDouble = (now - input.lastDownTime) < DOUBLE_TAP_MS;
+    input.lastDownTime = now;
+    input.down = true;
+    if (isDouble) {
+      input.justDoubleTapped = true;
+    } else {
+      input.justTapped = true;
+    }
+  }
+  function onUp(e) {
+    e.preventDefault();
+    input.down = false;
+  }
+  canvas.addEventListener("touchstart", onDown, { passive: false });
+  canvas.addEventListener("touchend", onUp, { passive: false });
+  canvas.addEventListener("touchcancel", onUp, { passive: false });
+  canvas.addEventListener("mousedown", onDown);
+  window.addEventListener("mouseup", onUp);
+
+  // ---------- Utility ----------
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+  function rectsOverlap(a, b) {
+    return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+  }
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  // ---------- Wilfrid the cat (drawing) ----------
+  function drawWilfrid(x, y, w, h, squash, facing) {
+    // y = ground contact point (feet), x = center
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(facing || 1, 1);
+    const bodyW = w * (1 + squash * 0.15);
+    const bodyH = h * (1 - squash * 0.15);
+
+    // tail
+    ctx.strokeStyle = "#6b7280";
+    ctx.lineWidth = 6;
+    ctx.lineCap = "round";
+    ctx.beginPath();
+    ctx.moveTo(-bodyW * 0.35, -bodyH * 0.5);
+    ctx.quadraticCurveTo(-bodyW * 0.9, -bodyH * 0.9, -bodyW * 0.6, -bodyH * 1.25);
+    ctx.stroke();
+
+    // body
+    ctx.fillStyle = "#8a93a6";
+    ctx.beginPath();
+    ctx.ellipse(0, -bodyH * 0.5, bodyW * 0.42, bodyH * 0.5, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // head
+    ctx.beginPath();
+    ctx.arc(bodyW * 0.28, -bodyH * 0.82, bodyW * 0.3, 0, Math.PI * 2);
+    ctx.fill();
+
+    // ears
+    ctx.beginPath();
+    ctx.moveTo(bodyW * 0.14, -bodyH * 1.02);
+    ctx.lineTo(bodyW * 0.2, -bodyH * 1.28);
+    ctx.lineTo(bodyW * 0.3, -bodyH * 1.02);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(bodyW * 0.32, -bodyH * 1.05);
+    ctx.lineTo(bodyW * 0.42, -bodyH * 1.3);
+    ctx.lineTo(bodyW * 0.48, -bodyH * 1.02);
+    ctx.closePath();
+    ctx.fill();
+
+    // inner ears
+    ctx.fillStyle = "#c9a0b0";
+    ctx.beginPath();
+    ctx.moveTo(bodyW * 0.17, -bodyH * 1.05);
+    ctx.lineTo(bodyW * 0.21, -bodyH * 1.2);
+    ctx.lineTo(bodyW * 0.26, -bodyH * 1.04);
+    ctx.closePath();
+    ctx.fill();
+
+    // face stripe / eye
+    ctx.fillStyle = "#1f2430";
+    ctx.beginPath();
+    ctx.arc(bodyW * 0.4, -bodyH * 0.84, bodyW * 0.05, 0, Math.PI * 2);
+    ctx.fill();
+
+    // legs
+    ctx.fillStyle = "#787f91";
+    ctx.fillRect(-bodyW * 0.25, -bodyH * 0.15, bodyW * 0.14, bodyH * 0.18);
+    ctx.fillRect(bodyW * 0.05, -bodyH * 0.15, bodyW * 0.14, bodyH * 0.18);
+
+    ctx.restore();
+  }
+
+  // ---------- Mountain / parallax background ----------
+  function drawSky(t) {
+    const g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, "#4a6fd4");
+    g.addColorStop(0.55, "#8fb8e8");
+    g.addColorStop(1, "#cfe7f2");
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    // sun
+    ctx.fillStyle = "rgba(255,246,200,0.9)";
+    ctx.beginPath();
+    ctx.arc(W - 60, 90, 34, 0, Math.PI * 2);
+    ctx.fill();
+
+    // clouds drift
+    ctx.fillStyle = "rgba(255,255,255,0.85)";
+    for (let i = 0; i < 3; i++) {
+      const cx = ((t * 8 + i * 180) % (W + 160)) - 80;
+      const cy = 60 + i * 55;
+      drawCloud(cx, cy, 30 + i * 6);
+    }
+  }
+  function drawCloud(x, y, s) {
+    ctx.beginPath();
+    ctx.arc(x, y, s * 0.6, 0, Math.PI * 2);
+    ctx.arc(x + s * 0.6, y + 5, s * 0.5, 0, Math.PI * 2);
+    ctx.arc(x - s * 0.6, y + 8, s * 0.4, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  function drawMountainLayers(scrollX) {
+    // far range
+    ctx.fillStyle = "#a9b8d9";
+    drawRidge(scrollX * 0.15, H - 220, 90, 6);
+    // mid range
+    ctx.fillStyle = "#8896c2";
+    drawRidge(scrollX * 0.35, H - 170, 70, 8);
+    // near range (with snow caps)
+    ctx.fillStyle = "#6f7db0";
+    drawRidge(scrollX * 0.6, H - 130, 55, 10);
+  }
+  function drawRidge(offset, baseY, amp, count) {
+    const span = W / (count - 2);
+    ctx.beginPath();
+    ctx.moveTo(0, H);
+    for (let i = -1; i <= count; i++) {
+      const px = i * span - (offset % span);
+      const peak = baseY - amp * (0.6 + 0.4 * Math.sin(i * 1.7));
+      ctx.lineTo(px, peak);
+      ctx.lineTo(px + span * 0.5, baseY);
+    }
+    ctx.lineTo(W, H);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  function drawGround(scrollX) {
+    ctx.fillStyle = "#5f8f4e";
+    ctx.fillRect(0, GROUND_Y, W, H - GROUND_Y);
+    ctx.fillStyle = "#4c7a3e";
+    const stripeW = 40;
+    const off = scrollX % stripeW;
+    for (let x = -off; x < W; x += stripeW) {
+      ctx.fillRect(x, GROUND_Y, stripeW * 0.5, 10);
+    }
+    ctx.fillStyle = "#3f6534";
+    ctx.fillRect(0, GROUND_Y, W, 6);
+  }
+
+  // ---------- Furball obstacle ----------
+  function drawFurball(x, y, r) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.fillStyle = "#9c8b7a";
+    ctx.beginPath();
+    ctx.arc(0, 0, r, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = "#6e6153";
+    ctx.lineWidth = 1.5;
+    for (let i = 0; i < 10; i++) {
+      const a = (i / 10) * Math.PI * 2;
+      ctx.beginPath();
+      ctx.moveTo(Math.cos(a) * r * 0.6, Math.sin(a) * r * 0.6);
+      ctx.lineTo(Math.cos(a) * r * 1.25, Math.sin(a) * r * 1.25);
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  // ---------- Catnip block ----------
+  function drawCatnipBlock(x, y, w, h) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.fillStyle = "#7fae4a";
+    ctx.fillRect(-w / 2, -h, w, h);
+    ctx.strokeStyle = "#4f6f2c";
+    ctx.lineWidth = 2;
+    ctx.strokeRect(-w / 2, -h, w, h);
+    // leaf icon
+    ctx.fillStyle = "#c9e79c";
+    ctx.beginPath();
+    ctx.ellipse(0, -h * 0.55, w * 0.22, h * 0.16, Math.PI / 4, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  // ---------- Boss: giant winged monster cat ----------
+  function drawBoss(x, y, scale, t, eyesGlow) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(scale, scale);
+
+    // wings
+    const wingFlap = Math.sin(t * 4) * 12;
+    ctx.fillStyle = "#2b2440";
+    ctx.beginPath();
+    ctx.moveTo(-40, -20);
+    ctx.quadraticCurveTo(-130, -60 + wingFlap, -150, 10 + wingFlap);
+    ctx.quadraticCurveTo(-90, 10, -40, 30);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(40, -20);
+    ctx.quadraticCurveTo(130, -60 - wingFlap, 150, 10 - wingFlap);
+    ctx.quadraticCurveTo(90, 10, 40, 30);
+    ctx.closePath();
+    ctx.fill();
+
+    // body
+    ctx.fillStyle = "#3a3155";
+    ctx.beginPath();
+    ctx.ellipse(0, 20, 55, 65, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // head
+    ctx.beginPath();
+    ctx.arc(0, -55, 46, 0, Math.PI * 2);
+    ctx.fill();
+
+    // ears
+    ctx.beginPath();
+    ctx.moveTo(-34, -85);
+    ctx.lineTo(-46, -125);
+    ctx.lineTo(-14, -95);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(34, -85);
+    ctx.lineTo(46, -125);
+    ctx.lineTo(14, -95);
+    ctx.closePath();
+    ctx.fill();
+
+    // eyes
+    ctx.fillStyle = eyesGlow ? "#ff5a4d" : "#ffd76a";
+    ctx.beginPath();
+    ctx.ellipse(-16, -55, 8, eyesGlow ? 10 : 5, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.ellipse(16, -55, 8, eyesGlow ? 10 : 5, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    if (eyesGlow) {
+      ctx.shadowColor = "#ff5a4d";
+      ctx.shadowBlur = 20;
+      ctx.beginPath();
+      ctx.ellipse(-16, -55, 8, 10, 0, 0, Math.PI * 2);
+      ctx.ellipse(16, -55, 8, 10, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    }
+
+    ctx.restore();
+  }
+
+  // ---------- HUD ----------
+  function drawHearts(lives) {
+    for (let i = 0; i < 3; i++) {
+      const x = 20 + i * 26;
+      const y = 24;
+      ctx.fillStyle = i < lives ? "#ff5a7a" : "rgba(255,255,255,0.35)";
+      drawHeart(x, y, 9);
+    }
+  }
+  function drawHeart(x, y, s) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.beginPath();
+    ctx.moveTo(0, s * 0.3);
+    ctx.bezierCurveTo(0, -s * 0.4, -s, -s * 0.4, -s, s * 0.1);
+    ctx.bezierCurveTo(-s, s * 0.6, 0, s * 0.9, 0, s * 1.2);
+    ctx.bezierCurveTo(0, s * 0.9, s, s * 0.6, s, s * 0.1);
+    ctx.bezierCurveTo(s, -s * 0.4, 0, -s * 0.4, 0, s * 0.3);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawProgressBar(frac, label) {
+    const barW = W - 40, barH = 14, x = 20, y = 46;
+    ctx.fillStyle = "rgba(0,0,0,0.25)";
+    roundRect(x, y, barW, barH, 7);
+    ctx.fill();
+    ctx.fillStyle = "#ffd76a";
+    roundRect(x, y, barW * clamp(frac, 0, 1), barH, 7);
+    ctx.fill();
+    ctx.fillStyle = "rgba(0,0,0,0.6)";
+    ctx.font = "11px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(label, x + barW / 2, y + barH + 14);
+  }
+  function roundRect(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function drawCenterText(lines, opts) {
+    opts = opts || {};
+    ctx.save();
+    ctx.textAlign = "center";
+    let y = opts.y || H / 2 - (lines.length * 16);
+    for (const line of lines) {
+      ctx.font = line.big ? "bold 30px sans-serif" : "16px sans-serif";
+      ctx.fillStyle = line.color || "#ffffff";
+      ctx.strokeStyle = "rgba(0,0,0,0.5)";
+      ctx.lineWidth = 4;
+      ctx.strokeText(line.text, W / 2, y);
+      ctx.fillText(line.text, W / 2, y);
+      y += line.big ? 42 : 26;
+    }
+    ctx.restore();
+  }
+
+  // ================= GAME STATE MACHINE =================
+  const GAME = {
+    state: "menu", // menu, level1, level1_clear, level2, level2_clear, boss, boss_win, gameover
+    lives: 3,
+    t: 0,
+    scroll: 0
+  };
+
+  // ---------- Level 1: Furball Jump ----------
+  const L1 = {
+    catX: 90,
+    catY: 0,
+    vy: 0,
+    onGround: true,
+    obstacles: [],
+    spawnTimer: 0,
+    speed: 210,
+    survived: 0,
+    goal: 24, // seconds to survive
+    squash: 0,
+    hitFlash: 0
+  };
+  const GRAVITY = 2200;
+  const JUMP_V = -620;
+  const HIGH_JUMP_V = -900;
+
+  function resetLevel1() {
+    L1.catX = 90;
+    L1.catY = 0;
+    L1.vy = 0;
+    L1.onGround = true;
+    L1.obstacles = [];
+    L1.spawnTimer = 1.2;
+    L1.speed = 210;
+    L1.survived = 0;
+    L1.squash = 0;
+    L1.hitFlash = 0;
+  }
+
+  function updateLevel1(dt) {
+    L1.survived += dt;
+    L1.speed = 210 + L1.survived * 4.5;
+    GAME.scroll += L1.speed * dt;
+
+    // input -> jump
+    if (input.justDoubleTapped) {
+      L1.vy = HIGH_JUMP_V;
+      L1.onGround = false;
+      L1.squash = 1;
+    } else if (input.justTapped && L1.onGround) {
+      L1.vy = JUMP_V;
+      L1.onGround = false;
+      L1.squash = 1;
+    }
+
+    // physics
+    L1.vy += GRAVITY * dt;
+    L1.catY += L1.vy * dt;
+    if (L1.catY >= 0) {
+      L1.catY = 0;
+      L1.vy = 0;
+      L1.onGround = true;
+    }
+    L1.squash = Math.max(0, L1.squash - dt * 3);
+
+    // spawn furballs
+    L1.spawnTimer -= dt;
+    if (L1.spawnTimer <= 0) {
+      const gap = clamp(1.4 - L1.survived * 0.02, 0.55, 1.4);
+      L1.spawnTimer = gap + Math.random() * 0.3;
+      const r = 14 + Math.random() * 6;
+      L1.obstacles.push({ x: W + 30, r });
+    }
+
+    // move + collide
+    const catBox = { x: L1.catX - 16, y: GROUND_Y + L1.catY - 46, w: 32, h: 46 };
+    for (let i = L1.obstacles.length - 1; i >= 0; i--) {
+      const o = L1.obstacles[i];
+      o.x -= L1.speed * dt;
+      if (o.x < -30) { L1.obstacles.splice(i, 1); continue; }
+      const oBox = { x: o.x - o.r, y: GROUND_Y - o.r * 1.4, w: o.r * 2, h: o.r * 1.4 };
+      if (L1.hitFlash <= 0 && rectsOverlap(catBox, oBox)) {
+        L1.obstacles.splice(i, 1);
+        loseLife();
+        L1.hitFlash = 1.2;
+      }
+    }
+    if (L1.hitFlash > 0) L1.hitFlash -= dt;
+
+    if (L1.survived >= L1.goal) {
+      GAME.state = "level1_clear";
+      GAME.t = 0;
+    }
+  }
+
+  function renderLevel1() {
+    drawSky(GAME.t);
+    drawMountainLayers(GAME.scroll);
+    drawGround(GAME.scroll);
+
+    for (const o of L1.obstacles) {
+      drawFurball(o.x, GROUND_Y - o.r * 0.7, o.r);
+    }
+
+    if (L1.hitFlash > 0 && Math.floor(L1.hitFlash * 12) % 2 === 0) {
+      ctx.globalAlpha = 0.4;
+    }
+    drawWilfrid(L1.catX, GROUND_Y + L1.catY, 46, 46, L1.squash, 1);
+    ctx.globalAlpha = 1;
+
+    drawHearts(GAME.lives);
+    drawProgressBar(L1.survived / L1.goal, "Climb 1: Dodge the furballs — tap to jump, double-tap to jump higher");
+  }
+
+  // ---------- Level 2: Push the Catnip / Dodge Lasers ----------
+  const L2 = {
+    catX: 60,
+    catY: 0,
+    vy: 0,
+    onGround: true,
+    blockX: 130,
+    goalX: W - 60,
+    squash: 0,
+    lasers: [], // {x, warnT, state: 'warn'|'strike', life}
+    spawnTimer: 2,
+    hitFlash: 0
+  };
+  const PUSH_SPEED = 70;
+  const LASER_WARN_TIME = 0.65;
+  const LASER_STRIKE_TIME = 0.28;
+
+  function resetLevel2() {
+    L2.catX = 60;
+    L2.catY = 0;
+    L2.vy = 0;
+    L2.onGround = true;
+    L2.blockX = 130;
+    L2.squash = 0;
+    L2.lasers = [];
+    L2.spawnTimer = 1.6;
+    L2.hitFlash = 0;
+  }
+
+  function updateLevel2(dt) {
+    GAME.scroll += 40 * dt;
+
+    // jump (dodge) via double tap
+    if (input.justDoubleTapped && L2.onGround) {
+      L2.vy = HIGH_JUMP_V;
+      L2.onGround = false;
+      L2.squash = 1;
+    }
+
+    // physics
+    L2.vy += GRAVITY * dt;
+    L2.catY += L2.vy * dt;
+    if (L2.catY >= 0) {
+      L2.catY = 0;
+      L2.vy = 0;
+      L2.onGround = true;
+    }
+    L2.squash = Math.max(0, L2.squash - dt * 3);
+
+    // push while held and grounded and not mid-jump
+    const pushing = input.down && L2.onGround && L2.blockX < L2.goalX;
+    if (pushing) {
+      L2.blockX = Math.min(L2.goalX, L2.blockX + PUSH_SPEED * dt);
+      L2.catX = Math.min(L2.blockX - 40, L2.catX + PUSH_SPEED * dt);
+    }
+
+    // spawn lasers targeting near the block/cat lane
+    L2.spawnTimer -= dt;
+    if (L2.spawnTimer <= 0) {
+      L2.spawnTimer = clamp(2.2 - L2.blockX / L2.goalX * 1.1, 0.9, 2.2);
+      const targetX = clamp(L2.catX + (Math.random() * 120 - 20), 40, W - 40);
+      L2.lasers.push({ x: targetX, t: 0, phase: "warn" });
+    }
+
+    for (let i = L2.lasers.length - 1; i >= 0; i--) {
+      const l = L2.lasers[i];
+      l.t += dt;
+      if (l.phase === "warn" && l.t >= LASER_WARN_TIME) {
+        l.phase = "strike";
+        l.t = 0;
+      } else if (l.phase === "strike" && l.t >= LASER_STRIKE_TIME) {
+        L2.lasers.splice(i, 1);
+        continue;
+      }
+      if (l.phase === "strike" && L2.hitFlash <= 0) {
+        const catBox = { x: L2.catX - 16, y: GROUND_Y + L2.catY - 46, w: 32, h: 46 };
+        const laserBox = { x: l.x - 10, y: GROUND_Y - 200, w: 20, h: 200 };
+        const grounded = L2.catY >= -4;
+        if (grounded && rectsOverlap(catBox, laserBox)) {
+          loseLife();
+          L2.hitFlash = 1.0;
+          L2.blockX = Math.max(130, L2.blockX - 40);
+          L2.catX = Math.max(60, L2.blockX - 40);
+        }
+      }
+    }
+    if (L2.hitFlash > 0) L2.hitFlash -= dt;
+
+    if (L2.blockX >= L2.goalX - 1) {
+      GAME.state = "level2_clear";
+      GAME.t = 0;
+    }
+  }
+
+  function renderLevel2() {
+    drawSky(GAME.t);
+    drawMountainLayers(GAME.scroll);
+    drawGround(GAME.scroll);
+
+    // goal marker
+    ctx.fillStyle = "rgba(255,255,255,0.4)";
+    ctx.fillRect(L2.goalX + 20, GROUND_Y - 90, 4, 90);
+    ctx.fillStyle = "#ffd76a";
+    ctx.beginPath();
+    ctx.moveTo(L2.goalX + 24, GROUND_Y - 90);
+    ctx.lineTo(L2.goalX + 60, GROUND_Y - 80);
+    ctx.lineTo(L2.goalX + 24, GROUND_Y - 70);
+    ctx.closePath();
+    ctx.fill();
+
+    drawCatnipBlock(L2.blockX, GROUND_Y, 40, 40);
+
+    // lasers
+    for (const l of L2.lasers) {
+      if (l.phase === "warn") {
+        ctx.save();
+        ctx.globalAlpha = 0.35 + 0.35 * Math.sin(l.t * 30);
+        ctx.strokeStyle = "#ff4d4d";
+        ctx.lineWidth = 2;
+        ctx.setLineDash([6, 6]);
+        ctx.beginPath();
+        ctx.moveTo(l.x, GROUND_Y - 200);
+        ctx.lineTo(l.x, GROUND_Y);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.restore();
+      } else {
+        ctx.save();
+        const g = ctx.createLinearGradient(l.x - 12, 0, l.x + 12, 0);
+        g.addColorStop(0, "rgba(255,90,60,0)");
+        g.addColorStop(0.5, "rgba(255,90,60,0.95)");
+        g.addColorStop(1, "rgba(255,90,60,0)");
+        ctx.fillStyle = g;
+        ctx.fillRect(l.x - 12, GROUND_Y - 200, 24, 200);
+        ctx.restore();
+      }
+    }
+
+    if (L2.hitFlash > 0 && Math.floor(L2.hitFlash * 12) % 2 === 0) {
+      ctx.globalAlpha = 0.4;
+    }
+    drawWilfrid(L2.catX, GROUND_Y + L2.catY, 46, 46, L2.squash, 1);
+    ctx.globalAlpha = 1;
+
+    drawHearts(GAME.lives);
+    drawProgressBar((L2.blockX - 130) / (L2.goalX - 130),
+      "Climb 2: Hold to push the catnip — double-tap to dodge lasers");
+  }
+
+  // ---------- Boss fight ----------
+  const BOSS = {
+    catX: 90,
+    catY: 0,
+    vy: 0,
+    onGround: true,
+    squash: 0,
+    lasers: [],
+    spawnTimer: 1.4,
+    hits: 0,
+    needed: 5,
+    hitFlash: 0,
+    eyesGlow: false
+  };
+  function resetBoss() {
+    BOSS.catX = 90;
+    BOSS.catY = 0;
+    BOSS.vy = 0;
+    BOSS.onGround = true;
+    BOSS.squash = 0;
+    BOSS.lasers = [];
+    BOSS.spawnTimer = 1.4;
+    BOSS.hits = 0;
+    BOSS.hitFlash = 0;
+  }
+
+  function updateBoss(dt) {
+    if (input.justDoubleTapped && BOSS.onGround) {
+      BOSS.vy = HIGH_JUMP_V;
+      BOSS.onGround = false;
+      BOSS.squash = 1;
+    }
+    BOSS.vy += GRAVITY * dt;
+    BOSS.catY += BOSS.vy * dt;
+    if (BOSS.catY >= 0) { BOSS.catY = 0; BOSS.vy = 0; BOSS.onGround = true; }
+    BOSS.squash = Math.max(0, BOSS.squash - dt * 3);
+
+    BOSS.spawnTimer -= dt;
+    BOSS.eyesGlow = BOSS.spawnTimer < 0.5;
+    if (BOSS.spawnTimer <= 0) {
+      BOSS.spawnTimer = clamp(1.5 - BOSS.hits * 0.08, 0.7, 1.5);
+      const targetX = clamp(BOSS.catX + (Math.random() * 100 - 40), 40, W - 40);
+      BOSS.lasers.push({ x: targetX, t: 0, phase: "warn" });
+    }
+
+    for (let i = BOSS.lasers.length - 1; i >= 0; i--) {
+      const l = BOSS.lasers[i];
+      l.t += dt;
+      if (l.phase === "warn" && l.t >= LASER_WARN_TIME) { l.phase = "strike"; l.t = 0; }
+      else if (l.phase === "strike" && l.t >= LASER_STRIKE_TIME) {
+        BOSS.lasers.splice(i, 1);
+        BOSS.hits++;
+        continue;
+      }
+      if (l.phase === "strike" && BOSS.hitFlash <= 0) {
+        const catBox = { x: BOSS.catX - 16, y: GROUND_Y + BOSS.catY - 46, w: 32, h: 46 };
+        const laserBox = { x: l.x - 10, y: GROUND_Y - 260, w: 20, h: 260 };
+        const grounded = BOSS.catY >= -4;
+        if (grounded && rectsOverlap(catBox, laserBox)) {
+          loseLife();
+          BOSS.hitFlash = 1.0;
+        }
+      }
+    }
+    if (BOSS.hitFlash > 0) BOSS.hitFlash -= dt;
+
+    if (BOSS.hits >= BOSS.needed) {
+      GAME.state = "boss_win";
+      GAME.t = 0;
+    }
+  }
+
+  function renderBoss() {
+    drawSky(GAME.t);
+    drawMountainLayers(GAME.scroll);
+    drawGround(GAME.scroll);
+
+    drawBoss(W - 90, GROUND_Y - 260, 0.85, GAME.t, BOSS.eyesGlow);
+
+    for (const l of BOSS.lasers) {
+      if (l.phase === "warn") {
+        ctx.save();
+        ctx.globalAlpha = 0.35 + 0.35 * Math.sin(l.t * 30);
+        ctx.strokeStyle = "#ff4d4d";
+        ctx.lineWidth = 2;
+        ctx.setLineDash([6, 6]);
+        ctx.beginPath();
+        ctx.moveTo(l.x, GROUND_Y - 260);
+        ctx.lineTo(l.x, GROUND_Y);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.restore();
+      } else {
+        ctx.save();
+        const g = ctx.createLinearGradient(l.x - 12, 0, l.x + 12, 0);
+        g.addColorStop(0, "rgba(255,90,60,0)");
+        g.addColorStop(0.5, "rgba(255,90,60,0.95)");
+        g.addColorStop(1, "rgba(255,90,60,0)");
+        ctx.fillStyle = g;
+        ctx.fillRect(l.x - 12, GROUND_Y - 260, 24, 260);
+        ctx.restore();
+      }
+    }
+
+    if (BOSS.hitFlash > 0 && Math.floor(BOSS.hitFlash * 12) % 2 === 0) {
+      ctx.globalAlpha = 0.4;
+    }
+    drawWilfrid(BOSS.catX, GROUND_Y + BOSS.catY, 46, 46, BOSS.squash, 1);
+    ctx.globalAlpha = 1;
+
+    drawHearts(GAME.lives);
+    drawProgressBar(BOSS.hits / BOSS.needed, "Final Climb: Survive the Monster Cat — double-tap to dodge!");
+  }
+
+  // ---------- shared life logic ----------
+  function loseLife() {
+    GAME.lives--;
+    if (GAME.lives <= 0) {
+      GAME.state = "gameover";
+      GAME.t = 0;
+    }
+  }
+
+  function resetGame() {
+    GAME.lives = 3;
+    resetLevel1();
+    resetLevel2();
+    resetBoss();
+  }
+
+  // ================= MAIN LOOP =================
+  let lastTime = performance.now();
+
+  function update(dt) {
+    GAME.t += dt;
+    switch (GAME.state) {
+      case "level1": updateLevel1(dt); break;
+      case "level2": updateLevel2(dt); break;
+      case "boss": updateBoss(dt); break;
+      case "menu":
+      case "level1_clear":
+      case "level2_clear":
+      case "boss_win":
+      case "gameover":
+        if (input.justTapped || input.justDoubleTapped) {
+          if (GAME.state === "menu") { resetGame(); GAME.state = "level1"; }
+          else if (GAME.state === "level1_clear") { resetLevel2(); GAME.state = "level2"; }
+          else if (GAME.state === "level2_clear") { resetBoss(); GAME.state = "boss"; }
+          else if (GAME.state === "boss_win") { resetGame(); GAME.state = "menu"; }
+          else if (GAME.state === "gameover") { resetGame(); GAME.state = "menu"; }
+        }
+        break;
+    }
+    input.justTapped = false;
+    input.justDoubleTapped = false;
+  }
+
+  function render() {
+    ctx.clearRect(0, 0, W, H);
+    switch (GAME.state) {
+      case "menu":
+        drawSky(GAME.t);
+        drawMountainLayers(GAME.scroll);
+        drawGround(0);
+        drawBoss(W - 80, GROUND_Y - 250, 0.6, GAME.t, false);
+        drawWilfrid(90, GROUND_Y, 50, 50, 0, 1);
+        drawCenterText([
+          { text: "Adventures of Wilfrid", big: true, color: "#fff6d0" },
+          { text: "A grey cat's climb to face the Monster Cat", color: "#fff" },
+          { text: "Tap anywhere to begin", color: "#ffe08a" }
+        ], { y: H / 2 - 60 });
+        break;
+      case "level1": renderLevel1(); break;
+      case "level1_clear":
+        renderLevel1();
+        drawCenterText([
+          { text: "Furballs Dodged!", big: true, color: "#c9e79c" },
+          { text: "Next up: push the catnip up the mountain", color: "#fff" },
+          { text: "Tap to continue", color: "#ffe08a" }
+        ]);
+        break;
+      case "level2": renderLevel2(); break;
+      case "level2_clear":
+        renderLevel2();
+        drawCenterText([
+          { text: "Catnip Delivered!", big: true, color: "#c9e79c" },
+          { text: "The Monster Cat awaits at the summit...", color: "#fff" },
+          { text: "Tap to continue", color: "#ffe08a" }
+        ]);
+        break;
+      case "boss": renderBoss(); break;
+      case "boss_win":
+        renderBoss();
+        drawCenterText([
+          { text: "Wilfrid Wins!", big: true, color: "#ffd76a" },
+          { text: "The Monster Cat retreats into the clouds.", color: "#fff" },
+          { text: "Tap to play again", color: "#ffe08a" }
+        ]);
+        break;
+      case "gameover":
+        drawSky(GAME.t);
+        drawMountainLayers(GAME.scroll);
+        drawGround(GAME.scroll);
+        drawCenterText([
+          { text: "Wilfrid Tumbles Down...", big: true, color: "#ff8a8a" },
+          { text: "Tap to try again", color: "#ffe08a" }
+        ]);
+        break;
+    }
+  }
+
+  function frame(now) {
+    let dt = (now - lastTime) / 1000;
+    lastTime = now;
+    dt = Math.min(dt, 0.05); // avoid big jumps on tab switch
+    update(dt);
+    render();
+    requestAnimationFrame(frame);
+  }
+
+  resetGame();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
