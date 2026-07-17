@@ -221,6 +221,66 @@
   .btn:active { transform: scale(0.94); }
   .btn:disabled { opacity: 0.4; pointer-events: none; }
 
+  /* ---------- Goal log ---------- */
+  .goal-log-card .timeline-head { margin-bottom: 12px; }
+  .goal-log-list { display: flex; flex-direction: column; gap: 8px; }
+  .goal-row { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .goal-row.expanded { border-color: #D8D3C2; }
+  .goal-row-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    touch-action: manipulation;
+  }
+  .goal-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .goal-dot.home { background: var(--home); }
+  .goal-dot.away { background: var(--away); }
+  .goal-meta { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+  .goal-num { font-size: 10px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .goal-summary { font-size: 14px; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .goal-time { font-size: 11px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; flex-shrink: 0; }
+  .goal-chevron { flex-shrink: 0; color: var(--muted); transition: transform 0.15s ease; }
+  .goal-row.expanded .goal-chevron { transform: rotate(90deg); }
+  .goal-editor { padding: 0 12px 12px; display: flex; flex-direction: column; gap: 8px; }
+  .goal-name-input {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    background: #fff;
+  }
+  .goal-name-input:focus { outline: none; border-color: #C7C1AC; }
+  .position-row { display: flex; gap: 8px; }
+  .position-chip {
+    flex: 1;
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--muted);
+    touch-action: manipulation;
+  }
+  .position-chip.selected.home { background: var(--home); border-color: var(--home); color: #fff; }
+  .position-chip.selected.away { background: var(--away); border-color: var(--away); color: #fff; }
+  .goal-log-empty {
+    display: none;
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 500;
+  }
+
   /* ---------- Timeline card ---------- */
   .timeline-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
   .timeline-head h2 { margin: 0 0 2px; font-size: 15px; font-weight: 800; }
@@ -366,6 +426,17 @@
     </div>
   </div>
 
+  <div class="card goal-log-card">
+    <div class="timeline-head">
+      <div>
+        <h2>Goal Log</h2>
+        <p>Tap a goal to record who scored</p>
+      </div>
+    </div>
+    <div class="goal-log-list" id="goalLogList"></div>
+    <div class="goal-log-empty" id="goalLogEmpty">Goals will appear here once scoring starts</div>
+  </div>
+
   <div class="card timeline-card">
     <div class="timeline-head">
       <div>
@@ -397,9 +468,10 @@
 </div>
 
 <script>
-  const STORAGE_KEY = 'netball-tracker-state-v4';
+  const STORAGE_KEY = 'netball-tracker-state-v5';
   const HOME_COLOR = '#FF6B4A', HOME_SOFT = '#FFE3D8', HOME_DEEP = '#E05230';
   const AWAY_COLOR = '#4C63E0', AWAY_SOFT = '#DCE1FA', AWAY_DEEP = '#3948B8';
+  const POSITIONS = ['GS', 'GA'];
 
   const state = Object.assign({
     home: 0,
@@ -407,7 +479,7 @@
     homeName: 'Koonung Lightning',
     awayName: 'Fintona Ferns',
     startTime: null,
-    events: [], // {t, diff}
+    goals: [], // { id, team, t, player, position }
     phase: 'pre', // 'pre' | 'playing' | 'paused' | 'halftime' | 'fulltime'
     half: null, // 'first' | 'second'
     playedMs: 0,
@@ -415,6 +487,8 @@
     halftimeAt: null,
     fulltimeAt: null
   }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
+
+  let expandedGoalId = null;
 
   const el = id => document.getElementById(id);
   const homeScoreEl = el('homeScore'), awayScoreEl = el('awayScore');
@@ -428,6 +502,7 @@
   const timelineEmpty = el('timelineEmpty'), timelineFoot = el('timelineFoot');
   const scoreBtns = document.querySelectorAll('.btn');
   const liveDot = el('liveDot');
+  const goalLogList = el('goalLogList'), goalLogEmpty = el('goalLogEmpty');
 
   const DOT_COLORS = {
     pre: ['#B3AF9E', 'rgba(179,175,158,0.18)'],
@@ -546,7 +621,9 @@
 
     svg.innerHTML = '';
 
-    const pts = [{ t: state.startTime, diff: 0 }, ...state.events.map(e => ({ t: e.t, diff: e.diff }))];
+    let running = 0;
+    const goalDiffs = state.goals.map(g => { running += g.team === 'home' ? 1 : -1; return { t: g.t, diff: running }; });
+    const pts = [{ t: state.startTime, diff: 0 }, ...goalDiffs];
     pts.push({ t: nowTs, diff: pts[pts.length - 1].diff });
 
     const tMin = pts[0].t;
@@ -659,22 +736,171 @@
     drawTimeMarker(state.fulltimeAt, 'FT');
   }
 
+  function recomputeScores() {
+    state.home = state.goals.filter(g => g.team === 'home').length;
+    state.away = state.goals.filter(g => g.team === 'away').length;
+  }
+
+  function knownNames(team) {
+    const seen = new Set();
+    state.goals.forEach(g => { if (g.team === team && g.player && g.player.trim()) seen.add(g.player.trim()); });
+    return [...seen];
+  }
+
+  function goalSummaryText(g) {
+    if (g.player && g.position) return `${g.player} · ${g.position}`;
+    if (g.player) return g.player;
+    if (g.position) return `${g.position} · Unknown player`;
+    return 'Tap to add scorer';
+  }
+
+  function buildGoalEditor(g) {
+    const wrap = document.createElement('div');
+    wrap.className = 'goal-editor';
+
+    const nameInput = document.createElement('input');
+    nameInput.type = 'text';
+    nameInput.className = 'goal-name-input';
+    nameInput.placeholder = 'Player name (optional)';
+    nameInput.value = g.player || '';
+    nameInput.maxLength = 30;
+    nameInput.autocomplete = 'off';
+    const listId = `names-${g.team}`;
+    nameInput.setAttribute('list', listId);
+    nameInput.addEventListener('input', () => {
+      g.player = nameInput.value;
+      save();
+    });
+    wrap.appendChild(nameInput);
+
+    const datalist = document.createElement('datalist');
+    datalist.id = listId;
+    knownNames(g.team).forEach(n => {
+      const opt = document.createElement('option');
+      opt.value = n;
+      datalist.appendChild(opt);
+    });
+    wrap.appendChild(datalist);
+
+    const posRow = document.createElement('div');
+    posRow.className = 'position-row';
+    POSITIONS.forEach(pos => {
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'position-chip' + (g.position === pos ? ` selected ${g.team}` : '');
+      chip.textContent = pos;
+      chip.addEventListener('click', () => {
+        g.position = g.position === pos ? '' : pos;
+        save();
+        render();
+      });
+      posRow.appendChild(chip);
+    });
+    wrap.appendChild(posRow);
+
+    return wrap;
+  }
+
+  function buildGoalRow(g, indexInOrder) {
+    const row = document.createElement('div');
+    row.className = 'goal-row' + (g.id === expandedGoalId ? ' expanded' : '');
+
+    const header = document.createElement('button');
+    header.type = 'button';
+    header.className = 'goal-row-header';
+
+    const dot = document.createElement('span');
+    dot.className = `goal-dot ${g.team}`;
+    header.appendChild(dot);
+
+    const meta = document.createElement('span');
+    meta.className = 'goal-meta';
+    const numEl = document.createElement('span');
+    numEl.className = 'goal-num';
+    const teamName = g.team === 'home' ? (state.homeName || 'Home') : (state.awayName || 'Away');
+    numEl.textContent = `Goal ${indexInOrder} · ${teamName}`;
+    const summaryEl = document.createElement('span');
+    summaryEl.className = 'goal-summary';
+    summaryEl.textContent = goalSummaryText(g);
+    meta.appendChild(numEl);
+    meta.appendChild(summaryEl);
+    header.appendChild(meta);
+
+    const timeEl = document.createElement('span');
+    timeEl.className = 'goal-time';
+    timeEl.textContent = fmtClock(g.t - (state.startTime || g.t));
+    header.appendChild(timeEl);
+
+    const chevron = document.createElement('span');
+    chevron.className = 'goal-chevron';
+    chevron.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>';
+    header.appendChild(chevron);
+
+    header.addEventListener('click', () => {
+      expandedGoalId = expandedGoalId === g.id ? null : g.id;
+      render();
+    });
+    row.appendChild(header);
+
+    if (g.id === expandedGoalId) {
+      row.appendChild(buildGoalEditor(g));
+    }
+    return row;
+  }
+
+  function renderGoalLog() {
+    goalLogList.innerHTML = '';
+    if (state.goals.length === 0) {
+      goalLogEmpty.style.display = 'block';
+      goalLogList.style.display = 'none';
+      return;
+    }
+    goalLogEmpty.style.display = 'none';
+    goalLogList.style.display = 'flex';
+    for (let i = state.goals.length - 1; i >= 0; i--) {
+      goalLogList.appendChild(buildGoalRow(state.goals[i], i + 1));
+    }
+  }
+
   function render() {
     renderScores();
     renderStatus();
     renderTimeline();
+    renderGoalLog();
+  }
+
+  function addGoal(team) {
+    if (state.phase !== 'playing') return;
+    const rec = { id: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, team, t: Date.now(), player: '', position: '' };
+    state.goals.push(rec);
+    recomputeScores();
+    expandedGoalId = rec.id;
+    vibrate();
+    save();
+    render();
+  }
+
+  function removeLastGoal(team) {
+    if (state.phase !== 'playing') return;
+    for (let i = state.goals.length - 1; i >= 0; i--) {
+      if (state.goals[i].team === team) {
+        const [removed] = state.goals.splice(i, 1);
+        if (expandedGoalId === removed.id) expandedGoalId = null;
+        break;
+      }
+    }
+    recomputeScores();
+    vibrate();
+    save();
+    render();
   }
 
   document.querySelectorAll('.btn').forEach(btn => {
     btn.addEventListener('click', () => {
       if (state.phase !== 'playing') return;
       const team = btn.dataset.team;
-      const delta = parseInt(btn.dataset.delta, 10);
-      state[team] = Math.max(0, state[team] + delta);
-      state.events.push({ t: Date.now(), diff: state.home - state.away });
-      vibrate();
-      save();
-      render();
+      if (btn.classList.contains('plus')) addGoal(team);
+      else removeLastGoal(team);
     });
   });
 
@@ -692,9 +918,12 @@
     state.startTime = t;
     state.segmentStart = t;
     state.playedMs = 0;
-    state.events = [];
+    state.goals = [];
+    state.home = 0;
+    state.away = 0;
     state.halftimeAt = null;
     state.fulltimeAt = null;
+    expandedGoalId = null;
     vibrate();
     save();
     render();
@@ -754,13 +983,14 @@
     state.home = 0;
     state.away = 0;
     state.startTime = null;
-    state.events = [];
+    state.goals = [];
     state.phase = 'pre';
     state.half = null;
     state.playedMs = 0;
     state.segmentStart = null;
     state.halftimeAt = null;
     state.fulltimeAt = null;
+    expandedGoalId = null;
     save();
     render();
   }
@@ -797,7 +1027,9 @@
   });
 
   render();
-  setInterval(render, 1000);
+  // Only the clock/timeline need to tick every second; rebuilding the goal
+  // log here would blow away focus on an in-progress name edit.
+  setInterval(renderTimeline, 1000);
 </script>
 </body>
 </html>
