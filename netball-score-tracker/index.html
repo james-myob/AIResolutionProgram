@@ -264,8 +264,8 @@
   <div class="teams-row">
     <div class="card team-card home" id="homeCard">
       <div class="team-head">
-        <div class="badge" id="homeBadge">H</div>
-        <input class="team-name" id="homeName" value="Home" maxlength="14" />
+        <div class="badge" id="homeBadge">K</div>
+        <input class="team-name" id="homeName" value="Koonung Lightning" maxlength="24" />
       </div>
       <div class="score-num" id="homeScore">0</div>
       <div class="btn-row">
@@ -280,8 +280,8 @@
 
     <div class="card team-card away" id="awayCard">
       <div class="team-head">
-        <div class="badge" id="awayBadge">A</div>
-        <input class="team-name" id="awayName" value="Away" maxlength="14" />
+        <div class="badge" id="awayBadge">F</div>
+        <input class="team-name" id="awayName" value="Fintona Ferns" maxlength="24" />
       </div>
       <div class="score-num" id="awayScore">0</div>
       <div class="btn-row">
@@ -325,7 +325,7 @@
 </div>
 
 <script>
-  const STORAGE_KEY = 'netball-tracker-state-v2';
+  const STORAGE_KEY = 'netball-tracker-state-v3';
   const HOME_COLOR = '#FF6B4A', HOME_SOFT = '#FFE3D8', HOME_DEEP = '#E05230';
   const AWAY_COLOR = '#4C63E0', AWAY_SOFT = '#DCE1FA', AWAY_DEEP = '#3948B8';
 
@@ -333,8 +333,8 @@
   const state = Object.assign({
     home: 0,
     away: 0,
-    homeName: 'Home',
-    awayName: 'Away',
+    homeName: 'Koonung Lightning',
+    awayName: 'Fintona Ferns',
     startTime: now,
     events: [] // {t, diff}
   }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
