@@ -281,6 +281,50 @@
     font-weight: 500;
   }
 
+  /* ---------- Player summary ---------- */
+  .summary-section + .summary-section { margin-top: 18px; }
+  .summary-section h3 {
+    margin: 0 0 8px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .summary-table-wrap { overflow-x: auto; }
+  .summary-table { display: none; width: 100%; border-collapse: collapse; font-size: 13px; }
+  .summary-table th {
+    text-align: left;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    padding: 0 6px 6px;
+    border-bottom: 1px solid var(--line);
+    white-space: nowrap;
+  }
+  .summary-table th:last-child, .summary-table td:last-child { text-align: right; }
+  .summary-table td {
+    padding: 9px 6px;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .summary-table tr:last-child td { border-bottom: none; }
+  .summary-goals-col { font-variant-numeric: tabular-nums; font-weight: 800; }
+  .summary-name-cell { display: flex; align-items: center; gap: 7px; }
+  .summary-team-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .summary-team-dot.home { background: var(--home); }
+  .summary-team-dot.away { background: var(--away); }
+  .summary-empty {
+    display: none;
+    font-size: 13px;
+    color: var(--muted);
+    font-weight: 500;
+    padding: 6px 0 2px;
+  }
+
   /* ---------- Timeline card ---------- */
   .timeline-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
   .timeline-head h2 { margin: 0 0 2px; font-size: 15px; font-weight: 800; }
@@ -456,6 +500,37 @@
     <div class="goal-log-empty" id="goalLogEmpty">Goals will appear here once scoring starts</div>
   </div>
 
+  <div class="card">
+    <div class="timeline-head">
+      <div>
+        <h2>Player Summary</h2>
+        <p>Goals by scorer</p>
+      </div>
+    </div>
+
+    <div class="summary-section">
+      <h3>Named Scorers</h3>
+      <div class="summary-table-wrap">
+        <table class="summary-table" id="namedScorersTable">
+          <thead><tr><th>Scorer</th><th>Positions</th><th>Goals</th></tr></thead>
+          <tbody id="namedScorersBody"></tbody>
+        </table>
+      </div>
+      <div class="summary-empty" id="namedScorersEmpty">No named scorers yet</div>
+    </div>
+
+    <div class="summary-section">
+      <h3>Position-Only Scorers</h3>
+      <div class="summary-table-wrap">
+        <table class="summary-table" id="positionScorersTable">
+          <thead><tr><th>Position</th><th>Team</th><th>Goals</th></tr></thead>
+          <tbody id="positionScorersBody"></tbody>
+        </table>
+      </div>
+      <div class="summary-empty" id="positionScorersEmpty">No position-only goals yet</div>
+    </div>
+  </div>
+
   <button class="reset-link" id="resetBtn">Reset Game</button>
 </div>
 
@@ -505,6 +580,8 @@
   const scoreBtns = document.querySelectorAll('.btn');
   const liveDot = el('liveDot');
   const goalLogList = el('goalLogList'), goalLogEmpty = el('goalLogEmpty');
+  const namedScorersTable = el('namedScorersTable'), namedScorersBody = el('namedScorersBody'), namedScorersEmpty = el('namedScorersEmpty');
+  const positionScorersTable = el('positionScorersTable'), positionScorersBody = el('positionScorersBody'), positionScorersEmpty = el('positionScorersEmpty');
 
   const DOT_COLORS = {
     pre: ['#B3AF9E', 'rgba(179,175,158,0.18)'],
@@ -885,11 +962,102 @@
     }
   }
 
+  function teamLabel(team) {
+    return team === 'home' ? (state.homeName || 'Home') : (state.awayName || 'Away');
+  }
+
+  function computeScorerSummaries() {
+    const named = new Map();
+    const posOnly = new Map();
+    state.goals.forEach(g => {
+      const player = (g.player || '').trim();
+      if (player) {
+        const key = `${g.team}|${player.toLowerCase()}`;
+        if (!named.has(key)) named.set(key, { team: g.team, player, count: 0, positions: new Set() });
+        const entry = named.get(key);
+        entry.count++;
+        if (g.position) entry.positions.add(g.position);
+      } else {
+        const key = `${g.team}|${g.position || ''}`;
+        if (!posOnly.has(key)) posOnly.set(key, { team: g.team, position: g.position || '', count: 0 });
+        posOnly.get(key).count++;
+      }
+    });
+    return { named: [...named.values()], posOnly: [...posOnly.values()] };
+  }
+
+  function renderSummaryTables() {
+    const { named, posOnly } = computeScorerSummaries();
+
+    named.sort((a, b) => b.count - a.count || a.player.localeCompare(b.player));
+    namedScorersBody.innerHTML = '';
+    named.forEach(r => {
+      const tr = document.createElement('tr');
+
+      const nameTd = document.createElement('td');
+      const nameWrap = document.createElement('span');
+      nameWrap.className = 'summary-name-cell';
+      const dot = document.createElement('span');
+      dot.className = `summary-team-dot ${r.team}`;
+      nameWrap.appendChild(dot);
+      const label = document.createElement('span');
+      label.textContent = r.player;
+      nameWrap.appendChild(label);
+      nameTd.appendChild(nameWrap);
+      tr.appendChild(nameTd);
+
+      const posTd = document.createElement('td');
+      posTd.textContent = r.positions.size ? [...r.positions].sort().join(', ') : '—';
+      tr.appendChild(posTd);
+
+      const goalsTd = document.createElement('td');
+      goalsTd.className = 'summary-goals-col';
+      goalsTd.textContent = r.count;
+      tr.appendChild(goalsTd);
+
+      namedScorersBody.appendChild(tr);
+    });
+    namedScorersEmpty.style.display = named.length ? 'none' : 'block';
+    namedScorersTable.style.display = named.length ? 'table' : 'none';
+
+    posOnly.sort((a, b) => b.count - a.count || (a.position || '').localeCompare(b.position || ''));
+    positionScorersBody.innerHTML = '';
+    posOnly.forEach(r => {
+      const tr = document.createElement('tr');
+
+      const posTd = document.createElement('td');
+      const posWrap = document.createElement('span');
+      posWrap.className = 'summary-name-cell';
+      const dot = document.createElement('span');
+      dot.className = `summary-team-dot ${r.team}`;
+      posWrap.appendChild(dot);
+      const label = document.createElement('span');
+      label.textContent = r.position || 'Not recorded';
+      posWrap.appendChild(label);
+      posTd.appendChild(posWrap);
+      tr.appendChild(posTd);
+
+      const teamTd = document.createElement('td');
+      teamTd.textContent = teamLabel(r.team);
+      tr.appendChild(teamTd);
+
+      const goalsTd = document.createElement('td');
+      goalsTd.className = 'summary-goals-col';
+      goalsTd.textContent = r.count;
+      tr.appendChild(goalsTd);
+
+      positionScorersBody.appendChild(tr);
+    });
+    positionScorersEmpty.style.display = posOnly.length ? 'none' : 'block';
+    positionScorersTable.style.display = posOnly.length ? 'table' : 'none';
+  }
+
   function render() {
     renderScores();
     renderStatus();
     renderTimeline();
     renderGoalLog();
+    renderSummaryTables();
   }
 
   function addGoal(team) {
