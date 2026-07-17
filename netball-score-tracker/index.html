@@ -485,7 +485,9 @@
     playedMs: 0,
     segmentStart: null,
     halftimeAt: null,
-    fulltimeAt: null
+    halftimeAtPlayMs: null,
+    fulltimeAt: null,
+    fulltimeAtPlayMs: null
   }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
 
   let expandedGoalId = null;
@@ -621,13 +623,21 @@
 
     svg.innerHTML = '';
 
+    // The axis is play-elapsed time (pauses excluded), not wall-clock time,
+    // so the chart actually freezes during a break instead of silently
+    // compressing/drifting while paused.
+    const currentPlayElapsed = playElapsedMs(nowTs);
     let running = 0;
-    const goalDiffs = state.goals.map(g => { running += g.team === 'home' ? 1 : -1; return { t: g.t, diff: running }; });
-    const pts = [{ t: state.startTime, diff: 0 }, ...goalDiffs];
-    pts.push({ t: nowTs, diff: pts[pts.length - 1].diff });
+    const goalDiffs = state.goals.map(g => {
+      running += g.team === 'home' ? 1 : -1;
+      const pm = g.playMs != null ? g.playMs : Math.max(0, g.t - (state.startTime || g.t));
+      return { t: pm, diff: running };
+    });
+    const pts = [{ t: 0, diff: 0 }, ...goalDiffs];
+    pts.push({ t: currentPlayElapsed, diff: pts[pts.length - 1].diff });
 
-    const tMin = pts[0].t;
-    const tMax = Math.max(nowTs, tMin + 60000);
+    const tMin = 0;
+    const tMax = Math.max(currentPlayElapsed, 60000);
     const maxAbs = Math.max(3, Math.max(...pts.map(p => Math.abs(p.diff))) + 1);
 
     const x = t => PAD_X + ((t - tMin) / (tMax - tMin)) * (W - PAD_X * 2);
@@ -732,8 +742,10 @@
       txt.textContent = label;
       svg.appendChild(txt);
     }
-    drawTimeMarker(state.halftimeAt, 'HT');
-    drawTimeMarker(state.fulltimeAt, 'FT');
+    const htPlayMs = state.halftimeAtPlayMs != null ? state.halftimeAtPlayMs : (state.halftimeAt ? state.halftimeAt - state.startTime : null);
+    const ftPlayMs = state.fulltimeAtPlayMs != null ? state.fulltimeAtPlayMs : (state.fulltimeAt ? state.fulltimeAt - state.startTime : null);
+    drawTimeMarker(htPlayMs, 'HT');
+    drawTimeMarker(ftPlayMs, 'FT');
   }
 
   function recomputeScores() {
@@ -828,7 +840,8 @@
 
     const timeEl = document.createElement('span');
     timeEl.className = 'goal-time';
-    timeEl.textContent = fmtClock(g.t - (state.startTime || g.t));
+    const goalPlayMs = g.playMs != null ? g.playMs : Math.max(0, g.t - (state.startTime || g.t));
+    timeEl.textContent = fmtClock(goalPlayMs);
     header.appendChild(timeEl);
 
     const chevron = document.createElement('span');
@@ -871,7 +884,8 @@
 
   function addGoal(team) {
     if (state.phase !== 'playing') return;
-    const rec = { id: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, team, t: Date.now(), player: '', position: '' };
+    const t = Date.now();
+    const rec = { id: `${t}-${Math.random().toString(36).slice(2, 7)}`, team, t, playMs: playElapsedMs(t), player: '', position: '' };
     state.goals.push(rec);
     recomputeScores();
     expandedGoalId = rec.id;
@@ -922,7 +936,9 @@
     state.home = 0;
     state.away = 0;
     state.halftimeAt = null;
+    state.halftimeAtPlayMs = null;
     state.fulltimeAt = null;
+    state.fulltimeAtPlayMs = null;
     expandedGoalId = null;
     vibrate();
     save();
@@ -961,6 +977,7 @@
     state.segmentStart = null;
     state.phase = 'halftime';
     state.halftimeAt = Date.now();
+    state.halftimeAtPlayMs = state.playedMs;
     vibrate();
     save();
     render();
@@ -974,6 +991,7 @@
     state.segmentStart = null;
     state.phase = 'fulltime';
     state.fulltimeAt = Date.now();
+    state.fulltimeAtPlayMs = state.playedMs;
     vibrate();
     save();
     render();
@@ -989,7 +1007,9 @@
     state.playedMs = 0;
     state.segmentStart = null;
     state.halftimeAt = null;
+    state.halftimeAtPlayMs = null;
     state.fulltimeAt = null;
+    state.fulltimeAtPlayMs = null;
     expandedGoalId = null;
     save();
     render();
