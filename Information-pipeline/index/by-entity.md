@@ -5,9 +5,11 @@
 ---
 
 ## `entity:a16z`
+- 2026-07-17 — Anish Acharya essay: AI as expressive technology, not just labor-saving — [briefing](../daily/2026-07-17.md)
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-17 — Launches Ode with Blackstone ($1.5B implementation JV); Claude web_fetch exfiltration vulnerability disclosed; Ethan Mollick cites Opus 4.7 in agent-adoption essay — [briefing](../daily/2026-07-17.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,11 +72,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-17 — Ships Codex Micro ($230 agent keyboard); reportedly building screenless AI speaker; sued by Apple for trade-secret theft — [briefing](../daily/2026-07-17.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-07-17 — Writes up Claude web_fetch exfiltration finding and xAI's Grok Build open-sourcing — [briefing](../daily/2026-07-17.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -88,6 +92,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-17 — Grok Build CLI caught silently uploading user directories; open-sourced under Apache 2.0 in response; ships Grok 4.5 — [briefing](../daily/2026-07-17.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -108,6 +113,18 @@
 
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
+
+## `entity:thinking-machines`
+- 2026-07-17 — Ships Inkling, its first open-weight model (975B MoE, 41B active) — [briefing](../daily/2026-07-17.md)
+
+## `entity:apple`
+- 2026-07-17 — Sues OpenAI for trade-secret theft over hardware plans — [briefing](../daily/2026-07-17.md)
+
+## `entity:eu-ai-act`
+- 2026-07-17 — Article 50 transparency rules go live; GPAI fines possible from 2 August — [briefing](../daily/2026-07-17.md)
+
+## `entity:ethan-mollick`
+- 2026-07-17 — Argues agents are replacing chatbots for real work — [briefing](../daily/2026-07-17.md)
 
 ## `entity:trump`
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
