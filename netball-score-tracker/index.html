@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#1a1030" />
+<title>Netball Score Tracker</title>
+<style>
+  :root {
+    --home: #ff5da2;
+    --away: #4d7cff;
+    --bg: #120a24;
+    --card-bg: rgba(255,255,255,0.06);
+    --text: #f5f3ff;
+    --muted: #a89fc9;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    background-image: radial-gradient(circle at 20% 10%, #2a1650 0%, transparent 55%),
+                       radial-gradient(circle at 85% 90%, #12253f 0%, transparent 55%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    user-select: none;
+  }
+  #app {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+  header {
+    text-align: center;
+    padding: 10px 12px 6px;
+    flex-shrink: 0;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  main {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    padding: 6px 8px;
+    min-height: 0;
+  }
+  .team {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: var(--card-bg);
+    padding: 10px 8px 12px;
+    min-height: 0;
+  }
+  .team.home { border-top: 4px solid var(--home); }
+  .team.away { border-top: 4px solid var(--away); }
+
+  .team-name {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    text-align: center;
+    font-size: clamp(14px, 4vw, 20px);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 6px 4px;
+    border-radius: 10px;
+  }
+  .team-name:focus { background: rgba(255,255,255,0.08); outline: none; }
+  .team.home .team-name { color: var(--home); }
+  .team.away .team-name { color: var(--away); }
+
+  .score-display {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+  }
+  .score-display span {
+    font-size: min(28vw, 34vh);
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  button.stepper {
+    border: none;
+    border-radius: 16px;
+    font-size: clamp(28px, 8vw, 40px);
+    font-weight: 700;
+    padding: 14px 0;
+    color: #fff;
+    touch-action: manipulation;
+  }
+  .team.home button.plus { background: var(--home); }
+  .team.away button.plus { background: var(--away); }
+  button.minus {
+    background: rgba(255,255,255,0.1);
+    color: var(--text);
+    font-size: clamp(22px, 6vw, 30px);
+    padding: 10px 0;
+  }
+  button.stepper:active { transform: scale(0.95); }
+
+  footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 12px calc(10px + env(safe-area-inset-bottom));
+  }
+  footer button {
+    border: none;
+    background: rgba(255,255,255,0.08);
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 999px;
+    letter-spacing: 0.03em;
+  }
+  footer button:active { background: rgba(255,255,255,0.16); }
+
+  #confirmBar {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: #1a1030;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  #confirmBar.show { display: flex; }
+  #confirmBar span { font-size: 14px; color: var(--text); }
+  #confirmBar .row { display: flex; gap: 8px; }
+  #confirmBar button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  #confirmBar .yes { background: #ff4d4d; color: #fff; }
+  #confirmBar .no { background: rgba(255,255,255,0.1); color: var(--text); }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Netball Tracker</h1>
+  </header>
+  <main>
+    <div class="team home">
+      <input class="team-name" id="homeName" value="Home" maxlength="14" />
+      <div class="score-display"><span id="homeScore">0</span></div>
+      <div class="controls">
+        <button class="stepper plus" data-team="home" data-delta="1">+1</button>
+        <button class="stepper minus" data-team="home" data-delta="-1">−1</button>
+      </div>
+    </div>
+    <div class="team away">
+      <input class="team-name" id="awayName" value="Away" maxlength="14" />
+      <div class="score-display"><span id="awayScore">0</span></div>
+      <div class="controls">
+        <button class="stepper plus" data-team="away" data-delta="1">+1</button>
+        <button class="stepper minus" data-team="away" data-delta="-1">−1</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <button id="resetBtn">Reset Game</button>
+  </footer>
+</div>
+
+<div id="confirmBar">
+  <span>Reset score to 0 - 0?</span>
+  <div class="row">
+    <button class="no" id="cancelReset">Cancel</button>
+    <button class="yes" id="confirmReset">Reset</button>
+  </div>
+</div>
+
+<script>
+  const STORAGE_KEY = 'netball-tracker-state-v1';
+
+  const state = Object.assign({
+    home: 0,
+    away: 0,
+    homeName: 'Home',
+    awayName: 'Away'
+  }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
+
+  const homeScoreEl = document.getElementById('homeScore');
+  const awayScoreEl = document.getElementById('awayScore');
+  const homeNameEl = document.getElementById('homeName');
+  const awayNameEl = document.getElementById('awayName');
+
+  function save() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  }
+
+  function render() {
+    homeScoreEl.textContent = state.home;
+    awayScoreEl.textContent = state.away;
+    homeNameEl.value = state.homeName;
+    awayNameEl.value = state.awayName;
+  }
+
+  function vibrate() {
+    if (navigator.vibrate) navigator.vibrate(15);
+  }
+
+  document.querySelectorAll('.stepper').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const team = btn.dataset.team;
+      const delta = parseInt(btn.dataset.delta, 10);
+      state[team] = Math.max(0, state[team] + delta);
+      vibrate();
+      save();
+      render();
+    });
+  });
+
+  homeNameEl.addEventListener('input', () => { state.homeName = homeNameEl.value || 'Home'; save(); });
+  awayNameEl.addEventListener('input', () => { state.awayName = awayNameEl.value || 'Away'; save(); });
+
+  const confirmBar = document.getElementById('confirmBar');
+  document.getElementById('resetBtn').addEventListener('click', () => confirmBar.classList.add('show'));
+  document.getElementById('cancelReset').addEventListener('click', () => confirmBar.classList.remove('show'));
+  document.getElementById('confirmReset').addEventListener('click', () => {
+    state.home = 0;
+    state.away = 0;
+    save();
+    render();
+    confirmBar.classList.remove('show');
+  });
+
+  render();
+</script>
+</body>
+</html>
