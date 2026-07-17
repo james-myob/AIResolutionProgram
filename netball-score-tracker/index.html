@@ -3,197 +3,321 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
-<meta name="theme-color" content="#1a1030" />
+<meta name="theme-color" content="#F7F4EC" />
 <title>Netball Score Tracker</title>
 <style>
   :root {
-    --home: #ff5da2;
-    --away: #4d7cff;
-    --bg: #120a24;
-    --card-bg: rgba(255,255,255,0.06);
-    --text: #f5f3ff;
-    --muted: #a89fc9;
+    --bg-top: #F8F5EC;
+    --bg-bottom: #ECEFE2;
+    --card: #FFFFFF;
+    --ink: #1E2116;
+    --muted: #8B9080;
+    --line: #ECE8DA;
+    --home: #FF6B4A;
+    --home-soft: #FFECE5;
+    --home-deep: #E05230;
+    --away: #4C63E0;
+    --away-soft: #E8EBFC;
+    --away-deep: #3948B8;
+    --shadow: 0 14px 32px rgba(30,33,22,0.08);
   }
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html, body {
-    height: 100%;
     margin: 0;
-    background: var(--bg);
-    background-image: radial-gradient(circle at 20% 10%, #2a1650 0%, transparent 55%),
-                       radial-gradient(circle at 85% 90%, #12253f 0%, transparent 55%);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    overflow: hidden;
+    min-height: 100%;
+    background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
     user-select: none;
+    overflow-x: hidden;
   }
   #app {
-    height: 100dvh;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: calc(14px + env(safe-area-inset-top)) 14px calc(24px + env(safe-area-inset-bottom));
     display: flex;
     flex-direction: column;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    gap: 12px;
   }
-  header {
-    text-align: center;
-    padding: 10px 12px 6px;
-    flex-shrink: 0;
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 4px 2px;
   }
-  header h1 {
+  .topbar .brand { display: flex; align-items: center; gap: 8px; }
+  .live-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #35C46B;
+    box-shadow: 0 0 0 4px rgba(53,196,107,0.18);
+  }
+  .topbar h1 {
     margin: 0;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .timer {
+    font-size: 14px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 12px;
+  }
+
+  /* ---------- Cards ---------- */
+  .card {
+    background: var(--card);
+    border-radius: 26px;
+    box-shadow: var(--shadow);
+    padding: 18px;
+  }
+
+  /* ---------- Hero diff card ---------- */
+  .hero {
+    text-align: center;
+    padding: 22px 18px 20px;
+    transition: background 0.25s ease;
+  }
+  .hero.level { background: var(--card); }
+  .hero.home-lead { background: linear-gradient(180deg, var(--home-soft) 0%, #ffffff 100%); }
+  .hero.away-lead { background: linear-gradient(180deg, var(--away-soft) 0%, #ffffff 100%); }
+  .hero-label {
+    font-size: 12px;
+    font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--muted);
+    margin-bottom: 6px;
   }
-  main {
-    flex: 1;
-    display: flex;
-    gap: 8px;
-    padding: 6px 8px;
-    min-height: 0;
-  }
-  .team {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background: var(--card-bg);
-    padding: 10px 8px 12px;
-    min-height: 0;
-  }
-  .team.home { border-top: 4px solid var(--home); }
-  .team.away { border-top: 4px solid var(--away); }
-
-  .team-name {
-    width: 100%;
-    background: transparent;
-    border: none;
-    color: var(--text);
-    text-align: center;
-    font-size: clamp(14px, 4vw, 20px);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 6px 4px;
-    border-radius: 10px;
-  }
-  .team-name:focus { background: rgba(255,255,255,0.08); outline: none; }
-  .team.home .team-name { color: var(--home); }
-  .team.away .team-name { color: var(--away); }
-
-  .score-display {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 0;
-  }
-  .score-display span {
-    font-size: min(28vw, 34vh);
+  .hero-value {
+    font-size: clamp(42px, 14vw, 58px);
     font-weight: 800;
     line-height: 1;
     font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+  .hero.home-lead .hero-value { color: var(--home-deep); }
+  .hero.away-lead .hero-value { color: var(--away-deep); }
+  .hero-sub {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--muted);
+    font-weight: 600;
   }
 
-  .controls {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  /* ---------- Team cards ---------- */
+  .teams-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+  }
+  .team-card { padding: 16px 12px 14px; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+  .team-head { display: flex; align-items: center; gap: 8px; width: 100%; min-width: 0; justify-content: center; }
+  .badge {
+    width: 26px; height: 26px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800; color: #fff;
     flex-shrink: 0;
   }
-  button.stepper {
+  .team-card.home .badge { background: var(--home); }
+  .team-card.away .badge { background: var(--away); }
+  .team-name {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    background: transparent;
+    border: none;
+    color: var(--ink);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 4px 2px;
+    border-radius: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .team-name:focus { background: var(--line); outline: none; }
+  .score-num {
+    font-size: clamp(34px, 12vw, 56px);
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+  .btn-row { display: flex; gap: 8px; width: 100%; }
+  .btn {
+    flex: 1;
     border: none;
     border-radius: 16px;
-    font-size: clamp(28px, 8vw, 40px);
-    font-weight: 700;
     padding: 14px 0;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     touch-action: manipulation;
   }
-  .team.home button.plus { background: var(--home); }
-  .team.away button.plus { background: var(--away); }
-  button.minus {
-    background: rgba(255,255,255,0.1);
-    color: var(--text);
-    font-size: clamp(22px, 6vw, 30px);
-    padding: 10px 0;
-  }
-  button.stepper:active { transform: scale(0.95); }
+  .btn svg { width: 20px; height: 20px; }
+  .team-card.home .btn.plus { background: var(--home); }
+  .team-card.away .btn.plus { background: var(--away); }
+  .btn.plus svg { stroke: #fff; }
+  .btn.minus { background: var(--line); }
+  .btn.minus svg { stroke: var(--ink); }
+  .btn:active { transform: scale(0.94); }
 
-  footer {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 8px 12px calc(10px + env(safe-area-inset-bottom));
+  /* ---------- Timeline card ---------- */
+  .timeline-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+  .timeline-head h2 { margin: 0 0 2px; font-size: 15px; font-weight: 800; }
+  .timeline-head p { margin: 0; font-size: 12px; color: var(--muted); font-weight: 500; }
+  .legend { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; flex-shrink: 0; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: var(--muted); white-space: nowrap; }
+  .legend-dot { width: 7px; height: 7px; border-radius: 50%; }
+  .legend-item.home .legend-dot { background: var(--home); }
+  .legend-item.away .legend-dot { background: var(--away); }
+
+  #timelineSvg { width: 100%; height: auto; display: block; overflow: visible; }
+  .timeline-empty {
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    padding: 30px 10px;
+    font-weight: 500;
   }
-  footer button {
+  .timeline-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .end-dot { animation: pulse 1.6s ease-out infinite; }
+  @keyframes pulse {
+    0% { r: 5; opacity: 0.55; }
+    70% { r: 13; opacity: 0; }
+    100% { r: 13; opacity: 0; }
+  }
+
+  /* ---------- Reset ---------- */
+  .reset-link {
     border: none;
-    background: rgba(255,255,255,0.08);
+    background: transparent;
     color: var(--muted);
     font-size: 13px;
-    font-weight: 600;
-    padding: 10px 18px;
-    border-radius: 999px;
-    letter-spacing: 0.03em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 10px;
+    text-align: center;
   }
-  footer button:active { background: rgba(255,255,255,0.16); }
 
   #confirmBar {
     position: fixed;
     left: 0; right: 0; bottom: 0;
-    background: #1a1030;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+    background: var(--card);
+    box-shadow: 0 -8px 24px rgba(30,33,22,0.1);
+    border-top: 1px solid var(--line);
+    padding: 16px 18px calc(16px + env(safe-area-inset-bottom));
     display: none;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
   }
   #confirmBar.show { display: flex; }
-  #confirmBar span { font-size: 14px; color: var(--text); }
+  #confirmBar span { font-size: 14px; font-weight: 600; color: var(--ink); }
   #confirmBar .row { display: flex; gap: 8px; }
   #confirmBar button {
     border: none;
-    border-radius: 10px;
-    padding: 10px 16px;
+    border-radius: 12px;
+    padding: 11px 16px;
     font-weight: 700;
     font-size: 14px;
   }
-  #confirmBar .yes { background: #ff4d4d; color: #fff; }
-  #confirmBar .no { background: rgba(255,255,255,0.1); color: var(--text); }
+  #confirmBar .yes { background: #E0473A; color: #fff; }
+  #confirmBar .no { background: var(--line); color: var(--ink); }
 </style>
 </head>
 <body>
 <div id="app">
-  <header>
-    <h1>Netball Tracker</h1>
-  </header>
-  <main>
-    <div class="team home">
-      <input class="team-name" id="homeName" value="Home" maxlength="14" />
-      <div class="score-display"><span id="homeScore">0</span></div>
-      <div class="controls">
-        <button class="stepper plus" data-team="home" data-delta="1">+1</button>
-        <button class="stepper minus" data-team="home" data-delta="-1">−1</button>
+  <div class="topbar">
+    <div class="brand">
+      <span class="live-dot"></span>
+      <h1>Netball Tracker</h1>
+    </div>
+    <div class="timer" id="elapsedLabel">0:00</div>
+  </div>
+
+  <div class="card hero level" id="heroCard">
+    <div class="hero-label" id="heroLabel">Scores level</div>
+    <div class="hero-value" id="heroValue">0</div>
+    <div class="hero-sub" id="heroSub">Tap + or − below to update the score</div>
+  </div>
+
+  <div class="teams-row">
+    <div class="card team-card home" id="homeCard">
+      <div class="team-head">
+        <div class="badge" id="homeBadge">H</div>
+        <input class="team-name" id="homeName" value="Home" maxlength="14" />
+      </div>
+      <div class="score-num" id="homeScore">0</div>
+      <div class="btn-row">
+        <button class="btn minus" data-team="home" data-delta="-1" aria-label="Subtract Home goal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <button class="btn plus" data-team="home" data-delta="1" aria-label="Add Home goal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
       </div>
     </div>
-    <div class="team away">
-      <input class="team-name" id="awayName" value="Away" maxlength="14" />
-      <div class="score-display"><span id="awayScore">0</span></div>
-      <div class="controls">
-        <button class="stepper plus" data-team="away" data-delta="1">+1</button>
-        <button class="stepper minus" data-team="away" data-delta="-1">−1</button>
+
+    <div class="card team-card away" id="awayCard">
+      <div class="team-head">
+        <div class="badge" id="awayBadge">A</div>
+        <input class="team-name" id="awayName" value="Away" maxlength="14" />
+      </div>
+      <div class="score-num" id="awayScore">0</div>
+      <div class="btn-row">
+        <button class="btn minus" data-team="away" data-delta="-1" aria-label="Subtract Away goal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <button class="btn plus" data-team="away" data-delta="1" aria-label="Add Away goal">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
       </div>
     </div>
-  </main>
-  <footer>
-    <button id="resetBtn">Reset Game</button>
-  </footer>
+  </div>
+
+  <div class="card timeline-card">
+    <div class="timeline-head">
+      <div>
+        <h2>Score Timeline</h2>
+        <p>Point difference through the match</p>
+      </div>
+      <div class="legend">
+        <div class="legend-item home"><span class="legend-dot"></span><span id="homeLegendLabel">Home</span></div>
+        <div class="legend-item away"><span class="legend-dot"></span><span id="awayLegendLabel">Away</span></div>
+      </div>
+    </div>
+    <svg id="timelineSvg" viewBox="0 0 320 160" preserveAspectRatio="none"></svg>
+    <div class="timeline-foot">
+      <span>Game start</span>
+      <span id="timelineNowLabel">Now</span>
+    </div>
+  </div>
+
+  <button class="reset-link" id="resetBtn">Reset Game</button>
 </div>
 
 <div id="confirmBar">
-  <span>Reset score to 0 - 0?</span>
+  <span>Reset score and timeline to 0 - 0?</span>
   <div class="row">
     <button class="no" id="cancelReset">Cancel</button>
     <button class="yes" id="confirmReset">Reset</button>
@@ -201,61 +325,218 @@
 </div>
 
 <script>
-  const STORAGE_KEY = 'netball-tracker-state-v1';
+  const STORAGE_KEY = 'netball-tracker-state-v2';
+  const HOME_COLOR = '#FF6B4A', HOME_SOFT = '#FFE3D8', HOME_DEEP = '#E05230';
+  const AWAY_COLOR = '#4C63E0', AWAY_SOFT = '#DCE1FA', AWAY_DEEP = '#3948B8';
 
+  const now = Date.now();
   const state = Object.assign({
     home: 0,
     away: 0,
     homeName: 'Home',
-    awayName: 'Away'
+    awayName: 'Away',
+    startTime: now,
+    events: [] // {t, diff}
   }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
 
-  const homeScoreEl = document.getElementById('homeScore');
-  const awayScoreEl = document.getElementById('awayScore');
-  const homeNameEl = document.getElementById('homeName');
-  const awayNameEl = document.getElementById('awayName');
+  const el = id => document.getElementById(id);
+  const homeScoreEl = el('homeScore'), awayScoreEl = el('awayScore');
+  const homeNameEl = el('homeName'), awayNameEl = el('awayName');
+  const homeBadgeEl = el('homeBadge'), awayBadgeEl = el('awayBadge');
+  const homeLegendEl = el('homeLegendLabel'), awayLegendEl = el('awayLegendLabel');
+  const heroCard = el('heroCard'), heroLabel = el('heroLabel'), heroValue = el('heroValue'), heroSub = el('heroSub');
+  const elapsedLabel = el('elapsedLabel'), timelineNowLabel = el('timelineNowLabel');
+  const svg = el('timelineSvg');
 
   function save() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  }
-
-  function render() {
-    homeScoreEl.textContent = state.home;
-    awayScoreEl.textContent = state.away;
-    homeNameEl.value = state.homeName;
-    awayNameEl.value = state.awayName;
   }
 
   function vibrate() {
     if (navigator.vibrate) navigator.vibrate(15);
   }
 
-  document.querySelectorAll('.stepper').forEach(btn => {
+  function initial(name, fallback) {
+    const t = (name || '').trim();
+    return (t ? t[0] : fallback).toUpperCase();
+  }
+
+  function renderScores() {
+    homeScoreEl.textContent = state.home;
+    awayScoreEl.textContent = state.away;
+    homeNameEl.value = state.homeName;
+    awayNameEl.value = state.awayName;
+    homeBadgeEl.textContent = initial(state.homeName, 'H');
+    awayBadgeEl.textContent = initial(state.awayName, 'A');
+    homeLegendEl.textContent = state.homeName || 'Home';
+    awayLegendEl.textContent = state.awayName || 'Away';
+
+    const diff = state.home - state.away;
+    heroCard.classList.remove('level', 'home-lead', 'away-lead');
+    if (diff > 0) {
+      heroCard.classList.add('home-lead');
+      heroLabel.textContent = `${(state.homeName || 'Home').toUpperCase()} LEADS BY ${diff}`;
+      heroValue.textContent = `+${diff}`;
+      heroSub.textContent = `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
+    } else if (diff < 0) {
+      heroCard.classList.add('away-lead');
+      heroLabel.textContent = `${(state.awayName || 'Away').toUpperCase()} LEADS BY ${Math.abs(diff)}`;
+      heroValue.textContent = `${diff}`;
+      heroSub.textContent = `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
+    } else {
+      heroCard.classList.add('level');
+      heroLabel.textContent = 'Scores level';
+      heroValue.textContent = '0';
+      heroSub.textContent = state.home === 0 ? 'Tap + or − below to update the score' : `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
+    }
+  }
+
+  function fmtClock(ms) {
+    const totalSec = Math.max(0, Math.floor(ms / 1000));
+    const m = Math.floor(totalSec / 60);
+    const s = totalSec % 60;
+    return `${m}:${String(s).padStart(2, '0')}`;
+  }
+
+  const SVG_NS = 'http://www.w3.org/2000/svg';
+  const W = 320, H = 160, PAD_T = 16, PAD_B = 16, PAD_X = 4;
+  const midY = (PAD_T + (H - PAD_B)) / 2;
+  const halfH = (H - PAD_B - PAD_T) / 2;
+
+  function renderTimeline() {
+    const nowTs = Date.now();
+    elapsedLabel.textContent = fmtClock(nowTs - state.startTime);
+    timelineNowLabel.textContent = `Now · ${fmtClock(nowTs - state.startTime)}`;
+
+    svg.innerHTML = '';
+
+    const pts = [{ t: state.startTime, diff: 0 }, ...state.events.map(e => ({ t: e.t, diff: e.diff }))];
+    pts.push({ t: nowTs, diff: pts[pts.length - 1].diff });
+
+    const tMin = pts[0].t;
+    const tMax = Math.max(nowTs, tMin + 60000);
+    const maxAbs = Math.max(3, Math.max(...pts.map(p => Math.abs(p.diff))) + 1);
+
+    const x = t => PAD_X + ((t - tMin) / (tMax - tMin)) * (W - PAD_X * 2);
+    const y = d => midY - (d / maxAbs) * halfH;
+
+    const coords = pts.map(p => ({ x: x(p.t), y: y(p.diff) }));
+
+    let stepD = `M ${coords[0].x.toFixed(1)} ${coords[0].y.toFixed(1)}`;
+    for (let i = 1; i < coords.length; i++) {
+      stepD += ` L ${coords[i].x.toFixed(1)} ${coords[i - 1].y.toFixed(1)}`;
+      stepD += ` L ${coords[i].x.toFixed(1)} ${coords[i].y.toFixed(1)}`;
+    }
+    const last = coords[coords.length - 1];
+    const first = coords[0];
+    const areaD = `${stepD} L ${last.x.toFixed(1)} ${midY} L ${first.x.toFixed(1)} ${midY} Z`;
+
+    const defs = document.createElementNS(SVG_NS, 'defs');
+    defs.innerHTML = `
+      <clipPath id="clipTop"><rect x="0" y="0" width="${W}" height="${midY}"/></clipPath>
+      <clipPath id="clipBottom"><rect x="0" y="${midY}" width="${W}" height="${H - midY}"/></clipPath>
+    `;
+    svg.appendChild(defs);
+
+    // zero baseline
+    const baseline = document.createElementNS(SVG_NS, 'line');
+    baseline.setAttribute('x1', PAD_X); baseline.setAttribute('x2', W - PAD_X);
+    baseline.setAttribute('y1', midY); baseline.setAttribute('y2', midY);
+    baseline.setAttribute('stroke', '#DEDACB');
+    baseline.setAttribute('stroke-width', '1.5');
+    baseline.setAttribute('stroke-dasharray', '3 4');
+    svg.appendChild(baseline);
+
+    // filled areas (home = above zero, away = below zero)
+    [['clipTop', HOME_SOFT], ['clipBottom', AWAY_SOFT]].forEach(([clip, color]) => {
+      const path = document.createElementNS(SVG_NS, 'path');
+      path.setAttribute('d', areaD);
+      path.setAttribute('fill', color);
+      path.setAttribute('clip-path', `url(#${clip})`);
+      svg.appendChild(path);
+    });
+
+    // stroke lines
+    [['clipTop', HOME_COLOR], ['clipBottom', AWAY_COLOR]].forEach(([clip, color]) => {
+      const path = document.createElementNS(SVG_NS, 'path');
+      path.setAttribute('d', stepD);
+      path.setAttribute('fill', 'none');
+      path.setAttribute('stroke', color);
+      path.setAttribute('stroke-width', '3');
+      path.setAttribute('stroke-linejoin', 'round');
+      path.setAttribute('stroke-linecap', 'round');
+      path.setAttribute('clip-path', `url(#${clip})`);
+      svg.appendChild(path);
+    });
+
+    // axis labels
+    [[maxAbs, PAD_T + 4], [0, midY + 3], [-maxAbs, H - PAD_B]].forEach(([val, ypos]) => {
+      const t = document.createElementNS(SVG_NS, 'text');
+      t.setAttribute('x', PAD_X);
+      t.setAttribute('y', ypos);
+      t.setAttribute('font-size', '9');
+      t.setAttribute('font-weight', '700');
+      t.setAttribute('fill', '#B3AF9E');
+      t.textContent = val > 0 ? `+${val}` : `${val}`;
+      svg.appendChild(t);
+    });
+
+    // end marker with pulse
+    const diffNow = pts[pts.length - 1].diff;
+    const dotColor = diffNow > 0 ? HOME_COLOR : diffNow < 0 ? AWAY_COLOR : '#B3AF9E';
+    const pulse = document.createElementNS(SVG_NS, 'circle');
+    pulse.setAttribute('cx', last.x); pulse.setAttribute('cy', last.y);
+    pulse.setAttribute('r', 5);
+    pulse.setAttribute('fill', dotColor);
+    pulse.setAttribute('fill-opacity', '0.5');
+    pulse.setAttribute('class', 'end-dot');
+    svg.appendChild(pulse);
+    const dot = document.createElementNS(SVG_NS, 'circle');
+    dot.setAttribute('cx', last.x); dot.setAttribute('cy', last.y);
+    dot.setAttribute('r', 4.5);
+    dot.setAttribute('fill', dotColor);
+    dot.setAttribute('stroke', '#fff');
+    dot.setAttribute('stroke-width', '2');
+    svg.appendChild(dot);
+  }
+
+  function render() {
+    renderScores();
+    renderTimeline();
+  }
+
+  document.querySelectorAll('.btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const team = btn.dataset.team;
       const delta = parseInt(btn.dataset.delta, 10);
       state[team] = Math.max(0, state[team] + delta);
+      state.events.push({ t: Date.now(), diff: state.home - state.away });
       vibrate();
       save();
       render();
     });
   });
 
-  homeNameEl.addEventListener('input', () => { state.homeName = homeNameEl.value || 'Home'; save(); });
-  awayNameEl.addEventListener('input', () => { state.awayName = awayNameEl.value || 'Away'; save(); });
+  homeNameEl.addEventListener('input', () => { state.homeName = homeNameEl.value; save(); renderScores(); });
+  awayNameEl.addEventListener('input', () => { state.awayName = awayNameEl.value; save(); renderScores(); });
+  homeNameEl.addEventListener('blur', () => { if (!homeNameEl.value.trim()) { state.homeName = 'Home'; save(); renderScores(); } });
+  awayNameEl.addEventListener('blur', () => { if (!awayNameEl.value.trim()) { state.awayName = 'Away'; save(); renderScores(); } });
 
-  const confirmBar = document.getElementById('confirmBar');
-  document.getElementById('resetBtn').addEventListener('click', () => confirmBar.classList.add('show'));
-  document.getElementById('cancelReset').addEventListener('click', () => confirmBar.classList.remove('show'));
-  document.getElementById('confirmReset').addEventListener('click', () => {
+  const confirmBar = el('confirmBar');
+  el('resetBtn').addEventListener('click', () => confirmBar.classList.add('show'));
+  el('cancelReset').addEventListener('click', () => confirmBar.classList.remove('show'));
+  el('confirmReset').addEventListener('click', () => {
     state.home = 0;
     state.away = 0;
+    state.startTime = Date.now();
+    state.events = [];
     save();
     render();
     confirmBar.classList.remove('show');
   });
 
   render();
+  setInterval(render, 1000);
 </script>
 </body>
 </html>
