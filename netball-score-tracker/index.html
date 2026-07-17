@@ -617,7 +617,7 @@
     timelineEmpty.style.display = 'none';
     svg.style.display = 'block';
     timelineFoot.style.display = 'flex';
-    timelineNowLabel.textContent = `Now · ${fmtClock(nowTs - state.startTime)}`;
+    timelineNowLabel.textContent = `Now · ${fmtClock(playElapsedMs(nowTs))}`;
 
     svg.innerHTML = '';
 
