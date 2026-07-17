@@ -81,6 +81,52 @@
     padding: 18px;
   }
 
+  /* ---------- Status / match control card ---------- */
+  .status-card { padding: 14px 16px; }
+  .phase-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .phase-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #B3AF9E;
+    flex-shrink: 0;
+  }
+  .status-card[data-phase="playing"] .phase-dot { background: #35C46B; box-shadow: 0 0 0 4px rgba(53,196,107,0.18); }
+  .status-card[data-phase="paused"] .phase-dot,
+  .status-card[data-phase="halftime"] .phase-dot { background: #F5A524; box-shadow: 0 0 0 4px rgba(245,165,36,0.18); }
+  .status-card[data-phase="fulltime"] .phase-dot { background: #E0473A; }
+  .phase-label { font-size: 14px; font-weight: 800; color: var(--ink); }
+  .ctrl-row { display: flex; gap: 8px; }
+  .ctrl-btn {
+    flex: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: none;
+    border-radius: 16px;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    color: #fff;
+    touch-action: manipulation;
+  }
+  .ctrl-btn svg { width: 15px; height: 15px; }
+  .ctrl-btn:active { transform: scale(0.96); }
+  .ctrl-btn.start { background: #35C46B; }
+  .ctrl-btn.continue { background: #35C46B; }
+  .ctrl-btn.pause { background: #FBE4B8; color: #7A4E0A; }
+  .ctrl-btn.pause svg { stroke: #7A4E0A; }
+  .ctrl-btn.halftime { background: var(--line); color: var(--ink); }
+  .ctrl-btn.fulltime { background: #FBD9D5; color: #B5341F; }
+
+  .status-card[data-phase="pre"] .ctrl-btn.start { display: flex; }
+  .status-card[data-phase="playing"] .ctrl-btn.pause { display: flex; }
+  .status-card[data-phase="playing"][data-half="first"] .ctrl-btn.halftime { display: flex; }
+  .status-card[data-phase="playing"][data-half="second"] .ctrl-btn.fulltime { display: flex; }
+  .status-card[data-phase="paused"] .ctrl-btn.continue { display: flex; }
+  .status-card[data-phase="halftime"] .ctrl-btn.continue { display: flex; }
+  .status-card[data-phase="fulltime"] .ctrl-row { display: none; }
+
   /* ---------- Hero diff card ---------- */
   .hero {
     text-align: center;
@@ -123,9 +169,9 @@
   .team-card { padding: 16px 12px 14px; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
   .team-head { display: flex; align-items: center; gap: 8px; width: 100%; min-width: 0; justify-content: center; }
   .badge {
-    width: 26px; height: 26px; border-radius: 50%;
+    width: 22px; height: 22px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 12px; font-weight: 800; color: #fff;
+    font-size: 11px; font-weight: 800; color: #fff;
     flex-shrink: 0;
   }
   .team-card.home .badge { background: var(--home); }
@@ -173,6 +219,7 @@
   .btn.minus { background: var(--line); }
   .btn.minus svg { stroke: var(--ink); }
   .btn:active { transform: scale(0.94); }
+  .btn:disabled { opacity: 0.4; pointer-events: none; }
 
   /* ---------- Timeline card ---------- */
   .timeline-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
@@ -186,6 +233,7 @@
 
   #timelineSvg { width: 100%; height: auto; display: block; overflow: visible; }
   .timeline-empty {
+    display: none;
     font-size: 13px;
     color: var(--muted);
     text-align: center;
@@ -249,16 +297,39 @@
 <div id="app">
   <div class="topbar">
     <div class="brand">
-      <span class="live-dot"></span>
+      <span class="live-dot" id="liveDot"></span>
       <h1>Netball Tracker</h1>
     </div>
     <div class="timer" id="elapsedLabel">0:00</div>
   </div>
 
+  <div class="card status-card" id="statusCard" data-phase="pre" data-half="">
+    <div class="phase-row">
+      <span class="phase-dot"></span>
+      <span class="phase-label" id="phaseLabel">Ready to start</span>
+    </div>
+    <div class="ctrl-row">
+      <button class="ctrl-btn start" id="startBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Start Game
+      </button>
+      <button class="ctrl-btn pause" id="pauseBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>
+        Pause
+      </button>
+      <button class="ctrl-btn continue" id="continueBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Continue
+      </button>
+      <button class="ctrl-btn halftime" id="halftimeBtn">Half Time</button>
+      <button class="ctrl-btn fulltime" id="fulltimeBtn">Full Time</button>
+    </div>
+  </div>
+
   <div class="card hero level" id="heroCard">
     <div class="hero-label" id="heroLabel">Scores level</div>
     <div class="hero-value" id="heroValue">0</div>
-    <div class="hero-sub" id="heroSub">Tap + or − below to update the score</div>
+    <div class="hero-sub" id="heroSub">Press Start Game to begin</div>
   </div>
 
   <div class="teams-row">
@@ -306,8 +377,9 @@
         <div class="legend-item away"><span class="legend-dot"></span><span id="awayLegendLabel">Away</span></div>
       </div>
     </div>
+    <div class="timeline-empty" id="timelineEmpty">Timeline will appear once you press Start Game</div>
     <svg id="timelineSvg" viewBox="0 0 320 160" preserveAspectRatio="none"></svg>
-    <div class="timeline-foot">
+    <div class="timeline-foot" id="timelineFoot">
       <span>Game start</span>
       <span id="timelineNowLabel">Now</span>
     </div>
@@ -317,26 +389,31 @@
 </div>
 
 <div id="confirmBar">
-  <span>Reset score and timeline to 0 - 0?</span>
+  <span id="confirmText">Reset score and timeline to 0 - 0?</span>
   <div class="row">
-    <button class="no" id="cancelReset">Cancel</button>
-    <button class="yes" id="confirmReset">Reset</button>
+    <button class="no" id="cancelConfirm">Cancel</button>
+    <button class="yes" id="confirmYes">Confirm</button>
   </div>
 </div>
 
 <script>
-  const STORAGE_KEY = 'netball-tracker-state-v3';
+  const STORAGE_KEY = 'netball-tracker-state-v4';
   const HOME_COLOR = '#FF6B4A', HOME_SOFT = '#FFE3D8', HOME_DEEP = '#E05230';
   const AWAY_COLOR = '#4C63E0', AWAY_SOFT = '#DCE1FA', AWAY_DEEP = '#3948B8';
 
-  const now = Date.now();
   const state = Object.assign({
     home: 0,
     away: 0,
     homeName: 'Koonung Lightning',
     awayName: 'Fintona Ferns',
-    startTime: now,
-    events: [] // {t, diff}
+    startTime: null,
+    events: [], // {t, diff}
+    phase: 'pre', // 'pre' | 'playing' | 'paused' | 'halftime' | 'fulltime'
+    half: null, // 'first' | 'second'
+    playedMs: 0,
+    segmentStart: null,
+    halftimeAt: null,
+    fulltimeAt: null
   }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
 
   const el = id => document.getElementById(id);
@@ -347,6 +424,18 @@
   const heroCard = el('heroCard'), heroLabel = el('heroLabel'), heroValue = el('heroValue'), heroSub = el('heroSub');
   const elapsedLabel = el('elapsedLabel'), timelineNowLabel = el('timelineNowLabel');
   const svg = el('timelineSvg');
+  const statusCard = el('statusCard'), phaseLabelEl = el('phaseLabel');
+  const timelineEmpty = el('timelineEmpty'), timelineFoot = el('timelineFoot');
+  const scoreBtns = document.querySelectorAll('.btn');
+  const liveDot = el('liveDot');
+
+  const DOT_COLORS = {
+    pre: ['#B3AF9E', 'rgba(179,175,158,0.18)'],
+    playing: ['#35C46B', 'rgba(53,196,107,0.18)'],
+    paused: ['#F5A524', 'rgba(245,165,36,0.18)'],
+    halftime: ['#F5A524', 'rgba(245,165,36,0.18)'],
+    fulltime: ['#E0473A', 'rgba(224,71,58,0)']
+  };
 
   function save() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -361,11 +450,23 @@
     return (t ? t[0] : fallback).toUpperCase();
   }
 
+  function fitTeamName(inputEl) {
+    const max = 14, min = 9;
+    inputEl.style.fontSize = max + 'px';
+    let size = max;
+    while (size > min && inputEl.scrollWidth > inputEl.clientWidth + 1) {
+      size -= 0.5;
+      inputEl.style.fontSize = size + 'px';
+    }
+  }
+
   function renderScores() {
     homeScoreEl.textContent = state.home;
     awayScoreEl.textContent = state.away;
     homeNameEl.value = state.homeName;
     awayNameEl.value = state.awayName;
+    fitTeamName(homeNameEl);
+    fitTeamName(awayNameEl);
     homeBadgeEl.textContent = initial(state.homeName, 'H');
     awayBadgeEl.textContent = initial(state.awayName, 'A');
     homeLegendEl.textContent = state.homeName || 'Home';
@@ -387,7 +488,7 @@
       heroCard.classList.add('level');
       heroLabel.textContent = 'Scores level';
       heroValue.textContent = '0';
-      heroSub.textContent = state.home === 0 ? 'Tap + or − below to update the score' : `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
+      heroSub.textContent = state.phase === 'pre' ? 'Press Start Game to begin' : `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
     }
   }
 
@@ -398,6 +499,31 @@
     return `${m}:${String(s).padStart(2, '0')}`;
   }
 
+  function playElapsedMs(nowTs) {
+    return state.playedMs + (state.phase === 'playing' && state.segmentStart ? (nowTs - state.segmentStart) : 0);
+  }
+
+  const PHASE_LABELS = {
+    pre: 'Ready to start',
+    paused: 'Paused',
+    halftime: 'Half Time',
+    fulltime: 'Full Time'
+  };
+
+  function renderStatus() {
+    statusCard.dataset.phase = state.phase;
+    statusCard.dataset.half = state.half || '';
+    if (state.phase === 'playing') {
+      phaseLabelEl.textContent = state.half === 'second' ? 'Second Half · Live' : 'First Half · Live';
+    } else {
+      phaseLabelEl.textContent = PHASE_LABELS[state.phase] || '';
+    }
+    scoreBtns.forEach(btn => { btn.disabled = state.phase !== 'playing'; });
+    const [bg, glow] = DOT_COLORS[state.phase] || DOT_COLORS.pre;
+    liveDot.style.background = bg;
+    liveDot.style.boxShadow = `0 0 0 4px ${glow}`;
+  }
+
   const SVG_NS = 'http://www.w3.org/2000/svg';
   const W = 320, H = 160, PAD_T = 16, PAD_B = 16, PAD_X = 4;
   const midY = (PAD_T + (H - PAD_B)) / 2;
@@ -405,7 +531,17 @@
 
   function renderTimeline() {
     const nowTs = Date.now();
-    elapsedLabel.textContent = fmtClock(nowTs - state.startTime);
+    elapsedLabel.textContent = fmtClock(playElapsedMs(nowTs));
+
+    if (!state.startTime) {
+      timelineEmpty.style.display = 'block';
+      svg.style.display = 'none';
+      timelineFoot.style.display = 'none';
+      return;
+    }
+    timelineEmpty.style.display = 'none';
+    svg.style.display = 'block';
+    timelineFoot.style.display = 'flex';
     timelineNowLabel.textContent = `Now · ${fmtClock(nowTs - state.startTime)}`;
 
     svg.innerHTML = '';
@@ -498,15 +634,40 @@
     dot.setAttribute('stroke', '#fff');
     dot.setAttribute('stroke-width', '2');
     svg.appendChild(dot);
+
+    // half/full time markers
+    function drawTimeMarker(ts, label) {
+      if (!ts) return;
+      const xPos = x(Math.min(Math.max(ts, tMin), tMax));
+      const line = document.createElementNS(SVG_NS, 'line');
+      line.setAttribute('x1', xPos.toFixed(1)); line.setAttribute('x2', xPos.toFixed(1));
+      line.setAttribute('y1', PAD_T - 6); line.setAttribute('y2', H - PAD_B + 2);
+      line.setAttribute('stroke', '#B3AF9E');
+      line.setAttribute('stroke-width', '1.2');
+      line.setAttribute('stroke-dasharray', '2 3');
+      svg.appendChild(line);
+      const txt = document.createElementNS(SVG_NS, 'text');
+      txt.setAttribute('x', (xPos + 3).toFixed(1));
+      txt.setAttribute('y', PAD_T - 2);
+      txt.setAttribute('font-size', '8');
+      txt.setAttribute('font-weight', '800');
+      txt.setAttribute('fill', '#8B9080');
+      txt.textContent = label;
+      svg.appendChild(txt);
+    }
+    drawTimeMarker(state.halftimeAt, 'HT');
+    drawTimeMarker(state.fulltimeAt, 'FT');
   }
 
   function render() {
     renderScores();
+    renderStatus();
     renderTimeline();
   }
 
   document.querySelectorAll('.btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      if (state.phase !== 'playing') return;
       const team = btn.dataset.team;
       const delta = parseInt(btn.dataset.delta, 10);
       state[team] = Math.max(0, state[team] + delta);
@@ -522,16 +683,116 @@
   homeNameEl.addEventListener('blur', () => { if (!homeNameEl.value.trim()) { state.homeName = 'Home'; save(); renderScores(); } });
   awayNameEl.addEventListener('blur', () => { if (!awayNameEl.value.trim()) { state.awayName = 'Away'; save(); renderScores(); } });
 
-  const confirmBar = el('confirmBar');
-  el('resetBtn').addEventListener('click', () => confirmBar.classList.add('show'));
-  el('cancelReset').addEventListener('click', () => confirmBar.classList.remove('show'));
-  el('confirmReset').addEventListener('click', () => {
-    state.home = 0;
-    state.away = 0;
-    state.startTime = Date.now();
+  // ---------- Game phase controls ----------
+  function startGame() {
+    if (state.phase !== 'pre') return;
+    const t = Date.now();
+    state.phase = 'playing';
+    state.half = 'first';
+    state.startTime = t;
+    state.segmentStart = t;
+    state.playedMs = 0;
     state.events = [];
+    state.halftimeAt = null;
+    state.fulltimeAt = null;
+    vibrate();
     save();
     render();
+  }
+
+  function pauseGame() {
+    if (state.phase !== 'playing') return;
+    state.playedMs += Date.now() - state.segmentStart;
+    state.segmentStart = null;
+    state.phase = 'paused';
+    vibrate();
+    save();
+    render();
+  }
+
+  function continueGame() {
+    if (state.phase === 'paused') {
+      state.phase = 'playing';
+      state.segmentStart = Date.now();
+    } else if (state.phase === 'halftime') {
+      state.phase = 'playing';
+      state.half = 'second';
+      state.segmentStart = Date.now();
+    } else {
+      return;
+    }
+    vibrate();
+    save();
+    render();
+  }
+
+  function halfTimeGame() {
+    if (state.phase !== 'playing' || state.half !== 'first') return;
+    state.playedMs += Date.now() - state.segmentStart;
+    state.segmentStart = null;
+    state.phase = 'halftime';
+    state.halftimeAt = Date.now();
+    vibrate();
+    save();
+    render();
+  }
+
+  function fullTimeGame() {
+    if (state.phase !== 'playing' && state.phase !== 'paused') return;
+    if (state.phase === 'playing' && state.segmentStart) {
+      state.playedMs += Date.now() - state.segmentStart;
+    }
+    state.segmentStart = null;
+    state.phase = 'fulltime';
+    state.fulltimeAt = Date.now();
+    vibrate();
+    save();
+    render();
+  }
+
+  function doReset() {
+    state.home = 0;
+    state.away = 0;
+    state.startTime = null;
+    state.events = [];
+    state.phase = 'pre';
+    state.half = null;
+    state.playedMs = 0;
+    state.segmentStart = null;
+    state.halftimeAt = null;
+    state.fulltimeAt = null;
+    save();
+    render();
+  }
+
+  el('startBtn').addEventListener('click', startGame);
+  el('pauseBtn').addEventListener('click', pauseGame);
+  el('continueBtn').addEventListener('click', continueGame);
+  el('halftimeBtn').addEventListener('click', halfTimeGame);
+
+  // ---------- Confirm bar (shared by Full Time and Reset) ----------
+  const confirmBar = el('confirmBar'), confirmText = el('confirmText');
+  let pendingAction = null;
+
+  function openConfirm(message, action) {
+    confirmText.textContent = message;
+    pendingAction = action;
+    confirmBar.classList.add('show');
+  }
+
+  el('fulltimeBtn').addEventListener('click', () => {
+    openConfirm('End the game? This locks in the final score.', fullTimeGame);
+  });
+  el('resetBtn').addEventListener('click', () => {
+    openConfirm('Reset score and timeline to 0 - 0?', doReset);
+  });
+  el('cancelConfirm').addEventListener('click', () => {
+    pendingAction = null;
+    confirmBar.classList.remove('show');
+  });
+  el('confirmYes').addEventListener('click', () => {
+    if (pendingAction) pendingAction();
+    pendingAction = null;
     confirmBar.classList.remove('show');
   });
 
