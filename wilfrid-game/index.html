@@ -422,22 +422,105 @@
   }
 
   // ---------- Furball obstacle ----------
-  function drawFurball(x, y, r) {
+  // A deterministic PRNG keyed off each furball's seed keeps its fluff
+  // pattern stable across frames instead of shimmering every redraw.
+  function makeSeededRandom(seed) {
+    let s = seed >>> 0;
+    return function () {
+      s = (s + 0x6d2b79f5) >>> 0;
+      let t = s;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function drawFurball(x, y, r, seed) {
+    const rand = makeSeededRandom((seed || 0) * 2654435761);
     ctx.save();
     ctx.translate(x, y);
-    ctx.fillStyle = "#9c8b7a";
+
+    // lumpy, irregular pompom silhouette instead of a plain circle
+    const lumps = 10;
+    const lumpR = [];
+    for (let i = 0; i < lumps; i++) lumpR.push(r * (0.82 + rand() * 0.35));
     ctx.beginPath();
-    ctx.arc(0, 0, r, 0, Math.PI * 2);
+    for (let i = 0; i <= lumps; i++) {
+      const a = (i / lumps) * Math.PI * 2;
+      const rr = lumpR[i % lumps];
+      const px = Math.cos(a) * rr, py = Math.sin(a) * rr;
+      if (i === 0) {
+        ctx.moveTo(px, py);
+      } else {
+        const pa = ((i - 0.5) / lumps) * Math.PI * 2;
+        const cRR = ((lumpR[(i - 1) % lumps] + rr) / 2) * 1.06;
+        ctx.quadraticCurveTo(Math.cos(pa) * cRR, Math.sin(pa) * cRR, px, py);
+      }
+    }
+    ctx.closePath();
+
+    const grad = ctx.createRadialGradient(-r * 0.35, -r * 0.4, r * 0.12, 0, 0, r * 1.15);
+    grad.addColorStop(0, "#e6e3dc");
+    grad.addColorStop(0.45, "#b7b3aa");
+    grad.addColorStop(0.8, "#8b8880");
+    grad.addColorStop(1, "#5b5852");
+    ctx.fillStyle = grad;
     ctx.fill();
-    ctx.strokeStyle = "#6e6153";
-    ctx.lineWidth = 1.5;
-    for (let i = 0; i < 10; i++) {
-      const a = (i / 10) * Math.PI * 2;
+
+    // dense grey fur strands, clipped to the lumpy silhouette. Position is
+    // sampled uniformly over the disc (not just outward from center) and
+    // each strand's direction wanders off-radial, so the fluff reads as
+    // chaotic fur rather than a neat starburst.
+    ctx.save();
+    ctx.clip();
+    for (let i = 0; i < 65; i++) {
+      const posA = rand() * Math.PI * 2;
+      const posR = Math.sqrt(rand()) * r * 0.9;
+      const sx = Math.cos(posA) * posR, sy = Math.sin(posA) * posR;
+      const dirA = posA + (rand() - 0.5) * 2.6;
+      const len = r * (0.18 + rand() * 0.4);
+      const curl = (rand() - 0.5) * len * 1.1;
+      const shade = rand();
+      ctx.strokeStyle = shade < 0.33 ? "rgba(66,63,58,0.45)" : shade < 0.66 ? "rgba(150,146,138,0.5)" : "rgba(233,230,222,0.5)";
+      ctx.lineWidth = 0.9 + rand() * 1.2;
+      ctx.lineCap = "round";
       ctx.beginPath();
-      ctx.moveTo(Math.cos(a) * r * 0.6, Math.sin(a) * r * 0.6);
-      ctx.lineTo(Math.cos(a) * r * 1.25, Math.sin(a) * r * 1.25);
+      ctx.moveTo(sx, sy);
+      ctx.quadraticCurveTo(
+        sx + Math.cos(dirA) * len * 0.5 + curl, sy + Math.sin(dirA) * len * 0.5 - curl,
+        sx + Math.cos(dirA) * len, sy + Math.sin(dirA) * len
+      );
       ctx.stroke();
     }
+    ctx.restore();
+
+    // soft fuzzy strands poking past the edge for a fluffy contour
+    for (let i = 0; i < 28; i++) {
+      const a = (i / 28) * Math.PI * 2 + rand() * 0.2;
+      const baseR = r * (0.9 + rand() * 0.2);
+      const len = r * (0.14 + rand() * 0.24);
+      const bend = (rand() - 0.5) * len * 0.6;
+      ctx.strokeStyle = "rgba(150,146,138,0.5)";
+      ctx.lineWidth = 1.1;
+      ctx.lineCap = "round";
+      ctx.beginPath();
+      ctx.moveTo(Math.cos(a) * baseR, Math.sin(a) * baseR);
+      ctx.quadraticCurveTo(
+        Math.cos(a) * (baseR + len * 0.6) + bend, Math.sin(a) * (baseR + len * 0.6),
+        Math.cos(a) * (baseR + len), Math.sin(a) * (baseR + len)
+      );
+      ctx.stroke();
+    }
+
+    // specular highlight for a rounded, photo-lit look
+    const hi = ctx.createRadialGradient(-r * 0.4, -r * 0.45, 0, -r * 0.4, -r * 0.45, r * 0.5);
+    hi.addColorStop(0, "rgba(255,255,255,0.55)");
+    hi.addColorStop(1, "rgba(255,255,255,0)");
+    ctx.fillStyle = hi;
+    ctx.beginPath();
+    ctx.arc(-r * 0.4, -r * 0.45, r * 0.5, 0, Math.PI * 2);
+    ctx.fill();
+
     ctx.restore();
   }
 
@@ -824,7 +907,7 @@
       const gap = clamp(1.4 - L1.survived * 0.02, 0.55, 1.4);
       L1.spawnTimer = gap + Math.random() * 0.3;
       const r = 14 + Math.random() * 6;
-      L1.obstacles.push({ x: W + 30, r });
+      L1.obstacles.push({ x: W + 30, r, seed: Math.floor(Math.random() * 1e9) });
     }
 
     // move + collide
@@ -854,7 +937,7 @@
     drawGround(GAME.scroll);
 
     for (const o of L1.obstacles) {
-      drawFurball(o.x, GROUND_Y - o.r * 0.7, o.r);
+      drawFurball(o.x, GROUND_Y - o.r * 0.7, o.r, o.seed);
     }
 
     if (L1.hitFlash > 0 && Math.floor(L1.hitFlash * 12) % 2 === 0) {
