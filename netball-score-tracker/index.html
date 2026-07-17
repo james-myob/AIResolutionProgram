@@ -426,17 +426,6 @@
     </div>
   </div>
 
-  <div class="card goal-log-card">
-    <div class="timeline-head">
-      <div>
-        <h2>Goal Log</h2>
-        <p>Tap a goal to record who scored</p>
-      </div>
-    </div>
-    <div class="goal-log-list" id="goalLogList"></div>
-    <div class="goal-log-empty" id="goalLogEmpty">Goals will appear here once scoring starts</div>
-  </div>
-
   <div class="card timeline-card">
     <div class="timeline-head">
       <div>
@@ -454,6 +443,17 @@
       <span>Game start</span>
       <span id="timelineNowLabel">Now</span>
     </div>
+  </div>
+
+  <div class="card goal-log-card">
+    <div class="timeline-head">
+      <div>
+        <h2>Goal Log</h2>
+        <p>Tap a goal to record who scored</p>
+      </div>
+    </div>
+    <div class="goal-log-list" id="goalLogList"></div>
+    <div class="goal-log-empty" id="goalLogEmpty">Goals will appear here once scoring starts</div>
   </div>
 
   <button class="reset-link" id="resetBtn">Reset Game</button>
@@ -550,20 +550,21 @@
     awayLegendEl.textContent = state.awayName || 'Away';
 
     const diff = state.home - state.away;
+    const isFinal = state.phase === 'fulltime';
     heroCard.classList.remove('level', 'home-lead', 'away-lead');
     if (diff > 0) {
       heroCard.classList.add('home-lead');
-      heroLabel.textContent = `${(state.homeName || 'Home').toUpperCase()} LEADS BY ${diff}`;
+      heroLabel.textContent = isFinal ? `${(state.homeName || 'Home').toUpperCase()} WINS` : `${(state.homeName || 'Home').toUpperCase()} LEADS BY ${diff}`;
       heroValue.textContent = `+${diff}`;
       heroSub.textContent = `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
     } else if (diff < 0) {
       heroCard.classList.add('away-lead');
-      heroLabel.textContent = `${(state.awayName || 'Away').toUpperCase()} LEADS BY ${Math.abs(diff)}`;
+      heroLabel.textContent = isFinal ? `${(state.awayName || 'Away').toUpperCase()} WINS` : `${(state.awayName || 'Away').toUpperCase()} LEADS BY ${Math.abs(diff)}`;
       heroValue.textContent = `${diff}`;
       heroSub.textContent = `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
     } else {
       heroCard.classList.add('level');
-      heroLabel.textContent = 'Scores level';
+      heroLabel.textContent = isFinal ? 'Final score · Draw' : 'Scores level';
       heroValue.textContent = '0';
       heroSub.textContent = state.phase === 'pre' ? 'Press Start Game to begin' : `${state.homeName || 'Home'} ${state.home} — ${state.away} ${state.awayName || 'Away'}`;
     }
@@ -587,11 +588,20 @@
     fulltime: 'Full Time'
   };
 
+  function fullTimeResultText() {
+    const diff = state.home - state.away;
+    if (diff > 0) return `Full Time · ${state.homeName || 'Home'} win ${state.home}-${state.away}`;
+    if (diff < 0) return `Full Time · ${state.awayName || 'Away'} win ${state.away}-${state.home}`;
+    return `Full Time · Draw ${state.home}-${state.away}`;
+  }
+
   function renderStatus() {
     statusCard.dataset.phase = state.phase;
     statusCard.dataset.half = state.half || '';
     if (state.phase === 'playing') {
       phaseLabelEl.textContent = state.half === 'second' ? 'Second Half · Live' : 'First Half · Live';
+    } else if (state.phase === 'fulltime') {
+      phaseLabelEl.textContent = fullTimeResultText();
     } else {
       phaseLabelEl.textContent = PHASE_LABELS[state.phase] || '';
     }
