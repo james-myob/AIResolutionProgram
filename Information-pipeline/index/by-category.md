@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-17
+- Thinking Machines ships Inkling, its first open-weight model — 975B MoE positioned as fine-tuning raw material, not a flagship — [briefing](../daily/2026-07-17.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-17
+- OpenAI ships Codex Micro, a $230 agent-steering keyboard; reportedly building a screenless AI speaker — [briefing](../daily/2026-07-17.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-17
+- Anthropic and Blackstone launch Ode, a $1.5B AI-implementation joint venture — [briefing](../daily/2026-07-17.md)
+- Apple sues OpenAI for trade-secret theft over hardware plans — [briefing](../daily/2026-07-17.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +72,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-17
+- Two agent-security failures surface: Claude memory/web_fetch exfiltration and Grok Build's silent directory uploads — [briefing](../daily/2026-07-17.md)
+- EU AI Act enforcement goes live; GPAI fines possible from 2 August — [briefing](../daily/2026-07-17.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +88,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-17
+- a16z: the AI debate is really about how people want to spend time, not save it — [briefing](../daily/2026-07-17.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -88,6 +105,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-17
+- Ethan Mollick: agents are replacing chatbots for real work — [briefing](../daily/2026-07-17.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +118,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-17](../daily/2026-07-17.md#-quick-hits).
