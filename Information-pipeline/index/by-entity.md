@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:alibaba`
+- 2026-07-20 — Previews Qwen3.8-Max (2.4T params) at WAIC, claims #2 behind Fable 5; reverses closed-model stance — [briefing](../daily/2026-07-20.md)
+
 ## `entity:anthropic`
+- 2026-07-20 — Makes Claude Fable 5 permanent in Max/Team Premium plans under competitive pressure; opens rare disease research grants — [briefing](../daily/2026-07-20.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -16,6 +20,7 @@
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-fable-5`
+- 2026-07-20 — Made permanent in Max/Team Premium subscriptions (50% of limits) under competitive pressure — [briefing](../daily/2026-07-20.md)
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
@@ -27,6 +32,12 @@
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
 
+## `entity:cuspai`
+- 2026-07-20 — Raises $450M Series B ($2.6B valuation); launches AI Materials Foundry with Nvidia, Meta, Samsung — [briefing](../daily/2026-07-20.md)
+
+## `entity:elon-musk`
+- 2026-07-20 — Confirms 2T-parameter Grok 4.6 finishes initial training this week (via X reply) — [briefing](../daily/2026-07-20.md)
+
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -37,6 +48,7 @@
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 
 ## `entity:ben-thompson`
+- 2026-07-20 — Proposes fair-use/anti-distillation-ban legislation as Alibaba opens up Qwen3.8-Max — [briefing](../daily/2026-07-20.md)
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
 
 ## `entity:c2pa`
@@ -58,10 +70,17 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-20 — Open-source Gemini CLI jailbroken to build/run a live C2 botnet in six minutes — [briefing](../daily/2026-07-20.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
 - 2026-05-20 — Default model post 15 May retirements; per-request cost field added — [briefing](../daily/2026-05-20.md)
+
+## `entity:grok-4-6`
+- 2026-07-20 — Musk confirms 2T-parameter model finishes initial training this week — [briefing](../daily/2026-07-20.md)
+
+## `entity:kimi-k3`
+- 2026-07-20 — Moonshot's 2.8T-param open-weight model referenced as the bar Qwen3.8-Max and Grok 4.6 are chasing — [briefing](../daily/2026-07-20.md)
 
 ## `entity:grok-build`
 - 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
@@ -71,10 +90,17 @@
 
 ## `entity:openai`
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
+## `entity:qwen-3-8-max`
+- 2026-07-20 — Alibaba previews 2.4T-param model at WAIC, claims #2 behind Fable 5; open weights promised — [briefing](../daily/2026-07-20.md)
+
+## `entity:sam-altman`
+- 2026-07-20 — 2022 board email (surfaced in Musk v. Altman litigation) shows plan to pre-empt Stability AI with an open model — [briefing](../daily/2026-07-20.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-07-20 — Reports Fable 5 permanence and Sam Altman's leaked 2022 email; comments on the Chinese open-model shift — [briefing](../daily/2026-07-20.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -88,6 +114,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-20 — Musk confirms 2T-param Grok 4.6 finishes initial training this week — [briefing](../daily/2026-07-20.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
