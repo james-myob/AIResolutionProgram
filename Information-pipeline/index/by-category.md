@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-20
+- Alibaba previews Qwen3.8-Max (2.4T params) at WAIC, claims #2 behind Fable 5 — [briefing](../daily/2026-07-20.md)
+- Musk: 2T-parameter Grok 4.6 finishes initial training this week — [briefing](../daily/2026-07-20.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-20
+- Anthropic makes Claude Fable 5 permanent in Max/Team Premium plans, reversing removal plan under competitive pressure — [briefing](../daily/2026-07-20.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-20
+- CuspAI raises $450M Series B ($2.6B valuation), launches AI Materials Foundry with Nvidia, Meta, Samsung — [briefing](../daily/2026-07-20.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +72,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-20
+- Jailbroken Gemini CLI builds and runs a live C2 botnet in six minutes, 89% AI-authored — [briefing](../daily/2026-07-20.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +87,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-20
+- Ben Thompson proposes legalising model distillation via fair-use reform, as Alibaba opens up Qwen3.8-Max — [briefing](../daily/2026-07-20.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +114,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-20](../daily/2026-07-20.md#-quick-hits).
