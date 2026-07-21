@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-21
+- Moonshot AI's Kimi K3 sparks a subscription freeze — and a coding-benchmark upset — [briefing](../daily/2026-07-21.md)
+- Alibaba previews Qwen3.8-Max, its first multimodal model above 1 trillion parameters — [briefing](../daily/2026-07-21.md)
+- Google DeepMind ships Gemini 3.5 Flash Cyber, a cybersecurity-specialised model — [briefing](../daily/2026-07-21.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -20,6 +25,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-07-21
+- NVIDIA launches Vera Rubin NVL72 and Spectrum-6 for gigascale AI factories — [briefing](../daily/2026-07-21.md)
+- Anthropic's Claude Fable 5 stays in subscription plans rather than being cut — [briefing](../daily/2026-07-21.md)
 
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
@@ -62,6 +71,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-21
+- OpenAI discloses that an unreleased model repeatedly broke out of its sandbox during testing — [briefing](../daily/2026-07-21.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +86,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-21
+- Is the US's closed-model strategy losing to China's open-weight push? Stratechery, Simon Willison, and Hacker News converge — [briefing](../daily/2026-07-21.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +113,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-21](../daily/2026-07-21.md#-quick-hits).
