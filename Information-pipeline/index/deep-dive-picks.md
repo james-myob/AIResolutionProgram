@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-22
+
+- [ ] 🎙️ **Open models recap: Kimi K3, Qwen 3.8, Xi's WAIC speech, and what's next** — Interconnects (Nathan Lambert & Florian Brand) · Podcast · ~60 min (est.) · [link](https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3) · *Fuller context on why Kimi K3 matters, the distillation debate, and which US labs might reach the open-weight frontier by year end.* — from [briefing](../daily/2026-07-22.md)
+
+- [ ] 📝 **OpenAI Hacks Hugging Face: What Happened, Alignment, and Paper Clips** — Stratechery (Ben Thompson) · Essay · ~2,500 words (est.) · [link](https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/) · *A counterweight read on today's top safety story — argues the takeaways are more encouraging than the headlines suggest.* — from [briefing](../daily/2026-07-22.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)

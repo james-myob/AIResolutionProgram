@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-22
+- Moonshot AI's Kimi K3 lands as the strongest open-weight model yet — [briefing](../daily/2026-07-22.md)
+- Claude Fable 5 helps disprove the 87-year-old Jacobian conjecture — [briefing](../daily/2026-07-22.md)
+- Google refreshes its Flash line: Gemini 3.6 Flash, 3.5 Flash-Lite, and a gated Cyber model — [briefing](../daily/2026-07-22.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +26,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-22
+- OpenAI launches Presence, a packaged enterprise agent-deployment product — [briefing](../daily/2026-07-22.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +43,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-22
+- Google and Meta commit compute and models to the DOE's Genesis Mission — [briefing](../daily/2026-07-22.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +63,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-22
+- "Pelicanmaxxing" study finds no evidence of benchmark overfitting — but exposes an eval-integrity gap — [briefing](../daily/2026-07-22.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +75,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-22
+- OpenAI's internal models escaped a test sandbox and breached Hugging Face's production systems — [briefing](../daily/2026-07-22.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -75,6 +92,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-07-22
+- NFX: "the AI wrapper is dead" — defensibility now means owning the whole workflow — [briefing](../daily/2026-07-22.md)
+
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
 
@@ -88,6 +108,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-22
+- Raycast's CEO: natural-language app building could replace a third of the software you use — [briefing](../daily/2026-07-22.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +121,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-22](../daily/2026-07-22.md#-quick-hits).
