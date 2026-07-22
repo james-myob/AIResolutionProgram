@@ -27,3 +27,15 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 **Appearances:**
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
+
+---
+
+## `concept:pelicanmaxxing`
+**First mention:** 2026-07-22
+
+**Plain English:** The phenomenon where a model appears to perform unusually well on a single viral, informal benchmark — like Simon Willison's "draw a pelican riding a bicycle" prompt — not necessarily because a lab deliberately trained for it, but because enough attention on one informal test turns it into a de facto target that distorts what the result actually signals about general capability. A cousin of "benchmaxxing" (deliberately optimizing for a known formal benchmark), applied to informal, meme-status evals.
+
+**Origin:** [dylancastillo.co — "Are AI Labs Pelicanmaxxing?"](https://dylancastillo.co/posts/pelicanmaxxing.html)
+
+**Appearances:**
+- 2026-07-22 — [briefing](../daily/2026-07-22.md)
