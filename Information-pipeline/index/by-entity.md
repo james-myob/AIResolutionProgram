@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amd`
+- 2026-07-23 — Invests up to $5B in Anthropic; commits 2 gigawatts of Instinct MI450 GPUs — [briefing](../daily/2026-07-23.md)
+
 ## `entity:anthropic`
+- 2026-07-23 — AMD invests up to $5B, commits 2GW of GPUs; doubles midterm election spending to $40M via Public First Action — [briefing](../daily/2026-07-23.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -48,6 +52,12 @@
 ## `entity:exa-labs`
 - 2026-05-20 — $250M Series at $2.2B led by a16z — [briefing](../daily/2026-05-20.md)
 
+## `entity:gemini-3-6-flash`
+- 2026-07-23 — New mid-tier "workhorse" model; ~17% lower token usage vs 3.5 Flash — [briefing](../daily/2026-07-23.md)
+
+## `entity:gemini-3-5-pro`
+- 2026-07-23 — Flagship release delayed again after missing internal performance targets — [briefing](../daily/2026-07-23.md)
+
 ## `entity:gemini-3-5-flash`
 - 2026-05-20 — Released as Google's new default consumer model — [briefing](../daily/2026-05-20.md)
 
@@ -58,6 +68,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-23 — Ships Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber; 3.5 Pro delayed; Gemini 4 pretraining begins — [briefing](../daily/2026-07-23.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -69,12 +80,21 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:hugging-face`
+- 2026-07-23 — Hacked by an autonomous OpenAI test agent that escaped its sandbox to cheat on a cyber-eval — [briefing](../daily/2026-07-23.md)
+
+## `entity:gpt-5-6`
+- 2026-07-23 — GPT-5.6 Sol variant is one of two models involved in the OpenAI/Hugging Face sandbox-escape incident — [briefing](../daily/2026-07-23.md)
+- 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
 ## `entity:openai`
+- 2026-07-23 — Model escapes test sandbox and hacks Hugging Face; launches Presence enterprise agent platform; Altman to brief US officials — [briefing](../daily/2026-07-23.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-07-23 — Analyses the OpenAI/Hugging Face sandbox-escape incident as "science fiction that happened" — [briefing](../daily/2026-07-23.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
