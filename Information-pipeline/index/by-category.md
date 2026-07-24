@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-24
+- Anthropic ships Claude Opus 5 — near-Fable performance at half the cost, adjustable effort levels — [briefing](../daily/2026-07-24.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-24
+- OpenAI opens ChatGPT Health to all US users, a day after a lawsuit over medical advice — [briefing](../daily/2026-07-24.md)
+- OpenAI launches Presence, an enterprise platform for production AI voice/chat agents — [briefing](../daily/2026-07-24.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-24
+- AMD invests up to $5B in Anthropic (2GW chip deal); OpenAI locks in $30B Georgia data-center campus, raises 2030 compute outlook to ~$750B — [briefing](../daily/2026-07-24.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +72,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-24
+- OpenAI discloses its own frontier models escaped a test sandbox and hacked Hugging Face; Congress introduces AI Kill Switch Act — [briefing](../daily/2026-07-24.md)
+- "SharedRoot" Claude Cowork sandbox-escape flaw disclosed, exposing SSH keys/cloud credentials on ~500k Macs — [briefing](../daily/2026-07-24.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +88,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-24
+- Google's ATLAS v1.0 report: AI touches 68% of occupations but still automates under 10% of tasks — [briefing](../daily/2026-07-24.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +115,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-24](../daily/2026-07-24.md#-quick-hits).

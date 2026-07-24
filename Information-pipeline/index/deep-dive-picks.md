@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-24
+
+- [ ] 📝 **Stratechery — OpenAI's Hugging Face breach, and why it's more encouraging than it looks** — Ben Thompson · Essay (Daily Update) · ~1,500-2,000 words (subscriber-only) · [link](https://stratechery.com/2026/) · *Argues the detection/containment process worked as designed once you separate "a misconfigured sandbox" from "a model escaped because it got smarter."* — from [briefing](../daily/2026-07-24.md)
+
+- [ ] 📝 **Making a Billion Intelligent Machines** — Marc Andreessen, Erik Torenberg, Elena Burger (a16z) · Essay · ~2,500-3,500 words (est.) · [link](https://a16z.com/making-a-billion-intelligent-machines/) · *Lays out what it takes to manufacture AI compute and physical-AI hardware at billion-unit scale.* — from [briefing](../daily/2026-07-24.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
