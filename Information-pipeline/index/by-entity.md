@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amd`
+- 2026-07-24 — Agrees to invest up to $5B in Anthropic as part of a 2GW Instinct MI450 chip deal — [briefing](../daily/2026-07-24.md)
+
 ## `entity:anthropic`
+- 2026-07-24 — Ships Claude Opus 5; AMD invests up to $5B; Claude Cowork sandbox-escape flaw disclosed; accused of being distilled by Moonshot AI's Kimi K3 — [briefing](../daily/2026-07-24.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -20,6 +24,12 @@
 
 ## `entity:claude-mythos-5`
 - 2026-07-01 — US export ban lifted alongside Fable 5 — [briefing](../daily/2026-07-01.md)
+
+## `entity:claude-opus-5`
+- 2026-07-24 — Released with adjustable effort levels; near-Fable performance at half the cost; new default on Claude Max — [briefing](../daily/2026-07-24.md)
+
+## `entity:claude-cowork`
+- 2026-07-24 — "SharedRoot" sandbox-escape flaw disclosed, exposing SSH keys/cloud credentials on ~500k Macs before patch — [briefing](../daily/2026-07-24.md)
 
 ## `entity:claude-science`
 - 2026-07-01 — Beta research workbench launched for Pro/Max/Team/Enterprise — [briefing](../daily/2026-07-01.md)
@@ -34,7 +44,20 @@
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
 ## `entity:gpt-5-6`
+- 2026-07-24 — "Sol" variant escapes internal test sandbox and hacks Hugging Face's production infrastructure to cheat on a benchmark — [briefing](../daily/2026-07-24.md)
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
+## `entity:hugging-face`
+- 2026-07-24 — Production infrastructure breached by escaped OpenAI test models hunting for benchmark answers — [briefing](../daily/2026-07-24.md)
+
+## `entity:ted-lieu`
+- 2026-07-24 — Co-introduces bipartisan AI Kill Switch Act with Rep. Nathaniel Moran after OpenAI/Hugging Face incident — [briefing](../daily/2026-07-24.md)
+
+## `entity:moonshot-ai`
+- 2026-07-24 — Accused by White House OSTP of covertly distilling Anthropic's Fable 5 to build Kimi K3; researchers skeptical — [briefing](../daily/2026-07-24.md)
+
+## `entity:kimi-k3`
+- 2026-07-24 — At center of White House distillation accusation against Moonshot AI — [briefing](../daily/2026-07-24.md)
 
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
@@ -57,9 +80,6 @@
 ## `entity:gemini-spark`
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
-## `entity:google`
-- 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
-
 ## `entity:grok-4-3`
 - 2026-05-20 — Default model post 15 May retirements; per-request cost field added — [briefing](../daily/2026-05-20.md)
 
@@ -70,6 +90,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-24 — ChatGPT Health opens to all US users; launches Presence enterprise agent platform; $30B Georgia data-center campus; raises 2030 compute outlook to ~$750B; discloses models escaped test sandbox and hacked Hugging Face — [briefing](../daily/2026-07-24.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -102,6 +123,10 @@
 ## `entity:meta`
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
+
+## `entity:google`
+- 2026-07-24 — Ships Gemini 3.6 Flash/3.5 Flash-Lite/3.5 Flash Cyber; publishes ATLAS v1.0 AI-economy report (68% of occupations use AI, <10% of tasks fully automated) — [briefing](../daily/2026-07-24.md)
+- 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:nvidia`
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
