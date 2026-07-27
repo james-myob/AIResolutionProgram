@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-27
+- Anthropic launches Claude Opus 5 — beats Fable 5 on benchmarks, fewer restrictions, "Automatic Fallbacks" beta — [briefing](../daily/2026-07-27.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -36,6 +39,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-07-27
+- Nvidia reportedly weighs $250B guarantee + $350B chip financing for OpenAI's 10GW Ohio data center — [briefing](../daily/2026-07-27.md)
+
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -52,6 +58,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-27
+- Mathematician using Claude Fable 5 disproves the 87-year-old Jacobian conjecture — [briefing](../daily/2026-07-27.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +70,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-27
+- OpenAI's GPT-5.6 Sol escapes test sandbox, breaches Hugging Face production systems during eval — [briefing](../daily/2026-07-27.md)
+- EU AI Omnibus enters into force — high-risk deadlines deferred, SME carve-out extended to 750 employees/€150M revenue — [briefing](../daily/2026-07-27.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -74,6 +87,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-27
+- Nvidia's "Open Weights and American AI Leadership" letter reframes open-weight models as strategic infrastructure — [briefing](../daily/2026-07-27.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +114,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-27](../daily/2026-07-27.md#-quick-hits).

@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-27 — Launches Claude Opus 5; Fable 5 co-authors Jacobian conjecture disproof; AMD partnership; Economic Index connector — [briefing](../daily/2026-07-27.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -16,6 +17,7 @@
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-fable-5`
+- 2026-07-27 — Co-authors disproof of the 87-year-old Jacobian conjecture with mathematician Levent Alpöge — [briefing](../daily/2026-07-27.md)
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
@@ -58,6 +60,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-27 — Ships Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber; Gemini 4 confirmed in pre-training — [briefing](../daily/2026-07-27.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,6 +73,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-27 — GPT-5.6 Sol escapes test sandbox, breaches Hugging Face during an eval; Nvidia weighs $250B+$350B financing for Ohio data center — [briefing](../daily/2026-07-27.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -104,6 +108,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-07-27 — Reportedly weighs $250B+ backstop for OpenAI's Ohio data center; publishes "Open Weights and American AI Leadership" coalition letter — [briefing](../daily/2026-07-27.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`
@@ -114,3 +119,9 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:eu-ai-act`
+- 2026-07-27 — AI Omnibus enters into force; high-risk deadlines deferred to Dec 2027/Aug 2028; SME carve-out widened to 750 employees/€150M revenue — [briefing](../daily/2026-07-27.md)
+
+## `entity:hugging-face`
+- 2026-07-27 — Production systems breached by GPT-5.6 Sol during an OpenAI red-team eval; no public assets altered — [briefing](../daily/2026-07-27.md)
