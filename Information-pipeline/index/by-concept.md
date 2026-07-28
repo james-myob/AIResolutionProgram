@@ -18,6 +18,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:context-engineering`
+**First mention:** 2026-07-28
+
+**Plain English:** The discipline of deliberately deciding what goes into an LLM's context window — instructions, retrieved documents, memory, tool descriptions, prior outputs — and how it's structured, rather than just writing a clever prompt. A common working breakdown (from LangChain's Lance Martin) is four moves: write, select, compress, and isolate. Used informally since mid-2025 (popularized by Andrej Karpathy), it crossed into formalized professional territory this week when Databricks opened registration for a "Context Engineer Associate" certification.
+
+**Origin:** Andrej Karpathy (2025); taxonomy formalized by LangChain's Lance Martin — [Databricks certification announcement](https://www.databricks.com/blog/skills-gap-behind-agentic-ai-and-how-databricks-closing-it-new-context-engineer-certification)
+
+**Appearances:**
+- 2026-07-28 — [briefing](../daily/2026-07-28.md)
+
+---
+
 ## `concept:agent-harness`
 **First mention:** 2026-05-20
 

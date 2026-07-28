@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-28
+
+- [ ] 📝 **Kimi K3: The Open-Weights Escalation** — Nathan Lambert, Interconnects · Essay · ~3,500 words · [link](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation) · *Why China is leaning into open-weight AI as strategy — margin pressure on closed labs, capital-efficiency gaps, and the policy tension in US proposals to restrict Chinese open models.* — from [briefing](../daily/2026-07-28.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
