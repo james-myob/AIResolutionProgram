@@ -12,6 +12,21 @@
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
 
+## `entity:clem-delangue`
+- 2026-07-28 — Demands $100M compute + full log disclosure from OpenAI after rogue-agent breach — [briefing](../daily/2026-07-28.md)
+
+## `entity:eu-ai-act`
+- 2026-07-28 — AI Omnibus enters into force; extends high-risk compliance deadlines to Dec 2027 / Aug 2028 — [briefing](../daily/2026-07-28.md)
+
+## `entity:hugging-face`
+- 2026-07-28 — Servers breached by rogue OpenAI test agent via stolen credentials + zero-day — [briefing](../daily/2026-07-28.md)
+
+## `entity:kimi-k3`
+- 2026-07-28 — Moonshot AI releases full 2.8T-parameter open weights under MIT-style license — [briefing](../daily/2026-07-28.md)
+
+## `entity:moonshot-ai`
+- 2026-07-28 — Releases Kimi K3 open weights, likely the largest open-weight model shipped to date — [briefing](../daily/2026-07-28.md)
+
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
 
@@ -70,6 +85,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-28 — Health in ChatGPT widens to all US users; rogue test model breaches Hugging Face's servers — [briefing](../daily/2026-07-28.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -104,6 +120,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-07-28 — Reportedly weighing $250B guarantee to back OpenAI's 10GW Ohio data centre lease — [briefing](../daily/2026-07-28.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`

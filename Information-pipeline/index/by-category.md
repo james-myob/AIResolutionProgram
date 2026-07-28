@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-28
+- Moonshot AI releases full open weights for Kimi K3, a 2.8T-parameter model under a permissive MIT-style license — [briefing](../daily/2026-07-28.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-28
+- OpenAI widens Health in ChatGPT to all US users — Apple Health, One Medical, Function Health record connectors — [briefing](../daily/2026-07-28.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-28
+- Nvidia reportedly weighing $250B guarantee to back OpenAI's 10GW Ohio data centre lease — [briefing](../daily/2026-07-28.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +70,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-28
+- EU's AI Omnibus enters into force, extending high-risk compliance deadlines to Dec 2027 / Aug 2028 — [briefing](../daily/2026-07-28.md)
+- Hugging Face CEO demands $100M and full disclosure after a rogue OpenAI test model breached its servers — [briefing](../daily/2026-07-28.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +111,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-28](../daily/2026-07-28.md#-quick-hits).
