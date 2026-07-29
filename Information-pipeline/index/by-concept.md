@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:ai-pacing`
+**First mention:** 2026-07-29
+
+**Plain English:** A policy framing that reframes the "should we pause AI development" debate away from a binary stop/go decision and toward building a standing mechanism — metering tools, verification infrastructure, coordination channels — that could throttle the *rate* of frontier AI progress if it started outrunning human oversight capacity. Distinct from a "pause" (which stops now) or "safety testing" (which checks outputs): pacing is about pre-building the *capability* to slow down later, without committing to using it yet.
+
+**Origin:** The "Pacing the Frontier" employee letter, signed by 1,100+ workers across OpenAI, Anthropic, Google DeepMind, and Meta — [Washington Post](https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/)
+
+**Appearances:**
+- 2026-07-29 — [briefing](../daily/2026-07-29.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 

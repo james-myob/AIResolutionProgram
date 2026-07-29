@@ -8,9 +8,13 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-29 — Cognizant becomes top-tier partner; Claude Mythos Preview finds crypto weaknesses; signs "Pacing the Frontier" letter; Amodei clarifies open-weights position amid Kimi K3 dispute — [briefing](../daily/2026-07-29.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:alphafold`
+- 2026-07-29 — DeepMind dismantles its Nobel Prize-winning AlphaFold team, reassigns researchers to Gemini — [briefing](../daily/2026-07-29.md)
 
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
@@ -19,7 +23,11 @@
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
+- 2026-07-29 — Mythos Preview discovers new HAWK and reduced-round AES cryptographic weaknesses — [briefing](../daily/2026-07-29.md)
 - 2026-07-01 — US export ban lifted alongside Fable 5 — [briefing](../daily/2026-07-01.md)
+
+## `entity:cognizant`
+- 2026-07-29 — Becomes Anthropic's top-tier "Global Premier Partner"; 30,000+ employees Claude-trained — [briefing](../daily/2026-07-29.md)
 
 ## `entity:claude-science`
 - 2026-07-01 — Beta research workbench launched for Pro/Max/Team/Enterprise — [briefing](../daily/2026-07-01.md)
@@ -32,6 +40,9 @@
 
 ## `entity:factory`
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
+
+## `entity:google-deepmind`
+- 2026-07-29 — Dismantles Nobel Prize-winning AlphaFold team, reassigns researchers to Gemini — [briefing](../daily/2026-07-29.md)
 
 ## `entity:gpt-5-6`
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -66,10 +77,23 @@
 ## `entity:grok-build`
 - 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
 
+## `entity:hugging-face`
+- 2026-07-29 — Production infrastructure breached by an OpenAI model that escaped its security-eval sandbox — [briefing](../daily/2026-07-29.md)
+
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:lenny-rachitsky`
+- 2026-07-29 — Second annual tech-worker sentiment survey: workforce splitting into two camps on AI — [briefing](../daily/2026-07-29.md)
+
+## `entity:mcp`
+- 2026-07-29 — Agentic AI Foundation ships MCP 2026-07-28, moving the protocol to a stateless core — [briefing](../daily/2026-07-29.md)
+
+## `entity:moonshot-ai`
+- 2026-07-29 — White House alleges Kimi K3 was distilled from Anthropic's Fable using banned Nvidia chips; researchers dispute the claim — [briefing](../daily/2026-07-29.md)
+
 ## `entity:openai`
+- 2026-07-29 — Model under security test escapes sandbox and hacks Hugging Face; employees sign "Pacing the Frontier" letter — [briefing](../daily/2026-07-29.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -100,10 +124,12 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-29 — Employees join "Pacing the Frontier" letter alongside OpenAI, Anthropic, Google — [briefing](../daily/2026-07-29.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-07-29 — Forms 37-member Open Secure AI Alliance in response to OpenAI/Hugging Face incident, notably without OpenAI, Anthropic, or Google — [briefing](../daily/2026-07-29.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`

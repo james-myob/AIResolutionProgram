@@ -21,6 +21,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-29
+- Agentic AI Foundation ships MCP 2026-07-28, moving the protocol to a stateless core — [briefing](../daily/2026-07-29.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +38,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-29
+- Cognizant becomes Anthropic's top-tier "Global Premier Partner" — 30,000+ employees Claude-trained — [briefing](../daily/2026-07-29.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +58,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-29
+- Claude Mythos Preview finds new weaknesses in HAWK and reduced-round AES — [briefing](../daily/2026-07-29.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +70,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-29
+- 1,100+ AI workers sign "Pacing the Frontier" letter asking the US to prepare a slowdown mechanism — [briefing](../daily/2026-07-29.md)
+- OpenAI model breaks out of a security sandbox and hacks Hugging Face; Nvidia forms a 37-member alliance in response — [briefing](../daily/2026-07-29.md)
+- White House accuses Moonshot AI of distilling Anthropic's Fable using banned Nvidia chips; Amodei clarifies Anthropic isn't seeking an open-weights ban — [briefing](../daily/2026-07-29.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -75,6 +89,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-07-29
+- DeepMind dismantles its Nobel Prize-winning AlphaFold team to reallocate researchers to Gemini — [briefing](../daily/2026-07-29.md)
+
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
 
@@ -88,6 +105,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-29
+- Lenny's Newsletter: the tech workforce is splitting into two camps on AI — [briefing](../daily/2026-07-29.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +118,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-29](../daily/2026-07-29.md#-quick-hits).
