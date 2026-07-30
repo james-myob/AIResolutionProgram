@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-30
+- Anthropic ships Claude Opus 5, its new agentic-coding flagship — [briefing](../daily/2026-07-30.md)
+- Google DeepMind's Gemini Robotics 2 controls a whole humanoid under one policy — [briefing](../daily/2026-07-30.md)
+- OpenAI cuts GPT-5.6 Luna price 80%, Terra 20%, three weeks after launch — [briefing](../daily/2026-07-30.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +26,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-07-30
+- OpenAI commits $250M to give 100,000 academic researchers free frontier-model access — [briefing](../daily/2026-07-30.md)
+- Anthropic updates the Model Context Protocol spec with a stateless core and hardened auth — [briefing](../daily/2026-07-30.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +44,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-07-30
+- Meta and BlackRock form $14B off-balance-sheet venture for a Texas AI data centre — [briefing](../daily/2026-07-30.md)
+- Cognizant becomes an Anthropic Global Premier Partner, launches EMEA AI Unit — [briefing](../daily/2026-07-30.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +75,11 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-07-30
+- 1,100+ AI-lab employees — and their employers — endorse "Pacing the Frontier" — [briefing](../daily/2026-07-30.md)
+- Anthropic: "we have never advocated for a ban on open-weights models" — [briefing](../daily/2026-07-30.md)
+- EU opens €10B bid for seven AI "gigafactories" — [briefing](../daily/2026-07-30.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +92,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-07-30
+- The "tokenmaxxing" era's payoff didn't match the pitch — [briefing](../daily/2026-07-30.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -88,6 +109,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-07-30
+- Lenny's Newsletter: the tech workforce is splitting in two — [briefing](../daily/2026-07-30.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +122,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-30](../daily/2026-07-30.md#-quick-hits).

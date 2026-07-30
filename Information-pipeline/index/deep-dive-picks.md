@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-30
+
+- [ ] 📝 **Frontier Lab Employee Open Letter Calls For Being Able to Pace the Frontier** — Zvi Mowshowitz, Don't Worry About the Vase · Essay · ~4,000+ words · [link](https://thezvi.substack.com/p/frontier-lab-employee-open-letter) · *The most detailed independent breakdown of what "Pacing the Frontier" actually asks for, with full signatory analysis.* — from [briefing](../daily/2026-07-30.md)
+
+- [ ] 📝 **Making a Billion Intelligent Machines** — Andreessen, Torenberg, Burger, a16z · Essay · ~2,500-3,500 words · [link](https://a16z.com/making-a-billion-intelligent-machines/) · *The case that AI is inverting the labor-cost curve rather than simply cutting it — the framework behind this week's "tokenmaxxing" critique.* — from [briefing](../daily/2026-07-30.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
