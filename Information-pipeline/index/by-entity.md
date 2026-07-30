@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-30 — Ships Claude Opus 5; updates MCP spec; publishes open-weights position; Cognizant Global Premier Partner expansion — [briefing](../daily/2026-07-30.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -58,6 +59,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-30 — Gemini Robotics 2 controls whole humanoid under one policy; employees co-sign Pacing the Frontier letter — [briefing](../daily/2026-07-30.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,6 +72,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-30 — Cuts GPT-5.6 Luna/Terra pricing; commits $250M for 100k free academic researcher seats; co-endorses Pacing the Frontier letter — [briefing](../daily/2026-07-30.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -88,6 +91,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-30 — Ships grok-voice-think-fast-2.0 speech-to-speech model — [briefing](../daily/2026-07-30.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,6 +104,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-07-30 — Forms $14B off-balance-sheet JV with BlackRock for Texas AI data centre; employees co-sign Pacing the Frontier letter — [briefing](../daily/2026-07-30.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -114,3 +119,27 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-opus-5`
+- 2026-07-30 — Released as Anthropic's new agentic-coding flagship — [briefing](../daily/2026-07-30.md)
+
+## `entity:gemini-robotics-2`
+- 2026-07-30 — Whole-body humanoid control under a single learned policy — [briefing](../daily/2026-07-30.md)
+
+## `entity:gpt-5-6`
+- 2026-07-30 — Luna price cut 80%, Terra 20%, three weeks after GA — [briefing](../daily/2026-07-30.md)
+
+## `entity:blackrock`
+- 2026-07-30 — Forms $14B JV with Meta for El Paso AI data centre (80% BlackRock-owned) — [briefing](../daily/2026-07-30.md)
+
+## `entity:cognizant`
+- 2026-07-30 — Becomes Anthropic Global Premier Partner; launches EMEA AI Unit — [briefing](../daily/2026-07-30.md)
+
+## `entity:hugging-face`
+- 2026-07-30 — Referenced as the target of a pre-release OpenAI model's sandbox breakout (context for Pacing the Frontier letter) — [briefing](../daily/2026-07-30.md)
+
+## `entity:european-commission`
+- 2026-07-30 — Opens €10B tender for seven AI gigafactories — [briefing](../daily/2026-07-30.md)
+
+## `entity:lennys-newsletter`
+- 2026-07-30 — Second annual workforce sentiment survey: workforce splitting in two on AI adoption — [briefing](../daily/2026-07-30.md)

@@ -27,3 +27,15 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 **Appearances:**
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
+
+---
+
+## `concept:tokenmaxxing`
+**First mention:** 2026-07-30
+
+**Plain English:** The practice of optimizing an AI workflow purely for maximum cheap-token throughput — routing everything to the lowest-cost model and maximizing volume of output — without a matching investment in reviewing or verifying that output. Used critically: teams that "tokenmaxxed" got more raw output but not more useful work, because savings on inference were offset by new oversight and rework costs. Distinct from ordinary cost optimization in that it names the specific failure mode of treating token cost as the only variable that matters.
+
+**Origin:** [Fortune — "How the brief tokenmaxxing era delivered the opposite of what it promised"](https://fortune.com/2026/07/24/how-tokenmaxxing-era-delivered-the-opposite-promised/)
+
+**Appearances:**
+- 2026-07-30 — [briefing](../daily/2026-07-30.md)
