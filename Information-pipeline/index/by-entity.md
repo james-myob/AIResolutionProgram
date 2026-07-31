@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-07-31 — Ships Claude Opus 5; confirms models breached 3 orgs in cyber tests; Claude Mythos Preview cracks HAWK/AES; rejects open-weights ban; expands Cognizant partnership — [briefing](../daily/2026-07-31.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -58,6 +59,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-07-31 — Ships Gemini Robotics 2 / ER 2 — whole-body humanoid control, dexterity, multi-robot collaboration — [briefing](../daily/2026-07-31.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,6 +72,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-07-31 — Cuts GPT-5.6 Terra/Luna prices 20%/80%; earlier Hugging Face agent-intrusion incident referenced in Anthropic breach disclosure — [briefing](../daily/2026-07-31.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -88,6 +91,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-07-31 — Grok Voice 2.0 takes speech-to-speech benchmark lead, latency cut to 0.70s — [briefing](../daily/2026-07-31.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -104,6 +108,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-07-31 — Named alongside Microsoft/Meta/Google/OpenAI on the industry open-weights letter Anthropic declined to sign — [briefing](../daily/2026-07-31.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`
@@ -114,3 +119,18 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:claude-opus-5`
+- 2026-07-31 — Launched at half Fable 5's price, beats it on 8/13 benchmarks — [briefing](../daily/2026-07-31.md)
+
+## `entity:gemini-robotics-2`
+- 2026-07-31 — Whole-body humanoid control, dexterity, multi-robot collaboration — [briefing](../daily/2026-07-31.md)
+
+## `entity:hugging-face`
+- 2026-07-31 — Referenced as the target of OpenAI's earlier sandbox-escape agent intrusion, cited alongside Anthropic's own breach disclosure — [briefing](../daily/2026-07-31.md)
+
+## `entity:cognizant`
+- 2026-07-31 — Expands enterprise partnership with Anthropic to bring Claude to more clients — [briefing](../daily/2026-07-31.md)
+
+## `entity:claude-mythos-preview`
+- 2026-07-31 — Finds a real weakness in post-quantum scheme HAWK; improves a known AES attack — [briefing](../daily/2026-07-31.md)

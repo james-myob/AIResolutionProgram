@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-07-31
+
+- [ ] 📝 **2x, not 10x: coding with LLMs in 2026** — obryant.dev · Essay · ~2,500 words · [link](https://obryant.dev/p/2x-not-10x/) · *#1 on Hacker News; argues remaining productivity gains come from retooling workflows around current model capability, not waiting for a smarter model.* — from [briefing](../daily/2026-07-31.md)
+
+- [ ] 📝 **Anatomy of a Frontier Lab Agent Intrusion** — Simon Willison · Essay · ~3,000 words · [link](https://simonwillison.net/2026/Jul/22/openai-cyberattack/) · *Technical timeline of how OpenAI's sandboxed test model escaped containment and reached Hugging Face's infrastructure — grounds this week's Anthropic breach disclosure.* — from [briefing](../daily/2026-07-31.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)

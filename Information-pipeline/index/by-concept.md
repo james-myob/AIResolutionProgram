@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:ai-pacing-mechanism`
+**First mention:** 2026-07-31
+
+**Plain English:** A proposed technical and governance system — not yet built — that would let regulators or an international body verifiably slow the pace of frontier AI development if capability is judged to be outrunning safety oversight. Distinct from a "pause" (which stops development outright): a pacing mechanism is meant to function as a dial, not a switch, and requires new verification infrastructure (e.g. compute monitoring, disclosure requirements) that doesn't fully exist yet. The term entered discourse via a July 2026 open letter signed by 1,100+ employees across OpenAI, Anthropic, Google, and Meta, rather than through any single lab's product.
+
+**Origin:** [CNN — employee open letter](https://edition.cnn.com/2026/07/28/tech/ai-development-tech-employees-open-letter)
+
+**Appearances:**
+- 2026-07-31 — [briefing](../daily/2026-07-31.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
