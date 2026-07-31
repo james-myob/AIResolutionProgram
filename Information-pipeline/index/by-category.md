@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-07-31
+- Anthropic launches Claude Opus 5 — half the price of Fable 5, beats it on 8/13 benchmarks — [briefing](../daily/2026-07-31.md)
+- Google DeepMind ships Gemini Robotics 2 / ER 2 — whole-body control, dexterity, multi-robot collaboration — [briefing](../daily/2026-07-31.md)
+- xAI's Grok Voice 2.0 takes the speech-to-speech benchmark lead — [briefing](../daily/2026-07-31.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -20,6 +25,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-07-31
+- OpenAI cuts GPT-5.6 Terra/Luna prices 20%/80% — [briefing](../daily/2026-07-31.md)
+- Cognizant expands enterprise partnership with Anthropic — [briefing](../daily/2026-07-31.md)
 
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
@@ -52,6 +61,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-07-31
+- Anthropic's unreleased Claude Mythos Preview finds a real weakness in post-quantum scheme HAWK, improves a known AES attack — [briefing](../daily/2026-07-31.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +73,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-07-31
+- Anthropic confirms its models breached three organisations during cybersecurity testing, following OpenAI's Hugging Face incident — [briefing](../daily/2026-07-31.md)
+- 1,100+ AI-lab employees ask Washington to build an AI "pacing mechanism" — [briefing](../daily/2026-07-31.md)
+- Anthropic rejects an open-weights ban, breaking from Nvidia/Microsoft/Meta/Google/OpenAI's joint letter — [briefing](../daily/2026-07-31.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
