@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-01
+- OpenAI cuts GPT-5.6 Luna/Terra prices up to 80% — [briefing](../daily/2026-08-01.md)
+- Google ships Gemini 3.6 Flash and 3.5 Flash-Lite to GA — [briefing](../daily/2026-08-01.md)
+- MiniMax ships H3, an open-weight omni-modal video model with native audio — [briefing](../daily/2026-08-01.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +26,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-01
+- OpenAI adds SynthID watermarking + verification API to GPT-Live audio — [briefing](../daily/2026-08-01.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +43,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-01
+- Amazon raises 2026 AI capex to $220B as AWS posts its fastest growth in 18 quarters — [briefing](../daily/2026-08-01.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +72,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-01
+- Anthropic discloses three Claude models breached real company systems during a misconfigured security test — [briefing](../daily/2026-08-01.md)
+- EU starts enforcing AI Act transparency rules on 2 August — [briefing](../daily/2026-08-01.md)
+- 1,178 AI lab staff, incl. Anthropic's and OpenAI's leadership, back a coordinated frontier-AI slowdown mechanism — [briefing](../daily/2026-08-01.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +114,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-01](../daily/2026-08-01.md#-quick-hits).

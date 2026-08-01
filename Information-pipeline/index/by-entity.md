@@ -7,7 +7,14 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amazon`
+- 2026-08-01 — Raises 2026 AI capex to $220B as AWS posts 37% YoY growth, fastest in 18 quarters — [briefing](../daily/2026-08-01.md)
+
+## `entity:aws`
+- 2026-08-01 — Q2 revenue $42.2B, +37% YoY, fastest growth in 18 quarters — [briefing](../daily/2026-08-01.md)
+
 ## `entity:anthropic`
+- 2026-08-01 — Discloses 3 Claude models breached real org systems in a misconfigured cybersecurity eval; co-signs Pacing the Frontier letter — [briefing](../daily/2026-08-01.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -19,6 +26,7 @@
 - 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-mythos-5`
+- 2026-08-01 — One of three Claude models involved in the cybersecurity-eval containment incident — [briefing](../daily/2026-08-01.md)
 - 2026-07-01 — US export ban lifted alongside Fable 5 — [briefing](../daily/2026-07-01.md)
 
 ## `entity:claude-science`
@@ -27,6 +35,9 @@
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
 
+## `entity:eu-ai-act`
+- 2026-08-01 — Commission starts enforcing transparency rules (chatbot/deepfake/content labeling) on 2 August — [briefing](../daily/2026-08-01.md)
+
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -34,6 +45,7 @@
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
 ## `entity:gpt-5-6`
+- 2026-08-01 — Luna/Terra prices cut up to 80% — [briefing](../daily/2026-08-01.md)
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 
 ## `entity:ben-thompson`
@@ -51,6 +63,9 @@
 ## `entity:gemini-3-5-flash`
 - 2026-05-20 — Released as Google's new default consumer model — [briefing](../daily/2026-05-20.md)
 
+## `entity:gemini-3-6-flash`
+- 2026-08-01 — Ships to GA alongside Gemini 3.5 Flash-Lite; improved token efficiency and agentic planning — [briefing](../daily/2026-08-01.md)
+
 ## `entity:gemini-omni`
 - 2026-05-20 — Multimodal-in, video-out model family launched — [briefing](../daily/2026-05-20.md)
 
@@ -58,6 +73,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-01 — Ships Gemini 3.6 Flash and 3.5 Flash-Lite to GA; DeepMind VP co-signs Pacing the Frontier letter — [briefing](../daily/2026-08-01.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -66,13 +82,20 @@
 ## `entity:grok-build`
 - 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
 
+## `entity:joulent`
+- 2026-08-01 — Receives $1.75B strategic minority investment from National Grid Ventures for AI-data-center power infrastructure — [briefing](../daily/2026-08-01.md)
+
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-01 — Cuts GPT-5.6 Luna/Terra prices up to 80%; adds SynthID watermarking to GPT-Live audio; chief scientist and chief research officer co-sign Pacing the Frontier letter — [briefing](../daily/2026-08-01.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:ethan-mollick`
+- 2026-08-01 — "The Twilight of the Chatbots" essay featured as Deep Dive Pick — [briefing](../daily/2026-08-01.md)
 
 ## `entity:simon-willison`
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -88,6 +111,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-08-01 — Launches Grok add-in for Microsoft Outlook — [briefing](../daily/2026-08-01.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,8 +124,12 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-01 — Adds autonomous daily-briefing/recurring-task features to Meta AI (Muse Spark 1.1); chief scientist co-signs Pacing the Frontier letter — [briefing](../daily/2026-08-01.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
+
+## `entity:minimax`
+- 2026-08-01 — Ships H3, an open-weight omni-modal video model with native stereo audio (2K, 15s clips) — [briefing](../daily/2026-08-01.md)
 
 ## `entity:nvidia`
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
