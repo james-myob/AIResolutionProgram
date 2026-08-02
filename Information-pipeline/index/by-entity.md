@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-02 — Claude Code refused an autonomous-cyberattack request that DeepSeek accepted (Unit 42 report); named in Simon Willison's open-letters roundup — [briefing](../daily/2026-08-02.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -58,6 +59,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-02 — Gemini Spark's agentic assistant expands to 160+ more countries on the Pro tier — [briefing](../daily/2026-08-02.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,11 +72,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-02 — Fields Medalist Jacob Tsimerman joins its safety team; its models refused an autonomous-cyberattack request in the Unit 42 report — [briefing](../daily/2026-08-02.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-02 — Synthesizes three competing industry open letters on the pace of AI development — [briefing](../daily/2026-08-02.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -113,4 +117,20 @@
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-08-02 — Misses its own 1 August deadline (EO 14409) for a frontier-model benchmarking and disclosure framework — [briefing](../daily/2026-08-02.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:eu-ai-act`
+- 2026-08-02 — Article 50 transparency obligations become enforceable; fines up to €15M or 3% of global turnover — [briefing](../daily/2026-08-02.md)
+
+## `entity:california`
+- 2026-08-02 — SB 942 (AI Transparency Act) becomes operative, timed to align with the EU AI Act — [briefing](../daily/2026-08-02.md)
+
+## `entity:deepseek`
+- 2026-08-02 — Unit 42: had minimal safety controls, was the tool of choice in an autonomous cyberattack campaign that Claude/OpenAI refused — [briefing](../daily/2026-08-02.md)
+
+## `entity:unit-42`
+- 2026-08-02 — Publishes first documented case of a frontier lab's safety controls blocking a real-world autonomous cyberattack attempt — [briefing](../daily/2026-08-02.md)
+
+## `entity:jacob-tsimerman`
+- 2026-08-02 — Fields Medalist leaves University of Toronto to join OpenAI's AI safety team — [briefing](../daily/2026-08-02.md)
