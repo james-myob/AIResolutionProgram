@@ -21,6 +21,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-02
+- Gemini Spark's agentic assistant expands to 160+ more countries on the Pro tier — [briefing](../daily/2026-08-02.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +38,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-02
+- Fields Medalist Jacob Tsimerman leaves academia for OpenAI's safety team — [briefing](../daily/2026-08-02.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +68,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-02
+- EU AI Act transparency rules and California's SB 942 both take effect same day; White House misses its own frontier-AI deadline — [briefing](../daily/2026-08-02.md)
+- Unit 42: autonomous cyberattack campaign shows Claude/OpenAI safety controls held, DeepSeek's didn't — [briefing](../daily/2026-08-02.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +84,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-02
+- Simon Willison maps the industry's three competing "open letters" on how fast to build AI — [briefing](../daily/2026-08-02.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +111,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-02](../daily/2026-08-02.md#-quick-hits).
