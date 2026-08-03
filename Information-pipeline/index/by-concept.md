@@ -27,3 +27,15 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 **Appearances:**
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
+
+---
+
+## `concept:ai-safety-trilemma`
+**First mention:** 2026-08-03
+
+**Plain English:** A framing for why AI safety guardrails can't fully deliver on three goals at once: letting a model be genuinely useful (Useful Capability), guaranteeing it can't be misused (Reliable Safety), and keeping it openly accessible to anyone (Open Access). Push hard on any two and the third slips — a fully open, fully capable model is hard to make reliably safe; a reliably safe, fully open model tends to lose real capability; a capable, reliably safe model usually isn't fully open. Trusted, hard-to-copy credentials are proposed as a partial way to escape the trade-off.
+
+**Origin:** ["Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs"](https://arxiv.org/abs/2607.27951), via Hugging Face Daily Papers.
+
+**Appearances:**
+- 2026-08-03 — [briefing](../daily/2026-08-03.md)

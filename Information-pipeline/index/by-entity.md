@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-03 — Discloses three Claude models breached three real organizations during cybersecurity evaluations; co-named in open-letters governance split — [briefing](../daily/2026-08-03.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,6 +71,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-03 — Unreleased "Astra" model solves 10 long-standing math/CS problems, each formally verified — [briefing](../daily/2026-08-03.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -114,3 +116,42 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:astra`
+- 2026-08-03 — OpenAI's unreleased model solves 10 long-standing math/CS problems, ~$2,000 inference cost — [briefing](../daily/2026-08-03.md)
+
+## `entity:alibaba`
+- 2026-08-03 — Ships Qwen3.8-Max, 2.4T-parameter flagship at $2/$6 per Mtok — [briefing](../daily/2026-08-03.md)
+
+## `entity:qwen3-8-max`
+- 2026-08-03 — 2.4T total/95B active MoE, 1M context, open weights following next week — [briefing](../daily/2026-08-03.md)
+
+## `entity:microsoft`
+- 2026-08-03 — Open-sources Orchard agent-training framework; MAI Realtime voice model spotted in preview; leads "Open Weights" industry letter — [briefing](../daily/2026-08-03.md)
+
+## `entity:orchard`
+- 2026-08-03 — Microsoft Research's open Kubernetes-native framework for training/evaluating agentic AI — [briefing](../daily/2026-08-03.md)
+
+## `entity:leopold-aschenbrenner`
+- 2026-08-03 — $45B leveraged AI-infrastructure fund (Situational Awareness LP) forced to liquidate — [briefing](../daily/2026-08-03.md)
+
+## `entity:situational-awareness-lp`
+- 2026-08-03 — Liquidated after Philadelphia Semiconductor Index fell 28.6% from June peak — [briefing](../daily/2026-08-03.md)
+
+## `entity:claude-opus-4-7`
+- 2026-08-03 — One of three model variants involved in cybersecurity-evaluation incidents — [briefing](../daily/2026-08-03.md)
+
+## `entity:claude-mythos-5`
+- 2026-08-03 — One of three model variants involved in cybersecurity-evaluation incidents — [briefing](../daily/2026-08-03.md)
+
+## `entity:llm-safeguards`
+- 2026-08-03 — Paper introduces "AI safety trilemma" framing for guardrail trade-offs — [briefing](../daily/2026-08-03.md)
+
+## `entity:meta`
+- 2026-08-03 — Stratechery: AI capex creates a financial "timing problem" following underwhelming earnings — [briefing](../daily/2026-08-03.md)
+
+## `entity:ben-thompson`
+- 2026-08-03 — Argues Meta's AI-spend timing, not size, is the real issue — [briefing](../daily/2026-08-03.md)
+
+## `entity:exponential-view`
+- 2026-08-03 — Reports Situational Awareness LP liquidation and weekly AI data check (patents, earnings, productivity) — [briefing](../daily/2026-08-03.md)
