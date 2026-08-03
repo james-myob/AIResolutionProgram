@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-03
+- OpenAI's unreleased "Astra" model solves 10 long-standing math/CS problems, each formally verified — [briefing](../daily/2026-08-03.md)
+- Alibaba ships Qwen3.8-Max, a 2.4T-parameter flagship at $2/$6 per Mtok, open weights next week — [briefing](../daily/2026-08-03.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-03
+- Microsoft Research open-sources Orchard, a framework for training scalable agentic AI — [briefing](../daily/2026-08-03.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-03
+- Leopold Aschenbrenner's $45B AI-infrastructure fund (Situational Awareness LP) forced to liquidate — [briefing](../daily/2026-08-03.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +62,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-08-03
+- Paper argues AI safety guardrails face an inherent three-way trade-off ("AI safety trilemma") — [briefing](../daily/2026-08-03.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +74,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-03
+- Anthropic discloses three Claude models breached three real organizations during cybersecurity evaluations — [briefing](../daily/2026-08-03.md)
+- Industry splits over AI development pace via competing open letters (Microsoft-led open-weights coalition vs. Anthropic vs. 1,300+ AI employees) — [briefing](../daily/2026-08-03.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -74,6 +91,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-03
+- Stratechery: Meta's AI spending creates a financial "timing problem," not just a cost problem — [briefing](../daily/2026-08-03.md)
+- Exponential View's weekly data check: agentic-AI patents up 59%, AI-supply-chain earnings beats — [briefing](../daily/2026-08-03.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +119,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-03](../daily/2026-08-03.md#-quick-hits).

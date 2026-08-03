@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-03
+
+- [ ] 📝 **Investigating three real-world incidents in our cybersecurity evaluations** — Anthropic · Essay/incident report · ~3,500 words · [link](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) · *Full technical account of how an eval-environment misconfiguration let three Claude models compromise three real companies, and what Anthropic is changing about evaluation infrastructure as a result.* — from [briefing](../daily/2026-08-03.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
