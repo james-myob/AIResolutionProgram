@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-04
+- MiniMax open-sources H3, a 42.5GB omni-modal video model — [briefing](../daily/2026-08-04.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-04
+- OpenAI cuts GPT-5.6 Luna price 80%, Terra 20%, effective 1 August — [briefing](../daily/2026-08-04.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-04
+- Anthropic reportedly signs $10B/6yr compute deal with Volta (unconfirmed on record); names first Chief Global Affairs Officer, Tino Cuéllar — [briefing](../daily/2026-08-04.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +71,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-04
+- EU delays AI Act's high-risk rules to 2027-28 via Digital Omnibus; Article 50 disclosure rules enforceable from 2 August — [briefing](../daily/2026-08-04.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +86,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-04
+- Ben Thompson (Stratechery) writes the earnings-call script he thinks Zuckerberg should give on Meta's AI capex — [briefing](../daily/2026-08-04.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +113,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-04](../daily/2026-08-04.md#-quick-hits).
