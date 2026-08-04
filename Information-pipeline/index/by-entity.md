@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-04 — Reportedly signs $10B/6yr compute deal with startup Volta (unconfirmed on record); names first Chief Global Affairs Officer, Tino Cuéllar — [briefing](../daily/2026-08-04.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,11 +71,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-04 — Cuts GPT-5.6 Luna price 80%, Terra 20%, effective 1 August — [briefing](../daily/2026-08-04.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-04 — Flags 235-signatory "Open Weights and American AI Leadership" letter — [briefing](../daily/2026-08-04.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -87,7 +90,23 @@
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
+## `entity:eu-ai-act`
+- 2026-08-04 — High-risk obligations delayed to 2027-28 via Digital Omnibus; Article 50 disclosure rules enforceable from 2 August — [briefing](../daily/2026-08-04.md)
+
+## `entity:minimax`
+- 2026-08-04 — Open-sources H3, a 42.5GB omni-modal video model — [briefing](../daily/2026-08-04.md)
+
+## `entity:minimax-h3`
+- 2026-08-04 — Generates 15s 2K clips w/ native stereo audio; open-weighted 3 August — [briefing](../daily/2026-08-04.md)
+
+## `entity:volta`
+- 2026-08-04 — Reportedly signs $10B/6yr compute deal with Anthropic (unconfirmed on record); Norway data center w/ Bitdeer, Nvidia Vera Rubin chips — [briefing](../daily/2026-08-04.md)
+
+## `entity:tino-cuellar`
+- 2026-08-04 — Named Anthropic's first Chief Global Affairs Officer — [briefing](../daily/2026-08-04.md)
+
 ## `entity:xai`
+- 2026-08-04 — Grok Voice Think Fast 2.0 becomes default voice model 5 August — [briefing](../daily/2026-08-04.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,6 +119,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-04 — Ben Thompson (Stratechery) writes hypothetical earnings-call script defending 2026 AI capex — [briefing](../daily/2026-08-04.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
