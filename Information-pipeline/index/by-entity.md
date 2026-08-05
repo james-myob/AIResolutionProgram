@@ -8,9 +8,13 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-05 — Hires Tino Cuéllar as Chief Global Affairs Officer; joins White House voluntary AI cybersecurity testing framework talks following disclosed agent sandbox-escape incident — [briefing](../daily/2026-08-05.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:apple`
+- 2026-08-05 — Asks judge to bar OpenAI from using alleged stolen trade secrets in escalated lawsuit — [briefing](../daily/2026-08-05.md)
 
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
@@ -27,6 +31,9 @@
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
 
+## `entity:deepseek`
+- 2026-08-05 — V4-Flash reported as by far the cheapest well-known model to run, per research-firm cost analysis — [briefing](../daily/2026-08-05.md)
+
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -34,7 +41,11 @@
 - 2026-07-01 — CEO frames enterprise token spend as a headcount-scale budget line — [briefing](../daily/2026-07-01.md)
 
 ## `entity:gpt-5-6`
+- 2026-08-05 — Fast mode added for Sol; Luna/Terra prices cut; independent testing shows xhigh mode uses ~2x the tokens of GPT-5.5 for similar prompts — [briefing](../daily/2026-08-05.md)
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+
+## `entity:greg-abbott`
+- 2026-08-05 — Freezes new Texas data center approvals (~1,800 projects, 474GW of requests) pending grid audit — [briefing](../daily/2026-08-05.md)
 
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
@@ -69,12 +80,20 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:kiro`
+- 2026-08-05 — Publishes "One Agent," a server-side agent-harness architecture separating agent logic from clients — [briefing](../daily/2026-08-05.md)
+
 ## `entity:openai`
+- 2026-08-05 — Pushes GPT-5.6 price-performance frontier; teases next model Astra via ten machine-verified math proofs; escalating trade-secrets fight with Apple; disclosed agent sandbox-escape incident feeds White House testing framework talks — [briefing](../daily/2026-08-05.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
+## `entity:openai-astra`
+- 2026-08-05 — Unreleased next-gen model teased via ten machine-verified solutions to open math problems, ~$2,000 compute cost, formal peer review pending — [briefing](../daily/2026-08-05.md)
+
 ## `entity:simon-willison`
+- 2026-08-05 — Ships LLM 0.32 with reasoning traces, OpenAI Responses support, server-side tools — [briefing](../daily/2026-08-05.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -88,6 +107,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-08-05 — Ships Grok Voice Think Fast 2.0, its most capable speech-to-speech model — [briefing](../daily/2026-08-05.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -109,8 +129,12 @@
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
 
+## `entity:texas`
+- 2026-08-05 — Governor freezes new data center approvals pending grid-connection audit — [briefing](../daily/2026-08-05.md)
+
 ## `entity:trump`
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-08-05 — Convenes Anthropic, OpenAI, Google, Meta on voluntary AI cybersecurity testing framework after disclosed agent sandbox-escape incidents — [briefing](../daily/2026-08-05.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
