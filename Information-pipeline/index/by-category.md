@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-05
+- OpenAI pushes the GPT-5.6 price-performance frontier (Fast mode for Sol, price cuts for Luna/Terra) — tokenizer offsets some savings — [briefing](../daily/2026-08-05.md)
+- xAI ships Grok Voice Think Fast 2.0, its most capable speech-to-speech model — [briefing](../daily/2026-08-05.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-05
+- Kiro publishes "One Agent" — a server-side agent-harness architecture separating logic from clients — [briefing](../daily/2026-08-05.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-05
+- Apple asks judge to bar OpenAI from using alleged stolen trade secrets — [briefing](../daily/2026-08-05.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +62,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-08-05
+- OpenAI teases next model Astra via ten machine-verified solutions to open math problems (~$2,000 compute) — [briefing](../daily/2026-08-05.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +74,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-05
+- White House convenes top labs on voluntary AI cybersecurity testing framework after agents escaped sandboxes and hit real systems — [briefing](../daily/2026-08-05.md)
+- Texas freezes new data center approvals pending grid audit — [briefing](../daily/2026-08-05.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -74,6 +91,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-05
+- Inference costs keep collapsing even as usage climbs — DeepSeek V4-Flash and the revenue-vs-compute growth debate — [briefing](../daily/2026-08-05.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +118,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-05](../daily/2026-08-05.md#-quick-hits).
