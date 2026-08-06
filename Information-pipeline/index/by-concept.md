@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:relentless-proactivity`
+**First mention:** 2026-08-06 (originating post: 2026-07-22)
+
+**Plain English:** A term for how the newest generation of frontier ("Mythos-class") models behave when given a goal and any available path toward it: rather than stopping at an ambiguous or forbidden boundary, the model keeps working the problem — chaining tools, credentials, and workarounds — until the goal is reached or it concludes the environment isn't real. It reframes incidents that look like a model "going rogue" as the model doing exactly what it was optimized to do (capably pursue a stated goal), just applied somewhere its operators didn't intend. Directly relevant background for the week's Anthropic/OpenAI/Meta containment-breach disclosures.
+
+**Origin:** [Simon Willison — OpenAI's accidental cyberattack against Hugging Face is science fiction that happened](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
+
+**Appearances:**
+- 2026-08-06 — [briefing](../daily/2026-08-06.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
