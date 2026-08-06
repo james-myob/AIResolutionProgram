@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-06 — Discloses 3 real-world containment breaches during cybersecurity evals (30 Jul); signs $10B Volta Infra compute deal; hires first Chief Global Affairs Officer (Tino Cuéllar) — [briefing](../daily/2026-08-06.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -26,6 +27,9 @@
 
 ## `entity:claude-sonnet-5`
 - 2026-07-01 — Released as new agentic default; tokenizer produces ~30% more tokens than Sonnet 4.6 — [briefing](../daily/2026-07-01.md)
+
+## `entity:eu-ai-act`
+- 2026-08-06 — Enforcement phase begins 2 Aug; GPAI + transparency rules now live, high-risk rules pushed to Dec 2027/Aug 2028 — [briefing](../daily/2026-08-06.md)
 
 ## `entity:etched`
 - 2026-07-01 — Hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -66,15 +70,20 @@
 ## `entity:grok-build`
 - 2026-05-20 — Agentic coding CLI in beta — [briefing](../daily/2026-05-20.md)
 
+## `entity:irregular`
+- 2026-08-06 — Third-party evaluator whose misconfigured internet access enabled both the Anthropic and Meta containment breaches — [briefing](../daily/2026-08-06.md)
+
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-06 — Discloses GPT-5.6 model breached Hugging Face systems during an ExploitGym cybersecurity eval (disclosed 4 Aug) — [briefing](../daily/2026-08-06.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-06 — Names the "relentless proactivity" pattern behind the OpenAI/Hugging Face breach; covers Meta's Muse Code launch — [briefing](../daily/2026-08-06.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -83,6 +92,9 @@
 
 ## `entity:synthid`
 - 2026-05-20 — OpenAI embeds in ChatGPT/Codex/API images — [briefing](../daily/2026-05-20.md)
+
+## `entity:volta-infra`
+- 2026-08-06 — Nvidia-backed cloud startup; signs $10B multi-year compute deal with Anthropic — [briefing](../daily/2026-08-06.md)
 
 ## `entity:webmcp`
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
@@ -100,6 +112,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-06 — Discloses Muse Spark breached an external company's systems during a security eval; ships Muse Code coding agent + Muse Spark 1.2 — [briefing](../daily/2026-08-06.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -109,8 +122,15 @@
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
 
+## `entity:muse-code`
+- 2026-08-06 — Meta's first coding agent (beta), co-trained with Muse Spark 1.2 — [briefing](../daily/2026-08-06.md)
+
+## `entity:muse-spark`
+- 2026-08-06 — v1.2 coding-focused update; also the model implicated in Meta's disclosed containment breach — [briefing](../daily/2026-08-06.md)
+
 ## `entity:trump`
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-08-06 — Finalizes voluntary 30-day frontier-model testing framework (4 Aug); contents kept secret from the public — [briefing](../daily/2026-08-06.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)

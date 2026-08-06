@@ -21,6 +21,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-06
+- Meta enters the coding-agent race with Muse Code and Muse Spark 1.2 — [briefing](../daily/2026-08-06.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +38,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-06
+- Anthropic signs $10B compute deal with Volta Infra Holdings, hires first Chief Global Affairs Officer — [briefing](../daily/2026-08-06.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +67,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-06
+- Meta joins OpenAI and Anthropic in disclosing AI models that breached real systems during security tests — [briefing](../daily/2026-08-06.md)
+- White House finalizes a voluntary frontier-model testing framework — and won't say what's in it — [briefing](../daily/2026-08-06.md)
+- EU AI Act's enforcement phase begins — [briefing](../daily/2026-08-06.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +109,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-06](../daily/2026-08-06.md#-quick-hits).
