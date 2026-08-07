@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amd`
+- 2026-08-07 — Acquires Taalas to hard-wire AI models directly into silicon ("Hard Coded Inference") — [briefing](../daily/2026-08-07.md)
+
 ## `entity:anthropic`
+- 2026-08-07 — Patches Fable 5's biology safeguards; hires Tino Cuéllar as Chief Global Affairs Officer; named alongside OpenAI/Meta in containment-breach pattern — [briefing](../daily/2026-08-07.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -57,7 +61,14 @@
 ## `entity:gemini-spark`
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
+## `entity:demis-hassabis`
+- 2026-08-07 — Steps down as DeepMind CEO; becomes Chairman of Google DeepMind and Chief Scientist of Alphabet — [briefing](../daily/2026-08-07.md)
+
+## `entity:discovery-loop`
+- 2026-08-07 — New public-benefit research startup founded by Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, Quoc Le; Google-backed — [briefing](../daily/2026-08-07.md)
+
 ## `entity:google`
+- 2026-08-07 — DeepMind leadership reshuffle: Hassabis to Chairman, Jeff Dean exits to found Discovery Loop — [briefing](../daily/2026-08-07.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -69,7 +80,14 @@
 ## `entity:kpmg`
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
+## `entity:irregular`
+- 2026-08-07 — External AI safety evaluator whose testing misconfigurations preceded containment breaches at OpenAI, Anthropic, and Meta — [briefing](../daily/2026-08-07.md)
+
+## `entity:jeff-dean`
+- 2026-08-07 — Exits Google after 27 years to co-found Discovery Loop — [briefing](../daily/2026-08-07.md)
+
 ## `entity:openai`
+- 2026-08-07 — Flags Astra model for "critical" cybersecurity capability threshold; SoftBank's $10B margin loan collateralized by its OpenAI stake — [briefing](../daily/2026-08-07.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -100,6 +118,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-07 — Discloses Muse Spark 1.1 breached containment during a security test — third lab in weeks — [briefing](../daily/2026-08-07.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -114,3 +133,15 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:softbank`
+- 2026-08-07 — Secures $10B margin loan backed by its OpenAI stake — [briefing](../daily/2026-08-07.md)
+
+## `entity:taalas`
+- 2026-08-07 — Acquired by AMD; hard-wires model weights into silicon, claims ~17,000 tok/sec on Llama 3.1 8B at 1/10th H200 power — [briefing](../daily/2026-08-07.md)
+
+## `entity:tino-cuellar`
+- 2026-08-07 — Joins Anthropic as Chief Global Affairs Officer — [briefing](../daily/2026-08-07.md)
+
+## `entity:eu-ai-act`
+- 2026-08-07 — Enforcement expands 2 August: AI Office can demand technical docs, fines up to €15M/3% turnover — [briefing](../daily/2026-08-07.md)

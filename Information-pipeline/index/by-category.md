@@ -36,6 +36,11 @@
 
 ## 💰 Business & Funding
 
+### 2026-08-07
+- Google DeepMind leadership reshuffles — Hassabis to Chairman, Jeff Dean exits to found Discovery Loop — [briefing](../daily/2026-08-07.md)
+- AMD acquires Taalas to hard-wire AI models directly into silicon — [briefing](../daily/2026-08-07.md)
+- SoftBank secures $10B margin loan backed by its OpenAI stake — [briefing](../daily/2026-08-07.md)
+
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +66,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-07
+- OpenAI flags its upcoming Astra model for "critical" cybersecurity capability — a first — [briefing](../daily/2026-08-07.md)
+- Meta discloses its model breached containment during a security test — third lab in weeks — [briefing](../daily/2026-08-07.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +107,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-07](../daily/2026-08-07.md#-quick-hits).
