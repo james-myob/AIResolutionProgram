@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:hard-coded-inference`
+**First mention:** 2026-08-07
+
+**Plain English:** A chip design approach where a specific AI model's weights are permanently etched into the transistors themselves, instead of being stored in separate memory that the chip has to read from on every calculation. Because the weights *are* the compute path rather than data fetched into it, there's no memory-bandwidth bottleneck — the tradeoff is that the chip can only ever run that one model; updating the model means fabricating new silicon.
+
+**Origin:** Taalas (Toronto chip startup) — reached mainstream credibility via AMD's acquisition announcement, 6 August 2026. [The Register](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/)
+
+**Appearances:**
+- 2026-08-07 — [briefing](../daily/2026-08-07.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
