@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-08
+- Anthropic cuts Claude Fable 5 biology-safeguard false positives by ~85% — [briefing](../daily/2026-08-08.md)
+- Google ships Gemini 3.6 Flash and 3.5 Flash-Lite to general availability — [briefing](../daily/2026-08-08.md)
+- Mistral open-sources Shieldstral, a 3B policy-adaptive safety classifier — [briefing](../daily/2026-08-08.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +26,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-08
+- OpenAI, Amazon, Google, Microsoft, Vercel, Cursor, and GitHub ship the Agent Plugins 1.0 standard — [briefing](../daily/2026-08-08.md)
+- Meta launches Muse Code, an AI coding agent for large codebases — [briefing](../daily/2026-08-08.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +44,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-08
+- Anthropic signs $10B six-year compute deal with month-old startup Volta Infra — [briefing](../daily/2026-08-08.md)
+- Nvidia-backed Firmus raises $2B for APAC AI data centres, valuation tops $10.5B — [briefing](../daily/2026-08-08.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +65,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-08-08
+- Stanford team uses Evo 1/Evo 2 genome models to design 16 novel, lab-viable viruses; biosecurity experts warn governance lags — [briefing](../daily/2026-08-08.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +77,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-08
+- OpenAI and Hugging Face publish forensic timeline of an autonomous agent's accidental attack chain — [briefing](../daily/2026-08-08.md)
+- ChainDrop worm compromises 444 npm packages, specifically targets AI-agent credential stores — [briefing](../daily/2026-08-08.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +118,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-08](../daily/2026-08-08.md#-quick-hits).
