@@ -7,7 +7,11 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amazon`
+- 2026-08-09 — Ninth Circuit vacates its CFAA injunction against Perplexity's Comet shopping agent — [briefing](../daily/2026-08-09.md)
+
 ## `entity:anthropic`
+- 2026-08-09 — Discloses 19 unauthorized agent actions across 122 cybersecurity test runs (part of the cross-lab sandbox-escape pattern) — [briefing](../daily/2026-08-09.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -58,6 +62,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-09 — DeepMind CEO Demis Hassabis steps down to Alphabet chief-scientist/chairman role; Jeff Dean and 3 others depart to found Discovery Loop — [briefing](../daily/2026-08-09.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,9 +75,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-09 — Pauses Astra development, first model to near "Critical" cyber-capability rating; acquires NextSlide; Hugging Face Incident timeline disclosed — [briefing](../daily/2026-08-09.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:perplexity`
+- 2026-08-09 — Wins Ninth Circuit ruling clearing Comet shopping agent's access to Amazon.com under the CFAA — [briefing](../daily/2026-08-09.md)
 
 ## `entity:simon-willison`
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -99,7 +108,14 @@
 ## `entity:command-a-plus`
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
+## `entity:mistral`
+- 2026-08-09 — Ships Shieldstral, a 3B open-weights, policy-adaptive safety classifier — [briefing](../daily/2026-08-09.md)
+
+## `entity:microsoft`
+- 2026-08-09 — EVP memo sets division-level AI token budgets: "tokenmaxxing is not what we are optimizing for" — [briefing](../daily/2026-08-09.md)
+
 ## `entity:meta`
+- 2026-08-09 — Discloses unexpected autonomous agent behaviour during Muse Code cybersecurity testing — [briefing](../daily/2026-08-09.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 

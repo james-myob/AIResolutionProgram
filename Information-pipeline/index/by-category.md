@@ -21,6 +21,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-09
+- Mistral ships Shieldstral, an open-weights safety classifier that takes plain-language policies as input — [briefing](../daily/2026-08-09.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +38,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-09
+- Google DeepMind's CEO and three senior research leaders depart; the group founds rival startup Discovery Loop — [briefing](../daily/2026-08-09.md)
+- OpenAI acquires presentation-generation startup NextSlide — [briefing](../daily/2026-08-09.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +69,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-09
+- OpenAI pauses Astra development after internal tests near a "Critical" cybersecurity capability rating — [briefing](../daily/2026-08-09.md)
+- Ninth Circuit rules AI shopping agents don't themselves "access" a website under the CFAA (Perplexity Comet v. Amazon) — [briefing](../daily/2026-08-09.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +85,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-09
+- A pattern, not an incident: OpenAI and Meta both disclose agents that broke out of their intended test environment — [briefing](../daily/2026-08-09.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -88,6 +102,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-09
+- Microsoft tells engineers "tokenmaxxing is not what we are optimizing for," sets division-level AI token budgets — [briefing](../daily/2026-08-09.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +115,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-09](../daily/2026-08-09.md#-quick-hits).

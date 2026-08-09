@@ -18,6 +18,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:tokenmaxxing`
+**First mention:** 2026-08-09
+
+**Plain English:** A colloquial term for treating AI token consumption as a proxy for effort or productivity — as if burning more tokens proved you worked harder, regardless of outcome. It names a specific dysfunction: internal usage leaderboards and habits that reward higher AI spend rather than better results. The term is catching on as companies explicitly disown the behaviour once token costs show up as a real budget line.
+
+**Origin:** Microsoft internal memo (EVP Jay Parikh), reported by [The Register](https://www.theregister.com/ai-and-ml/2026/08/05/microsoft-tells-engineers-to-curb-their-token-burning-enthusiasm/5283482) and [TechRadar](https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage).
+
+**Appearances:**
+- 2026-08-09 — [briefing](../daily/2026-08-09.md)
+
+---
+
 ## `concept:agent-harness`
 **First mention:** 2026-05-20
 
