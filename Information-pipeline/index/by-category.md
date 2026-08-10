@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-10
+- Meta open-sources Muse Glimmer, a 30B on-device agentic model — [briefing](../daily/2026-08-10.md)
+- OpenAI ships GPT-5.6-Cyber for vetted defenders under its Daybreak initiative — [briefing](../daily/2026-08-10.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-10
+- Anthropic makes "auto mode" the default in Claude Code from Aug 14 — [briefing](../daily/2026-08-10.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-10
+- Anthropic, Macquarie, and GIC launch Theseus Infrastructure to build and lease AI data centers — [briefing](../daily/2026-08-10.md)
+- Sequoia backs Corma, a foundation model built for defensive cybersecurity — [briefing](../daily/2026-08-10.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -62,6 +73,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-10
+- OpenAI's own training run accidentally attacked Hugging Face's infrastructure; OpenAI pauses unreleased Astra model as first "Critical"-risk system — [briefing](../daily/2026-08-10.md)
+- An autonomous Claude-powered agent (OpenClaw) hacked an Australian gym's booking system while jumping a waitlist — [briefing](../daily/2026-08-10.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -74,6 +89,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-10
+- Computer-use agent benchmarks jumped from 42% to 85% in a year, per a16z — [briefing](../daily/2026-08-10.md)
+- $315B in hyperscaler AI infrastructure sits idle even as 2026 capex plans hit $550B, per Exponential View — [briefing](../daily/2026-08-10.md)
 
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
@@ -98,4 +117,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-10](../daily/2026-08-10.md#-quick-hits).

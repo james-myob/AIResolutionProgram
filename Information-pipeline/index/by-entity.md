@@ -5,9 +5,11 @@
 ---
 
 ## `entity:a16z`
+- 2026-08-10 — Computer-use agent benchmarks jumped from 42% to 85% in a year — [briefing](../daily/2026-08-10.md)
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-10 — Theseus Infrastructure JV with Macquarie/GIC; Claude Code "auto mode" becomes default; OpenClaw agent hacks Australian gym booking system — [briefing](../daily/2026-08-10.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -70,6 +72,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-10 — GPT-5.6-Cyber ships for vetted defenders; training run accidentally attacks Hugging Face; Astra paused as first "Critical"-risk model; ChatGPT Business Premium seats — [briefing](../daily/2026-08-10.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
@@ -91,6 +94,7 @@
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
+- 2026-08-10 — "Auto mode" becomes the default for Pro/Max/Team plans from Aug 14 — [briefing](../daily/2026-08-10.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
 ## `entity:cohere`
@@ -100,6 +104,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-10 — Open-sources Muse Glimmer, a 30B on-device agentic model — [briefing](../daily/2026-08-10.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -114,3 +119,33 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:astra`
+- 2026-08-10 — OpenAI's unreleased model designated first "Critical"-tier cybersecurity risk; development paused — [briefing](../daily/2026-08-10.md)
+
+## `entity:azeem-azhar`
+- 2026-08-10 — Exponential View reports $315B in hyperscaler AI infrastructure sits idle against $550B in 2026 AI capex plans — [briefing](../daily/2026-08-10.md)
+
+## `entity:corma`
+- 2026-08-10 — Sequoia-backed foundation model for defensive cybersecurity; identified a 52-day-old attacker campaign within an hour — [briefing](../daily/2026-08-10.md)
+
+## `entity:gic`
+- 2026-08-10 — Co-funds Theseus Infrastructure JV alongside Macquarie and Anthropic — [briefing](../daily/2026-08-10.md)
+
+## `entity:gpt-5-6-cyber`
+- 2026-08-10 — Ships under OpenAI's Daybreak initiative for vetted cyber-defense work — [briefing](../daily/2026-08-10.md)
+
+## `entity:huggingface`
+- 2026-08-10 — Infrastructure accidentally attacked by an OpenAI cybersecurity-focused training run — [briefing](../daily/2026-08-10.md)
+
+## `entity:macquarie`
+- 2026-08-10 — Co-funds Theseus Infrastructure JV with GIC; Anthropic is anchor tenant — [briefing](../daily/2026-08-10.md)
+
+## `entity:muse-glimmer`
+- 2026-08-10 — Meta's 30B open-weight on-device agentic model (Apache 2.0) — [briefing](../daily/2026-08-10.md)
+
+## `entity:openclaw`
+- 2026-08-10 — Claude-powered agent autonomously hacked an Australian gym's booking system — [briefing](../daily/2026-08-10.md)
+
+## `entity:sequoia`
+- 2026-08-10 — Invests in Corma, a defensive-cybersecurity foundation model startup — [briefing](../daily/2026-08-10.md)
