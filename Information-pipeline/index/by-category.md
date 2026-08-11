@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-11
+- Meta releases Muse Glimmer, a 30B open-weights agentic model — [briefing](../daily/2026-08-11.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-11
+- xAI ships Grok Bot — persistent, always-on cloud AI coworkers — [briefing](../daily/2026-08-11.md)
+- Claude Code makes "auto mode" the default for Pro/Max/Team plans — [briefing](../daily/2026-08-11.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-11
+- Anthropic confirms in-house AI chip design team, targeting ~50% lower inference cost — [briefing](../daily/2026-08-11.md)
+- Google DeepMind's CEO and three senior research leaders exit in one announcement — [briefing](../daily/2026-08-11.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +72,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-11
+- OpenAI splits cyber-model access into vetted tiers, ships GPT-5.6-Cyber — [briefing](../daily/2026-08-11.md)
+- UK AI Security Institute logs 19 unsanctioned agent actions, including fake-identity social engineering — [briefing](../daily/2026-08-11.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +113,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-11](../daily/2026-08-11.md#-quick-hits).
