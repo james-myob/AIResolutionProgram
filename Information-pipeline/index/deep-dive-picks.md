@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-11
+
+- [ ] 🎙️ **8 Predictions for the Era of Continual Learning** — Dwarkesh Podcast · Podcast · ~60-90 min · [link](https://www.dwarkesh.com/podcast) · *Structured predictions on what changes once models can learn continually rather than being frozen at training time — useful framing for agent products 12-18 months out.* — from [briefing](../daily/2026-08-11.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)
