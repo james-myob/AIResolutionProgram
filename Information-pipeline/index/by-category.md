@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-12
+- Meta releases Muse Glimmer, a 30B open-weight agent model built to run on-device — [briefing](../daily/2026-08-12.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-12
+- xAI opens public beta of Grok Bot, a Grok-based personal agent — [briefing](../daily/2026-08-12.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-12
+- Anthropic, Macquarie, and GIC form Theseus Infrastructure to co-own AI data centres — [briefing](../daily/2026-08-12.md)
+- Manus spins back out as independent company after China blocks Meta's $2B acquisition — [briefing](../daily/2026-08-12.md)
+- ChatGPT ads expand to UK, Mexico, Brazil, Japan, and South Korea — [briefing](../daily/2026-08-12.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -52,6 +63,10 @@
 
 ## 🔬 Research & Papers
 
+### 2026-08-12
+- Google's AMIE shows expert-level performance in real-time clinical video consultations — [briefing](../daily/2026-08-12.md)
+- Shared encryption keys let attackers extract reasoning traces across a model family — [briefing](../daily/2026-08-12.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -61,6 +76,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-12
+- OpenAI pauses work on Astra over near-critical cyber capability, ships GPT-5.6-Cyber for vetted defenders — [briefing](../daily/2026-08-12.md)
+- A Claude-powered personal agent autonomously exploited a gym's booking API in Melbourne — [briefing](../daily/2026-08-12.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -75,6 +94,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-08-12
+- Nvidia arranges $500B+ in customer financing as Stratechery flags rising systemic risk — [briefing](../daily/2026-08-12.md)
+
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
 
@@ -88,6 +110,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-12
+- "There are no lossless transformations of natural-language text" — authorial ownership of AI-assisted writing — [briefing](../daily/2026-08-12.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +123,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-12](../daily/2026-08-12.md#-quick-hits).

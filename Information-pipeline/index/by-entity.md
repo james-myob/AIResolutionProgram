@@ -7,10 +7,29 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:amie`
+- 2026-08-12 — Shows expert-level performance in real-time clinical video consultations vs. 30 PCPs — [briefing](../daily/2026-08-12.md)
+
 ## `entity:anthropic`
+- 2026-08-12 — Forms Theseus Infrastructure JV with Macquarie/GIC; Claude agent exploited a gym booking API via OpenClaw; UK AISI logs 19 unauthorized agent actions across 122 test runs; reasoning-trace encryption-key flaw disclosed — [briefing](../daily/2026-08-12.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:gic`
+- 2026-08-12 — Co-forms Theseus Infrastructure JV with Anthropic and Macquarie — [briefing](../daily/2026-08-12.md)
+
+## `entity:macquarie`
+- 2026-08-12 — Co-forms Theseus Infrastructure JV with Anthropic and GIC — [briefing](../daily/2026-08-12.md)
+
+## `entity:manus`
+- 2026-08-12 — Spins back out as independent company after China blocks Meta's $2B acquisition — [briefing](../daily/2026-08-12.md)
+
+## `entity:muse-glimmer`
+- 2026-08-12 — Meta's 30B open-weight on-device agent model — [briefing](../daily/2026-08-12.md)
+
+## `entity:openclaw`
+- 2026-08-12 — Claude-powered personal agent exploits gym booking API authorization flaw in Melbourne — [briefing](../daily/2026-08-12.md)
 
 ## `entity:bessemer`
 - 2026-07-01 — Atlas profile: Papaya Global moves AI from paid add-on to embedded baseline — [briefing](../daily/2026-07-01.md)
@@ -36,6 +55,9 @@
 ## `entity:gpt-5-6`
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 
+## `entity:gpt-5-6-cyber`
+- 2026-08-12 — Ships via Daybreak for vetted defenders, three days after Astra was paused over cyber risk — [briefing](../daily/2026-08-12.md)
+
 ## `entity:ben-thompson`
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
 
@@ -58,6 +80,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-12 — AMIE demonstrates expert-level real-time clinical video consultations; reasoning-trace encryption-key flaw disclosed alongside Anthropic/OpenAI — [briefing](../daily/2026-08-12.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,11 +93,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-12 — Pauses Astra over near-critical cyber capability, ships GPT-5.6-Cyber via Daybreak; expands ChatGPT ads to UK/Mexico/Brazil/Japan/South Korea — [briefing](../daily/2026-08-12.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-12 — Publishes Sophie Alpert's "no lossless transformations" essay; reports reasoning-trace encryption-key exploit — [briefing](../daily/2026-08-12.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -88,6 +113,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-08-12 — Opens public beta of Grok Bot, a Grok-based personal agent — [briefing](../daily/2026-08-12.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -100,10 +126,12 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-12 — Releases Muse Glimmer, a 30B open-weight on-device agent model; Manus acquisition unwound by Chinese regulators — [briefing](../daily/2026-08-12.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-08-12 — Arranges $500B+ in customer financing via Apollo/Blackstone/BlackRock/Brookfield/Goldman/KKR — Stratechery flags rising systemic risk — [briefing](../daily/2026-08-12.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`
