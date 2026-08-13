@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-13
+- OpenAI ships GPT-5.6-Cyber, a gated model that already found Chrome zero-days — [briefing](../daily/2026-08-13.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-13
+- Gemini crosses 1 billion monthly users the same week its next flagship model slips — [briefing](../daily/2026-08-13.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-13
+- Nvidia lines up $500B in outside financing from six Wall Street firms to fund AI infrastructure — [briefing](../daily/2026-08-13.md)
+- Anthropic signs $9.1B, 20-year compute deal with bitcoin miner Riot Platforms — [briefing](../daily/2026-08-13.md)
+- Google reshuffles AI leadership: Hassabis to chairman, Kavukcuoglu takes operational control of Gemini — [briefing](../daily/2026-08-13.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +72,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-13
+- LiteLLM supply-chain breach hits 2,500+ companies via a compromised build pipeline — [briefing](../daily/2026-08-13.md)
+- 1,300+ tech employees ask governments to build the tools to pace frontier AI development ("Pacing the Frontier") — [briefing](../daily/2026-08-13.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +113,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-13](../daily/2026-08-13.md#-quick-hits).
