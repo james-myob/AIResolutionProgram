@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-14
+- Google ships Gemini 3.7 Flash — half the price of 3.6 Flash, sharper on coding — [briefing](../daily/2026-08-14.md)
+- Meta returns to open weights with Muse Glimmer, a 30B agentic model — [briefing](../daily/2026-08-14.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +25,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-14
+- Claude Code's "auto mode" becomes the default for Pro, Max, and Team plans — [briefing](../daily/2026-08-14.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +42,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-14
+- Anthropic reportedly eyes $2T October IPO alongside $6B Decart AI acquisition talks — [briefing](../daily/2026-08-14.md)
+- Google DeepMind reshuffles leadership as Hassabis steps back to chair; Kavukcuoglu takes over Gemini — [briefing](../daily/2026-08-14.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -61,6 +72,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-14
+- Anthropic confirms Claude now watermarks generated text and files worldwide, per EU AI Act Article 50(2) — [briefing](../daily/2026-08-14.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -98,4 +112,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-14](../daily/2026-08-14.md#-quick-hits).
