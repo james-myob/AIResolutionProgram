@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-14
+
+- [ ] 📝 **Anthropic's Watermarking: How It (Probably) Works, Worse Than It Seems** — Ben Thompson, Stratechery · Essay · [link](https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/) · *Breaks down why invisible watermarking is a weaker transparency mechanism than the headline suggests — useful for explaining that EU AI Act compliance doesn't mean the underlying problem is solved.* — from [briefing](../daily/2026-08-14.md)
+
 ## 2026-07-01
 
 - [ ] 🎙️ **Marc Andreessen — Betting on America** — a16z Show, with CSIS's Navin Girishankar · Podcast · ~45-60 min · [link](https://www.youtube.com/watch?v=1CdOEVq5fz8) · *Wide-ranging conversation on the US-China AI race, export controls, and data-centre/energy buildout — useful grounding given this week's Fable 5 export-control reversal.* — from [briefing](../daily/2026-07-01.md)

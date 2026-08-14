@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:anthropic`
+- 2026-08-14 — Claude Code auto mode defaults on; reportedly eyes $2T IPO + $6B Decart AI acquisition; confirms global text watermarking under EU AI Act — [briefing](../daily/2026-08-14.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
@@ -58,6 +59,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-14 — Ships Gemini 3.7 Flash; DeepMind leadership reshuffle (Hassabis to chair, Kavukcuoglu takes over Gemini) — [briefing](../daily/2026-08-14.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -70,11 +72,13 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-14 — Ships "Ultrafast" mode for GPT-5.6 Sol (14x speed); forms enterprise AI partnership with IBM — [briefing](../daily/2026-08-14.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-14 — Covers Claude Code auto mode becoming the default — [briefing](../daily/2026-08-14.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
 
@@ -100,6 +104,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-14 — Open-sources Muse Glimmer, a 30B agentic model under Apache 2.0; custom AI model with Alibaba for Apple Intelligence in China — [briefing](../daily/2026-08-14.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -114,3 +119,30 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:ben-thompson` (see also above)
+- 2026-08-14 — Stratechery critique of Anthropic's watermarking approach (Deep Dive Pick) — [briefing](../daily/2026-08-14.md)
+
+## `entity:eu-ai-act`
+- 2026-08-14 — Anthropic confirms global Claude text/file watermarking to meet Article 50(2) transparency rules — [briefing](../daily/2026-08-14.md)
+
+## `entity:google-deepmind`
+- 2026-08-14 — Leadership reshuffle: Hassabis to chair/Alphabet chief scientist, Kavukcuoglu takes over Gemini — [briefing](../daily/2026-08-14.md)
+
+## `entity:demis-hassabis`
+- 2026-08-14 — Steps back from DeepMind day-to-day operations to chair + Alphabet chief scientist role — [briefing](../daily/2026-08-14.md)
+
+## `entity:koray-kavukcuoglu`
+- 2026-08-14 — Takes over frontier AI and Gemini strategy at DeepMind — [briefing](../daily/2026-08-14.md)
+
+## `entity:decart-ai`
+- 2026-08-14 — Anthropic in talks to acquire for ~$6B, its largest acquisition to date — [briefing](../daily/2026-08-14.md)
+
+## `entity:claude-code` (see also above)
+- 2026-08-14 — Auto mode becomes the default for Pro/Max/Team plans — [briefing](../daily/2026-08-14.md)
+
+## `entity:gemini-3-7-flash`
+- 2026-08-14 — Released at half the price of Gemini 3.6 Flash, sharper on coding benchmarks — [briefing](../daily/2026-08-14.md)
+
+## `entity:muse-glimmer`
+- 2026-08-14 — Meta's 30B open-weight agentic model, Apache 2.0, runs on a single consumer GPU — [briefing](../daily/2026-08-14.md)
