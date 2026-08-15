@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-15
+- xAI ships Grok 4.6 — ties GPT-5.6 Sol on Artificial Analysis Intelligence Index, cheapest model at the frontier — [briefing](../daily/2026-08-15.md)
+
 ### 2026-07-01
 - Anthropic ships Claude Sonnet 5 as new agentic default — tokenizer offsets some of the price cut — [briefing](../daily/2026-07-01.md)
 - OpenAI's GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -21,6 +24,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-15
+- OpenAI expands Daybreak with GPT-5.6-Cyber — reduced refusals for vetted cybersecurity partners — [briefing](../daily/2026-08-15.md)
+
 ### 2026-07-01
 - Anthropic launches Claude Science, a research workbench for scientists — [briefing](../daily/2026-07-01.md)
 
@@ -35,6 +41,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-15
+- Lovable raises $400M Series C at $13.3B; Zenity raises $125M Series C for AI-agent security — [briefing](../daily/2026-08-15.md)
 
 ### 2026-07-01
 - Nvidia challenger Etched hits $5B valuation on $1B in inference-chip orders — [briefing](../daily/2026-07-01.md)
@@ -88,6 +97,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-15
+- Google DeepMind's own AGI Safety team had to work around its AI resume-screener — [briefing](../daily/2026-08-15.md)
+
 ### 2026-07-01
 - Bessemer: Papaya Global's CPO on why AI features stopped being a paid add-on and became the baseline — [briefing](../daily/2026-07-01.md)
 
@@ -98,4 +110,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-07-01](../daily/2026-07-01.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-15](../daily/2026-08-15.md#-quick-hits).

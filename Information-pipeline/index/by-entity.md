@@ -7,6 +7,24 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:google-deepmind`
+- 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
+
+## `entity:gpt-5-6`
+- 2026-08-15 — OpenAI expands Daybreak with GPT-5.6-Cyber, a variant tuned to stop refusing offensive-security tasks for vetted partners — [briefing](../daily/2026-08-15.md)
+
+## `entity:grok-4-6`
+- 2026-08-15 — xAI ships Grok 4.6; ties GPT-5.6 Sol on Artificial Analysis Intelligence Index at $2/$6 per million tokens under 200K context — [briefing](../daily/2026-08-15.md)
+
+## `entity:lovable`
+- 2026-08-15 — Raises $400M Series C, doubling valuation to $13.3B — [briefing](../daily/2026-08-15.md)
+
+## `entity:xai`
+- 2026-08-15 — Ships Grok 4.6, cheapest model at the intelligence frontier — [briefing](../daily/2026-08-15.md)
+
+## `entity:zenity`
+- 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
+
 ## `entity:anthropic`
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
