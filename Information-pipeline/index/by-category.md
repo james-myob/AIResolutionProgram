@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-16
+- Google ships Gemini 3.7 Flash at half the price of Gemini 3.6 Flash, three weeks after that model's launch — [briefing](../daily/2026-08-16.md)
+
 ### 2026-08-15
 - xAI ships Grok 4.6 — ties GPT-5.6 Sol on Artificial Analysis Intelligence Index, cheapest model at the frontier — [briefing](../daily/2026-08-15.md)
 
@@ -24,6 +27,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-16
+- OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
+
 ### 2026-08-15
 - OpenAI expands Daybreak with GPT-5.6-Cyber — reduced refusals for vetted cybersecurity partners — [briefing](../daily/2026-08-15.md)
 
@@ -41,6 +47,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-16
+- Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
+- Anthropic signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 
 ### 2026-08-15
 - Lovable raises $400M Series C at $13.3B; Zenity raises $125M Series C for AI-agent security — [briefing](../daily/2026-08-15.md)
@@ -84,6 +94,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-08-16
+- a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
+
 ### 2026-07-01
 - Token spend becomes an explicit budget line: Nvidia's 5x inference cost cut, Factory's token-budget framing, and Exponential View's price-elasticity data converge — [briefing](../daily/2026-07-01.md)
 
@@ -110,4 +123,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-15](../daily/2026-08-15.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
