@@ -4,6 +4,33 @@
 
 ---
 
+## `entity:openai`
+- 2026-08-17 — Nvidia guarantees $105B financing so SB Energy can build a dedicated 8GW Ohio campus for OpenAI; separately, OpenAI disbands its Preparedness team, the third safety team cut in two years; adds quizzes + per-project memory toggle to ChatGPT — [briefing](../daily/2026-08-17.md)
+
+## `entity:nvidia`
+- 2026-08-17 — Guarantees $105B in financing for SB Energy's OpenAI-exclusive Ohio campus; also invests $1.5B directly in SB Energy — [briefing](../daily/2026-08-17.md)
+
+## `entity:sb-energy`
+- 2026-08-17 — Builds and leases an 8GW Ohio data-center campus exclusively to OpenAI, backed by Nvidia's $105B guarantee — [briefing](../daily/2026-08-17.md)
+
+## `entity:stripe`
+- 2026-08-17 — Acquires AI model gateway OpenRouter for $7B+ — [briefing](../daily/2026-08-17.md)
+
+## `entity:openrouter`
+- 2026-08-17 — Acquired by Stripe for $7B+, a 5.4x markup on its $1.3B Series B valuation three months prior — [briefing](../daily/2026-08-17.md)
+
+## `entity:wiz`
+- 2026-08-17 — Its autonomous "Red Agent" independently found and exploited a Copilot-introduced vulnerability at Snowflake — [briefing](../daily/2026-08-17.md)
+
+## `entity:snowflake`
+- 2026-08-17 — A Copilot Autofix-introduced bug in a public connector repo was found and exploited by Wiz's autonomous Red Agent; patched same day — [briefing](../daily/2026-08-17.md)
+
+## `entity:github-copilot`
+- 2026-08-17 — Copilot Autofix commit introduced the script-injection bug later exploited by Wiz's Red Agent at Snowflake — [briefing](../daily/2026-08-17.md)
+
+## `entity:dario-amodei`
+- 2026-08-17 — Publicly denies wanting Anthropic to be "the only private company left in the world," calls AI backlash a trust crisis — [briefing](../daily/2026-08-17.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
@@ -43,6 +70,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-17 — Revenue run rate hits $65B ahead of expected IPO (7x YoY); ~40-min platform outage Aug 16 evening; Dario Amodei publicly rebuts "power concentration" claim — [briefing](../daily/2026-08-17.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)

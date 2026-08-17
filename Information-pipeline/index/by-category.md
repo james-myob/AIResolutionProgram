@@ -48,6 +48,11 @@
 
 ## 💰 Business & Funding
 
+### 2026-08-17
+- Anthropic's revenue run rate hits $65B ahead of expected IPO — [briefing](../daily/2026-08-17.md)
+- Nvidia guarantees $105B so SB Energy can build OpenAI a dedicated 8GW Ohio campus — [briefing](../daily/2026-08-17.md)
+- Stripe acquires AI model gateway OpenRouter for $7B+ — [briefing](../daily/2026-08-17.md)
+
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - Anthropic signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -81,6 +86,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-17
+- OpenAI disbands its Preparedness team, the third safety team cut in two years — [briefing](../daily/2026-08-17.md)
+- Wiz's autonomous "Red Agent" found and exploited a Copilot-introduced bug at Snowflake — [briefing](../daily/2026-08-17.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -93,6 +102,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-17
+- Dario Amodei publicly denies wanting to "own all of AI," reframes backlash as trust crisis — [briefing](../daily/2026-08-17.md)
+- Nathan Lambert: Nvidia's open-model funding seeds future chip demand, not openness for its own sake — [briefing](../daily/2026-08-17.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -123,4 +136,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-17](../daily/2026-08-17.md#-quick-hits).
