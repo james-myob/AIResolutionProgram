@@ -7,6 +7,21 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:openai`
+- 2026-08-18 — Launches ChatGPT for Teens with stricter safety guardrails; targets IPO as early as September at $1T+ valuation — [briefing](../daily/2026-08-18.md)
+
+## `entity:andon-labs`
+- 2026-08-18 — Its AI store manager Luna (Claude Opus 4.8) makes the first known AI-manager firing decision — [briefing](../daily/2026-08-18.md)
+
+## `entity:groq`
+- 2026-08-18 — Raises $350M Series A at $3.5B, half its 2025 valuation, as it pivots to inference "neocloud" — [briefing](../daily/2026-08-18.md)
+
+## `entity:reddit`
+- 2026-08-18 — Tests AI-narrated "Play" mode turning text posts into short-form video/audio — [briefing](../daily/2026-08-18.md)
+
+## `entity:xai`
+- 2026-08-18 — Grok 4.6 now available across GitHub Copilot surfaces — [briefing](../daily/2026-08-18.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
@@ -43,6 +58,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-18 — Raises its own misalignment risk rating from "very low" to "low"; revenue run-rate tops $65B as IPO preparations advance — [briefing](../daily/2026-08-18.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)

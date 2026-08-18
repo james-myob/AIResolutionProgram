@@ -27,6 +27,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-18
+- Reddit tests an AI-narrated "Play" mode that turns text posts into short-form video/audio — [briefing](../daily/2026-08-18.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +50,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-18
+- Anthropic's revenue run-rate tops $65B as IPO preparations advance — [briefing](../daily/2026-08-18.md)
+- OpenAI targets IPO as early as September at a $1T+ valuation — [briefing](../daily/2026-08-18.md)
+- Groq raises $350M Series A at $3.5B — half its 2025 valuation — as it pivots to inference "neocloud" — [briefing](../daily/2026-08-18.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -81,6 +89,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-18
+- Anthropic raises its own misalignment risk rating from "very low" to "low" — [briefing](../daily/2026-08-18.md)
+- OpenAI launches ChatGPT for Teens with stricter safety guardrails — [briefing](../daily/2026-08-18.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -110,6 +122,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-18
+- Andon Labs' AI store manager Luna (Claude Opus 4.8) makes the first known AI-manager firing decision — [briefing](../daily/2026-08-18.md)
+
 ### 2026-08-15
 - Google DeepMind's own AGI Safety team had to work around its AI resume-screener — [briefing](../daily/2026-08-15.md)
 
@@ -123,4 +138,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-18](../daily/2026-08-18.md#-quick-hits).
