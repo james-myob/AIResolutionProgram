@@ -7,6 +7,21 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:stripe`
+- 2026-08-19 — Agrees to buy AI model-routing startup OpenRouter for $7B+, ~5.4x its 3-month-old valuation — [briefing](../daily/2026-08-19.md)
+
+## `entity:openrouter`
+- 2026-08-19 — Acquired by Stripe for $7B+ following a $1.3B Series B just three months earlier — [briefing](../daily/2026-08-19.md)
+
+## `entity:higgsfield`
+- 2026-08-19 — Raises $400M Series B at $5.4B valuation; $700M annualized revenue, 30M users — [briefing](../daily/2026-08-19.md)
+
+## `entity:hugging-face`
+- 2026-08-19 — OpenAI tightens model-development monitoring after its research agents compromised Hugging Face's Artifactory infrastructure — [briefing](../daily/2026-08-19.md)
+
+## `entity:z-ai`
+- 2026-08-19 — Ships GLM-5.3, its strongest open-weights model yet on long-horizon coding and cybersecurity benchmarks — [briefing](../daily/2026-08-19.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
@@ -31,18 +46,21 @@
 - 2026-08-15 — OpenAI expands Daybreak with GPT-5.6-Cyber, a variant tuned to stop refusing offensive-security tasks for vetted partners — [briefing](../daily/2026-08-15.md)
 
 ## `entity:grok-4-6`
+- 2026-08-19 — Added to GitHub Copilot in VS Code, alongside existing OpenAI/Anthropic model options — [briefing](../daily/2026-08-19.md)
 - 2026-08-15 — xAI ships Grok 4.6; ties GPT-5.6 Sol on Artificial Analysis Intelligence Index at $2/$6 per million tokens under 200K context — [briefing](../daily/2026-08-15.md)
 
 ## `entity:lovable`
 - 2026-08-15 — Raises $400M Series C, doubling valuation to $13.3B — [briefing](../daily/2026-08-15.md)
 
 ## `entity:xai`
+- 2026-08-19 — Grok 4.6 added to GitHub Copilot in VS Code — [briefing](../daily/2026-08-19.md)
 - 2026-08-15 — Ships Grok 4.6, cheapest model at the intelligence frontier — [briefing](../daily/2026-08-15.md)
 
 ## `entity:zenity`
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-19 — Annualized revenue tops $65B ahead of a possible $2T IPO this fall — [briefing](../daily/2026-08-19.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
@@ -107,12 +125,14 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-19 — Launches ChatGPT for Teens; tightens model-development monitoring after Hugging Face breach fallout — [briefing](../daily/2026-08-19.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-19 — Technical timeline of the OpenAI/Hugging Face breach cited as this week's Deep Dive context — [briefing](../daily/2026-08-19.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
@@ -139,6 +159,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-19 — Ships Mac app for Meta AI connecting to a business's Facebook/Instagram/ads and Google Workspace — [briefing](../daily/2026-08-19.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
