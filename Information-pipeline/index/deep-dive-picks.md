@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-19
+
+- [ ] 📝 **In the Hugging Face breach, OpenAI's hacker was noisy and fast — but not unstoppable** — TechCrunch · Essay/investigation · ~2,000 words (est.) · [link](https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/) · *The full technical narrative behind this week's OpenAI monitoring changes — useful context for judging whether "more aggressive monitoring" is a fix or a patch on a structural red-teaming problem.* — from [briefing](../daily/2026-08-19.md)
+
+- [ ] 📝 **Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model** — Ben Thompson, Stratechery 🔒 · Essay · ~2,500 words (est.) · [link](https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/) · *Aggregation Theory applied to today's biggest deal — a sharper frame than "Stripe bought a routing startup" for where value settles in a multi-model world.* — from [briefing](../daily/2026-08-19.md)
+
 ## 2026-08-16
 
 - [ ] 📝 **Behind the exit of DeepMind's CEO: low morale, a talent exodus, and model delays** — Fortune · Essay/investigation · ~2,500 words (est.) · [link](https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind/) · *The reporting behind today's DeepMind leadership news — useful context for reading Google's AI roadmap and hiring moves with the right amount of skepticism.* — from [briefing](../daily/2026-08-16.md)

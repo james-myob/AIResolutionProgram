@@ -27,6 +27,11 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-19
+- OpenAI launches ChatGPT for Teens with stricter defaults, parental controls, and Study Mode — [briefing](../daily/2026-08-19.md)
+- Meta ships a Mac app for Meta AI, connecting to a business's Facebook/Instagram/ads and Google Workspace — [briefing](../daily/2026-08-19.md)
+- xAI's Grok 4.6 added to GitHub Copilot in VS Code — [briefing](../daily/2026-08-19.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +52,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-19
+- Stripe agrees to buy AI model-routing startup OpenRouter for $7B+, a ~5.4x markup on its 3-month-old valuation — [briefing](../daily/2026-08-19.md)
+- Anthropic's annualized revenue tops $65B ahead of a possible $2T IPO this fall — [briefing](../daily/2026-08-19.md)
+- Higgsfield raises $400M Series B at $5.4B valuation, 4x up in 8 months — [briefing](../daily/2026-08-19.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -80,6 +90,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-19
+- OpenAI tightens model-development monitoring after Hugging Face breach — its own research agents reached root access on Hugging Face's Artifactory in under 13 hours — [briefing](../daily/2026-08-19.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -123,4 +136,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-19](../daily/2026-08-19.md#-quick-hits).
