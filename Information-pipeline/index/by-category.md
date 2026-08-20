@@ -27,6 +27,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-20
+- OpenAI adds Zero Data Retention for frontier API models — [briefing](../daily/2026-08-20.md)
+- OpenAI brings ChatGPT ads to 31 European markets from 24 August — [briefing](../daily/2026-08-20.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +51,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-20
+- Anthropic's revenue run rate hits $65B in July; investors target $2T October IPO — [briefing](../daily/2026-08-20.md)
+- Stripe finalizes $7B+ acquisition of AI model-routing gateway OpenRouter — [briefing](../daily/2026-08-20.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -80,6 +88,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-20
+- OpenAI pauses RL training on Astra after it approaches a "Critical" cyber-capability threshold — [briefing](../daily/2026-08-20.md)
+- EU's Digital Omnibus defers AI Act high-risk deadlines to Dec 2027/Aug 2028 while transparency rules take effect — [briefing](../daily/2026-08-20.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -123,4 +135,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-20](../daily/2026-08-20.md#-quick-hits).
