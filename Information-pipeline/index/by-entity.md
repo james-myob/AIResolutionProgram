@@ -7,6 +7,43 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:openai`
+- 2026-08-20 — Pauses RL training on Astra after it approaches a "Critical" cyber-capability threshold; ships Zero Data Retention for frontier API models; expands ChatGPT ads to 31 European markets — [briefing](../daily/2026-08-20.md)
+- 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
+- 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+- 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
+- 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:astra`
+- 2026-08-20 — OpenAI pauses RL training after internal evaluation finds it may cross the "Critical" cybersecurity threshold — [briefing](../daily/2026-08-20.md)
+
+## `entity:anthropic`
+- 2026-08-20 — Revenue run rate hits $65B in July; investors target $2T October IPO — [briefing](../daily/2026-08-20.md)
+- 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
+- 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
+- 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
+- 2026-05-20 — First profitable quarter incoming (~$10.9B Q2); $45B compute deal with xAI/SpaceX; KPMG global alliance — [briefing](../daily/2026-05-20.md)
+
+## `entity:stripe`
+- 2026-08-20 — Finalizes $7B+ acquisition of AI model-routing gateway OpenRouter — [briefing](../daily/2026-08-20.md)
+
+## `entity:openrouter`
+- 2026-08-20 — Acquired by Stripe for $7B+, a 5.4x markup on its May valuation — [briefing](../daily/2026-08-20.md)
+
+## `entity:eu-ai-act`
+- 2026-08-20 — Digital Omnibus defers high-risk deadlines to Dec 2027/Aug 2028 while transparency rules take effect — [briefing](../daily/2026-08-20.md)
+
+## `entity:xai`
+- 2026-08-20 — Grok 4.6 becomes available on Amazon Bedrock — [briefing](../daily/2026-08-20.md)
+- 2026-08-15 — Ships Grok 4.6, cheapest model at the intelligence frontier — [briefing](../daily/2026-08-15.md)
+- 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
+
+## `entity:cognition`
+- 2026-08-20 — Acquisition talks with SpaceX cool; discussing running Devin on SpaceX compute instead — [briefing](../daily/2026-08-20.md)
+
+## `entity:rillet`
+- 2026-08-20 — Raises $100M Series C at $1B valuation for AI-native accounting/ERP platform — [briefing](../daily/2026-08-20.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
