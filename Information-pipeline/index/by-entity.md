@@ -7,6 +7,21 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:openai`
+- 2026-08-21 — Launches ChatGPT for Teens with behavioural age-prediction routing; discloses ~20% of inference compute spent on cyber-capability monitoring for Astra/GPT-5.6 Sol-class models — [briefing](../daily/2026-08-21.md)
+
+## `entity:anthropic`
+- 2026-08-21 — Sizes IPO to match or beat SpaceX's $75B record raise; adds Citigroup to underwriting bench — [briefing](../daily/2026-08-21.md)
+
+## `entity:xai`
+- 2026-08-21 — Expands Grok Bot beyond beta into SuperGrok and Cursor plans — [briefing](../daily/2026-08-21.md)
+
+## `entity:a16z`
+- 2026-08-21 — Partner Gabriel Vasquez: non-US address now a startup advantage, 44% of Apps Fund has international founders — [briefing](../daily/2026-08-21.md)
+
+## `entity:astra`
+- 2026-08-21 — OpenAI's unreleased model remains at unresolved "critical" cyber-capability status; ~20% of inference compute now spent monitoring it — [briefing](../daily/2026-08-21.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
