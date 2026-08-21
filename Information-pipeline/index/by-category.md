@@ -27,6 +27,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-21
+- OpenAI launches ChatGPT for Teens with behavioural age-prediction routing — [briefing](../daily/2026-08-21.md)
+- xAI expands Grok Bot beyond beta into SuperGrok and Cursor plans — [briefing](../daily/2026-08-21.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +51,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-21
+- Anthropic sizes IPO to rival SpaceX's record $75B raise, adds Citigroup to underwriting team — [briefing](../daily/2026-08-21.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -81,6 +88,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-21
+- OpenAI publishes monitoring-overhead figures (~20% of inference compute) for its unresolved "critical" cyber-capability model Astra — [briefing](../daily/2026-08-21.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -93,6 +103,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-21
+- a16z: a non-US address has become a startup advantage, not a handicap — [briefing](../daily/2026-08-21.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
