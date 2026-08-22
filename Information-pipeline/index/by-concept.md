@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:llm-wiki`
+**First mention:** 2026-08-22
+
+**Plain English:** A personal knowledge-base workflow where source documents get fed into a folder and an LLM continuously organizes and updates them into a linked, ever-evolving Markdown wiki — instead of a static folder of notes or a one-off summary. Popularized after Andrej Karpathy described using the technique, it spawned a wave of GitHub repos and tutorials replicating the pattern for research and knowledge work.
+
+**Origin:** Andrej Karpathy — covered in [Platformer](https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/)
+
+**Appearances:**
+- 2026-08-22 — [briefing](../daily/2026-08-22.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 

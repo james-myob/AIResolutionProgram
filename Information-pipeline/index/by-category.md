@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-22
+- xAI's Grok 4.6 lands on Google's Enterprise Agent Platform (Vertex AI Model Garden); ranks 3rd on Artificial Analysis Intelligence Index — [briefing](../daily/2026-08-22.md)
+- DeepSeek V4 Pro hits 90% on ARC-AGI-1 but plateaus at 61% on harder ARC-AGI-2, flat across reasoning-effort settings — [briefing](../daily/2026-08-22.md)
+
 ### 2026-08-16
 - Google ships Gemini 3.7 Flash at half the price of Gemini 3.6 Flash, three weeks after that model's launch — [briefing](../daily/2026-08-16.md)
 
@@ -27,6 +31,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-22
+- Mistral launches Agentic Search — triples FinanceBench accuracy (26.7%→86%) via iterative multi-step retrieval — [briefing](../daily/2026-08-22.md)
+- Anthropic's Project Parka streams meeting transcripts directly into Claude agent workflows on Mac — [briefing](../daily/2026-08-22.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +55,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-22
+- Stripe acquires OpenRouter, the multi-model routing layer processing ~10T tokens/day — [briefing](../daily/2026-08-22.md)
+- Nvidia pays Poolside $6B for a non-exclusive model license plus $1B equity investment — [briefing](../daily/2026-08-22.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -71,6 +83,10 @@
 
 ## 🔬 Research & Papers
 
+### 2026-08-22
+- Claude runs autonomous protein-design campaigns at 22-35% success, beating the 10-15% industry baseline — [briefing](../daily/2026-08-22.md)
+- Hugging Face study finds ASR models "benchmaxxing" — reproducing known-wrong reference transcripts rather than genuinely transcribing — [briefing](../daily/2026-08-22.md)
+
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 
@@ -80,6 +96,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-08-22
+- OpenAI commits to Zero Data Retention on frontier models; previews Private Safety Processing to monitor abuse without storing content — [briefing](../daily/2026-08-22.md)
+- Bessemer: AI governance (data provenance, vendor contracts) is a board-level fiduciary duty — [briefing](../daily/2026-08-22.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -93,6 +113,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-22
+- Azeem Azhar: AI labs' data-center backlash is the "petard" of a decade of contradictory messaging — [briefing](../daily/2026-08-22.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -110,6 +133,10 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-22
+- Simon Willison: reading the diff isn't enough to validate what a coding agent shipped — [briefing](../daily/2026-08-22.md)
+- AT&T routes 40% of internal AI workloads to open-weight models, cuts costs 56% — [briefing](../daily/2026-08-22.md)
+
 ### 2026-08-15
 - Google DeepMind's own AGI Safety team had to work around its AI resume-screener — [briefing](../daily/2026-08-15.md)
 
@@ -123,4 +150,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-22](../daily/2026-08-22.md#-quick-hits).
