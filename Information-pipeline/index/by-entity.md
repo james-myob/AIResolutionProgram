@@ -7,6 +7,54 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:anthropic`
+- 2026-08-22 — Project Parka streams meeting transcripts into agent workflows; Claude runs autonomous protein-design campaigns at 22-35% success — [briefing](../daily/2026-08-22.md)
+
+## `entity:google`
+- 2026-08-22 — Grok 4.6 lands on Google's Enterprise Agent Platform; grants Marvell warrant tied to TPU chip purchases worth up to $12.2B — [briefing](../daily/2026-08-22.md)
+
+## `entity:openai`
+- 2026-08-22 — Commits to Zero Data Retention on frontier models, previews Private Safety Processing; launches "AI Futures" governance blog — [briefing](../daily/2026-08-22.md)
+
+## `entity:xai`
+- 2026-08-22 — Grok 4.6 reaches Google's Enterprise Agent Platform; ranks 3rd on Artificial Analysis Intelligence Index — [briefing](../daily/2026-08-22.md)
+
+## `entity:grok-4-6`
+- 2026-08-22 — Available via Google's Enterprise Agent Platform (Vertex AI Model Garden), $2/$6 per million tokens — [briefing](../daily/2026-08-22.md)
+
+## `entity:mistral`
+- 2026-08-22 — Launches Agentic Search, triples FinanceBench accuracy to 86% — [briefing](../daily/2026-08-22.md)
+
+## `entity:deepseek`
+- 2026-08-22 — V4 Pro hits 90% on ARC-AGI-1, plateaus at 61% on ARC-AGI-2 — [briefing](../daily/2026-08-22.md)
+
+## `entity:stripe`
+- 2026-08-22 — Acquires OpenRouter, the multi-model routing layer — [briefing](../daily/2026-08-22.md)
+
+## `entity:openrouter`
+- 2026-08-22 — Acquired by Stripe — [briefing](../daily/2026-08-22.md)
+
+## `entity:nvidia`
+- 2026-08-22 — Pays Poolside $6B for a non-exclusive model license plus $1B equity investment — [briefing](../daily/2026-08-22.md)
+
+## `entity:poolside`
+- 2026-08-22 — Licensed to Nvidia for $6B (non-exclusive); $1B equity investment at $12B valuation — [briefing](../daily/2026-08-22.md)
+
+## `entity:marvell`
+- 2026-08-22 — Grants Google warrant to buy up to $12.2B in shares tied to TPU chip purchases — [briefing](../daily/2026-08-22.md)
+
+## `entity:hugging-face`
+- 2026-08-22 — Publishes "benchmaxxing" study finding ASR models game benchmark reference transcripts — [briefing](../daily/2026-08-22.md)
+
+## `entity:bessemer`
+- 2026-08-22 — Frames AI governance as a board-level fiduciary duty in "What Every CEO Needs to Know" — [briefing](../daily/2026-08-22.md)
+
+## `entity:azeem-azhar`
+- 2026-08-22 — "The Problem with Petards" — AI labs' data-center backlash as self-inflicted messaging fallout — [briefing](../daily/2026-08-22.md)
+
+## `entity:at-t`
+- 2026-08-22 — Routes 40% of internal AI workloads to open-weight models, cuts costs 56% — [briefing](../daily/2026-08-22.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)

@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-22
+
+- [ ] 📝 **Your Favorite Creator Isn't Real — Does it Matter?** — Olivia Moore, a16z · Essay · ~3,200 words · [link](https://a16z.com/your-favorite-creator-isnt-real-does-it-matter/) · *A first-hand test of building an AI-generated TikTok creator, arguing the useful question is shifting from "is this real" to "what creative choices shaped this" — directly relevant to any product decision about disclosing AI involvement to users.* — from [briefing](../daily/2026-08-22.md)
+
 ## 2026-08-16
 
 - [ ] 📝 **Behind the exit of DeepMind's CEO: low morale, a talent exodus, and model delays** — Fortune · Essay/investigation · ~2,500 words (est.) · [link](https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind/) · *The reporting behind today's DeepMind leadership news — useful context for reading Google's AI roadmap and hiring moves with the right amount of skepticism.* — from [briefing](../daily/2026-08-16.md)
