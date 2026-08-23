@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-23
+
+- [ ] 📝 **The Future is for Everyone** — Mark Zuckerberg · Essay · ~6,500 words · [link](https://variety.com/2026/biz/news/meta-ai-manifesto-mark-zuckerberg-1236831435/) · *Zuckerberg's fullest public statement of Meta's AI philosophy — the script Meta will use to justify its product and capex decisions for the next year.* — from [briefing](../daily/2026-08-23.md)
+
+- [ ] 📝 **Stripe to Acquire OpenRouter: Why Everyone Is Obsessed With Model Routing** — Menlo Ventures · Essay/analysis · [link](https://menlovc.com/perspective/stripe-to-acquire-openrouter-why-everyone-is-obsessed-with-model-routing/) · *The sharpest explainer yet on why model-routing has become a contested infrastructure layer.* — from [briefing](../daily/2026-08-23.md)
+
 ## 2026-08-16
 
 - [ ] 📝 **Behind the exit of DeepMind's CEO: low morale, a talent exodus, and model delays** — Fortune · Essay/investigation · ~2,500 words (est.) · [link](https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind/) · *The reporting behind today's DeepMind leadership news — useful context for reading Google's AI roadmap and hiring moves with the right amount of skepticism.* — from [briefing](../daily/2026-08-16.md)

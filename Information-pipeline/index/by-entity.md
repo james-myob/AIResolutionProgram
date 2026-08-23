@@ -43,6 +43,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-23 — Accelerates IPO plans targeting $2T valuation; files confidential draft registration with the SEC — [briefing](../daily/2026-08-23.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
@@ -107,12 +108,14 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-23 — Asks California to strengthen SB 53, the AI safety bill it previously opposed — [briefing](../daily/2026-08-23.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-23 — Argues the scarce skill with coding agents is verification, not delegation — [briefing](../daily/2026-08-23.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
@@ -139,6 +142,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-08-23 — Quietly becomes one of Microsoft's largest AI customers despite its own Muse buildout; Zuckerberg publishes "The Future is for Everyone" AI manifesto — [briefing](../daily/2026-08-23.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -153,3 +157,18 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:stripe`
+- 2026-08-23 — Agrees to acquire OpenRouter for $7-8B, a ~5.4x markup on its May valuation — [briefing](../daily/2026-08-23.md)
+
+## `entity:openrouter`
+- 2026-08-23 — Acquired by Stripe for $7-8B, extending Stripe's push into usage-metered AI billing — [briefing](../daily/2026-08-23.md)
+
+## `entity:microsoft`
+- 2026-08-23 — Revealed as one of Meta's largest AI vendors via Azure, despite Meta's own Muse buildout — [briefing](../daily/2026-08-23.md)
+
+## `entity:mistral`
+- 2026-08-23 — Releases Shieldstral, a 3B open-weight (Apache 2.0) policy-adaptive safety classifier — [briefing](../daily/2026-08-23.md)
+
+## `entity:sb-53`
+- 2026-08-23 — OpenAI asks California to strengthen this AI safety bill it previously opposed — [briefing](../daily/2026-08-23.md)

@@ -48,6 +48,11 @@
 
 ## 💰 Business & Funding
 
+### 2026-08-23
+- Anthropic accelerates IPO plans, targeting $2 trillion valuation — files confidential draft registration with the SEC — [briefing](../daily/2026-08-23.md)
+- Stripe agrees to acquire OpenRouter for $7-8B, a ~5.4x markup on its May valuation — [briefing](../daily/2026-08-23.md)
+- Meta has quietly become one of Microsoft's largest AI customers despite its own Muse buildout — [briefing](../daily/2026-08-23.md)
+
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - Anthropic signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -81,6 +86,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-23
+- OpenAI asks California to strengthen SB 53, the AI safety bill it previously opposed — [briefing](../daily/2026-08-23.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -110,6 +118,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-23
+- Simon Willison: the scarce skill with coding agents is verification, not delegation — [briefing](../daily/2026-08-23.md)
+
 ### 2026-08-15
 - Google DeepMind's own AGI Safety team had to work around its AI resume-screener — [briefing](../daily/2026-08-15.md)
 
@@ -123,4 +134,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-23](../daily/2026-08-23.md#-quick-hits).
