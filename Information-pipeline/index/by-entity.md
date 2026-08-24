@@ -7,6 +7,34 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:citigroup`
+- 2026-08-24 — Set to join Morgan Stanley, Goldman Sachs, JPMorgan as lead bank on Anthropic's IPO — [briefing](../daily/2026-08-24.md)
+
+## `entity:claude-fable-5`
+- 2026-08-24 — Struggling to attract users relative to cheaper competing tools, per reporting flagged by Simon Willison — [briefing](../daily/2026-08-24.md)
+- 2026-07-01 — US export ban lifted; redeployed globally across Claude Platform, Claude.ai, Claude Code, Cowork — [briefing](../daily/2026-07-01.md)
+
+## `entity:hugging-face`
+- 2026-08-24 — Reportedly exploring a sale at $13B+ valuation, ~3x its 2023 valuation — [briefing](../daily/2026-08-24.md)
+
+## `entity:a2a`
+- 2026-08-24 — Google transfers the Agent2Agent protocol to the Agentic AI Foundation, alongside Anthropic's MCP — [briefing](../daily/2026-08-24.md)
+
+## `entity:mcp`
+- 2026-08-24 — Anthropic's protocol now governed by the Agentic AI Foundation alongside Google's A2A — [briefing](../daily/2026-08-24.md)
+
+## `entity:cloudflare`
+- 2026-08-24 — Ships Kitesurf agent-first browser and x402 agent-payments protocol — [briefing](../daily/2026-08-24.md)
+
+## `entity:chatgpt`
+- 2026-08-24 — Launches ChatGPT for Teens with automatic age-prediction — [briefing](../daily/2026-08-24.md)
+
+## `entity:california`
+- 2026-08-24 — OpenAI publicly urges the state to strengthen its SB 53 AI safety bill — [briefing](../daily/2026-08-24.md)
+
+## `entity:ben-thompson`
+- 2026-08-24 — "Autonomy and Innovation": agentic cybersecurity's offense/defense symmetry favours startups — [briefing](../daily/2026-08-24.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
@@ -43,6 +71,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-24 — Adds Citigroup to top IPO banks; could file as soon as end of August; ~$65B annualized revenue — [briefing](../daily/2026-08-24.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
@@ -94,6 +123,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-08-24 — Transfers A2A protocol to the Agentic AI Foundation, joining Anthropic's MCP under shared governance — [briefing](../daily/2026-08-24.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
@@ -107,12 +137,14 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-24 — Launches ChatGPT for Teens with age-prediction; urges California to strengthen SB 53 — [briefing](../daily/2026-08-24.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-08-24 — Ships llm-anthropic 0.27 and llm 0.33; flags reporting on Claude Fable's adoption struggles — [briefing](../daily/2026-08-24.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
