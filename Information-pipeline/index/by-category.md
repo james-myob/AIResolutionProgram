@@ -27,6 +27,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-24
+- Google's A2A protocol joins the Agentic AI Foundation alongside Anthropic's MCP — [briefing](../daily/2026-08-24.md)
+- Cloudflare ships Kitesurf (agent-first browser) and the x402 agent-payments protocol — [briefing](../daily/2026-08-24.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +51,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-24
+- Anthropic adds Citigroup to top IPO banks, could file within weeks; ~$65B annualized revenue — [briefing](../daily/2026-08-24.md)
+- Hugging Face reportedly exploring a sale at $13B+ valuation — [briefing](../daily/2026-08-24.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -81,6 +89,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-24
+- OpenAI launches ChatGPT for Teens with automatic age-prediction — [briefing](../daily/2026-08-24.md)
+- OpenAI tells California its SB 53 AI safety bill doesn't go far enough — [briefing](../daily/2026-08-24.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -93,6 +105,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-24
+- Ben Thompson: agentic cybersecurity's offense/defense symmetry structurally favours startups over incumbents — [briefing](../daily/2026-08-24.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -123,4 +138,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-24](../daily/2026-08-24.md#-quick-hits).
