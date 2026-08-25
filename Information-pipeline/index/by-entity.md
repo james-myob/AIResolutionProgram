@@ -7,6 +7,33 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:deepseek`
+- 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
+
+## `entity:deepseek-v4-flash-vision-exp`
+- 2026-08-25 — Experimental vision-capable variant of V4-Flash; keeps text/agentic/reasoning performance while adding image understanding — [briefing](../daily/2026-08-25.md)
+
+## `entity:claude-academy`
+- 2026-08-25 — Anthropic's free 355-resource training hub, built around a 4D (Delegation, Description, Discernment, Diligence) framework — [briefing](../daily/2026-08-25.md)
+
+## `entity:generalist-ai`
+- 2026-08-25 — Raises $200M led by 8VC for robotic-arm factory-automation model Gen-1.5 — [briefing](../daily/2026-08-25.md)
+
+## `entity:xpeng`
+- 2026-08-25 — Robotics division closes first external round at $900M+, valuing the unit at $6.3B+ — [briefing](../daily/2026-08-25.md)
+
+## `entity:infineon`
+- 2026-08-25 — Announces acquisition of C2i Semiconductors for AI data-center power tech — [briefing](../daily/2026-08-25.md)
+
+## `entity:c2i-semiconductors`
+- 2026-08-25 — Acquired by Infineon for digital power technology aimed at AI data centers — [briefing](../daily/2026-08-25.md)
+
+## `entity:inherent`
+- 2026-08-25 — DeepMind-alumni startup claims its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
+
+## `entity:google-cloud`
+- 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
+
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
@@ -43,6 +70,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes agentic features; doubled rate limits; SpaceX Colossus 1 compute live — [briefing](../daily/2026-05-21.md)
@@ -95,6 +123,7 @@
 
 ## `entity:google`
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
+- 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
 
 ## `entity:grok-4-3`
@@ -107,6 +136,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
@@ -143,6 +173,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
 ## `entity:papaya-global`
@@ -153,3 +184,6 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:google-deepmind`
+- 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)

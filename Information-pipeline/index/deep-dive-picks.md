@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-25
+
+- [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
+
 ## 2026-08-16
 
 - [ ] 📝 **Behind the exit of DeepMind's CEO: low morale, a talent exodus, and model delays** — Fortune · Essay/investigation · ~2,500 words (est.) · [link](https://fortune.com/2026/08/10/how-stalled-models-missed-deadlines-and-staff-burnout-lead-to-the-unraveling-of-googles-deepmind/) · *The reporting behind today's DeepMind leadership news — useful context for reading Google's AI roadmap and hiring moves with the right amount of skepticism.* — from [briefing](../daily/2026-08-16.md)

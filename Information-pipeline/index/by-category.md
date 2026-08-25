@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-25
+- DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
+
 ### 2026-08-16
 - Google ships Gemini 3.7 Flash at half the price of Gemini 3.6 Flash, three weeks after that model's launch — [briefing](../daily/2026-08-16.md)
 
@@ -27,6 +30,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-25
+- Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
+- OpenAI brings GPT-5.6 into Kiro; reinstates the 5-hour usage cap on ChatGPT Work and Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
+
 ### 2026-08-16
 - OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 14x speed, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 
@@ -47,6 +54,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-25
+- Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
+- Infineon to acquire C2i Semiconductors for AI data-center power tech — [briefing](../daily/2026-08-25.md)
 
 ### 2026-08-16
 - Google DeepMind leadership reset — Hassabis to Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -70,6 +81,9 @@
 ---
 
 ## 🔬 Research & Papers
+
+### 2026-08-25
+- Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
 ### 2026-07-01
 - Meta open-sources Brain2Qwerty v2, a non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
@@ -110,6 +124,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-08-25
+- Google Cloud: agent security is the top blocker to scaling agentic AI, recommends human-in-the-loop by design — [briefing](../daily/2026-08-25.md)
+
 ### 2026-08-15
 - Google DeepMind's own AGI Safety team had to work around its AI resume-screener — [briefing](../daily/2026-08-15.md)
 
@@ -123,4 +140,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-16](../daily/2026-08-16.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
