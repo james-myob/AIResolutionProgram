@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-26
+- IBM ships Granite 4.2, open-weight enterprise models (3B/8B/30B) with native reasoning and agentic RL — [briefing](../daily/2026-08-26.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +32,11 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-08-26
+- OpenAI publishes first Jalapeño inference chip benchmarks — 1.5-4x gains over Nvidia GB200/GB300 — [briefing](../daily/2026-08-26.md)
+- Anthropic unifies Claude's memory across Chat and Cowork, on by default — [briefing](../daily/2026-08-26.md)
+- Thomson Reuters launches Thomson, a proprietary legal LLM built on Westlaw and Practical Law — [briefing](../daily/2026-08-26.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +62,11 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-26
+- Anthropic's IPO pitch leans on a $30 trillion+ TAM claim, targets ~$2T valuation — [briefing](../daily/2026-08-26.md)
+- DeepSeek nears $7B+ round at ~$74B valuation, prepping a 2027 Shanghai IPO — [briefing](../daily/2026-08-26.md)
+- Emerald AI raises $150M Series A to make data centers grid-flexible — [briefing](../daily/2026-08-26.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -108,6 +121,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-08-26
+- Amazon shuts down Mechanical Turk after 21 years as AI training-data work moves to specialized platforms — [briefing](../daily/2026-08-26.md)
+
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
 
@@ -140,4 +156,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-26](../daily/2026-08-26.md#-quick-hits).

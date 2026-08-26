@@ -7,7 +7,32 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:ibm`
+- 2026-08-26 — Ships Granite 4.2, open-weight (Apache 2.0) enterprise models with native reasoning and agentic RL — [briefing](../daily/2026-08-26.md)
+
+## `entity:granite-4-2`
+- 2026-08-26 — 3B/8B/30B open-weight models, ~15T training tokens, 512K context, thinking/non-thinking toggle — [briefing](../daily/2026-08-26.md)
+
+## `entity:jalapeno`
+- 2026-08-26 — OpenAI's in-house inference chip; first benchmarks show 1.5-4x gains over Nvidia GB200/GB300 — [briefing](../daily/2026-08-26.md)
+
+## `entity:thomson-reuters`
+- 2026-08-26 — Launches Thomson, a proprietary legal LLM built on Westlaw and Practical Law content — [briefing](../daily/2026-08-26.md)
+
+## `entity:thomson-llm`
+- 2026-08-26 — Specialized from an open-source base (Qwen 3.5); powers next-gen CoCounsel Legal — [briefing](../daily/2026-08-26.md)
+
+## `entity:emerald-ai`
+- 2026-08-26 — Raises $150M Series A at $1.05B for grid-flexible AI data-center power management — [briefing](../daily/2026-08-26.md)
+
+## `entity:amazon`
+- 2026-08-26 — Shuts down Mechanical Turk after 21 years as AI training-data work moves to specialized platforms — [briefing](../daily/2026-08-26.md)
+
+## `entity:mechanical-turk`
+- 2026-08-26 — Closing 30 September after 21 years; workload had shifted to Scale AI, Mercor, Prolific — [briefing](../daily/2026-08-26.md)
+
 ## `entity:deepseek`
+- 2026-08-26 — Nears $7B+ round at ~$74B valuation, prepping a 2027 Shanghai STAR Market IPO — [briefing](../daily/2026-08-26.md)
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
 ## `entity:deepseek-v4-flash-vision-exp`
@@ -70,6 +95,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-26 — Unifies Claude's memory across Chat and Cowork; IPO pitch reportedly leans on a $30 trillion+ TAM claim — [briefing](../daily/2026-08-26.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +162,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-26 — Publishes first Jalapeño inference-chip benchmarks, claims 1.5-4x gains over Nvidia GB200/GB300; retires o3 from ChatGPT — [briefing](../daily/2026-08-26.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -173,6 +200,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-08-26 — Its GB200/GB300 racks are the baseline OpenAI's Jalapeño chip benchmarks against; also backs Emerald AI's $150M round — [briefing](../daily/2026-08-26.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
