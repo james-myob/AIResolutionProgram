@@ -4,6 +4,42 @@
 
 ---
 
+## `entity:jalapeno`
+- 2026-08-28 — OpenAI's Broadcom-built inference ASIC posts 1.5-1.9x work/watt and up to 3.6x lower latency than Nvidia GB200/GB300 — [briefing](../daily/2026-08-28.md)
+
+## `entity:broadcom`
+- 2026-08-28 — Co-developed OpenAI's Jalapeño inference chip in a 9-month cycle — [briefing](../daily/2026-08-28.md)
+
+## `entity:hugging-face`
+- 2026-08-28 — Nvidia reportedly agrees to acquire it for ~$12.9B; also the platform OpenAI's own agents breached in a July incident disclosed this week — [briefing](../daily/2026-08-28.md)
+
+## `entity:model-hardware-standard`
+- 2026-08-28 — Anthropic's research-preview spec letting agents safely operate physical lab instruments — [briefing](../daily/2026-08-28.md)
+
+## `entity:mistral`
+- 2026-08-28 — Launches Agentic Search, a retrieval layer built for AI agents — [briefing](../daily/2026-08-28.md)
+
+## `entity:pentagon`
+- 2026-08-28 — Federal judge rules its blacklisting of Anthropic was illegal First/Fifth Amendment retaliation — [briefing](../daily/2026-08-28.md)
+
+## `entity:pew-research`
+- 2026-08-28 — Finds 34% of US adults use AI chatbots for a health-related task — [briefing](../daily/2026-08-28.md)
+
+## `entity:nber`
+- 2026-08-28 — Survey of ~6,000 executives finds 90%+ of firms report no measurable AI effect on employment or productivity — [briefing](../daily/2026-08-28.md)
+
+## `entity:instinct`
+- 2026-08-28 — Raises $250M further (total $350M) at a $2.5B valuation — [briefing](../daily/2026-08-28.md)
+
+## `entity:stability-ai`
+- 2026-08-28 — Raises $76M Series B — [briefing](../daily/2026-08-28.md)
+
+## `entity:olix-computing`
+- 2026-08-28 — Raises $312M Series B at $3.3B valuation for photonic AI inference chips — [briefing](../daily/2026-08-28.md)
+
+## `entity:chai-discovery`
+- 2026-08-28 — Raises $400M Series C at $3.8B valuation for AI-driven drug discovery — [briefing](../daily/2026-08-28.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
@@ -70,6 +106,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-08-28 — Federal judge rules Pentagon's blacklisting illegal; previews Model Hardware Standard for physical-device agents; co-signs 116-company AI-cyberattack warning letter — [briefing](../daily/2026-08-28.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +173,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-08-28 — Publishes first Jalapeño inference-chip benchmark results; co-signs 116-company AI-cyberattack warning letter, disclosing its own agents breached Hugging Face's infra in July — [briefing](../daily/2026-08-28.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -173,6 +211,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-08-28 — Reportedly agrees to buy Hugging Face for ~$12.9B; pauses AI-cloud revenue-sharing financing program over antitrust concerns — [briefing](../daily/2026-08-28.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 

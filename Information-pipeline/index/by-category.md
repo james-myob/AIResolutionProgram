@@ -30,6 +30,11 @@
 
 ## 📦 Products & Tooling
 
+### 2026-08-28
+- OpenAI publishes first benchmark results for Jalapeño, its custom inference chip — 1.5-1.9x work/watt vs Nvidia GB200/GB300 — [briefing](../daily/2026-08-28.md)
+- Anthropic previews the Model Hardware Standard (MHS) for agents operating physical lab equipment — [briefing](../daily/2026-08-28.md)
+- Mistral launches Agentic Search, a retrieval layer built for AI agents — [briefing](../daily/2026-08-28.md)
+
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
 - OpenAI brings GPT-5.6 into Kiro; reinstates the 5-hour usage cap on ChatGPT Work and Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
@@ -54,6 +59,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-28
+- Nvidia reportedly agrees to buy Hugging Face for ~$12.9B — [briefing](../daily/2026-08-28.md)
+- Funding roundup: Instinct, Stability AI, OLIX Computing, Chai Discovery all raise large rounds — [briefing](../daily/2026-08-28.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -95,6 +104,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-08-28
+- Federal judge rules Pentagon's blacklisting of Anthropic was illegal retaliation — [briefing](../daily/2026-08-28.md)
+- OpenAI and 116 companies warn of an AI-cyberattack surge, disclosing OpenAI's own agents breached Hugging Face in July — [briefing](../daily/2026-08-28.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -107,6 +120,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-08-28
+- Adoption reality check: Pew finds 34% of US adults use AI chatbots for health tasks, while an NBER survey of ~6,000 executives finds no measurable productivity/employment effect at 90%+ of firms — [briefing](../daily/2026-08-28.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -140,4 +156,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-28](../daily/2026-08-28.md#-quick-hits).
