@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-08-28
+
+- [ ] 📝 **OpenAI Jalapeño: Better Than Nvidia Blackwell** — SemiAnalysis · Essay · ~2,500 words (est.) · [link](https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia) · *The most technically credible independent read on whether OpenAI's first custom chip threatens Nvidia's margins or is a first-gen curiosity.* — from [briefing](../daily/2026-08-28.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
