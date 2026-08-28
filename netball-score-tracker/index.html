@@ -548,6 +548,19 @@
   const AWAY_COLOR = '#4C63E0', AWAY_SOFT = '#DCE1FA', AWAY_DEEP = '#3948B8';
   const POSITIONS = ['GS', 'GA'];
 
+  // Some browsers (notably Safari, when a page is opened as a local file
+  // rather than served from a real site) block localStorage entirely and
+  // throw a SecurityError just touching it. Guard every access so a blocked
+  // store degrades to "no persistence" instead of crashing the whole script
+  // before any button listeners get attached.
+  function loadSavedState() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    } catch (e) {
+      return {};
+    }
+  }
+
   const state = Object.assign({
     home: 0,
     away: 0,
@@ -563,7 +576,7 @@
     halftimeAtPlayMs: null,
     fulltimeAt: null,
     fulltimeAtPlayMs: null
-  }, JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'));
+  }, loadSavedState());
 
   let expandedGoalId = null;
 
@@ -592,7 +605,12 @@
   };
 
   function save() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      // Storage blocked (e.g. Safari on a local file) -- state still works
+      // for this session, it just won't survive a reload.
+    }
   }
 
   function vibrate() {
