@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-08-29
+- Z.AI ships GLM-5.3-Flash, a natively multimodal open-weight model at one-tenth the price of GLM-5.2 — [briefing](../daily/2026-08-29.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +32,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-08-29
+- Anthropic opens a research preview of the Model Hardware Standard, letting any LLM drive lab/factory equipment — [briefing](../daily/2026-08-29.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +60,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-08-29
+- South Korea's Wrtn Technologies raises $72.2M Series C, first Korean AI service startup past a ₩1 trillion valuation — [briefing](../daily/2026-08-29.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)

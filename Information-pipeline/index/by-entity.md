@@ -7,6 +7,21 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:anthropic`
+- 2026-08-29 — Opens research preview of the Model Hardware Standard (MHS), letting any LLM drive lab/factory equipment via a common driver layer — [briefing](../daily/2026-08-29.md)
+
+## `entity:model-hardware-standard`
+- 2026-08-29 — Anthropic's shared spec for AI agents to operate physical lab/manufacturing equipment; early partners include Genentech, Carnegie Mellon, AWS — [briefing](../daily/2026-08-29.md)
+
+## `entity:z-ai`
+- 2026-08-29 — Ships GLM-5.3-Flash, a 320B-parameter natively multimodal open-weight model at one-tenth GLM-5.2's price — [briefing](../daily/2026-08-29.md)
+
+## `entity:glm-5-3-flash`
+- 2026-08-29 — Natively multimodal MoE (320B/18B active), 1M-token context, $0.075/$0.25 per million input/output tokens — [briefing](../daily/2026-08-29.md)
+
+## `entity:wrtn`
+- 2026-08-29 — South Korean consumer AI platform raises $72.2M Series C, first Korean AI service startup past a ₩1 trillion valuation — [briefing](../daily/2026-08-29.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
