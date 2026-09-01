@@ -1,5 +1,17 @@
 # Index — By Entity
 
+## `entity:claude-fable-5-1`
+- 2026-09-01 — Released alongside Mythos 5.1; 25% cheaper on cached tokens, tuned to avoid shortcut-taking on long coding tasks — [briefing](../daily/2026-09-01.md)
+
+## `entity:claude-mythos-5-1`
+- 2026-09-01 — Restricted-access counterpart to Fable 5.1, for vetted cybersecurity and life-sciences partners — [briefing](../daily/2026-09-01.md)
+
+## `entity:eu-ai-act`
+- 2026-09-01 — AI Office sends first formal RFIs to OpenAI, Anthropic, and Google on model security and evaluation — [briefing](../daily/2026-09-01.md)
+
+## `entity:european-commission`
+- 2026-09-01 — AI Office's first formal enforcement step under the AI Act, four weeks after GPAI obligations became enforceable — [briefing](../daily/2026-09-01.md)
+
 > Grouped index of every appearance of an entity tag across all daily briefings. Regenerated each run from daily file front-matter. **Auto-generation not yet built — Mission 7 deliverable.** Until then, manually appended. Sorted alphabetically by entity slug.
 
 ---
@@ -51,6 +63,7 @@
 - 2026-08-16 — Powers OpenAI's Ultrafast mode, running GPT-5.6 Sol at up to 750 tokens/sec — [briefing](../daily/2026-08-16.md)
 
 ## `entity:a16z`
+- 2026-09-01 — Launches $1.1B "Machine Age" fund for physical AI buildout — [briefing](../daily/2026-09-01.md)
 - 2026-08-16 — Alex Danco essay: "100% AI-generated" framing as preference falsification — [briefing](../daily/2026-08-16.md)
 
 ## `entity:gpt-5-6`
@@ -70,6 +83,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-01 — Ships Claude Fable 5.1/Mythos 5.1; reverses enterprise data-retention policy via Enterprise Frontier Safeguards; targets fall IPO near $965B; publishes automated-alignment-research paper — [briefing](../daily/2026-09-01.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +150,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-01 — Receives first formal EU AI Office RFI under the AI Act, alongside Anthropic and Google — [briefing](../daily/2026-09-01.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -184,6 +199,9 @@
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
+
+## `entity:google`
+- 2026-09-01 — Receives first formal EU AI Office RFI under the AI Act, alongside OpenAI and Anthropic — [briefing](../daily/2026-09-01.md)
 
 ## `entity:google-deepmind`
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)

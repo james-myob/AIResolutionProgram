@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:twilight-factory`
+**First mention:** 2026-09-01
+
+**Plain English:** A middle design point between a fully manual workflow and a "dark factory" running entirely on autonomous agents with zero human involvement. In a Twilight Factory, a facilitator agent routes work to a human specifically in four situations: before the system authorizes spending or contacts an outside party, when a task needs specialist human knowledge the AI lacks, when the system needs deliberately varied (not homogeneous AI-generated) perspectives, and when a decision is worth preserving as engaging human work rather than automating it away. The pitch is that "agents know when to look up" is a better design target than maximal autonomy.
+
+**Origin:** Ethan Mollick — *Agency and Agents* ([One Useful Thing](https://www.oneusefulthing.org/p/agency-and-agents))
+
+**Appearances:**
+- 2026-09-01 — [briefing](../daily/2026-09-01.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
