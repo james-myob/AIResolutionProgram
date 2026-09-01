@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-01
+- Anthropic ships Claude Fable 5.1 and Mythos 5.1 — same model, tiered safeguards, 25% cheaper on cached tokens — [briefing](../daily/2026-09-01.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +32,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-01
+- Anthropic reverses enterprise data-retention policy, launches free Enterprise Frontier Safeguards — [briefing](../daily/2026-09-01.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +60,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-01
+- Anthropic targets a fall IPO near a $965B valuation, Morgan Stanley/Goldman/JPMorgan leading — [briefing](../daily/2026-09-01.md)
+- a16z launches $1.1B "Machine Age" fund for physical AI buildout — [briefing](../daily/2026-09-01.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -82,6 +92,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-01
+- Anthropic: automated systems can reliably fix a model's own alignment failures, ~40x cheaper than human researchers — [briefing](../daily/2026-09-01.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -94,6 +107,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-01
+- EU AI Office sends first formal RFIs under the AI Act to OpenAI, Anthropic, and Google — [briefing](../daily/2026-09-01.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +156,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-01](../daily/2026-09-01.md#-quick-hits).
