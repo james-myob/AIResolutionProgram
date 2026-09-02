@@ -18,6 +18,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:model-hardware-standard`
+**First mention:** 2026-09-02
+
+**Plain English:** A shared specification, previewed by Anthropic, that lets AI agents safely operate physical lab and manufacturing equipment — microscopes, liquid handlers, robotic arms — through one common interface instead of a custom integration per device pair. It's the physical-world analog of how the Model Context Protocol standardized calling software tools, but for lab instruments, with safety evaluations built in ahead of an eventual open-source release.
+
+**Origin:** Anthropic — [Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+
+**Appearances:**
+- 2026-09-02 — [briefing](../daily/2026-09-02.md)
+
+---
+
 ## `concept:agent-harness`
 **First mention:** 2026-05-20
 

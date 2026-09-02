@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-02
+- Anthropic ships Claude Fable 5.1 and Mythos 5.1 — up to 45% cost cut on agentic workloads — [briefing](../daily/2026-09-02.md)
+- OpenAI's Astra becomes the first model to cross the "Critical" cyber-capability threshold — [briefing](../daily/2026-09-02.md)
+- Google ships agentic video understanding in Gemini 3.5-3.7 Flash — [briefing](../daily/2026-09-02.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +34,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-02
+- Anthropic previews Enterprise Frontier Safeguards — misuse detection without Anthropic retaining customer data — [briefing](../daily/2026-09-02.md)
+- Salesforce and Anthropic launch Claudeforce — two-way Claude/Agentforce integration — [briefing](../daily/2026-09-02.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +63,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-02
+- Anthropic signs ~$35B cloud deal with Lambda for ~350MW Nvidia GPU capacity — [briefing](../daily/2026-09-02.md)
+- AIR Security raises $50M to police AI-agent add-ons — blocks ~27% of add-ons it evaluates — [briefing](../daily/2026-09-02.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -94,6 +107,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-02
+- California passes 26 AI and social-media bills — bans chatbot therapy, employer emotion-surveillance — [briefing](../daily/2026-09-02.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +156,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-02](../daily/2026-09-02.md#-quick-hits).

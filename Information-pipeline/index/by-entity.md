@@ -7,6 +7,27 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:astra`
+- 2026-09-02 — OpenAI's upcoming model becomes the first classified "Critical" cyber capability under its Preparedness Framework — [briefing](../daily/2026-09-02.md)
+
+## `entity:air-security`
+- 2026-09-02 — Raises $50M to help enterprises vet AI-agent skills and add-ons; blocks ~27% it evaluates — [briefing](../daily/2026-09-02.md)
+
+## `entity:lambda`
+- 2026-09-02 — Signs ~$35B cloud deal with Anthropic for ~350MW Nvidia GPU capacity at Hut 8's Beacon Point campus — [briefing](../daily/2026-09-02.md)
+
+## `entity:salesforce`
+- 2026-09-02 — Launches Claudeforce with Anthropic — Salesforce in Claude (37 sales skills) + Claude powering Agentforce — [briefing](../daily/2026-09-02.md)
+
+## `entity:california`
+- 2026-09-02 — Legislature passes 26 AI and social-media bills, awaiting Newsom's signature — [briefing](../daily/2026-09-02.md)
+
+## `entity:claude-fable-5-1`
+- 2026-09-02 — Broadly available; 55.8% on Terminal-Bench 4.0 agentic coding; cache-read pricing cut 75% — [briefing](../daily/2026-09-02.md)
+
+## `entity:claude-mythos-5-1`
+- 2026-09-02 — Restricted to vetted cybersecurity and life-sciences organizations — [briefing](../daily/2026-09-02.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +91,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-02 — Ships Fable 5.1/Mythos 5.1; previews Enterprise Frontier Safeguards; signs $35B Lambda cloud deal; launches Claudeforce with Salesforce — [briefing](../daily/2026-09-02.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -122,6 +144,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-02 — Ships agentic video understanding in Gemini 3.5-3.7 Flash; launches "Google Pics" prompt-first design tool (Quick Hit) — [briefing](../daily/2026-09-02.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -136,6 +159,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-02 — Astra becomes the first model to cross the "Critical" cyber-capability threshold — [briefing](../daily/2026-09-02.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -186,4 +210,5 @@
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
+- 2026-09-02 — Gemini adds agentic video understanding — model decides which portions of a clip to inspect and at what speed — [briefing](../daily/2026-09-02.md)
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
