@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-03
+- OpenAI ships GPT-6 Astra, its first "Critical"-tier cybersecurity model — [briefing](../daily/2026-09-03.md)
+- Anthropic releases Claude Fable 5.1 / Mythos 5.1, cutting agentic-workload costs up to ~45% — [briefing](../daily/2026-09-03.md)
+- Google DeepMind ships Gemini 3.8 Flash / Flash Cyber and agentic video understanding — [briefing](../daily/2026-09-03.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +34,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-03
+- ChatGPT Health adds a read-only Epic integration for clinicians — [briefing](../daily/2026-09-03.md)
+- Anthropic details Enterprise Frontier Safeguards, built with customers — [briefing](../daily/2026-09-03.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +63,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-03
+- Cognition set to raise ~$1B at a $47B valuation — [briefing](../daily/2026-09-03.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -124,6 +136,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-09-03
+- McKinsey: 32% of organizations skipped buying software to build it with agentic coding tools — [briefing](../daily/2026-09-03.md)
+
 ### 2026-08-25
 - Google Cloud: agent security is the top blocker to scaling agentic AI, recommends human-in-the-loop by design — [briefing](../daily/2026-08-25.md)
 
@@ -140,4 +155,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-03](../daily/2026-09-03.md#-quick-hits).

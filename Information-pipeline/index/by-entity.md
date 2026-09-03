@@ -7,6 +7,30 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:gpt-6-astra`
+- 2026-09-03 — OpenAI's first model to reach "Critical" cybersecurity capability under its Preparedness Framework — [briefing](../daily/2026-09-03.md)
+
+## `entity:claude-fable-5-1`
+- 2026-09-03 — Released with ~25-45% lower agentic-workload costs via a 75% cache-read price cut — [briefing](../daily/2026-09-03.md)
+
+## `entity:claude-mythos-5-1`
+- 2026-09-03 — Reduced-safeguard sibling of Fable 5.1, gated to vetted cybersecurity/life-sciences orgs — [briefing](../daily/2026-09-03.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-03 — Ships alongside a Flash Cyber variant and agentic video understanding (up to 88% lower token use) — [briefing](../daily/2026-09-03.md)
+
+## `entity:chatgpt-health`
+- 2026-09-03 — Adds read-only Epic EHR integration for clinicians, 99.1% safety rating across 4,363 evaluations — [briefing](../daily/2026-09-03.md)
+
+## `entity:epic-systems`
+- 2026-09-03 — 325M-patient EHR system now read-accessible to ChatGPT Health for clinicians — [briefing](../daily/2026-09-03.md)
+
+## `entity:cognition-ai`
+- 2026-09-03 — Set to raise ~$1B at a $47B valuation per Bloomberg — [briefing](../daily/2026-09-03.md)
+
+## `entity:mckinsey`
+- 2026-09-03 — 2026 State of AI survey: 32% of orgs skipped buying software to build with agentic coding tools — [briefing](../daily/2026-09-03.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +94,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-03 — Ships Claude Fable 5.1/Mythos 5.1; details Enterprise Frontier Safeguards for customer-controlled data + misuse detection — [briefing](../daily/2026-09-03.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +161,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-03 — Ships GPT-6 Astra (first "Critical"-cybersecurity-tier model); adds Epic EHR integration to ChatGPT Health — [briefing](../daily/2026-09-03.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -143,6 +169,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-09-03 — Flags Claude's tightened system-prompt guardrails on song lyrics; ships llm-gemini 0.34 — [briefing](../daily/2026-09-03.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
@@ -186,4 +213,5 @@
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
+- 2026-09-03 — Ships Gemini 3.8 Flash / Flash Cyber and agentic video understanding across the Flash tier — [briefing](../daily/2026-09-03.md)
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
