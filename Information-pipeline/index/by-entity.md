@@ -7,6 +7,56 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:openai`
+- 2026-09-04 — Ships GPT-6 Astra, first model designated Critical for cyber capability; $1B Daybreak for Frontline Defenders program; DevDay 2026 announced for 29 Sept — [briefing](../daily/2026-09-04.md)
+- 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
+- 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
+- 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
+- 2026-05-21 — General-purpose reasoning model disproves Erdős geometry conjecture; verified by three independent mathematicians — [briefing](../daily/2026-05-21.md)
+- 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
+
+## `entity:gpt-6-astra`
+- 2026-09-04 — OpenAI's first model designated Critical for cyber capability; internal reasoning confirmed "harder to monitor" than GPT-5.6 Sol — [briefing](../daily/2026-09-04.md)
+
+## `entity:google-deepmind`
+- 2026-09-04 — Splits Gemini 3.8 Flash into two access envelopes: standard and a vetted Cyber variant — [briefing](../daily/2026-09-04.md)
+- 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
+- 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
+- 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-04 — Released alongside a vetted Gemini 3.8 Flash Cyber variant; third Flash-tier release in six weeks — [briefing](../daily/2026-09-04.md)
+
+## `entity:enterprise-frontier-safeguards`
+- 2026-09-04 — Anthropic's misuse-monitoring system that keeps logs in the customer's own cloud account, not Anthropic's — [briefing](../daily/2026-09-04.md)
+
+## `entity:claude-desktop`
+- 2026-09-04 — Gains a built-in Chromium browser Claude can drive directly in a side panel — [briefing](../daily/2026-09-04.md)
+
+## `entity:nvidia`
+- 2026-09-04 — Agrees to acquire Hugging Face for ~$12.9B — [briefing](../daily/2026-09-04.md)
+- 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
+- 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
+
+## `entity:hugging-face`
+- 2026-09-04 — Acquired by Nvidia for ~$12.9B, folding the default open-model distribution platform into the largest AI-chip vendor — [briefing](../daily/2026-09-04.md)
+
+## `entity:axle-ai`
+- 2026-09-04 — Raises $17.5M Series A led by Base10 Partners for insurance-carrier AI backend infrastructure — [briefing](../daily/2026-09-04.md)
+
+## `entity:guardio`
+- 2026-09-04 — Closes $40M round at ~$1.1B valuation for real-time AI phishing/malware detection — [briefing](../daily/2026-09-04.md)
+
+## `entity:emerald-ai`
+- 2026-09-04 — Raises $150M at $1.05B valuation for AI-datacenter grid-flexibility software — [briefing](../daily/2026-09-04.md)
+
+## `entity:future-of-life-institute`
+- 2026-09-04 — Summer 2026 AI Safety Index: no lab scores above a C+; none of nine firms has a credible AGI-control plan — [briefing](../daily/2026-09-04.md)
+
+## `entity:eu-ai-act`
+- 2026-09-04 — EU AI Office and national authorities open first wave of compliance inspections — [briefing](../daily/2026-09-04.md)
+- 2026-05-20 — OpenAI joins as Conforming Generator — [briefing](../daily/2026-05-20.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
