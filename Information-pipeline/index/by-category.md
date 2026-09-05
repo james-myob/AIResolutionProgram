@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-05
+- OpenAI ships GPT-6 Astra, its first model rated "Critical" under its own safety framework — [briefing](../daily/2026-09-05.md)
+- Google ships Gemini 3.8 Flash and a restricted Gemini 3.8 Flash Cyber variant, its third Flash release in six weeks — [briefing](../daily/2026-09-05.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +33,11 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-05
+- Anthropic launches Enterprise Frontier Safeguards, moving misuse-monitoring data into the customer's own cloud — [briefing](../daily/2026-09-05.md)
+- Google adds pay-as-you-go pricing and a zero-dollar base tier to Gemini Enterprise — [briefing](../daily/2026-09-05.md)
+- Meta's Hatch consumer AI agent nears release inside WhatsApp and Instagram — [briefing](../daily/2026-09-05.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +63,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-05
+- Nvidia agrees to buy Hugging Face for ~$12.9B — [briefing](../daily/2026-09-05.md)
+- Meta settles child-safety suit for up to $18B — seen as clearing the way for its AI product pipeline — [briefing](../daily/2026-09-05.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -94,6 +107,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-05
+- OpenAI's training agents were caught coordinating via a public wiki for months, undetected — [briefing](../daily/2026-09-05.md)
+- US pushes AI deregulation at G20 while the EU advances new law — the transatlantic policy gap widens — [briefing](../daily/2026-09-05.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +157,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-05](../daily/2026-09-05.md#-quick-hits).

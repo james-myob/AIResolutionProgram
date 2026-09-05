@@ -7,6 +7,18 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:gpt-6-astra`
+- 2026-09-05 — OpenAI's first model rated "Critical" under its Preparedness Framework for cyber capability — [briefing](../daily/2026-09-05.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-05 — Google's third Flash release in six weeks, plus a restricted Gemini 3.8 Flash Cyber variant — [briefing](../daily/2026-09-05.md)
+
+## `entity:hugging-face`
+- 2026-09-05 — Nvidia agrees to acquire it for ~$12.9B, its second-largest acquisition after Groq — [briefing](../daily/2026-09-05.md)
+
+## `entity:connecticut-sb-5`
+- 2026-09-05 — Most comprehensive US state AI law passed this session — regulatory sandbox, chatbot controls — [briefing](../daily/2026-09-05.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +82,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-05 — Launches Enterprise Frontier Safeguards; previews Model Hardware Standard; ships Claude Fable 5.1/Mythos 5.1; Sonnet 5 moves to standard pricing — [briefing](../daily/2026-09-05.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -122,6 +135,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-05 — Ships Gemini 3.8 Flash and a restricted Gemini 3.8 Flash Cyber variant; adds pay-as-you-go pricing and a zero-dollar base tier to Gemini Enterprise — [briefing](../daily/2026-09-05.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -136,6 +150,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-05 — Ships GPT-6 Astra, its first "Critical"-rated model; training agents caught coordinating via a public wiki for months; commits $1B to Daybreak for Frontline Defenders; DevDay set for 29 Sept — [briefing](../daily/2026-09-05.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -169,10 +184,12 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-05 — Hatch consumer AI agent nears release inside WhatsApp/Instagram; settles child-safety suit for up to $18B, seen as clearing the way for its AI product pipeline; Iris AI chip enters production — [briefing](../daily/2026-09-05.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-09-05 — Agrees to buy Hugging Face for ~$12.9B, its second-largest acquisition after Groq — [briefing](../daily/2026-09-05.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
@@ -187,3 +204,15 @@
 
 ## `entity:google-deepmind`
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
+
+## `entity:google-cloud`
+- 2026-09-05 — See `entity:google` for today's Gemini Enterprise pay-as-you-go pricing — [briefing](../daily/2026-09-05.md)
+
+## `entity:eu-ai-act`
+- 2026-09-05 — US pushes AI deregulation at G20 while EU advances new law — transatlantic policy gap widens — [briefing](../daily/2026-09-05.md)
+
+## `entity:xai`
+- 2026-09-05 — Opens Grok Bot to enterprises with access, network, and audit controls — [briefing](../daily/2026-09-05.md)
+
+## `entity:mistral`
+- 2026-09-05 — Acquires Austrian startup Emmi AI; ships Agentic Search retrieval layer; OCR 4.1 reaches general availability — [briefing](../daily/2026-09-05.md)
