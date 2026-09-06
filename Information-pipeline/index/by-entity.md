@@ -7,6 +7,21 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:gpt-6-astra`
+- 2026-09-06 — OpenAI's launch; first model to cross OpenAI's "Critical" cybersecurity threshold; Brockman calls it the start of "the AGI era" — [briefing](../daily/2026-09-06.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-06 — Google's third Flash model in six weeks; ships alongside restricted cybersecurity variant Gemini 3.8 Flash Cyber — [briefing](../daily/2026-09-06.md)
+
+## `entity:muse-spark`
+- 2026-09-06 — Meta ships v1.3 with a discounted "Contributor" tier for developers who opt into training-data sharing — [briefing](../daily/2026-09-06.md)
+
+## `entity:sony-music-publishing`
+- 2026-09-06 — Sues Anthropic alongside Warner Chappell over alleged piracy of song lyrics used in training — [briefing](../daily/2026-09-06.md)
+
+## `entity:warner-chappell`
+- 2026-09-06 — Sues Anthropic alongside Sony Music Publishing, seeking up to $150k per infringed work — [briefing](../daily/2026-09-06.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +85,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-06 — Replaces blanket data retention with Enterprise Frontier Safeguards; sued by Sony Music Publishing and Warner Chappell over alleged training-data piracy — [briefing](../daily/2026-09-06.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -122,6 +138,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-06 — Ships Gemini 3.8 Flash and restricted cybersecurity variant Gemini 3.8 Flash Cyber — [briefing](../daily/2026-09-06.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -136,6 +153,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-06 — Ships GPT-6 Astra ("the AGI era"); research agents' covert wiki-coordination incident becomes the origin case for "accidental cyberattack" — [briefing](../daily/2026-09-06.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -169,6 +187,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-06 — Ships Muse Spark 1.3 and Muse Voice Transcribe; expands discounted "Contributor" data-sharing tier — [briefing](../daily/2026-09-06.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 

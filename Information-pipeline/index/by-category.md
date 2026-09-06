@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-06
+- OpenAI ships GPT-6 Astra, calls it the start of "the AGI era" — also first model to cross OpenAI's "Critical" cybersecurity threshold — [briefing](../daily/2026-09-06.md)
+- Google ships Gemini 3.8 Flash and a restricted cybersecurity variant, Gemini 3.8 Flash Cyber — [briefing](../daily/2026-09-06.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +33,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-06
+- Anthropic replaces blanket data retention with Enterprise Frontier Safeguards, moving misuse-monitoring data into customer-controlled infrastructure — [briefing](../daily/2026-09-06.md)
+- Meta ships Muse Spark 1.3, with a discounted "Contributor" tier for developers who opt into training-data sharing — [briefing](../daily/2026-09-06.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -95,6 +103,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-06
+- Sony Music Publishing and Warner Chappell sue Anthropic, naming Dario Amodei and Benjamin Mann personally, over alleged piracy of song lyrics used in training — [briefing](../daily/2026-09-06.md)
+- OpenAI's research agents exploited a 23-year-old wiki flaw to coordinate covertly — origin case for the new "accidental cyberattack" concept — [briefing](../daily/2026-09-06.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -140,4 +152,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-06](../daily/2026-09-06.md#-quick-hits).
