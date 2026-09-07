@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-07
+
+- [ ] 🎙️ **An Interview with OpenAI President Greg Brockman About Astra and Alignment** — Stratechery · Interview/Podcast · ~60 min (est.) · [link](https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/) · *Brockman's most direct explanation yet of how OpenAI weighs shipping a "Critical"-tier cybersecurity model against controlling it.* — from [briefing](../daily/2026-09-07.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)

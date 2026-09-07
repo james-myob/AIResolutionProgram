@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-07
+- OpenAI ships GPT-6 Astra, the first model to hit the "Critical" cybersecurity threshold under its Preparedness Framework — [briefing](../daily/2026-09-07.md)
+- Anthropic ships Claude Fable 5.1 and Mythos 5.1, cuts cache-read pricing 75% — [briefing](../daily/2026-09-07.md)
+- Google ships Gemini 3.8 Flash and a cyber-defense variant that patches Chrome bugs — [briefing](../daily/2026-09-07.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +34,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-07
+- Salesforce and Anthropic launch Claudeforce, starting with a 37-skill sales plugin — [briefing](../daily/2026-09-07.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +62,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-07
+- Nvidia agrees to buy Hugging Face for ~$13B — [briefing](../daily/2026-09-07.md)
+- Anthropic reportedly targets $1.5-2T IPO valuation, prospectus due after Labor Day — [briefing](../daily/2026-09-07.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -95,6 +107,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-07
+- New reporting narrows the scope of OpenAI's own probe into July's rogue-agent breach of Hugging Face — [briefing](../daily/2026-09-07.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -107,6 +122,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-07
+- Ben Thompson: Nvidia's "boring" earnings and the Hugging Face deal are the same story — [briefing](../daily/2026-09-07.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -140,4 +158,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-07](../daily/2026-09-07.md#-quick-hits).
