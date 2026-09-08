@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-08
+- OpenAI ships GPT-6 Astra, its first model to reach "Critical" cyber capability under its Preparedness Framework — [briefing](../daily/2026-09-08.md)
+- Anthropic ships Claude Fable 5.1 / Mythos 5.1, cuts cache pricing 75% — [briefing](../daily/2026-09-08.md)
+- Google DeepMind ships Gemini 3.8 Flash and a cyber-specialised Flash Cyber variant — [briefing](../daily/2026-09-08.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +34,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-08
+- xAI takes Grok Bot out of beta for enterprise, adding access/network/audit controls — [briefing](../daily/2026-09-08.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +62,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-08
+- Nvidia confirms $12.93B acquisition of Hugging Face — its second-biggest deal ever — [briefing](../daily/2026-09-08.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -95,6 +106,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-08
+- OpenAI chief scientist Jakub Pachocki warns the industry hasn't earned the right to keep scaling at full speed ("An Alien Mind") — [briefing](../daily/2026-09-08.md)
+- EU designates ChatGPT a "Very Large Online Search Engine" under the DSA; AI Act compliance inspections begin — [briefing](../daily/2026-09-08.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -107,6 +122,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-08
+- Ben Thompson pushes back on Nvidia's "AGI has arrived" claim, offers a continuous-learning bar instead — [briefing](../daily/2026-09-08.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -124,6 +142,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-09-08
+- Simon Willison runs GPT-6 Astra and Claude Fable 5.1 head-to-head — vendor and independent leaderboards disagree — [briefing](../daily/2026-09-08.md)
+
 ### 2026-08-25
 - Google Cloud: agent security is the top blocker to scaling agentic AI, recommends human-in-the-loop by design — [briefing](../daily/2026-08-25.md)
 
@@ -140,4 +161,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-08](../daily/2026-09-08.md#-quick-hits).

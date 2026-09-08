@@ -4,6 +4,30 @@
 
 ---
 
+## `entity:gpt-6-astra`
+- 2026-09-08 — OpenAI's first model to reach "Critical" cybersecurity capability under its Preparedness Framework; new marks on computer use and long-horizon agentic tasks — [briefing](../daily/2026-09-08.md)
+
+## `entity:jakub-pachocki`
+- 2026-09-08 — OpenAI's chief scientist publishes "An Alien Mind," warning no lab has solved alignment well enough to keep scaling at full speed — [briefing](../daily/2026-09-08.md)
+
+## `entity:claude-fable-5-1`
+- 2026-09-08 — General-availability release alongside Mythos 5.1; cache-read pricing cut 75% — [briefing](../daily/2026-09-08.md)
+
+## `entity:claude-mythos-5-1`
+- 2026-09-08 — Restricted-access sibling of Fable 5.1 for vetted cybersecurity/life-sciences orgs — [briefing](../daily/2026-09-08.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-08 — Google DeepMind ships Flash and a cyber-specialised Flash Cyber variant for gov/enterprise — [briefing](../daily/2026-09-08.md)
+
+## `entity:hugging-face`
+- 2026-09-08 — Acquired by Nvidia for $12.93B, its second-biggest deal ever — [briefing](../daily/2026-09-08.md)
+
+## `entity:grok-bot`
+- 2026-09-08 — xAI takes it out of beta for enterprise, adding access/network/audit controls — [briefing](../daily/2026-09-08.md)
+
+## `entity:eu-ai-act`
+- 2026-09-08 — EU AI Office and national regulators begin first compliance-inspection wave (HR screening, credit assessment, healthcare triage) — [briefing](../daily/2026-09-08.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
@@ -70,6 +94,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-08 — Ships Claude Fable 5.1 / Mythos 5.1; cuts cache-read pricing 75%; launches Enterprise Frontier Safeguards — [briefing](../daily/2026-09-08.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -101,6 +126,7 @@
 - 2026-07-01 — Sol/Terra/Luna family posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
 
 ## `entity:ben-thompson`
+- 2026-09-08 — Pushes back on Nvidia's "AGI has arrived" claim; offers a continuous-learning bar instead — [briefing](../daily/2026-09-08.md)
 - 2026-05-20 — "Google I/O, World Models, I/O Spaghetti" essay — [briefing](../daily/2026-05-20.md)
 
 ## `entity:c2pa`
@@ -136,6 +162,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-08 — Ships GPT-6 Astra (first "Critical" cyber-capability model); chief scientist publishes "An Alien Mind" safety essay; ChatGPT designated a VLOSE under the EU DSA — [briefing](../daily/2026-09-08.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -143,6 +170,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-09-08 — Runs GPT-6 Astra and Claude Fable 5.1 head-to-head; vendor and independent leaderboards disagree — [briefing](../daily/2026-09-08.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
@@ -157,6 +185,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-09-08 — Takes Grok Bot out of beta for enterprise, adding access/network/audit controls — [briefing](../daily/2026-09-08.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -173,6 +202,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-09-08 — Confirms $12.93B acquisition of Hugging Face; CEO Jensen Huang declares "AGI has arrived" off GPT-6 Astra's benchmarks — [briefing](../daily/2026-09-08.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
@@ -186,4 +216,5 @@
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
+- 2026-09-08 — Ships Gemini 3.8 Flash and Flash Cyber, plus AlphaGenome Atlas and WeatherNext 3 — [briefing](../daily/2026-09-08.md)
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)

@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-08
+
+- [ ] 📝 **An Alien Mind** — OpenAI (Jakub Pachocki) · Essay · ~3,000+ words (est.) · [link](https://openai.com/index/an-alien-mind/) · *The most candid public statement yet from a frontier lab's chief scientist that safety validation may be losing ground to capability — worth reading in full before its argument gets flattened into second-hand conventional wisdom.* — from [briefing](../daily/2026-09-08.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
