@@ -30,6 +30,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-09-09
+- Meta launches Muse, a personal AI agent for shopping, booking, and paperwork, at $0/$20/$100 tiers — [briefing](../daily/2026-09-09.md)
+
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
 - OpenAI brings GPT-5.6 into Kiro; reinstates the 5-hour usage cap on ChatGPT Work and Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
@@ -54,6 +57,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-09
+- Mistral raises €3B at over €21B valuation, Europe's largest-ever private tech round — [briefing](../daily/2026-09-09.md)
+- Cognition raises $2B at $48B valuation as Devin's revenue nearly doubles — [briefing](../daily/2026-09-09.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -82,6 +89,10 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-09
+- OpenAI says an unreleased model, run as ~10,000 agents, solved the Navier-Stokes Millennium Prize Problem — credit dispute with an NYU mathematician followed — [briefing](../daily/2026-09-09.md)
+- Google DeepMind publishes the AlphaGenome Atlas — predictions for all 9 billion possible human DNA point mutations — [briefing](../daily/2026-09-09.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -94,6 +105,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-09
+- NSA, CISA, and FBI name six Chinese AI firms in a joint advisory on systematic model distillation — [briefing](../daily/2026-09-09.md)
+- Anthropic quits the ITI tech lobby over its push to strip chip-export bills — [briefing](../daily/2026-09-09.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +155,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-09](../daily/2026-09-09.md#-quick-hits).

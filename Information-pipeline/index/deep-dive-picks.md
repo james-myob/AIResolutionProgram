@@ -6,6 +6,11 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-09
+
+- [ ] 📝 **OpenAI fought dirty on career-making math problem, says NYU mathematician** — TechCrunch · Essay/investigation · ~2,000 words (est.) · [link](https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/) · *The reporting behind today's Navier-Stokes credit dispute — what "information about our progress" reaching a lab means for how AI companies handle material crossing from private work into training/eval data.* — from [briefing](../daily/2026-09-09.md)
+- [ ] 📝 **Autonomy and Innovation** — Stratechery (Ben Thompson) · Essay · ~2,200 words (est.) · [link](https://stratechery.com/2026/autonomy-and-innovation/) · *Agency-vs-necessity framing for why startups keep out-deploying incumbents on AI.* — from [briefing](../daily/2026-09-09.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
