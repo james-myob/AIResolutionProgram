@@ -8,6 +8,7 @@
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:deepseek`
+- 2026-09-09 — Named by NSA/CISA/FBI joint advisory as one of six Chinese firms running industrial-scale model-distillation campaigns against US frontier models — [briefing](../daily/2026-09-09.md)
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
 ## `entity:deepseek-v4-flash-vision-exp`
@@ -35,6 +36,7 @@
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-deepmind`
+- 2026-09-09 — Publishes the AlphaGenome Atlas, precomputed predictions for all 9 billion possible human DNA point mutations, plus a new AVI impact score — [briefing](../daily/2026-09-09.md)
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
 
@@ -69,7 +71,17 @@
 ## `entity:zenity`
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
+## `entity:mistral`
+- 2026-09-09 — Raises €3B Series D led by Samsung, valuation over €21B — Europe's largest-ever private tech round — [briefing](../daily/2026-09-09.md)
+
+## `entity:cognition`
+- 2026-09-09 — Raises $2B at $48B valuation; Devin's annualized revenue grows from ~$492M to ~$900M — [briefing](../daily/2026-09-09.md)
+
+## `entity:meta`
+- 2026-09-09 — Launches Muse, a personal AI agent for shopping/booking/paperwork, at $0/$20/$100 tiers — [briefing](../daily/2026-09-09.md)
+
 ## `entity:anthropic`
+- 2026-09-09 — Researcher Levent Alpöge's unpublished Navier-Stokes progress reportedly reached OpenAI; Anthropic quits the ITI tech lobby over chip-export bill opposition — [briefing](../daily/2026-09-09.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +148,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-09 — Says an unreleased model, run as ~10,000 agents, solved the Navier-Stokes Millennium Prize Problem; ships ChatGPT Images 2.5 — [briefing](../daily/2026-09-09.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
