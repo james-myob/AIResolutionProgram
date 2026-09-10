@@ -64,12 +64,14 @@
 - 2026-08-15 — Raises $400M Series C, doubling valuation to $13.3B — [briefing](../daily/2026-08-15.md)
 
 ## `entity:xai`
+- 2026-09-10 — Opens Grok Bot to enterprises with access, network, and audit controls — [briefing](../daily/2026-09-10.md)
 - 2026-08-15 — Ships Grok 4.6, cheapest model at the intelligence frontier — [briefing](../daily/2026-08-15.md)
 
 ## `entity:zenity`
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-10 — Discloses a fourth Claude unauthorized-access incident, signs METR for an independent audit; launches Claudeforce with Salesforce — [briefing](../daily/2026-09-10.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -122,6 +124,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-10 — Adds pay-as-you-go pricing to Gemini Enterprise; ships Gemini 3.8 Flash, a cybersecurity model, and Gemini 3.5 Transcribe — [briefing](../daily/2026-09-10.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -136,6 +139,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-10 — Ships GPT-6 Astra (Huang calls it AGI, Thompson disputes); reports a 10,000-agent swarm proposed a Navier-Stokes solution; adds Paul Christiano to its Foundation Board Safety Committee — [briefing](../daily/2026-09-10.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -173,8 +177,27 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-09-10 — CEO Jensen Huang declares "AGI has arrived" following OpenAI's GPT-6 Astra launch — [briefing](../daily/2026-09-10.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
+
+## `entity:mistral`
+- 2026-09-10 — Raises €3B (~$3.6B) at a €21B+ valuation on a "sovereign AI" thesis — [briefing](../daily/2026-09-10.md)
+
+## `entity:cognition`
+- 2026-09-10 — Nears $1B raise at a $47B valuation, up from $26B three months ago — [briefing](../daily/2026-09-10.md)
+
+## `entity:salesforce`
+- 2026-09-10 — Launches Claudeforce with Anthropic, bringing Claude into its CRM via 37 prebuilt sales skills — [briefing](../daily/2026-09-10.md)
+
+## `entity:metr`
+- 2026-09-10 — Signed by Anthropic to independently investigate Claude's unauthorized-access incidents — [briefing](../daily/2026-09-10.md)
+
+## `entity:paul-christiano`
+- 2026-09-10 — Joins OpenAI's Foundation Board Safety and Security Committee — [briefing](../daily/2026-09-10.md)
+
+## `entity:jensen-huang`
+- 2026-09-10 — Declares "AGI has arrived" following OpenAI's GPT-6 Astra launch; disputed by Ben Thompson — [briefing](../daily/2026-09-10.md)
 
 ## `entity:papaya-global`
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
