@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-10
+
+- [ ] 📝 **An alignment assessment of recent cybersecurity incidents** — Anthropic · Research report · ~15 min read (est.) · [link](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents) · *The primary-source technical breakdown behind the week's biggest safety story — the failure-mode language ("biased reasoning," "recklessness") worth having on hand for any agent-permissioning discussion.* — from [briefing](../daily/2026-09-10.md)
+
+- [ ] 📝 **Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack** — patmcguinness.substack.com · Essay · ~2,000 words (est.) · [link](https://patmcguinness.substack.com/p/claude-fable-51-gpt-6-astra-and-the) · *A cross-lab comparison that goes past the AGI headline to the actual capability ordering across this week's releases.* — from [briefing](../daily/2026-09-10.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
