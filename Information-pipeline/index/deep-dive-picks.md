@@ -6,6 +6,12 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-11
+
+- [ ] 📝 **2026: This is AGI** — Sequoia Capital · Essay · ~3,000 words (est.) · [link](https://sequoiacap.com/article/2026-this-is-agi) · *Sonya Huang's thesis that 2026 is the year AI shifts from responding to prompts to pursuing goals.* — from [briefing](../daily/2026-09-11.md)
+
+- [ ] 📝 **What OpenAI's latest controversy tells us about the future of math** — MIT Technology Review · Essay · ~2,000 words (est.) · [link](https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/) · *The clearest explainer on what the Navier-Stokes proof actually shows versus the headline claims, and why the provenance dispute matters.* — from [briefing](../daily/2026-09-11.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
