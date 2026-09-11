@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-11
+- Google ships Gemini 3.8 Flash and a cybersecurity-focused Gemini 3.8 Flash Cyber variant — [briefing](../daily/2026-09-11.md)
+- DeepSeek ships V4.1 Flash, a 552B-parameter MoE model tuned for efficiency — [briefing](../daily/2026-09-11.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +33,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-11
+- OpenAI opens public beta of its Agents API, exposing the managed Codex harness — [briefing](../daily/2026-09-11.md)
+- OpenAI launches ChatGPT for Financial Services on GPT-6 Astra — [briefing](../daily/2026-09-11.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +62,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-11
+- Positron AI raises $875M Series C/C-1 for inference silicon; Wonderful raises $550M at a $5B valuation — [briefing](../daily/2026-09-11.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -82,6 +93,10 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-11
+- OpenAI claims progress on a Navier-Stokes Millennium Prize problem; mathematicians dispute the provenance of the result — [briefing](../daily/2026-09-11.md)
+- Year-long study links sustained Character.AI companion use to lower later wellbeing — [briefing](../daily/2026-09-11.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -94,6 +109,11 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-11
+- California signs SB 813 and AB 1405, building a first-in-the-nation framework for independent AI auditors — [briefing](../daily/2026-09-11.md)
+- Anthropic's September threat-intelligence report details disrupted misuse across seven categories — [briefing](../daily/2026-09-11.md)
+- A researcher who worked at both OpenAI and Anthropic resigns, warning of an uncontrolled race to superintelligence — [briefing](../daily/2026-09-11.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +160,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-11](../daily/2026-09-11.md#-quick-hits).
