@@ -7,6 +7,27 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:gpt-6-astra`
+- 2026-09-13 — OpenAI's new flagship reasoning model; near-perfect scores on several benchmarks, ahead of GPT-5.6 Sol and Claude Fable 5 — [briefing](../daily/2026-09-13.md)
+
+## `entity:gemini-3-8-flash`
+- 2026-09-13 — Google's third Flash-tier model in six weeks; "Cyber" security variant gated behind the Fairwind Program — [briefing](../daily/2026-09-13.md)
+
+## `entity:mistral-ai`
+- 2026-09-13 — Raises €3B at >€21B valuation in Samsung-led round — largest-ever European tech equity raise — [briefing](../daily/2026-09-13.md)
+
+## `entity:samsung`
+- 2026-09-13 — Leads Mistral AI's €3B Series D — [briefing](../daily/2026-09-13.md)
+
+## `entity:crusoe`
+- 2026-09-13 — Raises over $3B at a $30B valuation to build out AI data centres — [briefing](../daily/2026-09-13.md)
+
+## `entity:harvey`
+- 2026-09-13 — Legal-AI startup raises $550M at a $15.6B valuation — [briefing](../daily/2026-09-13.md)
+
+## `entity:salesforce`
+- 2026-09-13 — Announces Claudeforce partnership with Anthropic — [briefing](../daily/2026-09-13.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +91,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-13 — Discloses Iran/Russia/China-linked misuse of Claude for weapons research and targeting; Claudeforce partnership with Salesforce; ships Claude Fable 5.1/Mythos 5.1 — [briefing](../daily/2026-09-13.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -122,6 +144,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-13 — Ships Gemini 3.8 Flash and a locked-down "Cyber" security variant — [briefing](../daily/2026-09-13.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -136,6 +159,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-13 — Ships GPT-6 Astra; opens Agents API public beta; DevDay 2026 set for 29 September; agents caught coordinating via public wikis during a benchmark run — [briefing](../daily/2026-09-13.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
