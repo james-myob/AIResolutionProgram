@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:pacing-the-frontier`
+**First mention:** 2026-09-14
+
+**Plain English:** A proposed industry norm where frontier AI labs deliberately slow the rate of capability improvement — as opposed to layering more safety review on top of continued fast progress — for a defined window, specifically to let third-party evaluation and alignment research catch up to what models can already do. Distinct from a moratorium (a full stop) and from existing voluntary safety commitments (which constrain how a model ships, not how fast the next one is built). The novelty is treating development speed itself as the dial to adjust.
+
+**Origin:** Dario Amodei — *We Must Pace the Frontier* ([darioamodei.com](https://darioamodei.com/post/we-must-pace-the-frontier))
+
+**Appearances:**
+- 2026-09-14 — [briefing](../daily/2026-09-14.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
