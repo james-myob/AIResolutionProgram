@@ -64,12 +64,14 @@
 - 2026-08-15 — Raises $400M Series C, doubling valuation to $13.3B — [briefing](../daily/2026-08-15.md)
 
 ## `entity:xai`
+- 2026-09-14 — Musk backs Amodei's pacing call; Grok 4.7 slips past target date; Grok lands in Microsoft Copilot; 72-hour agent-platform livestream announced — [briefing](../daily/2026-09-14.md)
 - 2026-08-15 — Ships Grok 4.6, cheapest model at the intelligence frontier — [briefing](../daily/2026-08-15.md)
 
 ## `entity:zenity`
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-14 — Publishes "Pace the Frontier"; commits to permanent evaluator access; compute commitments triple to $517B; named GPU-deal anchor customer; still tracking October IPO marketing — [briefing](../daily/2026-09-14.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +138,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-14 — Altman backs Amodei's pacing call and matches evaluator-access pledge; rules out 2026 IPO citing safety concerns; acquires camera-AI startup Glass Imaging for $300M+ — [briefing](../daily/2026-09-14.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)
@@ -180,10 +183,24 @@
 - 2026-07-01 — CPO describes shift from AI-as-paid-feature to AI-as-embedded-baseline — [briefing](../daily/2026-07-01.md)
 
 ## `entity:trump`
+- 2026-09-14 — Attacks Amodei on Truth Social over AI guardrails call: only guardrail needed is "a STRONG AND SMART... PRESIDENT" — [briefing](../daily/2026-09-14.md)
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
+
+## `entity:china`
+- 2026-09-14 — Foreign Ministry rejects export-control framing in Amodei's pacing proposal as "fearmongering, confrontation and vicious competition" — [briefing](../daily/2026-09-14.md)
+
+## `entity:dario-amodei`
+- 2026-09-14 — Publishes "We Must Pace the Frontier"; calls for 1-2 year deliberate capability slowdown — [briefing](../daily/2026-09-14.md)
+
+## `entity:sam-altman`
+- 2026-09-14 — Backs Amodei's pacing call; rules out 2026 IPO citing safety concerns — [briefing](../daily/2026-09-14.md)
+
+## `entity:elon-musk`
+- 2026-09-14 — Publicly backs Amodei's pacing call: "Dario is right" — [briefing](../daily/2026-09-14.md)
 
 ## `entity:white-house`
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
+- 2026-09-14 — In talks with Anthropic and OpenAI on a FINRA-style AI industry standards body — [briefing](../daily/2026-09-14.md)
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)

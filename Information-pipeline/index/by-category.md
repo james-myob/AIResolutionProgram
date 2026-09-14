@@ -55,6 +55,10 @@
 
 ## 💰 Business & Funding
 
+### 2026-09-14
+- OpenAI rules out a 2026 IPO citing safety concerns; Anthropic still tracking toward October IPO marketing — [briefing](../daily/2026-09-14.md)
+- Anthropic's compute commitments triple to $517B ahead of IPO; named as anchor customer in $13.7B GPU deal — [briefing](../daily/2026-09-14.md)
+
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
 - Infineon to acquire C2i Semiconductors for AI data-center power tech — [briefing](../daily/2026-08-25.md)
@@ -95,6 +99,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-14
+- Amodei calls to "pace the frontier"; Altman and Musk back it, OpenAI matches Anthropic's evaluator-access pledge — [briefing](../daily/2026-09-14.md)
+- Trump attacks Amodei over AI guardrails; China rejects the chip-export framing in the pacing proposal — [briefing](../daily/2026-09-14.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -107,6 +115,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-14
+- Stratechery: pacing proposal is "mostly geared toward political control of AI," not safety; AI stocks sell off on the same news — [briefing](../daily/2026-09-14.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
