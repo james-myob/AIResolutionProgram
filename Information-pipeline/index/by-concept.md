@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:pace-the-frontier`
+**First mention:** 2026-09-16
+
+**Plain English:** A proposal, not a pause: the idea that frontier AI labs should deliberately slow down how fast model *capabilities* improve — even while shipping just as often — so that safety evaluation and alignment work can keep up. Concretely, it means things like giving outside evaluators standing, employee-level access to check a lab's own safety claims, rather than trusting self-reported testing. It's a reframing of "AI safety" from a research topic into an operational commitment labs can be held to.
+
+**Origin:** Dario Amodei — *We Must Pace the Frontier* ([darioamodei.com](https://darioamodei.com/post/we-must-pace-the-frontier)), published 12 September 2026 in response to the OpenAI–Hugging Face agent-swarm incident.
+
+**Appearances:**
+- 2026-09-16 — [briefing](../daily/2026-09-16.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 

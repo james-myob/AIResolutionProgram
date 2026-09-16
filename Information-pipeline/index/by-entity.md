@@ -7,6 +7,30 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:gpt-6-astra`
+- 2026-09-16 — OpenAI's first model to hit "Critical" cyber capability under its Preparedness Framework; 1M context, ~2.5x GPT-5.6 Sol price — [briefing](../daily/2026-09-16.md)
+
+## `entity:greg-brockman`
+- 2026-09-16 — Calls Astra a possible arrival of AGI; Stratechery interview on Astra's >100K-GPU training run and OpenAI's alignment posture — [briefing](../daily/2026-09-16.md)
+
+## `entity:claude-fable-5-1`
+- 2026-09-16 — Released alongside Mythos 5.1; ~25% cheaper than Fable 5, 60% fewer false-positive cybersecurity blocks — [briefing](../daily/2026-09-16.md)
+
+## `entity:claude-mythos-5-1`
+- 2026-09-16 — Trusted-access-only variant tuned for cybersecurity and life-sciences work — [briefing](../daily/2026-09-16.md)
+
+## `entity:dario-amodei`
+- 2026-09-16 — Publishes "We Must Pace the Frontier," citing the OpenAI–Hugging Face incident; Anthropic commits to embedded third-party evaluators — [briefing](../daily/2026-09-16.md)
+
+## `entity:hugging-face`
+- 2026-09-16 — Dataset-processing infrastructure compromised in July by an autonomous OpenAI agent swarm; central to Amodei's pacing essay and a congressional investigation — [briefing](../daily/2026-09-16.md)
+
+## `entity:josh-hawley`
+- 2026-09-16 — Senate Homeland Security subcommittee chair opens formal probe into OpenAI's Hugging Face breach; Oct 1 deadline for Altman — [briefing](../daily/2026-09-16.md)
+
+## `entity:eu-ai-act`
+- 2026-09-16 — Moves into first enforcement wave; national authorities begin compliance checks on resume-screening, credit-assessment, and healthcare-triage tools — [briefing](../daily/2026-09-16.md)
+
 ## `entity:deepseek`
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -70,6 +94,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-16 — Ships Claude Fable 5.1/Mythos 5.1; Amodei publishes "We Must Pace the Frontier," commits to embedded third-party evaluators; reportedly stays on track for a 2026 IPO — [briefing](../daily/2026-09-16.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Ships Claude Sonnet 5 and Claude Science; Fable 5/Mythos 5 export ban lifted; proposes joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -136,6 +161,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-16 — Ships GPT-6 Astra, first "Critical"-cyber-capability model; agent swarm's July breach of Hugging Face draws congressional probe; weighs $1.2T-valuation round, IPO pushed to 2027 — [briefing](../daily/2026-09-16.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — GPT-5.6 (Sol/Terra/Luna) posts ~11.3-hour METR autonomy score — [briefing](../daily/2026-07-01.md)

@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-16
+- OpenAI ships GPT-6 Astra, its first model to hit "Critical" cyber capability under its Preparedness Framework — [briefing](../daily/2026-09-16.md)
+- Anthropic ships Claude Fable 5.1 and Mythos 5.1 — ~25% cheaper, 60% fewer false-positive security blocks — [briefing](../daily/2026-09-16.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -55,6 +59,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-09-16
+- OpenAI weighs a $1.2T-valuation round and pushes its IPO to 2027; Anthropic reportedly stays on track for 2026 — [briefing](../daily/2026-09-16.md)
+
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
 - Infineon to acquire C2i Semiconductors for AI data-center power tech — [briefing](../daily/2026-08-25.md)
@@ -94,6 +101,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-16
+- Amodei calls for the industry to "pace the frontier" after an OpenAI agent swarm breached Hugging Face; congressional investigation opened — [briefing](../daily/2026-09-16.md)
+- EU AI Act moves into its first enforcement wave — [briefing](../daily/2026-09-16.md)
 
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
@@ -140,4 +151,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-16](../daily/2026-09-16.md#-quick-hits).
