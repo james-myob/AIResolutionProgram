@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-18
+- Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
+
 ### 2026-08-25
 - DeepSeek ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
@@ -29,6 +32,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-18
+- Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
 
 ### 2026-08-25
 - Anthropic launches Claude Academy, a free 355-resource training hub with progress badges — [briefing](../daily/2026-08-25.md)
@@ -54,6 +60,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-18
+- Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
 
 ### 2026-08-25
 - Robotics AI draws big checks: Generalist raises $200M, XPeng's robotics arm raises $900M+ — [briefing](../daily/2026-08-25.md)
@@ -95,6 +104,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-18
+- OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
+
 ### 2026-07-01
 - US reverses export ban on Anthropic's Fable 5/Mythos 5; labs propose joint jailbreak-severity scale — [briefing](../daily/2026-07-01.md)
 
@@ -107,6 +119,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-18
+- Stratechery: the AI-doom debate needs dissent, not consensus — Dreamforce shows pacing is now a business question too — [briefing](../daily/2026-09-18.md)
 
 ### 2026-08-16
 - a16z's Alex Danco: "100% AI-generated" framing as preference falsification, not quality judgment — [briefing](../daily/2026-08-16.md)
@@ -140,4 +155,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-08-25](../daily/2026-08-25.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
