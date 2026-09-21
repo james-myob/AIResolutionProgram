@@ -6,6 +6,10 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 
 ---
 
+## 2026-09-21
+
+- [ ] 📝 **We Must Pace the Frontier** — Dario Amodei · Essay · ~3,800 words · [link](https://darioamodei.com/post/we-must-pace-the-frontier) · *The 12 September essay both of the day's top Policy stories trace back to — the origin of Anthropic's embedded-evaluator commitment and the subject of a new antitrust complaint.* — from [briefing](../daily/2026-09-21.md)
+
 ## 2026-08-25
 
 - [ ] 📝 **OpenAI is building AI agents for everything. Will everyone use them?** — TechCrunch · Feature/essay · ~1,800 words (est.) · [link](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) · *A close look inside OpenAI's own ChatGPT Work team on how much inbox/Slack/file access a non-technical user has to hand over to get agent-level value.* — from [briefing](../daily/2026-08-25.md)
