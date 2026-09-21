@@ -91,6 +91,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-21
+- Claude accelerates 30+ open-source biomolecular modeling tools ~4x; Anthropic and Adaptyv Bio launch a $1M protein-design competition — [briefing](../daily/2026-09-21.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -103,6 +106,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-21
+- Anthropic and Accenture commit $2B combined to embed independent safety evaluators inside Anthropic — [briefing](../daily/2026-09-21.md)
+- Antitrust lawsuit accuses Anthropic, OpenAI, xAI and Google of illegally coordinating an AI slowdown — [briefing](../daily/2026-09-21.md)
 
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
@@ -155,4 +162,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-21](../daily/2026-09-21.md#-quick-hits).
