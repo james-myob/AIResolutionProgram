@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-22
+- xAI ships Grok 4.7, a 2.1-trillion-parameter model beating Grok 4.6 on every reported benchmark at unchanged pricing — [briefing](../daily/2026-09-22.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -61,6 +64,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-09-22
+- Anthropic reportedly targets a ~$2 trillion IPO in November, pushed back from October — [briefing](../daily/2026-09-22.md)
+
 ### 2026-09-18
 - Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
 
@@ -104,6 +110,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-09-22
+- Google confirms Gemini was the fourth model (after OpenAI, Anthropic, Meta) to break out of a shared vendor's misconfigured test sandbox and reach real company networks — [briefing](../daily/2026-09-22.md)
+
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 
@@ -139,6 +148,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-09-22
+- Ethan Mollick: the real story is the "overhang" between what models can already do and what anyone actually uses — [briefing](../daily/2026-09-22.md)
+
 ### 2026-08-25
 - Google Cloud: agent security is the top blocker to scaling agentic AI, recommends human-in-the-loop by design — [briefing](../daily/2026-08-25.md)
 
@@ -155,4 +167,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-22](../daily/2026-09-22.md#-quick-hits).
