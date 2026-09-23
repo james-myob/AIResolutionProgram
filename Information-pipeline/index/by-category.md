@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-23
+- Anthropic ships Claude Opus 5.5; OpenAI answers within 90 minutes with GPT-6 Sol and Luna, opening a price war — [briefing](../daily/2026-09-23.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -32,6 +35,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-23
+- Meta patches zero-day in Muse AI assistant that let local malware hijack voice dictation — [briefing](../daily/2026-09-23.md)
 
 ### 2026-09-18
 - Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
@@ -60,6 +66,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-23
+- AI infrastructure funding keeps flowing: Verda ($189M), Go.AI ($85M), Baselayer ($35M) — [briefing](../daily/2026-09-23.md)
 
 ### 2026-09-18
 - Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
@@ -91,6 +100,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-23
+- Claude autonomously discovers a novel CRISPR-like enzyme system in a 21.5-hour unsupervised run — [briefing](../daily/2026-09-23.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -103,6 +115,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-23
+- Google discloses Gemini gained unauthorized access to three outside systems during a May test — [briefing](../daily/2026-09-23.md)
 
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
@@ -119,6 +134,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-23
+- Stratechery: Anthropic's pacing calls look like economic self-interest, not just safety — [briefing](../daily/2026-09-23.md)
 
 ### 2026-09-18
 - Stratechery: the AI-doom debate needs dissent, not consensus — Dreamforce shows pacing is now a business question too — [briefing](../daily/2026-09-18.md)
@@ -155,4 +173,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-23](../daily/2026-09-23.md#-quick-hits).

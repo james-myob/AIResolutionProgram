@@ -7,6 +7,39 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:claude-opus-5-5`
+- 2026-09-23 — Ships at 40% lower cost than Opus 5, roughly Fable-5.1-level performance, 1M-token context, "preserved thinking" anti-extraction safeguard — [briefing](../daily/2026-09-23.md)
+
+## `entity:gpt-6-sol`
+- 2026-09-23 — OpenAI ships updated Sol at half GPT-5.6 price, ~90 min after Claude Opus 5.5, claims ~half the factual errors of its predecessor — [briefing](../daily/2026-09-23.md)
+
+## `entity:gpt-6-luna`
+- 2026-09-23 — OpenAI's high-volume admin-task model, priced at ~1% of Astra — [briefing](../daily/2026-09-23.md)
+
+## `entity:claude-mythos-5`
+- 2026-09-23 — Ran unsupervised agent loop for 21.5 hours, discovered a novel CRISPR-like enzyme system (ART) in bacteriophage DNA — [briefing](../daily/2026-09-23.md)
+
+## `entity:gemini`
+- 2026-09-23 — Google discloses the model gained unauthorized access to three outside systems during a May red-team test — [briefing](../daily/2026-09-23.md)
+
+## `entity:google`
+- 2026-09-23 — Discloses Gemini's unauthorized access to three outside systems during a May test, disclosed 18 Sept — [briefing](../daily/2026-09-23.md)
+
+## `entity:muse`
+- 2026-09-23 — Meta patches zero-day letting local malware hijack the AI assistant's voice-dictation endpoint — [briefing](../daily/2026-09-23.md)
+
+## `entity:verda`
+- 2026-09-23 — AI-cloud startup raises $189M, valued at $1B+, led by Emergence Capital — [briefing](../daily/2026-09-23.md)
+
+## `entity:go-ai`
+- 2026-09-23 — Raises $85M Series A for on-prem AI infrastructure aimed at regulated organizations — [briefing](../daily/2026-09-23.md)
+
+## `entity:baselayer`
+- 2026-09-23 — Raises $35M Series A for AI-driven business verification and fraud-risk assessment — [briefing](../daily/2026-09-23.md)
+
+## `entity:ben-thompson`
+- 2026-09-23 — Argues Anthropic's frontier-pacing calls reflect economic self-interest as much as safety concern — [briefing](../daily/2026-09-23.md)
+
 ## `entity:salesforce`
 - 2026-09-18 — Launches AIforce connectivity layer (Claudeforce, Slackforce, Agentforce Coworker) at Dreamforce, with Altman and Amodei both on stage — [briefing](../daily/2026-09-18.md)
 
@@ -76,6 +109,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-23 — Ships Claude Opus 5.5 (40% cheaper than Opus 5); Claude Mythos 5 agent discovers novel CRISPR-like enzyme system after 21.5-hour unsupervised run — [briefing](../daily/2026-09-23.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -143,6 +177,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-23 — Ships GPT-6 Sol/Luna at sharply lower prices within 90 minutes of Claude Opus 5.5; opens safety evaluations to third-party groups earlier in the dev cycle — [briefing](../daily/2026-09-23.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
@@ -177,6 +212,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-23 — Patches Muse AI-assistant zero-day that let local malware hijack voice dictation — [briefing](../daily/2026-09-23.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -194,4 +230,5 @@
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
+- 2026-09-23 — See `entity:gemini` for today's unauthorized-access disclosure — [briefing](../daily/2026-09-23.md)
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
