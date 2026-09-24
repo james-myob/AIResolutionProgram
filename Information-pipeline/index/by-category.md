@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-24
+- Anthropic ships Claude Opus 5.5 — matches Fable 5.1, 40% cheaper, first release since the "pace the frontier" call — [briefing](../daily/2026-09-24.md)
+- OpenAI cuts API prices 50% with GPT-6 Sol and Luna, a permanent price change — [briefing](../daily/2026-09-24.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -32,6 +36,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-24
+- Anthropic launches Claude Marketplace, unifying 2,000+ plugins, partner products, and consulting partners — [briefing](../daily/2026-09-24.md)
+- Meta's Connect keynote ships Ray-Ban Gen 3, audio-only Luna, and a Project Phoenix MR headset preview, all running Meta's own Muse Spark model — [briefing](../daily/2026-09-24.md)
 
 ### 2026-09-18
 - Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
@@ -60,6 +68,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-24
+- Verda raises $189M, becomes a Finnish AI-cloud unicorn — [briefing](../daily/2026-09-24.md)
+- Ema raises $77M Series B for "AI employee" agents, all prior backers doubling down — [briefing](../daily/2026-09-24.md)
 
 ### 2026-09-18
 - Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
@@ -91,6 +103,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-24
+- Claude's biology lab surfaces a novel, CRISPR-like enzyme system in bacteriophage DNA — [briefing](../daily/2026-09-24.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -103,6 +118,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-24
+- OpenAI and Anthropic CEOs tell UN Security Council AI is a near-term risk; Trump admin rejects global oversight the day before — [briefing](../daily/2026-09-24.md)
 
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
@@ -119,6 +137,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-24
+- Stratechery's "Frontier Overhangs": labs' pacing-the-frontier safety framing reads as a response to business pressures, not pure principle — [briefing](../daily/2026-09-24.md)
 
 ### 2026-09-18
 - Stratechery: the AI-doom debate needs dissent, not consensus — Dreamforce shows pacing is now a business question too — [briefing](../daily/2026-09-18.md)
@@ -139,6 +160,9 @@
 
 ## 🛠️ Product Practice
 
+### 2026-09-24
+- OpenAI fires contractors for using AI tools to rate ChatGPT's own answers — [briefing](../daily/2026-09-24.md)
+
 ### 2026-08-25
 - Google Cloud: agent security is the top blocker to scaling agentic AI, recommends human-in-the-loop by design — [briefing](../daily/2026-08-25.md)
 
@@ -155,4 +179,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-24](../daily/2026-09-24.md#-quick-hits).

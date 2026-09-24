@@ -7,6 +7,30 @@
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
+## `entity:claude-opus-5-5`
+- 2026-09-24 — Anthropic's first model since calling for pacing the frontier; matches Fable 5.1, 40% cheaper — [briefing](../daily/2026-09-24.md)
+
+## `entity:claude-marketplace`
+- 2026-09-24 — Launches with 2,000+ plugins/connectors, partner products, and consulting partners — [briefing](../daily/2026-09-24.md)
+
+## `entity:gpt-6-sol`
+- 2026-09-24 — Launches at $2/$10 per million tokens, a permanent 50% price cut vs. GPT-5.6 Sol — [briefing](../daily/2026-09-24.md)
+
+## `entity:gpt-6-luna`
+- 2026-09-24 — Launches at $0.10/$0.50 per million tokens — [briefing](../daily/2026-09-24.md)
+
+## `entity:verda`
+- 2026-09-24 — Raises $189M Series B+, becomes a Finnish AI-cloud unicorn — [briefing](../daily/2026-09-24.md)
+
+## `entity:ema`
+- 2026-09-24 — Raises $77M Series B for "AI employee" agents; existing backers all doubled down — [briefing](../daily/2026-09-24.md)
+
+## `entity:un-security-council`
+- 2026-09-24 — OpenAI and Anthropic CEOs brief it on AI risk, call for binding international standards — [briefing](../daily/2026-09-24.md)
+
+## `entity:muse-spark`
+- 2026-09-24 — Meta's in-house model shipping across the whole Connect 2026 wearables line — [briefing](../daily/2026-09-24.md)
+
 ## `entity:salesforce`
 - 2026-09-18 — Launches AIforce connectivity layer (Claudeforce, Slackforce, Agentforce Coworker) at Dreamforce, with Altman and Amodei both on stage — [briefing](../daily/2026-09-18.md)
 
@@ -41,6 +65,7 @@
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-deepmind`
+- 2026-09-24 — SVP Kavukcuoglu says Gemini 4 has entered early post-training, targeting an early rollout before year-end — [briefing](../daily/2026-09-24.md)
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
 
@@ -76,6 +101,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-24 — Ships Claude Opus 5.5 and Claude Marketplace; biology lab surfaces novel CRISPR-like enzyme system; CEO briefs UN Security Council on AI risk — [briefing](../daily/2026-09-24.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -143,6 +169,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-24 — Ships GPT-6 Sol/Luna with a 50% permanent price cut; CEO briefs UN Security Council on AI risk; fires contractors for using AI tools to rate ChatGPT — [briefing](../daily/2026-09-24.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
@@ -165,6 +192,7 @@
 - 2026-05-20 — Chrome 149 public origin trial — [briefing](../daily/2026-05-20.md)
 
 ## `entity:xai`
+- 2026-09-24 — Ships Grok 4.7, 500K context, positioned for coding/knowledge work — [briefing](../daily/2026-09-24.md)
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
@@ -177,6 +205,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-24 — Connect keynote ships Ray-Ban Gen 3, Luna, and previews Project Phoenix MR headset, all on Meta's own Muse Spark model — [briefing](../daily/2026-09-24.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
