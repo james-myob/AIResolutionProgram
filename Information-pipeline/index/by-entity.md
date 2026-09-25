@@ -4,6 +4,42 @@
 
 ---
 
+## `entity:anthropic`
+- 2026-09-25 — Ships Claude Opus 5.5 (40% price cut vs Opus 5); picks Nasdaq for IPO (~$965B valuation, timing slipped to November); Claude's biolab finds a novel CRISPR-like enzyme system; partners with Accenture on embedded evaluation — [briefing](../daily/2026-09-25.md)
+
+## `entity:claude-opus-5-5`
+- 2026-09-25 — Released at $4/$20 per million tokens (down from $5/$25), matches Fable 5.1 on most work, 30%+ faster output — [briefing](../daily/2026-09-25.md)
+
+## `entity:claude-biolab`
+- 2026-09-25 — Autonomously identifies a previously undescribed CRISPR-like enzyme system in bacteriophage genomes — [briefing](../daily/2026-09-25.md)
+
+## `entity:openai`
+- 2026-09-25 — Ships GPT-6 Sol and Luna at 50% lower API prices, ~90 minutes after Anthropic's Opus 5.5; discontinues the Sora API; DevDay 2026 set for 29 September — [briefing](../daily/2026-09-25.md)
+
+## `entity:gpt-6-sol`
+- 2026-09-25 — Released at $2/$10 per million tokens, down from $4/$20 — [briefing](../daily/2026-09-25.md)
+
+## `entity:gpt-6-luna`
+- 2026-09-25 — Released at $0.10/$0.50 per million tokens, among OpenAI's cheapest models ever — [briefing](../daily/2026-09-25.md)
+
+## `entity:gpt-6-astra`
+- 2026-09-25 — Referenced as context: flagship released 3 September, basis for Sol/Luna's alignment and factuality work — [briefing](../daily/2026-09-25.md)
+
+## `entity:typesafe`
+- 2026-09-25 — Launches Jev, the first "System One" decision model — [briefing](../daily/2026-09-25.md)
+
+## `entity:jev`
+- 2026-09-25 — Outputs typed, calibrated decisions instead of text; $0.042/M input tokens, free output — [briefing](../daily/2026-09-25.md)
+
+## `entity:google`
+- 2026-09-25 — DeepMind confirms Gemini 4 is in post-training, early release expected before year-end — [briefing](../daily/2026-09-25.md)
+
+## `entity:xai`
+- 2026-09-25 — Ships Grok 4.7 at same price as 4.6, improved coding/agentic benchmarks — [briefing](../daily/2026-09-25.md)
+
+## `entity:legora`
+- 2026-09-25 — Raises $550M Series D at $5.5B valuation, led by Accel, for US expansion — [briefing](../daily/2026-09-25.md)
+
 ## `entity:a16z`
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
