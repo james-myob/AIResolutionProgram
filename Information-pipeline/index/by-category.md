@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-25
+- Anthropic ships Claude Opus 5.5, cutting price 40% while matching Fable 5.1 on most work — [briefing](../daily/2026-09-25.md)
+- OpenAI answers within the hour: GPT-6 Sol and Luna launch at 50% lower API prices — [briefing](../daily/2026-09-25.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -32,6 +36,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-25
+- TypeSafe launches Jev, a "System One" model that trades text generation for typed, calibrated decisions — [briefing](../daily/2026-09-25.md)
 
 ### 2026-09-18
 - Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
@@ -60,6 +67,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-25
+- Anthropic picks Nasdaq for its IPO; timing reportedly slips to November — [briefing](../daily/2026-09-25.md)
 
 ### 2026-09-18
 - Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
@@ -90,6 +100,9 @@
 ---
 
 ## 🔬 Research & Papers
+
+### 2026-09-25
+- Claude's biolab autonomously finds a novel CRISPR-like enzyme system — [briefing](../daily/2026-09-25.md)
 
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
@@ -155,4 +168,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-25](../daily/2026-09-25.md#-quick-hits).

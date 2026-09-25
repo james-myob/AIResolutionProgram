@@ -6,6 +6,18 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ---
 
+## `concept:system-one-models`
+**First mention:** 2026-09-25
+
+**Plain English:** A new category of model, distinct from a chat-style LLM, that takes unstructured text as input but never generates text as output — instead it returns structured, typed decisions (a category, a yes/no, a rating) each with a confidence score. The name references Daniel Kahneman's "System 1" fast, intuitive thinking, as opposed to the slower, deliberate reasoning that chat-oriented LLMs are tuned for. Because the output space is constrained to valid structured values, the model can't hallucinate a nonsensical answer the way a text-generating LLM can. Positioned as a cheap, fast substitute for using a general-purpose LLM to make a classification or routing decision.
+
+**Origin:** TypeSafe's Jev model, via [Simon Willison — Jev introduces a new shape of LLM](https://simonwillison.net/2026/Sep/21/jev/)
+
+**Appearances:**
+- 2026-09-25 — [briefing](../daily/2026-09-25.md)
+
+---
+
 ## `concept:agent-dreaming`
 **First mention:** 2026-05-21
 
