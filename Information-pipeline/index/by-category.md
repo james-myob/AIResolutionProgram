@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-26
+- OpenAI and Anthropic both ship next-generation flagship models within days of each other — GPT-6 (Sol/Luna) and Claude Opus 5.5, both at lower per-token prices — [briefing](../daily/2026-09-26.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -32,6 +35,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-26
+- Anthropic launches Claude Marketplace, bundling 2,000+ partner connectors and consulting partners — [briefing](../daily/2026-09-26.md)
+- Meta expands its Muse AI agent to glasses, a new wearable, and real-time avatars at Connect 2026 — [briefing](../daily/2026-09-26.md)
 
 ### 2026-09-18
 - Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
@@ -91,6 +98,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-09-26
+- Anthropic runs 950 Claude agents for 21 hours and surfaces a previously unknown enzyme system — [briefing](../daily/2026-09-26.md)
+
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -103,6 +113,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-26
+- Federal appeals court upholds Pentagon's "supply chain risk" designation of Anthropic — [briefing](../daily/2026-09-26.md)
 
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
@@ -119,6 +132,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-09-26
+- Stratechery: Muse-driven agentic shopping marks the start of an "aggregator war" among Meta, Amazon, and Walmart — [briefing](../daily/2026-09-26.md)
 
 ### 2026-09-18
 - Stratechery: the AI-doom debate needs dissent, not consensus — Dreamforce shows pacing is now a business question too — [briefing](../daily/2026-09-18.md)
@@ -155,4 +171,4 @@
 
 ## ⚡ Quick Hits archive
 
-Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-26](../daily/2026-09-26.md#-quick-hits).
