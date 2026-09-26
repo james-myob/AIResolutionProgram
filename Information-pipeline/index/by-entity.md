@@ -76,6 +76,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-26 — Ships Claude Opus 5.5; launches Claude Marketplace; runs 950 agents to surface a novel enzyme system; federal appeals court upholds Pentagon "supply chain risk" designation — [briefing](../daily/2026-09-26.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -143,6 +144,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-26 — Ships GPT-6 family (Sol/Luna) at lower per-token prices than GPT-5.6 — [briefing](../daily/2026-09-26.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
@@ -195,3 +197,21 @@
 
 ## `entity:google-deepmind`
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
+
+## `entity:meta`
+- 2026-09-26 — Expands Muse AI agent to glasses, a new "Charm" wearable, and real-time avatars at Connect 2026; Stratechery frames Muse-driven agentic shopping as an "aggregator war" with Amazon and Walmart — [briefing](../daily/2026-09-26.md)
+
+## `entity:claude-opus-5-5`
+- 2026-09-26 — Ranked #1 on Vals AI's benchmark index at 69.7% accuracy; ships at a lower price than the prior Opus generation — [briefing](../daily/2026-09-26.md)
+
+## `entity:gpt-6`
+- 2026-09-26 — OpenAI's Sol/Luna family ships at meaningfully lower per-token prices than GPT-5.6 — [briefing](../daily/2026-09-26.md)
+
+## `entity:claude-marketplace`
+- 2026-09-26 — Anthropic launches single destination for 2,000+ partner connectors, plugins, and consulting partners, with enterprise spend-crediting — [briefing](../daily/2026-09-26.md)
+
+## `entity:pentagon`
+- 2026-09-26 — D.C. Circuit upholds DoD "supply chain risk" designation of Anthropic in 2-1 ruling, following a collapsed $200M contract — [briefing](../daily/2026-09-26.md)
+
+## `entity:zapier`
+- 2026-09-26 — Internal "AI Fluency Rubric" (Capable/Adoptive/Transformative tiers) published by Aakash Gupta with CEO Wade Foster — [briefing](../daily/2026-09-26.md)

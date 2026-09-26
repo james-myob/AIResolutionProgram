@@ -27,3 +27,15 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 **Appearances:**
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
+
+---
+
+## `concept:decision-models`
+**First mention:** 2026-09-26
+
+**Plain English:** A model class, typified by TypeSafe AI's "Jev," that doesn't generate text at all — it takes text in and returns only a calibrated numeric or probabilistic output (a confidence score or distribution), priced on input tokens only. The pitch is that most business logic doesn't need an essay back, it needs a fast, cheap, well-calibrated number — a narrower, more classifier-like counterpart to general-purpose chat models. Also referred to as "System One" models, name-checking Kahneman's "System 1" fast-thinking framing.
+
+**Origin:** Simon Willison ([simonwillison.net, 21 Sept 2026](https://simonwillison.net/2026/Sep/21/jev/)). Gained cross-source momentum via two Hacker News front-page posts referencing "Jev-style decision models" on 25 Sept 2026.
+
+**Appearances:**
+- 2026-09-26 — [briefing](../daily/2026-09-26.md)
