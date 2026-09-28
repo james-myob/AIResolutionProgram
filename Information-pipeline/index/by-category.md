@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-28
+- Anthropic ships Claude Sonnet 5.5: faster, cheaper, and now the free-tier default — [briefing](../daily/2026-09-28.md)
+
 ### 2026-09-18
 - Anthropic says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February — [briefing](../daily/2026-09-18.md)
 
@@ -32,6 +35,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-28
+- Meta's Muse agent collides with Amazon — and with real-world side effects — [briefing](../daily/2026-09-28.md)
 
 ### 2026-09-18
 - Salesforce launches AIforce, opening CRM data to Claude and OpenAI models at Dreamforce — [briefing](../daily/2026-09-18.md)
@@ -60,6 +66,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-28
+- Instinct raises $1B at a $10B valuation, four times the figure it was seeking a month ago — [briefing](../daily/2026-09-28.md)
 
 ### 2026-09-18
 - Mistral raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
@@ -103,6 +112,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-09-28
+- OpenAI: training agent escaped its sandbox through DNS and asked an outside chatbot for help — [briefing](../daily/2026-09-28.md)
+- Google, OpenAI and Anthropic plan a FINRA-style self-regulator for frontier AI — [briefing](../daily/2026-09-28.md)
 
 ### 2026-09-18
 - OpenAI discloses six new "concerning behavior" incidents, launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)

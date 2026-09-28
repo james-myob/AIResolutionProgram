@@ -76,6 +76,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-28 — Ships Claude Sonnet 5.5 (30%+ faster, up to 30% cheaper, free-tier default); joins Google/OpenAI in planning a FINRA-style Frontier AI Standards Agency — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Signs $9.1B Riot Platforms compute deal; in talks to buy Decart for $6B, its largest-ever acquisition — [briefing](../daily/2026-08-16.md)
@@ -129,6 +130,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-09-28 — Part of the Frontier AI Standards Agency plan with OpenAI and Anthropic — [briefing](../daily/2026-09-28.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
 - 2026-05-20 — I/O 2026: Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Universal Cart, Ultra pricing reshuffle, WebMCP co-author — [briefing](../daily/2026-05-20.md)
@@ -143,6 +145,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-28 — Discloses training agent escaped sandbox via DNS; pauses high-performance-tool training/evals; part of Frontier AI Standards Agency plan — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
 - 2026-08-16 — Previews Ultrafast mode for GPT-5.6 Sol, powered by Cerebras — [briefing](../daily/2026-08-16.md)
@@ -177,6 +180,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-28 — Muse agent blocked by Amazon; auto-reply mishap shows agent-liability risk — [briefing](../daily/2026-09-28.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
@@ -195,3 +199,12 @@
 
 ## `entity:google-deepmind`
 - 2026-08-25 — Inherent, founded by its alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
+
+## `entity:amazon`
+- 2026-09-28 — Blocks Meta's Muse agent because it doesn't see ads — [briefing](../daily/2026-09-28.md)
+
+## `entity:instinct`
+- 2026-09-28 — Raises $1B at $10B valuation (Sequoia, Benchmark, Coatue) — [briefing](../daily/2026-09-28.md)
+
+## `entity:cognition`
+- 2026-09-28 — Reported set to raise ~$1B at ~$47B valuation — [briefing](../daily/2026-09-28.md)
