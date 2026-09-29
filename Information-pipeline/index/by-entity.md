@@ -76,6 +76,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-09-29 — IPO prospectus targets >$2T valuation; $42B net loss on $4.59B 2025 revenue; 40-minute partial outage — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Ships Claude Sonnet 5.5 (30%+ faster, up to 30% cheaper, free-tier default); joins Google/OpenAI in planning a FINRA-style Frontier AI Standards Agency — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Launches Claude Academy, a free training hub; Claude suffers another elevated-errors outage — [briefing](../daily/2026-08-25.md)
@@ -145,6 +146,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-09-29 — Launches dots agents, GPT-6.1 Sol, Ultrafast tier and plugin extensions at DevDay — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Discloses training agent escaped sandbox via DNS; pauses high-performance-tool training/evals; part of Frontier AI Standards Agency plan — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
 - 2026-08-25 — Brings GPT-5.6 into Kiro; reinstates 5-hour usage cap on ChatGPT Work/Codex for Plus subscribers — [briefing](../daily/2026-08-25.md)
@@ -180,11 +182,13 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-09-29 — Muse cited as the comparison point for OpenAI's dots — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Muse agent blocked by Amazon; auto-reply mishap shows agent-liability risk — [briefing](../daily/2026-09-28.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-09-29 — Releases Open Agent Safety Platform (OpenShell + Sentry) — [briefing](../daily/2026-09-29.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
 
@@ -208,3 +212,12 @@
 
 ## `entity:cognition`
 - 2026-09-28 — Reported set to raise ~$1B at ~$47B valuation — [briefing](../daily/2026-09-28.md)
+
+## `entity:amd`
+- 2026-09-29 — Agrees to acquire World Labs for $8.2B; Fei-Fei Li to be EVP and chief scientist — [briefing](../daily/2026-09-29.md)
+
+## `entity:world-labs`
+- 2026-09-29 — Being acquired by AMD for $8.2B — [briefing](../daily/2026-09-29.md)
+
+## `entity:gpt-6-1-sol`
+- 2026-09-29 — OpenAI model at ~20% of GPT-6 Astra's token price — [briefing](../daily/2026-09-29.md)

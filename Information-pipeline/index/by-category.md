@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-09-29
+- OpenAI ships GPT-6.1 Sol (~20% of Astra's token price) and an Ultrafast speed tier — [briefing](../daily/2026-09-29.md)
+
 ### 2026-09-28
 - Anthropic ships Claude Sonnet 5.5: faster, cheaper, and now the free-tier default — [briefing](../daily/2026-09-28.md)
 
@@ -35,6 +38,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-09-29
+- OpenAI dots: always-on agents in ChatGPT, Slack and Teams, gated to Pro 200 / Business Premium — [briefing](../daily/2026-09-29.md)
+- NVIDIA releases Open Agent Safety Platform (OpenShell + Sentry) — [briefing](../daily/2026-09-29.md)
 
 ### 2026-09-28
 - Meta's Muse agent collides with Amazon — and with real-world side effects — [briefing](../daily/2026-09-28.md)
@@ -66,6 +73,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-09-29
+- AMD to acquire Fei-Fei Li's World Labs for $8.2B — [briefing](../daily/2026-09-29.md)
+- Anthropic IPO prospectus: >$2T target, $42B loss, $518B infrastructure plan — [briefing](../daily/2026-09-29.md)
 
 ### 2026-09-28
 - Instinct raises $1B at a $10B valuation, four times the figure it was seeking a month ago — [briefing](../daily/2026-09-28.md)
