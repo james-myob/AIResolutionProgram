@@ -221,3 +221,27 @@
 
 ## `entity:gpt-6-1-sol`
 - 2026-09-29 — OpenAI model at ~20% of GPT-6 Astra's token price — [briefing](../daily/2026-09-29.md)
+
+## `entity:anthropic`
+- 2026-10-01 — Barclays scales Claude; named in FTC agent probe; Opus 5.5 benchmarked against Gemini 4 Argon — [briefing](../daily/2026-10-01.md)
+
+## `entity:openai`
+- 2026-10-01 — Named in FTC agent probe; reportedly seeking $30B+ at ~$1.4T; signs White House accord — [briefing](../daily/2026-10-01.md)
+
+## `entity:google`
+- 2026-10-01 — Announces Gemini 4 Argon; signs White House accord; SynthID Bio — [briefing](../daily/2026-10-01.md)
+
+## `entity:ftc`
+- 2026-10-01 — Opens consumer-protection probe of OpenAI, Anthropic and METR over agent incidents — [briefing](../daily/2026-10-01.md)
+
+## `entity:barclays`
+- 2026-10-01 — Scales Claude to 16,000+ colleagues — [briefing](../daily/2026-10-01.md)
+
+## `entity:gemini-4-argon`
+- 2026-10-01 — Frontier model, restricted access, ~$2/$10 per M tokens at launch — [briefing](../daily/2026-10-01.md)
+
+## `entity:elevenlabs`
+- 2026-10-01 — $22B valuation in $300M employee tender — [briefing](../daily/2026-10-01.md)
+
+## `entity:metr`
+- 2026-10-01 — Named in FTC agent probe — [briefing](../daily/2026-10-01.md)
