@@ -245,3 +245,18 @@
 
 ## `entity:metr`
 - 2026-10-01 — Named in FTC agent probe — [briefing](../daily/2026-10-01.md)
+
+## `entity:anthropic`
+- 2026-10-02 — Merges Cowork and Chat; announces $100M Claude Frontier Academy; reportedly eyes mid-November IPO — [briefing](../daily/2026-10-02.md)
+
+## `entity:openai`
+- 2026-10-02 — Dismisses three safety researchers, warns 100+ orgs over agent activity; SoftBank completes final $10B tranche — [briefing](../daily/2026-10-02.md)
+
+## `entity:broadcom`
+- 2026-10-02 — Up to $42B convertible financing tied to Anthropic chip leases — [briefing](../daily/2026-10-02.md)
+
+## `entity:softbank`
+- 2026-10-02 — Completes final $10B of $30B OpenAI follow-on, ~13% stake — [briefing](../daily/2026-10-02.md)
+
+## `entity:ftc`
+- 2026-10-02 — Referenced: AI agent probe continues alongside California AG subpoena of OpenAI — [briefing](../daily/2026-10-02.md)

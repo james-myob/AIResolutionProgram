@@ -41,6 +41,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-02
+- Anthropic merges Cowork and Chat; launches \$100M Claude Frontier Academy to train 10,000 deployed engineers — [briefing](../daily/2026-10-02.md)
+
 ### 2026-10-01
 - Barclays scales Claude to 16,000+ colleagues; ~120,000 emails routed daily — [briefing](../daily/2026-10-01.md)
 ### 2026-09-29
@@ -77,6 +80,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-02
+- Anthropic reportedly eyes mid-November IPO, Broadcom \$42B financing; SoftBank completes \$10B OpenAI tranche — [briefing](../daily/2026-10-02.md)
 
 ### 2026-10-01
 - ElevenLabs hits $22B in a tender; OpenAI reportedly seeks $30B+ at ~$1.4T — [briefing](../daily/2026-10-01.md)
@@ -129,6 +135,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-02
+- OpenAI dismisses three safety researchers, warns 100+ orgs over agents; Hawley–Murphy AI Agent Accountability Act — [briefing](../daily/2026-10-02.md)
 
 ### 2026-10-01
 - FTC opens first U.S. enforcement probe on AI agents (OpenAI, Anthropic, METR) — [briefing](../daily/2026-10-01.md)
