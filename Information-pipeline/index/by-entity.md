@@ -260,3 +260,15 @@
 
 ## `entity:ftc`
 - 2026-10-02 — Referenced: AI agent probe continues alongside California AG subpoena of OpenAI — [briefing](../daily/2026-10-02.md)
+
+## `entity:z-ai`
+- 2026-10-03 — Released GLM-5.3 (14 Aug); weights held back ~2 weeks for cyber safety review — [briefing](../daily/2026-10-03.md)
+
+## `entity:glm-5-3`
+- 2026-10-03 — Most cyber-capable open-weight model per NIST CAISI; ~4 months behind U.S. frontier — [briefing](../daily/2026-10-03.md)
+
+## `entity:caisi`
+- 2026-10-03 — Assessed GLM-5.3 cyber capabilities (17 Sep) — [briefing](../daily/2026-10-03.md)
+
+## `entity:anthropic`
+- 2026-10-03 — Analysis of GLM-5.3 finds near-Mythos exploit building; safeguards bypassed 64–100% in simulation — [briefing](../daily/2026-10-03.md)

@@ -136,6 +136,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-10-03
+- Anthropic, NIST CAISI and Z.ai on GLM-5.3's cyber capability; safeguards bypassed 64–100% in simulated tests — [briefing](../daily/2026-10-03.md)
+
 ### 2026-10-02
 - OpenAI dismisses three safety researchers, warns 100+ orgs over agents; Hawley–Murphy AI Agent Accountability Act — [briefing](../daily/2026-10-02.md)
 
