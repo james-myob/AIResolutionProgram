@@ -199,6 +199,7 @@
 - Simon Willison ships a tokens-per-second visualiser — [briefing](../daily/2026-05-20.md)
 
 ---
+- 2026-10-04 — Simon Willison: default hard budget caps for agent-era usage billing — [briefing](../daily/2026-10-04.md)
 
 ## ⚡ Quick Hits archive
 
