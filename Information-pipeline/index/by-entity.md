@@ -39,6 +39,7 @@
 
 ## `entity:google-cloud`
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
+- 2026-10-04 — Introduced Spend Caps (Jul 2026), cited in Willison's hard-cap argument — [briefing](../daily/2026-10-04.md)
 
 ## `entity:google-deepmind`
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
@@ -159,6 +160,7 @@
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
+- 2026-10-04 — Argues for default hard budget caps on usage-billed services — [briefing](../daily/2026-10-04.md)
 
 ## `entity:spacex`
 - 2026-05-20 — S-1 filing revealed $45B Anthropic compute commitment — [briefing](../daily/2026-05-20.md)
@@ -272,3 +274,6 @@
 
 ## `entity:anthropic`
 - 2026-10-03 — Analysis of GLM-5.3 finds near-Mythos exploit building; safeguards bypassed 64–100% in simulation — [briefing](../daily/2026-10-03.md)
+
+## `entity:aws`
+- 2026-10-04 — Launched project spending limits (Sep 2026), cited in Willison's hard-cap argument — [briefing](../daily/2026-10-04.md)
