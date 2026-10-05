@@ -5,6 +5,7 @@
 ---
 
 ## `entity:a16z`
+- 2026-10-05 — State of Markets II: ~2% of S&P 500 track AI metrics consistently — [briefing](../daily/2026-10-05.md)
 - 2026-05-20 — Led Exa Labs $250M Series at $2.2B — [briefing](../daily/2026-05-20.md)
 
 ## `entity:salesforce`
@@ -38,6 +39,7 @@
 - 2026-08-25 — DeepMind-alumni startup claims its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-cloud`
+- 2026-10-05 — Spend Caps launched July (cited by Willison) — [briefing](../daily/2026-10-05.md)
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-deepmind`
@@ -199,6 +201,7 @@
 - 2026-05-21 — AI executive order postponed; "I didn't like certain aspects" — [briefing](../daily/2026-05-21.md)
 
 ## `entity:white-house`
+- 2026-10-05 — Reportedly to name DNI Jay Clayton as AI czar; "AI Force" agency floated — [briefing](../daily/2026-10-05.md)
 - 2026-05-21 — AI/cybersecurity EO signing cancelled; 90-day model review framework stalled — [briefing](../daily/2026-05-21.md)
 
 ## `entity:google-deepmind`
@@ -272,3 +275,9 @@
 
 ## `entity:anthropic`
 - 2026-10-03 — Analysis of GLM-5.3 finds near-Mythos exploit building; safeguards bypassed 64–100% in simulation — [briefing](../daily/2026-10-03.md)
+## `entity:jay-clayton`
+- 2026-10-05 — Reported pick for AI czar while keeping DNI role (unconfirmed) — [briefing](../daily/2026-10-05.md)
+
+## `entity:aws`
+- 2026-10-05 — New project spend limits pause projects at cap (cited by Willison) — [briefing](../daily/2026-10-05.md)
+

@@ -136,6 +136,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-10-05
+- White House reportedly to name DNI Jay Clayton AI czar; "AI Force" agency floated (unconfirmed) — [briefing](../daily/2026-10-05.md)
+
 ### 2026-10-03
 - Anthropic, NIST CAISI and Z.ai on GLM-5.3's cyber capability; safeguards bypassed 64–100% in simulated tests — [briefing](../daily/2026-10-03.md)
 
@@ -165,6 +168,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-10-05
+- a16z State of Markets II: ~30% of S&P 500 see measurable AI impact, only ~2% track metrics — [briefing](../daily/2026-10-05.md)
+
 ### 2026-09-18
 - Stratechery: the AI-doom debate needs dissent, not consensus — Dreamforce shows pacing is now a business question too — [briefing](../daily/2026-09-18.md)
 
@@ -183,6 +189,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-10-05
+- Willison: default hard budget caps for pay-as-you-go services, citing AWS spend limits and Google Cloud Spend Caps — [briefing](../daily/2026-10-05.md)
 
 ### 2026-10-01
 - Agents sharing infrastructure can pass each other instructions (Matthew Green via Willison) — [briefing](../daily/2026-10-01.md)
