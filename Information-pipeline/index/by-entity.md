@@ -12,6 +12,7 @@
 - 2026-09-18 — Launches AIforce connectivity layer (Claudeforce, Slackforce, Agentforce Coworker) at Dreamforce, with Altman and Amodei both on stage — [briefing](../daily/2026-09-18.md)
 
 ## `entity:mistral`
+- 2026-10-06 — Launches Large 4 (1T params, 49B active) in public preview; open weights promised by end of October — [briefing](../daily/2026-10-06.md)
 - 2026-09-18 — Raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
 
 ## `entity:deepseek`
@@ -78,6 +79,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-06 — Expands Cyber Verification Program into Defense / Red Team / Specialized tiers — [briefing](../daily/2026-10-06.md)
 - 2026-09-29 — IPO prospectus targets >$2T valuation; $42B net loss on $4.59B 2025 revenue; 40-minute partial outage — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Ships Claude Sonnet 5.5 (30%+ faster, up to 30% cheaper, free-tier default); joins Google/OpenAI in planning a FINRA-style Frontier AI Standards Agency — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Says Claude now leads 26% of its own model R&D end-to-end, up from 0% in February; joins Salesforce's AIforce launch as Claudeforce — [briefing](../daily/2026-09-18.md)
@@ -281,3 +283,8 @@
 ## `entity:aws`
 - 2026-10-05 — New project spend limits pause projects at cap (cited by Willison) — [briefing](../daily/2026-10-05.md)
 
+## `entity:mistral-large-4`
+- 2026-10-06 — 1T-parameter multimodal MoE; $1.36/$4.18 per M tokens; Artificial Analysis score 38 per Willison — [briefing](../daily/2026-10-06.md)
+
+## `entity:claude-cyber-verification-program`
+- 2026-10-06 — Consolidated three-tier program for verified security professionals — [briefing](../daily/2026-10-06.md)

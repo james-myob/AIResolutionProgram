@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-06
+- Mistral launches Large 4: 1T-parameter MoE (49B active), public preview at $1.36/$4.18 per M tokens, open weights promised by end of October — [briefing](../daily/2026-10-06.md)
+
 ### 2026-10-01
 - Google announces Gemini 4 "Argon": leads 13 of 19 vendor-reported benchmarks at ~half Opus 5.5's price, access restricted — [briefing](../daily/2026-10-01.md)
 ### 2026-09-29
@@ -135,6 +138,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-06
+- Anthropic merges Project Glasswing and the Cyber Verification Program into one three-tier program (Defense, Red Team, Specialized) — [briefing](../daily/2026-10-06.md)
 
 ### 2026-10-05
 - White House reportedly to name DNI Jay Clayton AI czar; "AI Force" agency floated (unconfirmed) — [briefing](../daily/2026-10-05.md)
