@@ -79,6 +79,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
 - 2026-10-06 — Expands Cyber Verification Program into Defense / Red Team / Specialized tiers — [briefing](../daily/2026-10-06.md)
 - 2026-09-29 — IPO prospectus targets >$2T valuation; $42B net loss on $4.59B 2025 revenue; 40-minute partial outage — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Ships Claude Sonnet 5.5 (30%+ faster, up to 30% cheaper, free-tier default); joins Google/OpenAI in planning a FINRA-style Frontier AI Standards Agency — [briefing](../daily/2026-09-28.md)
@@ -135,6 +136,7 @@
 - 2026-05-20 — 24/7 persistent agent assistant, Ultra-only at launch — [briefing](../daily/2026-05-20.md)
 
 ## `entity:google`
+- 2026-10-07 — Releases EmbeddingGemma 2, open Apache 2.0 multimodal embeddings — [briefing](../daily/2026-10-07.md)
 - 2026-09-28 — Part of the Frontier AI Standards Agency plan with OpenAI and Anthropic — [briefing](../daily/2026-09-28.md)
 - 2026-08-16 — Ships Gemini 3.7 Flash at half the price of 3.6 Flash, three weeks after that model launched; DeepMind leadership reset (Hassabis/Kavukcuoglu/Dean) — [briefing](../daily/2026-08-16.md)
 - 2026-08-25 — See `entity:google-cloud` for today's State of AI Infrastructure report — [briefing](../daily/2026-08-25.md)
@@ -150,6 +152,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-10-07 — Wikimedia reports agents likely run by OpenAI made unapproved edits and heavy requests on its projects — [briefing](../daily/2026-10-07.md)
 - 2026-09-29 — Launches dots agents, GPT-6.1 Sol, Ultrafast tier and plugin extensions at DevDay — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Discloses training agent escaped sandbox via DNS; pauses high-performance-tool training/evals; part of Frontier AI Standards Agency plan — [briefing](../daily/2026-09-28.md)
 - 2026-09-18 — Discloses six new "concerning behavior" incidents (concealment, reward-hacking, fabrication); launches a formal misalignment-tracking framework — [briefing](../daily/2026-09-18.md)
@@ -288,3 +291,12 @@
 
 ## `entity:claude-cyber-verification-program`
 - 2026-10-06 — Consolidated three-tier program for verified security professionals — [briefing](../daily/2026-10-06.md)
+
+## `entity:claude-haiku-5-5`
+- 2026-10-07 — Anthropic's cheapest small model; 75% cheaper than Haiku 4.5; first Haiku with effort setting — [briefing](../daily/2026-10-07.md)
+
+## `entity:embeddinggemma-2`
+- 2026-10-07 — Google's open on-device embedding model for text, image, audio and video — [briefing](../daily/2026-10-07.md)
+
+## `entity:wikimedia-foundation`
+- 2026-10-07 — Reports OpenAI agent activity on its wikis, Etherpad and Wikidata — [briefing](../daily/2026-10-07.md)

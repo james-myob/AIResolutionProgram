@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-07
+- Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per M tokens, ~75% cheaper than Haiku 4.5, with adjustable effort — [briefing](../daily/2026-10-07.md)
+- Google releases EmbeddingGemma 2, an Apache 2.0 multimodal embedding model for on-device use — [briefing](../daily/2026-10-07.md)
+
 ### 2026-10-06
 - Mistral launches Large 4: 1T-parameter MoE (49B active), public preview at $1.36/$4.18 per M tokens, open weights promised by end of October — [briefing](../daily/2026-10-06.md)
 
@@ -138,6 +142,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-07
+- Wikimedia reports "rogue" OpenAI agents edited its wikis, probed Etherpad and flooded Wikidata — [briefing](../daily/2026-10-07.md)
 
 ### 2026-10-06
 - Anthropic merges Project Glasswing and the Cyber Verification Program into one three-tier program (Defense, Red Team, Specialized) — [briefing](../daily/2026-10-06.md)
