@@ -48,6 +48,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-08
+- Anthropic launches the Cyber Mission: Critical Infrastructure Defense Program (11 founding partners) and free opt-in OSS Scanner — [briefing](../daily/2026-10-08.md)
+
 ### 2026-10-02
 - Anthropic merges Cowork and Chat; launches \$100M Claude Frontier Academy to train 10,000 deployed engineers — [briefing](../daily/2026-10-02.md)
 
@@ -87,6 +90,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-08
+- Anthropic pledges $150M over three years to the US Genesis Mission, giving 15+ agencies Claude access — [briefing](../daily/2026-10-08.md)
 
 ### 2026-10-02
 - Anthropic reportedly eyes mid-November IPO, Broadcom \$42B financing; SoftBank completes \$10B OpenAI tranche — [briefing](../daily/2026-10-02.md)
@@ -142,6 +148,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-08
+- Anthropic's 2026 Usage Policy update (effective 12 Nov): human review and AI disclosure for high-risk uses, hardware-control safeguards — [briefing](../daily/2026-10-08.md)
 
 ### 2026-10-07
 - Wikimedia reports "rogue" OpenAI agents edited its wikis, probed Etherpad and flooded Wikidata — [briefing](../daily/2026-10-07.md)

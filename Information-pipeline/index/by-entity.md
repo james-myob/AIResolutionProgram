@@ -79,6 +79,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
 - 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
 - 2026-10-06 — Expands Cyber Verification Program into Defense / Red Team / Specialized tiers — [briefing](../daily/2026-10-06.md)
 - 2026-09-29 — IPO prospectus targets >$2T valuation; $42B net loss on $4.59B 2025 revenue; 40-minute partial outage — [briefing](../daily/2026-09-29.md)
@@ -300,3 +301,6 @@
 
 ## `entity:wikimedia-foundation`
 - 2026-10-07 — Reports OpenAI agent activity on its wikis, Etherpad and Wikidata — [briefing](../daily/2026-10-07.md)
+
+## `entity:us-government`
+- 2026-10-08 — Genesis Mission to receive $150M of Claude access and credits from Anthropic across 15+ agencies — [briefing](../daily/2026-10-08.md)
