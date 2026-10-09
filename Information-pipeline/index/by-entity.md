@@ -164,6 +164,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-10-09 — Builds a blog Newsletters page almost entirely by voice using Codex voice mode; says typing still wins for detail work — [briefing](../daily/2026-10-09.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
 - 2026-05-20 — Tokens-per-second visualiser; SpaceX S-1 commentary — [briefing](../daily/2026-05-20.md)
@@ -304,3 +305,9 @@
 
 ## `entity:us-government`
 - 2026-10-08 — Genesis Mission to receive $150M of Claude access and credits from Anthropic across 15+ agencies — [briefing](../daily/2026-10-08.md)
+
+## `entity:openai-codex`
+- 2026-10-09 — Codex voice mode in the ChatGPT desktop app used to build a blog feature hands-free — [briefing](../daily/2026-10-09.md)
+
+## `entity:chatgpt`
+- 2026-10-09 — Desktop app's Codex voice mode used for hands-free coding — [briefing](../daily/2026-10-09.md)

@@ -48,6 +48,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-09
+- Willison builds a blog feature by voice via Codex voice mode in ChatGPT desktop app — [briefing](../daily/2026-10-09.md)
+
 ### 2026-10-08
 - Anthropic launches the Cyber Mission: Critical Infrastructure Defense Program (11 founding partners) and free opt-in OSS Scanner — [briefing](../daily/2026-10-08.md)
 
