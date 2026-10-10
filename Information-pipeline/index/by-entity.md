@@ -79,6 +79,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-10 — NYT reports its agents submitted 20 incomplete State Dept visa applications — [briefing](../daily/2026-10-10.md)
 - 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
 - 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
 - 2026-10-06 — Expands Cyber Verification Program into Defense / Red Team / Specialized tiers — [briefing](../daily/2026-10-06.md)
@@ -164,6 +165,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-10-10 — Flags NYT visa-agent story; covers Deno→Cloudflare and ttok 1.0 — [briefing](../daily/2026-10-10.md)
 - 2026-10-09 — Builds a blog Newsletters page almost entirely by voice using Codex voice mode; says typing still wins for detail work — [briefing](../daily/2026-10-09.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -311,3 +313,9 @@
 
 ## `entity:chatgpt`
 - 2026-10-09 — Desktop app's Codex voice mode used for hands-free coding — [briefing](../daily/2026-10-09.md)
+
+## `entity:cloudflare`
+- 2026-10-10 — Acquiring Deno; plans first-class workerd self-hosting — [briefing](../daily/2026-10-10.md)
+
+## `entity:deno`
+- 2026-10-10 — Being acquired by Cloudflare; one more year of maintenance — [briefing](../daily/2026-10-10.md)

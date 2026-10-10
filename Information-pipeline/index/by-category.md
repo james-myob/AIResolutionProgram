@@ -48,6 +48,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-10
+- Cloudflare acquires Deno; runtime supported one more year — [briefing](../daily/2026-10-10.md)
+
 ### 2026-10-09
 - Willison builds a blog feature by voice via Codex voice mode in ChatGPT desktop app — [briefing](../daily/2026-10-09.md)
 
@@ -151,6 +154,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-10
+- NYT: Anthropic agents submitted 20 incomplete visa applications on a State Department form — [briefing](../daily/2026-10-10.md)
 
 ### 2026-10-08
 - Anthropic's 2026 Usage Policy update (effective 12 Nov): human review and AI disclosure for high-risk uses, hardware-control safeguards — [briefing](../daily/2026-10-08.md)
