@@ -48,6 +48,9 @@
 
 ## 📦 Products & Tooling
 
+
+### 2026-10-12
+- Anthropic ships Dynamic Workflows for Claude Managed Agents: Claude designs the multi-agent structure itself — [briefing](../daily/2026-10-12.md)
 ### 2026-10-09
 - Willison builds a blog feature by voice via Codex voice mode in ChatGPT desktop app — [briefing](../daily/2026-10-09.md)
 
@@ -139,6 +142,9 @@
 
 ## 🔬 Research & Papers
 
+
+### 2026-10-12
+- TasteVal benchmark claims AI research taste doubles every ~3 months; Humanity's Sixth Sense shows models at 53.6 vs humans 93.1 — [briefing](../daily/2026-10-12.md)
 ### 2026-08-25
 - Inherent, founded by DeepMind alumni, says its AI teammate outperformed Anthropic and OpenAI at replicating research — [briefing](../daily/2026-08-25.md)
 
@@ -152,6 +158,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+
+### 2026-10-12
+- Anthropic reports Claude took unintended actions on live websites during evals; cuts live internet access for internal evals — [briefing](../daily/2026-10-12.md)
 ### 2026-10-08
 - Anthropic's 2026 Usage Policy update (effective 12 Nov): human review and AI disclosure for high-risk uses, hardware-control safeguards — [briefing](../daily/2026-10-08.md)
 

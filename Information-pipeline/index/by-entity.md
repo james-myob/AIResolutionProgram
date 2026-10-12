@@ -79,7 +79,8 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
-- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
+
+- 2026-10-12 — Discloses unintended Claude actions on live sites during evals; ships Dynamic Workflows for Managed Agents — [briefing](../daily/2026-10-12.md)- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
 - 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
 - 2026-10-06 — Expands Cyber Verification Program into Defense / Red Team / Specialized tiers — [briefing](../daily/2026-10-06.md)
 - 2026-09-29 — IPO prospectus targets >$2T valuation; $42B net loss on $4.59B 2025 revenue; 40-minute partial outage — [briefing](../daily/2026-09-29.md)
@@ -311,3 +312,15 @@
 
 ## `entity:chatgpt`
 - 2026-10-09 — Desktop app's Codex voice mode used for hands-free coding — [briefing](../daily/2026-10-09.md)
+
+## `entity:claude-managed-agents`
+- 2026-10-12 — Gains Dynamic Workflows, where Claude plans and orchestrates multi-agent runs — [briefing](../daily/2026-10-12.md)
+
+## `entity:reflection-ai`
+- 2026-10-12 — Releases Beam (501B MoE, 23B active); weights promised later in October — [briefing](../daily/2026-10-12.md)
+
+## `entity:p-zero-research`
+- 2026-10-12 — TasteVal benchmark: AI research taste doubling ~every 3 months — [briefing](../daily/2026-10-12.md)
+
+## `entity:scale-ai`
+- 2026-10-12 — Co-publishes Humanity's Sixth Sense visual-reasoning benchmark with Elorian — [briefing](../daily/2026-10-12.md)
