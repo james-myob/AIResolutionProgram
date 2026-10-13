@@ -241,6 +241,7 @@
 
 ## `entity:google`
 - 2026-10-01 — Announces Gemini 4 Argon; signs White House accord; SynthID Bio — [briefing](../daily/2026-10-01.md)
+- 2026-10-13 — Gemini 4 Argon GA and safety post — [briefing](../daily/2026-10-13.md)
 
 ## `entity:ftc`
 - 2026-10-01 — Opens consumer-protection probe of OpenAI, Anthropic and METR over agent incidents — [briefing](../daily/2026-10-01.md)
@@ -250,6 +251,7 @@
 
 ## `entity:gemini-4-argon`
 - 2026-10-01 — Frontier model, restricted access, ~$2/$10 per M tokens at launch — [briefing](../daily/2026-10-01.md)
+- 2026-10-13 — Generally available via API; $2/$10 intro pricing, $4/$20 after 30 Nov; safety results published — [briefing](../daily/2026-10-13.md)
 
 ## `entity:elevenlabs`
 - 2026-10-01 — $22B valuation in $300M employee tender — [briefing](../daily/2026-10-01.md)
@@ -324,3 +326,12 @@
 
 ## `entity:scale-ai`
 - 2026-10-12 — Co-publishes Humanity's Sixth Sense visual-reasoning benchmark with Elorian — [briefing](../daily/2026-10-12.md)
+
+## `entity:fairwind-program`
+- 2026-10-13 — Google widens Fairwind access to more trusted cyber defenders alongside Argon safety results — [briefing](../daily/2026-10-13.md)
+
+## `entity:interconnects`
+- 2026-10-13 — Lambert: rapid engineering-led progress, not general superintelligence — [briefing](../daily/2026-10-13.md)
+
+## `entity:lennys-newsletter`
+- 2026-10-13 — Hockenmaier on the four advantages that make a durable moat — [briefing](../daily/2026-10-13.md)

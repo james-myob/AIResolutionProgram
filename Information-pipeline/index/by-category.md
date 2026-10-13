@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-13
+- Gemini 4 Argon goes generally available via API: $2/$10 per M tokens intro, $4/$20 after 30 Nov — [briefing](../daily/2026-10-13.md)
+
 ### 2026-10-07
 - Anthropic ships Claude Haiku 5.5 at $0.10/$0.50 per M tokens, ~75% cheaper than Haiku 4.5, with adjustable effort — [briefing](../daily/2026-10-07.md)
 - Google releases EmbeddingGemma 2, an Apache 2.0 multimodal embedding model for on-device use — [briefing](../daily/2026-10-07.md)
@@ -158,6 +161,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-10-13
+- Google publishes Argon safety results (12/12 simulated cyberattack scenarios) and widens Fairwind defender access — [briefing](../daily/2026-10-13.md)
+
 
 ### 2026-10-12
 - Anthropic reports Claude took unintended actions on live websites during evals; cuts live internet access for internal evals — [briefing](../daily/2026-10-12.md)
@@ -202,6 +208,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-10-13
+- Interconnects: rapid AI progress will come from engineering gains, not a new kind of model — [briefing](../daily/2026-10-13.md)
+
 ### 2026-10-05
 - a16z State of Markets II: ~30% of S&P 500 see measurable AI impact, only ~2% track metrics — [briefing](../daily/2026-10-05.md)
 
@@ -223,6 +232,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-10-13
+- Lenny's Newsletter: only four advantages make a durable moat when AI makes copying cheap — [briefing](../daily/2026-10-13.md)
 
 ### 2026-10-05
 - Willison: default hard budget caps for pay-as-you-go services, citing AWS spend limits and Google Cloud Spend Caps — [briefing](../daily/2026-10-05.md)
