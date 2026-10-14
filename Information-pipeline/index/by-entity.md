@@ -44,6 +44,7 @@
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-deepmind`
+- 2026-10-14 — On-device scam detector with GovTech Singapore built on Gemma — [briefing](../daily/2026-10-14.md)
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
 
@@ -79,6 +80,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-14 — Scion/Antique source control, Singapore office + MOU, US midterms safeguards — [briefing](../daily/2026-10-14.md)
 
 - 2026-10-12 — Discloses unintended Claude actions on live sites during evals; ships Dynamic Workflows for Managed Agents — [briefing](../daily/2026-10-12.md)- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
 - 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
@@ -335,3 +337,9 @@
 
 ## `entity:lennys-newsletter`
 - 2026-10-13 — Hockenmaier on the four advantages that make a durable moat — [briefing](../daily/2026-10-13.md)
+
+## `entity:gemma`
+- 2026-10-14 — Fine-tuned lightweight Gemma powers on-device scam detection in Singapore — [briefing](../daily/2026-10-14.md)
+
+## `entity:singapore-government`
+- 2026-10-14 — MOU with Anthropic; GovTech partners with DeepMind on scam detection — [briefing](../daily/2026-10-14.md)

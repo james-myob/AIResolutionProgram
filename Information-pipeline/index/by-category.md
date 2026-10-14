@@ -51,6 +51,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-14
+- Anthropic builds Scion and Antique to replace git/code review as agent-driven merges grow from ~2,500 to 30,000+/day — [briefing](../daily/2026-10-14.md)
+- DeepMind and GovTech Singapore release an on-device Gemma-based scam detector — [briefing](../daily/2026-10-14.md)
+
 
 ### 2026-10-12
 - Anthropic ships Dynamic Workflows for Claude Managed Agents: Claude designs the multi-agent structure itself — [briefing](../daily/2026-10-12.md)
@@ -99,6 +103,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-14
+- Anthropic opens Singapore office and signs MOU with the government — [briefing](../daily/2026-10-14.md)
 
 ### 2026-10-08
 - Anthropic pledges $150M over three years to the US Genesis Mission, giving 15+ agencies Claude access — [briefing](../daily/2026-10-08.md)
@@ -160,6 +167,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-14
+- Anthropic details 2026 US midterms safeguards incl. multi-step misuse classifiers — [briefing](../daily/2026-10-14.md)
 
 ### 2026-10-13
 - Google publishes Argon safety results (12/12 simulated cyberattack scenarios) and widens Fairwind defender access — [briefing](../daily/2026-10-13.md)
