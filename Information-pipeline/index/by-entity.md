@@ -335,3 +335,12 @@
 
 ## `entity:lennys-newsletter`
 - 2026-10-13 — Hockenmaier on the four advantages that make a durable moat — [briefing](../daily/2026-10-13.md)
+
+## `entity:anthropic`
+- 2026-10-15 — METR embedded as independent evaluator; Q3 revenue $16.8bn per investor disclosures; Scion replaces Git internally — [briefing](../daily/2026-10-15.md)
+
+## `entity:metr`
+- 2026-10-15 — Six staff given internal-systems access to evaluate Anthropic, findings to be published — [briefing](../daily/2026-10-15.md)
+
+## `entity:simon-willison`
+- 2026-10-15 — Summarises FT report on Anthropic investor numbers and Scion post — [briefing](../daily/2026-10-15.md)
