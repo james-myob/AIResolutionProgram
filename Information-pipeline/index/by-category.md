@@ -161,6 +161,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-10-15
+- Anthropic embeds METR evaluators, outlines three-tier access for independent testers — [briefing](../daily/2026-10-15.md)
+
 ### 2026-10-13
 - Google publishes Argon safety results (12/12 simulated cyberattack scenarios) and widens Fairwind defender access — [briefing](../daily/2026-10-13.md)
 
@@ -208,6 +211,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-10-15
+- Anthropic tells investors Q3 revenue $16.8bn; distillation 5–7% of revenue (FT via Willison) — [briefing](../daily/2026-10-15.md)
+
 ### 2026-10-13
 - Interconnects: rapid AI progress will come from engineering gains, not a new kind of model — [briefing](../daily/2026-10-13.md)
 
@@ -232,6 +238,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-10-15
+- Anthropic builds Scion to replace Git as agent-written code volume hits 30k+ changes/day — [briefing](../daily/2026-10-15.md)
 
 ### 2026-10-13
 - Lenny's Newsletter: only four advantages make a durable moat when AI makes copying cheap — [briefing](../daily/2026-10-13.md)
