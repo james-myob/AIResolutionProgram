@@ -335,3 +335,18 @@
 
 ## `entity:lennys-newsletter`
 - 2026-10-13 — Hockenmaier on the four advantages that make a durable moat — [briefing](../daily/2026-10-13.md)
+
+## `entity:anthropic`
+- 2026-10-16 — Widens independent evaluator access (METR, SecureBio), publishes midterms safeguards, opens Singapore office; FT reports Q3 revenue $16.8bn — [briefing](../daily/2026-10-16.md)
+
+## `entity:metr`
+- 2026-10-16 — Gets employee-like access at Anthropic and will publish risk assessments without Anthropic veto — [briefing](../daily/2026-10-16.md)
+
+## `entity:claude-code`
+- 2026-10-16 — Team describes continuous AI code review that fixes most changes before human review — [briefing](../daily/2026-10-16.md)
+
+## `entity:simon-willison`
+- 2026-10-16 — Surfaces Anthropic revenue FT report, Claude Code review post — [briefing](../daily/2026-10-16.md)
+
+## `entity:grab`
+- 2026-10-16 — BriX sales assistant saves ~40,000 hours a quarter, per Anthropic — [briefing](../daily/2026-10-16.md)

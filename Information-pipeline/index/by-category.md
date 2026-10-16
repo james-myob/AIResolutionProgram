@@ -51,6 +51,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-16
+- Anthropic opens Singapore office, signs AI safety/evaluation MOU with Singapore government — [briefing](../daily/2026-10-16.md)
+
 
 ### 2026-10-12
 - Anthropic ships Dynamic Workflows for Claude Managed Agents: Claude designs the multi-agent structure itself — [briefing](../daily/2026-10-12.md)
@@ -99,6 +102,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-16
+- FT: Anthropic Q3 revenue $16.8bn, up ~50% QoQ, ahead of IPO — [briefing](../daily/2026-10-16.md)
 
 ### 2026-10-08
 - Anthropic pledges $150M over three years to the US Genesis Mission, giving 15+ agencies Claude access — [briefing](../daily/2026-10-08.md)
@@ -160,6 +166,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-16
+- Anthropic gives METR employee-like access, publication without veto; widens independent evaluators — [briefing](../daily/2026-10-16.md)
+- Anthropic publishes US midterms safeguards and election usage data — [briefing](../daily/2026-10-16.md)
 
 ### 2026-10-13
 - Google publishes Argon safety results (12/12 simulated cyberattack scenarios) and widens Fairwind defender access — [briefing](../daily/2026-10-13.md)
@@ -232,6 +242,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-10-16
+- Claude Code team: code review runs continuously, Claude fixes most changes before human review — [briefing](../daily/2026-10-16.md)
 
 ### 2026-10-13
 - Lenny's Newsletter: only four advantages make a durable moat when AI makes copying cheap — [briefing](../daily/2026-10-13.md)
