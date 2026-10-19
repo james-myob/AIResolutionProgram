@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-19
+- Reflection releases Beam weights: 501B MoE (23B active), Apache 2.0, 1M context — [briefing](../daily/2026-10-19.md)
+
 ### 2026-10-13
 - Gemini 4 Argon goes generally available via API: $2/$10 per M tokens intro, $4/$20 after 30 Nov — [briefing](../daily/2026-10-13.md)
 
@@ -102,6 +105,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-19
+- Anthropic commits 5% of shares to a new Public Benefit Fund, ~20% of equity dedicated to public good in total — [briefing](../daily/2026-10-19.md)
 
 ### 2026-10-16
 - FT: Anthropic Q3 revenue $16.8bn, up ~50% QoQ, ahead of IPO — [briefing](../daily/2026-10-16.md)
@@ -217,6 +223,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-10-19
+- Interconnects: Meta's Muse Spark Open puts US open weights "behind but relevant"; licence is the risk — [briefing](../daily/2026-10-19.md)
 
 ### 2026-10-13
 - Interconnects: rapid AI progress will come from engineering gains, not a new kind of model — [briefing](../daily/2026-10-13.md)

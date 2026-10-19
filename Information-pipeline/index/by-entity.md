@@ -79,6 +79,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-19 — Commits 5% of shares to Public Benefit Fund (~20% of equity to public good overall) — [briefing](../daily/2026-10-19.md)
 
 - 2026-10-12 — Discloses unintended Claude actions on live sites during evals; ships Dynamic Workflows for Managed Agents — [briefing](../daily/2026-10-12.md)- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
 - 2026-10-07 — Ships Claude Haiku 5.5 ($0.10/$0.50 per M tokens, adjustable effort) — [briefing](../daily/2026-10-07.md)
@@ -192,6 +193,7 @@
 - 2026-05-21 — Released Apache 2.0; 218B total/25B active params; W4A4 quantisation; 48 languages — [briefing](../daily/2026-05-21.md)
 
 ## `entity:meta`
+- 2026-10-19 — Muse Spark Open (816B MoE, 42B active) released under restrictive Muse licence; Lambert says US open weights now 'behind but relevant' — [briefing](../daily/2026-10-19.md)
 - 2026-09-29 — Muse cited as the comparison point for OpenAI's dots — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Muse agent blocked by Amazon; auto-reply mishap shows agent-liability risk — [briefing](../daily/2026-09-28.md)
 - 2026-07-01 — Open-sources Brain2Qwerty v2, non-invasive brain-to-text decoder (~61% word accuracy) — [briefing](../daily/2026-07-01.md)
@@ -319,6 +321,7 @@
 - 2026-10-12 — Gains Dynamic Workflows, where Claude plans and orchestrates multi-agent runs — [briefing](../daily/2026-10-12.md)
 
 ## `entity:reflection-ai`
+- 2026-10-19 — Beam weights released: 501B MoE, Apache 2.0 — [briefing](../daily/2026-10-19.md)
 - 2026-10-12 — Releases Beam (501B MoE, 23B active); weights promised later in October — [briefing](../daily/2026-10-12.md)
 
 ## `entity:p-zero-research`
@@ -331,6 +334,7 @@
 - 2026-10-13 — Google widens Fairwind access to more trusted cyber defenders alongside Argon safety results — [briefing](../daily/2026-10-13.md)
 
 ## `entity:interconnects`
+- 2026-10-19 — Lambert analysis of Meta's open-weights release and licence — [briefing](../daily/2026-10-19.md)
 - 2026-10-13 — Lambert: rapid engineering-led progress, not general superintelligence — [briefing](../daily/2026-10-13.md)
 
 ## `entity:lennys-newsletter`
@@ -350,3 +354,6 @@
 
 ## `entity:grab`
 - 2026-10-16 — BriX sales assistant saves ~40,000 hours a quarter, per Anthropic — [briefing](../daily/2026-10-16.md)
+
+## `entity:hugging-face`
+- 2026-10-19 — Hosts Beam weights with day-0 transformers/vLLM/SGLang support — [briefing](../daily/2026-10-19.md)
