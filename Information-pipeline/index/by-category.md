@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-20
+- DeepSeek V4.1-Flash-1017 (MIT) as US DHS procurement ban tightens — [briefing](../daily/2026-10-20.md)
+
 ### 2026-10-19
 - Reflection releases Beam weights: 501B MoE (23B active), Apache 2.0, 1M context — [briefing](../daily/2026-10-19.md)
 
@@ -53,6 +56,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-10-20
+- Hugging Face adds native TPU support via TorchTPU — [briefing](../daily/2026-10-20.md)
 
 ### 2026-10-16
 - Anthropic opens Singapore office, signs AI safety/evaluation MOU with Singapore government — [briefing](../daily/2026-10-16.md)
@@ -157,6 +163,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-10-20
+- IBM ALTK-Evolve: learned guidelines top τ²-bench without fine-tuning — [briefing](../daily/2026-10-20.md)
+
 
 ### 2026-10-12
 - TasteVal benchmark claims AI research taste doubles every ~3 months; Humanity's Sixth Sense shows models at 53.6 vs humans 93.1 — [briefing](../daily/2026-10-12.md)
@@ -172,6 +181,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-20
+- Ai2 FairStress fairness benchmark for LLM decisions — [briefing](../daily/2026-10-20.md)
 
 ### 2026-10-16
 - Anthropic gives METR employee-like access, publication without veto; widens independent evaluators — [briefing](../daily/2026-10-16.md)

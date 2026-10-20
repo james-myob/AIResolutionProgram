@@ -16,6 +16,7 @@
 - 2026-09-18 — Raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
 
 ## `entity:deepseek`
+- 2026-10-20 — V4.1-Flash-1017 (552B-A16B, MIT) released; barred from US federal civilian procurement by DHS — [briefing](../daily/2026-10-20.md)
 - 2026-08-25 — Ships V4-Flash-Vision-Exp, an experimental multimodal model closing much of the agent-benchmark gap to Claude Opus 4.8 — [briefing](../daily/2026-08-25.md)
 
 ## `entity:deepseek-v4-flash-vision-exp`
@@ -334,6 +335,7 @@
 - 2026-10-13 — Google widens Fairwind access to more trusted cyber defenders alongside Argon safety results — [briefing](../daily/2026-10-13.md)
 
 ## `entity:interconnects`
+- 2026-10-20 — Open artifacts #25 roundup: DeepSeek V4.1 Flash, US/China controls — [briefing](../daily/2026-10-20.md)
 - 2026-10-19 — Lambert analysis of Meta's open-weights release and licence — [briefing](../daily/2026-10-19.md)
 - 2026-10-13 — Lambert: rapid engineering-led progress, not general superintelligence — [briefing](../daily/2026-10-13.md)
 
@@ -356,4 +358,11 @@
 - 2026-10-16 — BriX sales assistant saves ~40,000 hours a quarter, per Anthropic — [briefing](../daily/2026-10-16.md)
 
 ## `entity:hugging-face`
+- 2026-10-20 — Native TPU support via TorchTPU; hosts IBM ALTK-Evolve and Ai2 FairStress posts — [briefing](../daily/2026-10-20.md)
 - 2026-10-19 — Hosts Beam weights with day-0 transformers/vLLM/SGLang support — [briefing](../daily/2026-10-19.md)
+
+## `entity:ibm-research`
+- 2026-10-20 — ALTK-Evolve: learned guidelines lift τ²-bench agent scores without retraining — [briefing](../daily/2026-10-20.md)
+
+## `entity:allen-institute-for-ai`
+- 2026-10-20 — FairStress benchmark: 13M+ fairness test cases for LLM decisions — [briefing](../daily/2026-10-20.md)
