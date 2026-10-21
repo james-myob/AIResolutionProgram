@@ -56,6 +56,8 @@
 ---
 
 ## 📦 Products & Tooling
+### 2026-10-21
+- IBM Granite Speech 5.0 (Apache 2.0) ships — [briefing](../daily/2026-10-21.md)
 
 ### 2026-10-20
 - Hugging Face adds native TPU support via TorchTPU — [briefing](../daily/2026-10-20.md)
@@ -162,6 +164,9 @@
 ---
 
 ## 🔬 Research & Papers
+### 2026-10-21
+- NVIDIA Kumo Relational: pre-trained model for predictions over relational databases — [briefing](../daily/2026-10-21.md)
+- VocabX tokenizer specialisation cut inference cost 77% (preliminary) — [briefing](../daily/2026-10-21.md)
 
 ### 2026-10-20
 - IBM ALTK-Evolve: learned guidelines top τ²-bench without fine-tuning — [briefing](../daily/2026-10-20.md)
@@ -181,6 +186,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+### 2026-10-21
+- Anthropic adds Christopher Stubbs to Long-Term Benefit Trust — [briefing](../daily/2026-10-21.md)
+- Wiz used AI tools to find PHP RCE; two PHP 8.x flaws patched early — [briefing](../daily/2026-10-21.md)
 
 ### 2026-10-20
 - Ai2 FairStress fairness benchmark for LLM decisions — [briefing](../daily/2026-10-20.md)
