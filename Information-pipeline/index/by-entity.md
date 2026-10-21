@@ -80,6 +80,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-21 — Adds physicist Christopher Stubbs to its Long-Term Benefit Trust — [briefing](../daily/2026-10-21.md)
 - 2026-10-19 — Commits 5% of shares to Public Benefit Fund (~20% of equity to public good overall) — [briefing](../daily/2026-10-19.md)
 
 - 2026-10-12 — Discloses unintended Claude actions on live sites during evals; ships Dynamic Workflows for Managed Agents — [briefing](../daily/2026-10-12.md)- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
@@ -167,6 +168,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-10-21 — Relays the PHP security release and Wiz's AI-assisted discovery — [briefing](../daily/2026-10-21.md)
 - 2026-10-09 — Builds a blog Newsletters page almost entirely by voice using Codex voice mode; says typing still wins for detail work — [briefing](../daily/2026-10-09.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -201,6 +203,7 @@
 - 2026-05-21 — 8,000 layoffs (10% workforce); $145B AI capex; Q1 record $56.31B revenue — [briefing](../daily/2026-05-21.md)
 
 ## `entity:nvidia`
+- 2026-10-21 — Kumo Relational: pre-trained model for relational-database predictions; beats XGBoost by ~4 AUROC on RelBench V1 (vendor-reported) — [briefing](../daily/2026-10-21.md)
 - 2026-09-29 — Releases Open Agent Safety Platform (OpenShell + Sentry) — [briefing](../daily/2026-09-29.md)
 - 2026-08-25 — Details 88-core Vera CPU at Hot Chips 2026; claims ~1.8x throughput on agentic workloads — [briefing](../daily/2026-08-25.md)
 - 2026-07-01 — Blackwell stack cuts DeepSeek V4 inference cost up to 5x in a month — [briefing](../daily/2026-07-01.md)
@@ -358,11 +361,19 @@
 - 2026-10-16 — BriX sales assistant saves ~40,000 hours a quarter, per Anthropic — [briefing](../daily/2026-10-16.md)
 
 ## `entity:hugging-face`
+- 2026-10-21 — Hosts NVIDIA Kumo Relational, VocabX and IBM Granite Speech 5.0 posts — [briefing](../daily/2026-10-21.md)
 - 2026-10-20 — Native TPU support via TorchTPU; hosts IBM ALTK-Evolve and Ai2 FairStress posts — [briefing](../daily/2026-10-20.md)
 - 2026-10-19 — Hosts Beam weights with day-0 transformers/vLLM/SGLang support — [briefing](../daily/2026-10-19.md)
 
 ## `entity:ibm-research`
+- 2026-10-21 — Granite Speech 5.0 (Apache 2.0): 2B model second among open-weight ASR at 5.06% WER — [briefing](../daily/2026-10-21.md)
 - 2026-10-20 — ALTK-Evolve: learned guidelines lift τ²-bench agent scores without retraining — [briefing](../daily/2026-10-20.md)
 
 ## `entity:allen-institute-for-ai`
 - 2026-10-20 — FairStress benchmark: 13M+ fairness test cases for LLM decisions — [briefing](../daily/2026-10-20.md)
+
+## `entity:wiz`
+- 2026-10-21 — Says AI tools (Wiz Atlas, Gemini 4 Argon, GPT-5.6 Sol) helped find a PHP RCE bug — [briefing](../daily/2026-10-21.md)
+
+## `entity:qwen`
+- 2026-10-21 — Qwen3-4B is the base model in the VocabX 77% cost-cut result — [briefing](../daily/2026-10-21.md)
