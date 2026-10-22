@@ -57,6 +57,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-22
+- Anthropic donates Agent Skills standard to the Linux Foundation's Agentic AI Foundation — [briefing](../daily/2026-10-22.md)
+
 ### 2026-10-20
 - Hugging Face adds native TPU support via TorchTPU — [briefing](../daily/2026-10-20.md)
 
@@ -163,6 +166,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-10-22
+- Ai2 OlmoEarth v1.3: 128-dim embeddings per 10 m pixel, open, ~$2.7K final training run — [briefing](../daily/2026-10-22.md)
+
 ### 2026-10-20
 - IBM ALTK-Evolve: learned guidelines top τ²-bench without fine-tuning — [briefing](../daily/2026-10-20.md)
 
@@ -181,6 +187,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-22
+- PHP patches two RCE flaws early after disclosure leak; Wiz used AI tools to find the first — [briefing](../daily/2026-10-22.md)
 
 ### 2026-10-20
 - Ai2 FairStress fairness benchmark for LLM decisions — [briefing](../daily/2026-10-20.md)

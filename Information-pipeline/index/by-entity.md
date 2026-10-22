@@ -366,3 +366,21 @@
 
 ## `entity:allen-institute-for-ai`
 - 2026-10-20 — FairStress benchmark: 13M+ fairness test cases for LLM decisions — [briefing](../daily/2026-10-20.md)
+
+## `entity:agentic-ai-foundation`
+- 2026-10-22 — Receives the Agent Skills standard from Anthropic, joining MCP under the Linux Foundation — [briefing](../daily/2026-10-22.md)
+
+## `entity:linux-foundation`
+- 2026-10-22 — Hosts the Agentic AI Foundation, which takes over Agent Skills — [briefing](../daily/2026-10-22.md)
+
+## `entity:wiz`
+- 2026-10-22 — Used AI tools to find a PHP remote-code-execution flaw; confirmed RCE against Drupal and WordPress — [briefing](../daily/2026-10-22.md)
+
+## `entity:php-foundation`
+- 2026-10-22 — Shipped early patches for two RCE flaws after a disclosure leak — [briefing](../daily/2026-10-22.md)
+
+## `entity:anthropic` (2026-10-22 addition)
+- 2026-10-22 — Donates Agent Skills to the Agentic AI Foundation; opens life-science Guest Investigator programme; Christopher Stubbs joins Long-Term Benefit Trust — [briefing](../daily/2026-10-22.md)
+
+## `entity:allen-institute-for-ai` (2026-10-22 addition)
+- 2026-10-22 — OlmoEarth v1.3 satellite embeddings released — [briefing](../daily/2026-10-22.md)
