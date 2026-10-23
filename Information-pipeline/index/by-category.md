@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-23
+- Moonshot Kimi K3.1 Pro live at $2/$10 per M tokens; open weights promised by 4 Nov — [briefing](../daily/2026-10-23.md)
+
 ### 2026-10-20
 - DeepSeek V4.1-Flash-1017 (MIT) as US DHS procurement ban tightens — [briefing](../daily/2026-10-20.md)
 
@@ -166,6 +169,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-10-23
+- Microsoft ThinkingBox-Training: database-state checks as RL rewards lift Qwen3.8-27B 51.7%→60.8% — [briefing](../daily/2026-10-23.md)
+
 ### 2026-10-22
 - Ai2 OlmoEarth v1.3: 128-dim embeddings per 10 m pixel, open, ~$2.7K final training run — [briefing](../daily/2026-10-22.md)
 
@@ -244,6 +250,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-10-23
+- Import AI 477: Jack Clark tells the IMF the singularity has begun — [briefing](../daily/2026-10-23.md)
+- Mollick: 30 Months on the Exponential (in Charts) — [briefing](../daily/2026-10-23.md)
 
 ### 2026-10-19
 - Interconnects: Meta's Muse Spark Open puts US open weights "behind but relevant"; licence is the risk — [briefing](../daily/2026-10-19.md)

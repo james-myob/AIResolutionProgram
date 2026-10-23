@@ -384,3 +384,21 @@
 
 ## `entity:allen-institute-for-ai` (2026-10-22 addition)
 - 2026-10-22 — OlmoEarth v1.3 satellite embeddings released — [briefing](../daily/2026-10-22.md)
+
+## `entity:moonshot-ai`
+- 2026-10-23 — Kimi K3.1 Pro released via API; open weights promised by 4 Nov — [briefing](../daily/2026-10-23.md)
+
+## `entity:kimi-k3-1-pro`
+- 2026-10-23 — Scores 55 on Artificial Analysis, behind only Claude Opus 5.5 (58) — [briefing](../daily/2026-10-23.md)
+
+## `entity:microsoft` (2026-10-23)
+- 2026-10-23 — ThinkingBox-Training: database-state RL rewards for agents — [briefing](../daily/2026-10-23.md)
+
+## `entity:anthropic` (2026-10-23 addition)
+- 2026-10-23 — Commits 5% of shares to new Public Benefit Fund (post dated 18 Oct); Opus 5.5 leads Artificial Analysis — [briefing](../daily/2026-10-23.md)
+
+## `entity:ethan-mollick`
+- 2026-10-23 — 30 Months on the Exponential (in Charts) — [briefing](../daily/2026-10-23.md)
+
+## `entity:imf`
+- 2026-10-23 — Venue for Jack Clark's "singularity has begun" speech — [briefing](../daily/2026-10-23.md)

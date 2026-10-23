@@ -29,3 +29,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 - [ ] 📝 **Google I/O, World Models, I/O Spaghetti** — Ben Thompson, Stratechery · Essay · ~3,500 words · [link](https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/) · *Useful counterweight to the obvious "Google is winning" read of I/O; introduces "I/O Spaghetti" framing for the anti-pattern of shipping AI everywhere without coherence.* — from [briefing](../daily/2026-05-20.md)
 
 - [ ] 🎙️ **The shift from digital to physical AI** — Caitlin Kalinowski on Lenny's Podcast · Podcast · ~75 min · [link](https://www.lennysnewsletter.com/podcast) · *18-month-horizon piece on AI moving from chatbots to robotics; relevant for software PMs because of what it implies about which form factors get serious investment next.* — from [briefing](../daily/2026-05-20.md)
+
+## 2026-10-23
+
+- [ ] 📝 **30 Months on the Exponential (in Charts)** — Ethan Mollick, One Useful Thing · Essay · [link](https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts) · *Compact, chart-led baseline of capability and cost trends; useful shared evidence for roadmap timing.* — from [briefing](../daily/2026-10-23.md)
