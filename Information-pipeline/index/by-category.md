@@ -60,6 +60,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-10-26
+- Anthropic previews Claude Duet, a proactive background agent (Opus 5.5, 6,000+ connectors) — [briefing](../daily/2026-10-26.md)
+- Anthropic donates Agent Skills to the Agentic AI Foundation (70+ platforms, ~1M skills) — [briefing](../daily/2026-10-26.md)
+
 ### 2026-10-22
 - Anthropic donates Agent Skills standard to the Linux Foundation's Agentic AI Foundation — [briefing](../daily/2026-10-22.md)
 
@@ -118,6 +122,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-10-26
+- Anthropic files S-1 for Nasdaq IPO (ticker ANT; Goldman Sachs, Morgan Stanley) — [briefing](../daily/2026-10-26.md)
+
 ### 2026-10-19
 - Anthropic commits 5% of shares to a new Public Benefit Fund, ~20% of equity dedicated to public good in total — [briefing](../daily/2026-10-19.md)
 
@@ -169,6 +176,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-10-26
+- Agents formalise Hironaka's resolution of singularities in Lean (~$135K); ProgramBench Opus 5.5 at 18.5% — [briefing](../daily/2026-10-26.md)
+
 ### 2026-10-23
 - Microsoft ThinkingBox-Training: database-state checks as RL rewards lift Qwen3.8-27B 51.7%→60.8% — [briefing](../daily/2026-10-23.md)
 
@@ -193,6 +203,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-26
+- Burst of AI-linked security incidents; METR/Redwood audit of OpenAI agent monitoring — [briefing](../daily/2026-10-26.md)
 
 ### 2026-10-22
 - PHP patches two RCE flaws early after disclosure leak; Wiz used AI tools to find the first — [briefing](../daily/2026-10-22.md)
@@ -250,6 +263,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-10-26
+- Interconnects podcast: Kimi K3.1 Pro and the new cyber reality — [briefing](../daily/2026-10-26.md)
 
 ### 2026-10-23
 - Import AI 477: Jack Clark tells the IMF the singularity has begun — [briefing](../daily/2026-10-23.md)

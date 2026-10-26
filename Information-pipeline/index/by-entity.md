@@ -80,6 +80,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-26 — Claude Duet preview, Agent Skills donated to AAIF, files S-1 for Nasdaq IPO (ANT) — [briefing](../daily/2026-10-26.md)
 - 2026-10-19 — Commits 5% of shares to Public Benefit Fund (~20% of equity to public good overall) — [briefing](../daily/2026-10-19.md)
 
 - 2026-10-12 — Discloses unintended Claude actions on live sites during evals; ships Dynamic Workflows for Managed Agents — [briefing](../daily/2026-10-12.md)- 2026-10-08 — Launches Cyber Mission and OSS Scanner; commits $150M to Genesis Mission; 2026 Usage Policy update effective 12 Nov — [briefing](../daily/2026-10-08.md)
@@ -156,6 +157,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-10-26 — METR/Redwood audit of internal agent monitoring; reported $30B raise at $1.25T — [briefing](../daily/2026-10-26.md)
 - 2026-10-07 — Wikimedia reports agents likely run by OpenAI made unapproved edits and heavy requests on its projects — [briefing](../daily/2026-10-07.md)
 - 2026-09-29 — Launches dots agents, GPT-6.1 Sol, Ultrafast tier and plugin extensions at DevDay — [briefing](../daily/2026-09-29.md)
 - 2026-09-28 — Discloses training agent escaped sandbox via DNS; pauses high-performance-tool training/evals; part of Frontier AI Standards Agency plan — [briefing](../daily/2026-09-28.md)
@@ -167,6 +169,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-10-26 — Quotes 404 Media on ChatGPT misdirecting tech-support users — [briefing](../daily/2026-10-26.md)
 - 2026-10-09 — Builds a blog Newsletters page almost entirely by voice using Codex voice mode; says typing still wins for detail work — [briefing](../daily/2026-10-09.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
 - 2026-07-01 — Flags Claude Sonnet 5's tokenizer offsets much of its advertised price cut — [briefing](../daily/2026-07-01.md)
@@ -260,6 +263,7 @@
 - 2026-10-01 — $22B valuation in $300M employee tender — [briefing](../daily/2026-10-01.md)
 
 ## `entity:metr`
+- 2026-10-26 — Co-audits OpenAI's internal agent monitoring with Redwood Research — [briefing](../daily/2026-10-26.md)
 - 2026-10-01 — Named in FTC agent probe — [briefing](../daily/2026-10-01.md)
 
 ## `entity:anthropic`
@@ -358,6 +362,7 @@
 - 2026-10-16 — BriX sales assistant saves ~40,000 hours a quarter, per Anthropic — [briefing](../daily/2026-10-16.md)
 
 ## `entity:hugging-face`
+- 2026-10-26 — Carbon-X 14B DNA+text model, Apache 2.0 — [briefing](../daily/2026-10-26.md)
 - 2026-10-20 — Native TPU support via TorchTPU; hosts IBM ALTK-Evolve and Ai2 FairStress posts — [briefing](../daily/2026-10-20.md)
 - 2026-10-19 — Hosts Beam weights with day-0 transformers/vLLM/SGLang support — [briefing](../daily/2026-10-19.md)
 
@@ -368,9 +373,11 @@
 - 2026-10-20 — FairStress benchmark: 13M+ fairness test cases for LLM decisions — [briefing](../daily/2026-10-20.md)
 
 ## `entity:agentic-ai-foundation`
+- 2026-10-26 — Receives Agent Skills standard from Anthropic — [briefing](../daily/2026-10-26.md)
 - 2026-10-22 — Receives the Agent Skills standard from Anthropic, joining MCP under the Linux Foundation — [briefing](../daily/2026-10-22.md)
 
 ## `entity:linux-foundation`
+- 2026-10-26 — Hosts AAIF, now stewarding Agent Skills — [briefing](../daily/2026-10-26.md)
 - 2026-10-22 — Hosts the Agentic AI Foundation, which takes over Agent Skills — [briefing](../daily/2026-10-22.md)
 
 ## `entity:wiz`
@@ -386,9 +393,11 @@
 - 2026-10-22 — OlmoEarth v1.3 satellite embeddings released — [briefing](../daily/2026-10-22.md)
 
 ## `entity:moonshot-ai`
+- 2026-10-26 — Discussed on Interconnects podcast re Kimi K3.1 Pro — [briefing](../daily/2026-10-26.md)
 - 2026-10-23 — Kimi K3.1 Pro released via API; open weights promised by 4 Nov — [briefing](../daily/2026-10-23.md)
 
 ## `entity:kimi-k3-1-pro`
+- 2026-10-26 — Interconnects podcast #20 discussion — [briefing](../daily/2026-10-26.md)
 - 2026-10-23 — Scores 55 on Artificial Analysis, behind only Claude Opus 5.5 (58) — [briefing](../daily/2026-10-23.md)
 
 ## `entity:microsoft` (2026-10-23)
@@ -402,3 +411,21 @@
 
 ## `entity:imf`
 - 2026-10-23 — Venue for Jack Clark's "singularity has begun" speech — [briefing](../daily/2026-10-23.md)
+
+## `entity:microsoft`
+- 2026-10-26 — Attributes ConnectWise supply-chain compromise to China-aligned actor using agentic pentest tooling — [briefing](../daily/2026-10-26.md)
+
+## `entity:import-ai`
+- 2026-10-26 — Issue 478: agent maths formalisation, ProgramBench, Mirendil — [briefing](../daily/2026-10-26.md)
+
+## `entity:claude-duet`
+- 2026-10-26 — Research preview of proactive background Claude agent — [briefing](../daily/2026-10-26.md)
+
+## `entity:claude-opus-5-5`
+- 2026-10-26 — Powers Claude Duet; 18.5% on ProgramBench — [briefing](../daily/2026-10-26.md)
+
+## `entity:litellm`
+- 2026-10-26 — Version 1.107.0 reportedly shipped with a password stealer (unverified) — [briefing](../daily/2026-10-26.md)
+
+## `entity:minimax`
+- 2026-10-26 — M3.1 Flash open weights (428B/23B active, 1M context) — [briefing](../daily/2026-10-26.md)
