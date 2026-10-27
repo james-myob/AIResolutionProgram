@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-27
+- OpenAI ships GPT-6.1 Terra at $1/$5 per M tokens, about half the prior Terra price, aimed at vision and computer use — [briefing](../daily/2026-10-27.md)
+
 ### 2026-10-23
 - Moonshot Kimi K3.1 Pro live at $2/$10 per M tokens; open weights promised by 4 Nov — [briefing](../daily/2026-10-23.md)
 
@@ -59,6 +62,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-10-27
+- Anthropic explains Claude Managed Agents' brain/hands split: durable session state apart from sandboxes, credentials in a separate vault — [briefing](../daily/2026-10-27.md)
 
 ### 2026-10-26
 - Anthropic previews Claude Duet, a proactive background agent (Opus 5.5, 6,000+ connectors) — [briefing](../daily/2026-10-26.md)
@@ -122,6 +128,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-10-27
+- Secondhand S-1 figures: ~48% of H1 revenue via cloud marketplaces; Q2 operating profit ~$974M (unverified) — [briefing](../daily/2026-10-27.md)
+
 ### 2026-10-26
 - Anthropic files S-1 for Nasdaq IPO (ticker ANT; Goldman Sachs, Morgan Stanley) — [briefing](../daily/2026-10-26.md)
 
@@ -175,6 +184,9 @@
 ---
 
 ## 🔬 Research & Papers
+
+### 2026-10-27
+- Anthropic reports early drug-development results with six partners; Enveda document review cuts human review time 89% — [briefing](../daily/2026-10-27.md)
 
 ### 2026-10-26
 - Agents formalise Hironaka's resolution of singularities in Lean (~$135K); ProgramBench Opus 5.5 at 18.5% — [briefing](../daily/2026-10-26.md)

@@ -80,6 +80,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-27 — Drug-development results with six partners; Managed Agents brain/hands design; S-1 figures relayed secondhand — [briefing](../daily/2026-10-27.md)
 - 2026-10-26 — Claude Duet preview, Agent Skills donated to AAIF, files S-1 for Nasdaq IPO (ANT) — [briefing](../daily/2026-10-26.md)
 - 2026-10-19 — Commits 5% of shares to Public Benefit Fund (~20% of equity to public good overall) — [briefing](../daily/2026-10-19.md)
 
@@ -157,6 +158,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-10-27 — Ships GPT-6.1 Terra ($1/$5 per M tokens), midrange model for vision and computer use — [briefing](../daily/2026-10-27.md)
 - 2026-10-26 — METR/Redwood audit of internal agent monitoring; reported $30B raise at $1.25T — [briefing](../daily/2026-10-26.md)
 - 2026-10-07 — Wikimedia reports agents likely run by OpenAI made unapproved edits and heavy requests on its projects — [briefing](../daily/2026-10-07.md)
 - 2026-09-29 — Launches dots agents, GPT-6.1 Sol, Ultrafast tier and plugin extensions at DevDay — [briefing](../daily/2026-09-29.md)
@@ -169,6 +171,7 @@
 - 2026-05-20 — Joins C2PA, embeds SynthID; Altman offers $2M tokens-for-equity to every active YC company — [briefing](../daily/2026-05-20.md)
 
 ## `entity:simon-willison`
+- 2026-10-27 — Covers GPT-6.1 Terra pricing and capabilities; Game Boy Color badge post — [briefing](../daily/2026-10-27.md)
 - 2026-10-26 — Quotes 404 Media on ChatGPT misdirecting tech-support users — [briefing](../daily/2026-10-26.md)
 - 2026-10-09 — Builds a blog Newsletters page almost entirely by voice using Codex voice mode; says typing still wins for detail work — [briefing](../daily/2026-10-09.md)
 - 2026-08-16 — Ships llm-gemini plugin update supporting Gemini 3.7/3.6 Flash and 3.5 Flash-Lite — [briefing](../daily/2026-08-16.md)
@@ -323,6 +326,7 @@
 - 2026-10-09 — Desktop app's Codex voice mode used for hands-free coding — [briefing](../daily/2026-10-09.md)
 
 ## `entity:claude-managed-agents`
+- 2026-10-27 — Latent Space interview details brain/hands separation and credential vault — [briefing](../daily/2026-10-27.md)
 - 2026-10-12 — Gains Dynamic Workflows, where Claude plans and orchestrates multi-agent runs — [briefing](../daily/2026-10-12.md)
 
 ## `entity:reflection-ai`
@@ -429,3 +433,9 @@
 
 ## `entity:minimax`
 - 2026-10-26 — M3.1 Flash open weights (428B/23B active, 1M context) — [briefing](../daily/2026-10-26.md)
+
+## `entity:gpt-6-1-terra`
+- 2026-10-27 — Released 26 Oct; about half the price of GPT-5.6 Terra and GPT-6.1 Sol — [briefing](../daily/2026-10-27.md)
+
+## `entity:latent-space`
+- 2026-10-27 — Opus 5.5 / Claude Platform interview; S-1 roundup — [briefing](../daily/2026-10-27.md)
