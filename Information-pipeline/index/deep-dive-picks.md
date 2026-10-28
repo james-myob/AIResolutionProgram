@@ -37,3 +37,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-10-23
 
 - [ ] 📝 **30 Months on the Exponential (in Charts)** — Ethan Mollick, One Useful Thing · Essay · [link](https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts) · *Compact, chart-led baseline of capability and cost trends; useful shared evidence for roadmap timing.* — from [briefing](../daily/2026-10-23.md)
+
+## 2026-10-28
+
+- [ ] 🎙️ **How Anthropic ships Claude with Claude** — Latent Space · Podcast/article · [link](https://latent.space/p/opus55/) · *Long conversation on building and safely shipping a frontier model with the model itself; pointer only, content not reviewed in full.* — from [briefing](../daily/2026-10-28.md)
