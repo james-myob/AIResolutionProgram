@@ -45,6 +45,7 @@
 - 2026-08-25 — State of AI Infrastructure report: agent security is the top blocker to scaling agentic AI in production — [briefing](../daily/2026-08-25.md)
 
 ## `entity:google-deepmind`
+- 2026-10-29 — Gemini 4 Carbon announced, gated to cyber defenders; Genie 4 and EmbeddingGemma 2 (quick hit) — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Genie 4 world model in trusted-tester preview (quick hit) — [briefing](../daily/2026-10-28.md)
 - 2026-08-16 — Leadership reset: Hassabis becomes Alphabet Chief Scientist/DeepMind chair, Kavukcuoglu takes over day-to-day, Jeff Dean departs — [briefing](../daily/2026-08-16.md)
 - 2026-08-15 — Bloomberg reveals internal memo: AGI Safety and Alignment team tells applicants to also submit a human-reviewed form because the CV-screening system has "a non-trivial probability" of dropping qualified candidates — [briefing](../daily/2026-08-15.md)
@@ -81,6 +82,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-29 — S-1 loss reportedly mostly accounting marks (secondhand); Claude Code usage-spike complaints (quick hit, unverified) — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — GSA OneGov deal (40% off for government); early drug-development partnership results; S-1 figures circulate (unverified) — [briefing](../daily/2026-10-28.md)
 - 2026-10-26 — Claude Duet preview, Agent Skills donated to AAIF, files S-1 for Nasdaq IPO (ANT) — [briefing](../daily/2026-10-26.md)
 - 2026-10-19 — Commits 5% of shares to Public Benefit Fund (~20% of equity to public good overall) — [briefing](../daily/2026-10-19.md)
@@ -159,6 +161,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-10-29 — Monthly API credits for ChatGPT Pro and Business — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Ships GPT-6.1 Terra ($1/$5 per M tokens) — [briefing](../daily/2026-10-28.md)
 - 2026-10-26 — METR/Redwood audit of internal agent monitoring; reported $30B raise at $1.25T — [briefing](../daily/2026-10-26.md)
 - 2026-10-07 — Wikimedia reports agents likely run by OpenAI made unapproved edits and heavy requests on its projects — [briefing](../daily/2026-10-07.md)
@@ -323,6 +326,7 @@
 - 2026-10-09 — Codex voice mode in the ChatGPT desktop app used to build a blog feature hands-free — [briefing](../daily/2026-10-09.md)
 
 ## `entity:chatgpt`
+- 2026-10-29 — Pro/Business plans gain monthly API credits — [briefing](../daily/2026-10-29.md)
 - 2026-10-09 — Desktop app's Codex voice mode used for hands-free coding — [briefing](../daily/2026-10-09.md)
 
 ## `entity:claude-managed-agents`
@@ -339,6 +343,7 @@
 - 2026-10-12 — Co-publishes Humanity's Sixth Sense visual-reasoning benchmark with Elorian — [briefing](../daily/2026-10-12.md)
 
 ## `entity:fairwind-program`
+- 2026-10-29 — Carbon access via DeepMind's Fairwind Program for cyber defenders — [briefing](../daily/2026-10-29.md)
 - 2026-10-13 — Google widens Fairwind access to more trusted cyber defenders alongside Argon safety results — [briefing](../daily/2026-10-13.md)
 
 ## `entity:interconnects`
@@ -440,7 +445,12 @@
 - 2026-10-28 — OneGov agreement with Anthropic: 40% discount, no minimum spend — [briefing](../daily/2026-10-28.md)
 
 ## `entity:github`
+- 2026-10-29 — Copilot Fusion mixes Anthropic and OpenAI models at runtime — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Octoverse 2026: 220M merged PRs/month, 7.38B commits/month — [briefing](../daily/2026-10-28.md)
 
 ## `entity:artificial-analysis`
+- 2026-10-29 — Carbon #1 on Intelligence Index v5 at 59 vs Opus 5.5 58 (secondhand) — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Intelligence Index v5 (60% private sets): Opus 5.5 58, GPT-6 Astra 57 (quick hit) — [briefing](../daily/2026-10-28.md)
+
+## `entity:gemini-4-carbon`
+- 2026-10-29 — Frontier model: SEC-bench Pro 88.2%, $2/$10 intro then $4/$20 per M tokens, not yet generally available — [briefing](../daily/2026-10-29.md)

@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-29
+- Google unveils Gemini 4 Carbon (cyber-focused, #1 on AA Intelligence Index per Google), limited to cyber defenders via Fairwind — [briefing](../daily/2026-10-29.md)
+
 ### 2026-10-28
 - OpenAI ships GPT-6.1 Terra at $1/$5 per M tokens, aimed at visual reasoning and computer use — [briefing](../daily/2026-10-28.md)
 
@@ -62,6 +65,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-10-29
+- GitHub Copilot Fusion mixes Anthropic and OpenAI models at runtime (claims up to 77% lower cost; secondhand) — [briefing](../daily/2026-10-29.md)
+- OpenAI adds $100–$500/month API credits for ChatGPT Pro and Business — [briefing](../daily/2026-10-29.md)
 
 ### 2026-10-28
 - Anthropic–GSA OneGov deal: 40% off Claude for government, no minimum spend — [briefing](../daily/2026-10-28.md)
@@ -127,6 +134,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-10-29
+- Anthropic S-1 ~$80B H1 loss reportedly mostly convertible/SAFE mark-to-market (analyst reading, secondhand) — [briefing](../daily/2026-10-29.md)
 
 ### 2026-10-28
 - Anthropic S-1 figures circulate (H1 revenue, margins, cloud-marketplace share), largely unverified — [briefing](../daily/2026-10-28.md)
