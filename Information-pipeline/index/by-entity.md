@@ -12,6 +12,7 @@
 - 2026-09-18 — Launches AIforce connectivity layer (Claudeforce, Slackforce, Agentforce Coworker) at Dreamforce, with Altman and Amodei both on stage — [briefing](../daily/2026-09-18.md)
 
 ## `entity:mistral`
+- 2026-10-30 — Releases Large 4 ('Le Chonk') open weights; ~1T params, aimed at coding and defensive security — [briefing](../daily/2026-10-30.md)
 - 2026-10-06 — Launches Large 4 (1T params, 49B active) in public preview; open weights promised by end of October — [briefing](../daily/2026-10-06.md)
 - 2026-09-18 — Raises €3B at a >€21B valuation as sovereign-AI funding accelerates — [briefing](../daily/2026-09-18.md)
 
@@ -82,6 +83,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-10-30 — Claude self-assessment misuse research; API request size raised to 128 MB; AI for Science expansion — [briefing](../daily/2026-10-30.md)
 - 2026-10-29 — S-1 loss reportedly mostly accounting marks (secondhand); Claude Code usage-spike complaints (quick hit, unverified) — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — GSA OneGov deal (40% off for government); early drug-development partnership results; S-1 figures circulate (unverified) — [briefing](../daily/2026-10-28.md)
 - 2026-10-26 — Claude Duet preview, Agent Skills donated to AAIF, files S-1 for Nasdaq IPO (ANT) — [briefing](../daily/2026-10-26.md)
@@ -161,6 +163,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-10-30 — Teen weapons-info limits and violence-chat auto-end; monitoring system disclosure; Codex limits doubled — [briefing](../daily/2026-10-30.md)
 - 2026-10-29 — Monthly API credits for ChatGPT Pro and Business — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Ships GPT-6.1 Terra ($1/$5 per M tokens) — [briefing](../daily/2026-10-28.md)
 - 2026-10-26 — METR/Redwood audit of internal agent monitoring; reported $30B raise at $1.25T — [briefing](../daily/2026-10-26.md)
@@ -197,6 +200,7 @@
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
 ## `entity:cohere`
+- 2026-10-30 — Canada commits up to C$1.6B equity stake; reportedly opens Series E — [briefing](../daily/2026-10-30.md)
 - 2026-05-21 — Command A+ open-sourced under Apache 2.0; 218B MoE, runs on single B200 GPU — [briefing](../daily/2026-05-21.md)
 
 ## `entity:command-a-plus`
@@ -454,3 +458,6 @@
 
 ## `entity:gemini-4-carbon`
 - 2026-10-29 — Frontier model: SEC-bench Pro 88.2%, $2/$10 intro then $4/$20 per M tokens, not yet generally available — [briefing](../daily/2026-10-29.md)
+
+## `entity:reddit`
+- 2026-10-30 — CEO says Google AI Mode sends no meaningful traffic — [briefing](../daily/2026-10-30.md)

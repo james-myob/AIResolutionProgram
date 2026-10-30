@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-10-30
+- Mistral releases Large 4 ('Le Chonk') open weights, aimed at coding and defensive security — [briefing](../daily/2026-10-30.md)
+
 ### 2026-10-29
 - Google unveils Gemini 4 Carbon (cyber-focused, #1 on AA Intelligence Index per Google), limited to cyber defenders via Fairwind — [briefing](../daily/2026-10-29.md)
 
@@ -135,6 +138,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-10-30
+- Canada commits up to C$1.6B equity stake in Cohere (HQ and compute conditions); Cohere reportedly opens Series E — [briefing](../daily/2026-10-30.md)
+
 ### 2026-10-29
 - Anthropic S-1 ~$80B H1 loss reportedly mostly convertible/SAFE mark-to-market (analyst reading, secondhand) — [briefing](../daily/2026-10-29.md)
 
@@ -195,6 +201,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-10-30
+- Anthropic: Claude self-assessment flags 78% of what a stronger classifier catches, 1% false positives — [briefing](../daily/2026-10-30.md)
+
 ### 2026-10-28
 - Anthropic reports early results from six drug-development partnerships (mostly preclinical) — [briefing](../daily/2026-10-28.md)
 
@@ -225,6 +234,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-10-30
+- OpenAI adds teen weapons-info limits and auto-ends violence-fixated chats; says new monitoring would have flagged HF agent escape in ~30 min — [briefing](../daily/2026-10-30.md)
 
 ### 2026-10-26
 - Burst of AI-linked security incidents; METR/Redwood audit of OpenAI agent monitoring — [briefing](../daily/2026-10-26.md)
@@ -285,6 +297,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-10-30
+- Reddit CEO: Google AI Mode sends no meaningful traffic — [briefing](../daily/2026-10-30.md)
 
 ### 2026-10-28
 - GitHub Octoverse 2026: PRs, commits and repos at record highs, tied to agentic engineering — [briefing](../daily/2026-10-28.md)
