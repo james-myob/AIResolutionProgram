@@ -69,6 +69,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-11-02
+- OpenAI moves ChatGPT and Codex to one shared usage allowance from December (secondhand) — [briefing](../daily/2026-11-02.md)
+- Parameter Labs: chain of flaws in ChatGPT HTML previews allowed cross-user data theft; fixed, $5,000 bounty — [briefing](../daily/2026-11-02.md)
+
 ### 2026-10-29
 - GitHub Copilot Fusion mixes Anthropic and OpenAI models at runtime (claims up to 77% lower cost; secondhand) — [briefing](../daily/2026-10-29.md)
 - OpenAI adds $100–$500/month API credits for ChatGPT Pro and Business — [briefing](../daily/2026-10-29.md)
@@ -137,6 +141,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-11-02
+- OpenAI reportedly cuts new-round target to $20B from $30B; ~$11B secured — [briefing](../daily/2026-11-02.md)
+- Salesforce agrees to acquire Rune Technologies (~$375M reported) — [briefing](../daily/2026-11-02.md)
 
 ### 2026-10-30
 - Canada commits up to C$1.6B equity stake in Cohere (HQ and compute conditions); Cohere reportedly opens Series E — [briefing](../daily/2026-10-30.md)
@@ -235,6 +243,10 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-11-02
+- Anthropic usage-policy update (effective 12 Nov): sustained-abuse ban, hardware-control and surveillance rules — [briefing](../daily/2026-11-02.md)
+- Census BTOS survey switches from 'AI' to 'Super Intelligence' wording after EO 14434 — [briefing](../daily/2026-11-02.md)
+
 ### 2026-10-30
 - OpenAI adds teen weapons-info limits and auto-ends violence-fixated chats; says new monitoring would have flagged HF agent escape in ~30 min — [briefing](../daily/2026-10-30.md)
 
@@ -297,6 +309,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-11-02
+- Google says AI Mode monetises less; Alphabet ~-15%; Meta ads +26%, AWS +39.3% — [briefing](../daily/2026-11-02.md)
 
 ### 2026-10-30
 - Reddit CEO: Google AI Mode sends no meaningful traffic — [briefing](../daily/2026-10-30.md)

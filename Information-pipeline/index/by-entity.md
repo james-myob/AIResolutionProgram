@@ -461,3 +461,31 @@
 
 ## `entity:reddit`
 - 2026-10-30 — CEO says Google AI Mode sends no meaningful traffic — [briefing](../daily/2026-10-30.md)
+
+---
+
+### 2026-11-02 additions
+
+## `entity:openai`
+- 2026-11-02 — Moves ChatGPT and Codex to shared usage allowance (Dec); reportedly cuts raise target to $20B; ChatGPT HTML-preview flaw fixed — [briefing](../daily/2026-11-02.md)
+
+## `entity:google`
+- 2026-11-02 — Says AI Mode monetises less; Alphabet ~-15% (Latent Space) — [briefing](../daily/2026-11-02.md)
+
+## `entity:anthropic`
+- 2026-11-02 — Usage-policy update effective 12 Nov adds sustained-abuse ban and hardware-control rules — [briefing](../daily/2026-11-02.md)
+
+## `entity:salesforce`
+- 2026-11-02 — Agrees to acquire Rune Technologies (~$375M reported) — [briefing](../daily/2026-11-02.md)
+
+## `entity:meta`
+- 2026-11-02 — Q3 ad revenue +26% vs Google Search & other +12% — [briefing](../daily/2026-11-02.md)
+
+## `entity:aws`
+- 2026-11-02 — Q3 sales +39.3% to ~$46B, fastest in nearly five years — [briefing](../daily/2026-11-02.md)
+
+## `entity:chatgpt`
+- 2026-11-02 — Shared usage allowance with Codex from December; HTML-preview security flaw fixed — [briefing](../daily/2026-11-02.md)
+
+## `entity:us-census-bureau`
+- 2026-11-02 — BTOS survey switches to 'Super Intelligence' wording; large-firm adoption 40.7% — [briefing](../daily/2026-11-02.md)
