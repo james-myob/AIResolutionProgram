@@ -83,6 +83,7 @@
 - 2026-08-15 — Raises $125M Series C for AI-agent security and governance platform — [briefing](../daily/2026-08-15.md)
 
 ## `entity:anthropic`
+- 2026-11-03 — Amended S-1 warns it may soon meet its RSP "dramatically accelerated progress" threshold; opens paid safety research residency — [briefing](../daily/2026-11-03.md)
 - 2026-10-30 — Claude self-assessment misuse research; API request size raised to 128 MB; AI for Science expansion — [briefing](../daily/2026-10-30.md)
 - 2026-10-29 — S-1 loss reportedly mostly accounting marks (secondhand); Claude Code usage-spike complaints (quick hit, unverified) — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — GSA OneGov deal (40% off for government); early drug-development partnership results; S-1 figures circulate (unverified) — [briefing](../daily/2026-10-28.md)
@@ -163,6 +164,7 @@
 - 2026-05-20 — Global alliance with Anthropic; Claude rolling out to 276k staff — [briefing](../daily/2026-05-20.md)
 
 ## `entity:openai`
+- 2026-11-03 — Signs four Abu Dhabi agreements; LifeVal everyday-task benchmark (secondhand); GPT-6 Astra cited in weight-space paper — [briefing](../daily/2026-11-03.md)
 - 2026-10-30 — Teen weapons-info limits and violence-chat auto-end; monitoring system disclosure; Codex limits doubled — [briefing](../daily/2026-10-30.md)
 - 2026-10-29 — Monthly API credits for ChatGPT Pro and Business — [briefing](../daily/2026-10-29.md)
 - 2026-10-28 — Ships GPT-6.1 Terra ($1/$5 per M tokens) — [briefing](../daily/2026-10-28.md)
@@ -197,6 +199,7 @@
 - 2026-05-20 — Grok 4.3 default; Grok Build beta; $45B Anthropic Colossus 1 lease — [briefing](../daily/2026-05-20.md)
 
 ## `entity:claude-code`
+- 2026-11-03 — Goldman Sachs reportedly restricts advanced coding tools such as Claude Code — [briefing](../daily/2026-11-03.md)
 - 2026-05-21 — Code with Claude London: Dreaming + Outcomes features; doubled rate limits — [briefing](../daily/2026-05-21.md)
 
 ## `entity:cohere`
@@ -270,6 +273,7 @@
 - 2026-10-13 — Generally available via API; $2/$10 intro pricing, $4/$20 after 30 Nov; safety results published — [briefing](../daily/2026-10-13.md)
 
 ## `entity:elevenlabs`
+- 2026-11-03 — Reports voice agents 31.7% higher relative success than text on longer conversations (vendor study) — [briefing](../daily/2026-11-03.md)
 - 2026-10-01 — $22B valuation in $300M employee tender — [briefing](../daily/2026-10-01.md)
 
 ## `entity:metr`
@@ -489,3 +493,12 @@
 
 ## `entity:us-census-bureau`
 - 2026-11-02 — BTOS survey switches to 'Super Intelligence' wording; large-firm adoption 40.7% — [briefing](../daily/2026-11-02.md)
+
+## `entity:claude`
+- 2026-11-03 — Named in Goldman Sachs tool restrictions and Anthropic S-1/A RSI warning — [briefing](../daily/2026-11-03.md)
+
+## `entity:qwen`
+- 2026-11-03 — Qwen3.5-0.8B weight edits (MATH-500 7.9%→48.1%) and Qwen 3.8 27B local replication in Weight-Space Programming — [briefing](../daily/2026-11-03.md)
+
+## `entity:goldman-sachs`
+- 2026-11-03 — Reportedly restricts advanced AI coding tools for traders and bankers — [briefing](../daily/2026-11-03.md)

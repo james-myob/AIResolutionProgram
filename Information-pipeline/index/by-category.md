@@ -69,6 +69,9 @@
 
 ## 📦 Products & Tooling
 
+### 2026-11-03
+- ElevenLabs: voice agents show 31.7% higher relative success than text on 2+ minute conversations (vendor study) — [briefing](../daily/2026-11-03.md)
+
 ### 2026-11-02
 - OpenAI moves ChatGPT and Codex to one shared usage allowance from December (secondhand) — [briefing](../daily/2026-11-02.md)
 - Parameter Labs: chain of flaws in ChatGPT HTML previews allowed cross-user data theft; fixed, $5,000 bounty — [briefing](../daily/2026-11-02.md)
@@ -142,6 +145,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-11-03
+- OpenAI signs four Abu Dhabi agreements (government services, energy, sovereign investment) — [briefing](../daily/2026-11-03.md)
+
 ### 2026-11-02
 - OpenAI reportedly cuts new-round target to $20B from $30B; ~$11B secured — [briefing](../daily/2026-11-02.md)
 - Salesforce agrees to acquire Rune Technologies (~$375M reported) — [briefing](../daily/2026-11-02.md)
@@ -209,6 +215,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-03
+- "Weight-Space Programming": LLMs reportedly read/edit network weights (Qwen3.5-0.8B MATH-500 7.9%→48.1%); critics dispute framing — [briefing](../daily/2026-11-03.md)
+
 ### 2026-10-30
 - Anthropic: Claude self-assessment flags 78% of what a stronger classifier catches, 1% false positives — [briefing](../daily/2026-10-30.md)
 
@@ -242,6 +251,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-11-03
+- Anthropic amended S-1 warns it may soon meet its RSP "dramatically accelerated progress" threshold; no model has crossed it — [briefing](../daily/2026-11-03.md)
 
 ### 2026-11-02
 - Anthropic usage-policy update (effective 12 Nov): sustained-abuse ban, hardware-control and surveillance rules — [briefing](../daily/2026-11-02.md)
@@ -309,6 +321,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-11-03
+- Goldman Sachs reportedly restricts advanced AI coding tools like Claude Code, mostly to engineers — [briefing](../daily/2026-11-03.md)
 
 ### 2026-11-02
 - Google says AI Mode monetises less; Alphabet ~-15%; Meta ads +26%, AWS +39.3% — [briefing](../daily/2026-11-02.md)
