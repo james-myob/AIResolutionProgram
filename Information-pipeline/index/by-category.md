@@ -69,6 +69,10 @@
 
 ## 📦 Products & Tooling
 
+### 2026-11-04
+- CrowdStrike launches Falcon Guardian kill switch for rogue AI agents — [briefing](../daily/2026-11-04.md)
+- Apple opens Siri AI to developers in iOS 27.3 betas via App Intents — [briefing](../daily/2026-11-04.md)
+
 ### 2026-11-03
 - ElevenLabs: voice agents show 31.7% higher relative success than text on 2+ minute conversations (vendor study) — [briefing](../daily/2026-11-03.md)
 
@@ -145,6 +149,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-11-04
+- Revolut reportedly cuts AI coding costs ~90% by defaulting to self-hosted GLM — [briefing](../daily/2026-11-04.md)
+
 ### 2026-11-03
 - OpenAI signs four Abu Dhabi agreements (government services, energy, sovereign investment) — [briefing](../daily/2026-11-03.md)
 
@@ -215,6 +222,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-04
+- Anthropic releases FlashProve: zero-knowledge proofs that a reply came from a specific model — [briefing](../daily/2026-11-04.md)
+
 ### 2026-11-03
 - "Weight-Space Programming": LLMs reportedly read/edit network weights (Qwen3.5-0.8B MATH-500 7.9%→48.1%); critics dispute framing — [briefing](../daily/2026-11-03.md)
 
@@ -251,6 +261,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-11-04
+- Apple's annual filing warns AI agents may behave in unintended or hidden ways — [briefing](../daily/2026-11-04.md)
+- OpenAI adds outside security partner amid reports of long-running security concerns — [briefing](../daily/2026-11-04.md)
 
 ### 2026-11-03
 - Anthropic amended S-1 warns it may soon meet its RSP "dramatically accelerated progress" threshold; no model has crossed it — [briefing](../daily/2026-11-03.md)

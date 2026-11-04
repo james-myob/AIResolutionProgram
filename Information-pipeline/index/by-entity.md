@@ -502,3 +502,25 @@
 
 ## `entity:goldman-sachs`
 - 2026-11-03 — Reportedly restricts advanced AI coding tools for traders and bankers — [briefing](../daily/2026-11-03.md)
+
+
+## `entity:anthropic`
+- 2026-11-04 — Releases FlashProve zero-knowledge model-verification research; Claude Code game-cloning limits — [briefing](../daily/2026-11-04.md)
+
+## `entity:openai`
+- 2026-11-04 — Hires Cathedral Systems for security; Pando Git backend; GPT-6 Astra hardware design claim — [briefing](../daily/2026-11-04.md)
+
+## `entity:apple`
+- 2026-11-04 — 10-K warns on AI agent risk; opens Siri AI to developers in iOS 27.3 betas — [briefing](../daily/2026-11-04.md)
+
+## `entity:revolut`
+- 2026-11-04 — Reportedly cuts AI coding costs ~90% via self-hosted GLM-5.3 — [briefing](../daily/2026-11-04.md)
+
+## `entity:crowdstrike`
+- 2026-11-04 — Launches Falcon Guardian AI-agent kill switch — [briefing](../daily/2026-11-04.md)
+
+## `entity:claude-code`
+- 2026-11-04 — Anthropic adds game-cloning limits; leader Cat Wu departs — [briefing](../daily/2026-11-04.md)
+
+## `entity:glm`
+- 2026-11-04 — GLM-5.3 self-hosted as Revolut's default coding model — [briefing](../daily/2026-11-04.md)
