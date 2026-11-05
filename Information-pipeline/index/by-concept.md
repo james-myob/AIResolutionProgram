@@ -27,3 +27,6 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 **Appearances:**
 - 2026-05-20 — [briefing](../daily/2026-05-20.md)
+
+## `concept:weight-space-programming`
+- 2026-11-05 — Agents read and rewrite a model's weights directly instead of retraining — [briefing](../daily/2026-11-05.md)

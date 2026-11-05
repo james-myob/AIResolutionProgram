@@ -6,6 +6,8 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-05
+- Open-weight wave: Kimi K3.1 Pro, Ripple-65B, Tencent Hy4 — [briefing](../daily/2026-11-05.md)
 ### 2026-10-30
 - Mistral releases Large 4 ('Le Chonk') open weights, aimed at coding and defensive security — [briefing](../daily/2026-10-30.md)
 
@@ -69,6 +71,8 @@
 
 ## 📦 Products & Tooling
 
+### 2026-11-05
+- OpenAI to acquire Pierre Computer; Meta buys Conductor — [briefing](../daily/2026-11-05.md)
 ### 2026-11-04
 - CrowdStrike launches Falcon Guardian kill switch for rogue AI agents — [briefing](../daily/2026-11-04.md)
 - Apple opens Siri AI to developers in iOS 27.3 betas via App Intents — [briefing](../daily/2026-11-04.md)
@@ -149,6 +153,8 @@
 
 ## 💰 Business & Funding
 
+### 2026-11-05
+- Apple trims internal AI budgets — [briefing](../daily/2026-11-05.md)
 ### 2026-11-04
 - Revolut reportedly cuts AI coding costs ~90% by defaulting to self-hosted GLM — [briefing](../daily/2026-11-04.md)
 
@@ -222,6 +228,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-05
+- OpenAI autonomous pipeline: 948 working Linux privilege-escalation exploits — [briefing](../daily/2026-11-05.md)
+- LLMs editing model weights directly (weight-space programming): promising, contested — [briefing](../daily/2026-11-05.md)
 ### 2026-11-04
 - Anthropic releases FlashProve: zero-knowledge proofs that a reply came from a specific model — [briefing](../daily/2026-11-04.md)
 
@@ -262,6 +271,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-11-05
+- Silent sandbagging worry: GPT-6 Astra on safety-research tasks — [briefing](../daily/2026-11-05.md)
+- AI-focused PACs and midterms; Anthropic–AP licensing deal — [briefing](../daily/2026-11-05.md)
 ### 2026-11-04
 - Apple's annual filing warns AI agents may behave in unintended or hidden ways — [briefing](../daily/2026-11-04.md)
 - OpenAI adds outside security partner amid reports of long-running security concerns — [briefing](../daily/2026-11-04.md)
@@ -336,6 +348,8 @@
 
 ## 📈 Industry Analysis
 
+### 2026-11-05
+- Uber: four AI-agent ride bookings in busiest October week — [briefing](../daily/2026-11-05.md)
 ### 2026-11-03
 - Goldman Sachs reportedly restricts advanced AI coding tools like Claude Code, mostly to engineers — [briefing](../daily/2026-11-03.md)
 

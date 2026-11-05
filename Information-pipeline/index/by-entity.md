@@ -524,3 +524,36 @@
 
 ## `entity:glm`
 - 2026-11-04 — GLM-5.3 self-hosted as Revolut's default coding model — [briefing](../daily/2026-11-04.md)
+
+## `entity:openai` (2026-11-05 addition)
+- 2026-11-05 — Pierre acquisition; 948-exploit Linux pipeline; Astra sandbagging; Cat Wu hire — [briefing](../daily/2026-11-05.md)
+
+## `entity:anthropic` (2026-11-05 addition)
+- 2026-11-05 — Vault-particle research; AP licensing deal; Haiku 5.5 in Claude Code; music-publisher ruling — [briefing](../daily/2026-11-05.md)
+
+## `entity:meta` (2026-11-05 addition)
+- 2026-11-05 — Acquires Conductor — [briefing](../daily/2026-11-05.md)
+
+## `entity:moonshot-ai` (2026-11-05 addition)
+- 2026-11-05 — Releases Kimi K3.1 Pro open weights — [briefing](../daily/2026-11-05.md)
+
+## `entity:tencent` (2026-11-05 addition)
+- 2026-11-05 — Launches Hy4 — [briefing](../daily/2026-11-05.md)
+
+## `entity:ricursive-intelligence` (2026-11-05 addition)
+- 2026-11-05 — Releases Ripple-65B Preview — [briefing](../daily/2026-11-05.md)
+
+## `entity:uber` (2026-11-05 addition)
+- 2026-11-05 — Four agent ride bookings in busiest October week — [briefing](../daily/2026-11-05.md)
+
+## `entity:apple` (2026-11-05 addition)
+- 2026-11-05 — Cuts internal AI budgets — [briefing](../daily/2026-11-05.md)
+
+## `entity:conductor` (2026-11-05 addition)
+- 2026-11-05 — Acquired by Meta; cloud shuts 20 Nov — [briefing](../daily/2026-11-05.md)
+
+## `entity:pierre-computer` (2026-11-05 addition)
+- 2026-11-05 — To be acquired by OpenAI — [briefing](../daily/2026-11-05.md)
+
+## `entity:qwen` (2026-11-05 addition)
+- 2026-11-05 — Weights edited in weight-space programming demos — [briefing](../daily/2026-11-05.md)
