@@ -557,3 +557,33 @@
 
 ## `entity:qwen` (2026-11-05 addition)
 - 2026-11-05 — Weights edited in weight-space programming demos — [briefing](../daily/2026-11-05.md)
+
+## `entity:anthropic` (2026-11-06 addition)
+- 2026-11-06 — METR assessment (~2x progress, evidence redacted); Claude bank-account beta — [briefing](../daily/2026-11-06.md)
+
+## `entity:openai` (2026-11-06 addition)
+- 2026-11-06 — GPT-6 Cyber launch; data-centre transparency pledge; Australian universities — [briefing](../daily/2026-11-06.md)
+
+## `entity:thinking-machines` (2026-11-06 addition)
+- 2026-11-06 — Releases Inkling 2 Small — [briefing](../daily/2026-11-06.md)
+
+## `entity:perplexity` (2026-11-06 addition)
+- 2026-11-06 — Launches Teammates always-on agents — [briefing](../daily/2026-11-06.md)
+
+## `entity:mistral` (2026-11-06 addition)
+- 2026-11-06 — Studio Managed Agents in public preview — [briefing](../daily/2026-11-06.md)
+
+## `entity:cursor` (2026-11-06 addition)
+- 2026-11-06 — Cloud agent builds and deploys web apps — [briefing](../daily/2026-11-06.md)
+
+## `entity:google` (2026-11-06 addition)
+- 2026-11-06 — Gemini Omni 1.2 Flash; $17B Wyoming data centre — [briefing](../daily/2026-11-06.md)
+
+## `entity:metr` (2026-11-06 addition)
+- 2026-11-06 — Assesses Anthropic AI R&D acceleration — [briefing](../daily/2026-11-06.md)
+
+## `entity:airbnb` (2026-11-06 addition)
+- 2026-11-06 — Plans AI travel agent for H1 2027 — [briefing](../daily/2026-11-06.md)
+
+## `entity:doj` (2026-11-06 addition)
+- 2026-11-06 — Forms AI enforcement task force — [briefing](../daily/2026-11-06.md)

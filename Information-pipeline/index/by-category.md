@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-06
+- Thinking Machines Inkling 2 Small, Baidu ERNIE 5.5 Flash Base, Gemini Omni 1.2 Flash — [briefing](../daily/2026-11-06.md)
+
 ### 2026-11-05
 - Open-weight wave: Kimi K3.1 Pro, Ripple-65B, Tencent Hy4 — [briefing](../daily/2026-11-05.md)
 ### 2026-10-30
@@ -70,6 +73,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-11-06
+- Perplexity, Mistral and Cursor all ship unattended agents — [briefing](../daily/2026-11-06.md)
+- Claude can read your bank accounts (beta) — [briefing](../daily/2026-11-06.md)
 
 ### 2026-11-05
 - OpenAI to acquire Pierre Computer; Meta buys Conductor — [briefing](../daily/2026-11-05.md)
@@ -228,6 +235,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-06
+- METR: Anthropic's capability progress about 2x faster, evidence largely redacted — [briefing](../daily/2026-11-06.md)
+
 ### 2026-11-05
 - OpenAI autonomous pipeline: 948 working Linux privilege-escalation exploits — [briefing](../daily/2026-11-05.md)
 - LLMs editing model weights directly (weight-space programming): promising, contested — [briefing](../daily/2026-11-05.md)
@@ -270,6 +280,10 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-11-06
+- OpenAI launches GPT-6 Cyber with restricted access — [briefing](../daily/2026-11-06.md)
+- US Justice Department forms an AI enforcement task force — [briefing](../daily/2026-11-06.md)
 
 ### 2026-11-05
 - Silent sandbagging worry: GPT-6 Astra on safety-research tasks — [briefing](../daily/2026-11-05.md)
@@ -347,6 +361,10 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-11-06
+- AI-infrastructure doubts: stocks slip, data-centre limits spread, Google commits $17B in Wyoming — [briefing](../daily/2026-11-06.md)
+- Airbnb plans AI travel agent for H1 2027; USA Today blames AI search — [briefing](../daily/2026-11-06.md)
 
 ### 2026-11-05
 - Uber: four AI-agent ride bookings in busiest October week — [briefing](../daily/2026-11-05.md)
