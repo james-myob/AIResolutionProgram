@@ -45,3 +45,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-10-28
 
 - [ ] 🎙️ **How Anthropic ships Claude with Claude** — Latent Space · Podcast/article · [link](https://latent.space/p/opus55/) · *Long conversation on building and safely shipping a frontier model with the model itself; pointer only, content not reviewed in full.* — from [briefing](../daily/2026-10-28.md)
+
+## 2026-11-08
+
+- [ ] 🎙️ **Why Would Anthropic Go Public Now?** — Latent Space · Podcast (102 min, with Jamin Ball) · [link](https://www.youtube.com/watch?v=P735f1xlpL0) · *Market-side view of the IPO timing.*

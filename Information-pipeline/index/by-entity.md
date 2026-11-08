@@ -587,3 +587,9 @@
 
 ## `entity:doj` (2026-11-06 addition)
 - 2026-11-06 — Forms AI enforcement task force — [briefing](../daily/2026-11-06.md)
+
+## `entity:anthropic` (2026-11-08 addition)
+- 2026-11-08 — Anthropic IPO: valuation expectations fall as tech sells off — [briefing](../daily/2026-11-08.md)
+
+## `entity:nvidia` (2026-11-08 addition)
+- 2026-11-08 — NVIDIA targets wasted memory in AI agents — [briefing](../daily/2026-11-08.md)

@@ -443,3 +443,7 @@
 ## ⚡ Quick Hits archive
 
 Quick Hits are not indexed individually — see each daily file's Quick Hits section. The most recent: [2026-09-18](../daily/2026-09-18.md#-quick-hits).
+
+### 2026-11-08 additions
+- 💰 Business & Funding — Anthropic IPO: valuation expectations fall as tech sells off — [briefing](../daily/2026-11-08.md)
+- 📦 Products & Tooling — NVIDIA targets wasted memory in AI agents — [briefing](../daily/2026-11-08.md)
