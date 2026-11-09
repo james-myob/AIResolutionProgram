@@ -49,3 +49,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-11-08
 
 - [ ] 🎙️ **Why Would Anthropic Go Public Now?** — Latent Space · Podcast (102 min, with Jamin Ball) · [link](https://www.youtube.com/watch?v=P735f1xlpL0) · *Market-side view of the IPO timing.*
+
+## 2026-11-09
+
+- [ ] 🎙️ **Handshake AI: What Frontier Labs Buy** — Latent Space · Podcast (164 min) · [link](https://latent.space/p/handshake/) · *The specialised-data market frontier labs pay for.*

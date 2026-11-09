@@ -447,3 +447,9 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 ### 2026-11-08 additions
 - 💰 Business & Funding — Anthropic IPO: valuation expectations fall as tech sells off — [briefing](../daily/2026-11-08.md)
 - 📦 Products & Tooling — NVIDIA targets wasted memory in AI agents — [briefing](../daily/2026-11-08.md)
+
+### 2026-11-09 additions
+- 🧠 Models & Capabilities — Anthropic ships Claude Fable 5.2 and Mythos 5.2 — [briefing](../daily/2026-11-09.md)
+- 🧠 Models & Capabilities — Fable 5.2 loosens its cyber and biology classifiers — [briefing](../daily/2026-11-09.md)
+- 💰 Business & Funding — Anthropic IPO: roadshow timing in doubt — [briefing](../daily/2026-11-09.md)
+- 🛠️ Product Practice — Hide agent-written PR descriptions behind `<details>` — [briefing](../daily/2026-11-09.md)

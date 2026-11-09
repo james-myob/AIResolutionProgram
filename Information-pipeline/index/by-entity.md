@@ -593,3 +593,12 @@
 
 ## `entity:nvidia` (2026-11-08 addition)
 - 2026-11-08 — NVIDIA targets wasted memory in AI agents — [briefing](../daily/2026-11-08.md)
+
+## `entity:anthropic` (2026-11-09 addition)
+- 2026-11-09 — Ships Claude Fable 5.2 / Mythos 5.2 ($8/$40 per M tokens); IPO roadshow timing in doubt — [briefing](../daily/2026-11-09.md)
+
+## `entity:claude-fable-5` (2026-11-09 addition)
+- 2026-11-09 — Fable 5.2: 49.1% FrontierCode 2.0, classifiers block ~55% fewer requests than 5.1 — [briefing](../daily/2026-11-09.md)
+
+## `entity:simon-willison` (2026-11-09 addition)
+- 2026-11-09 — Proposes hiding agent-written PR descriptions behind `<details><summary>` — [briefing](../daily/2026-11-09.md)
