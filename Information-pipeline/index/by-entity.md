@@ -602,3 +602,27 @@
 
 ## `entity:simon-willison` (2026-11-09 addition)
 - 2026-11-09 — Proposes hiding agent-written PR descriptions behind `<details><summary>` — [briefing](../daily/2026-11-09.md)
+
+## `entity:anthropic` (2026-11-10 addition)
+- 2026-11-10 — Launches IPO roadshow (825M shares, $70–78, Nasdaq ANT); prompting guidance for Fable 5.2 — [briefing](../daily/2026-11-10.md)
+
+## `entity:claude-fable-5` (2026-11-10 addition)
+- 2026-11-10 — Fable 5.2 #1 on Artificial Analysis; SemiAnalysis sees cost per task +31% — [briefing](../daily/2026-11-10.md)
+
+## `entity:gemini-4-carbon` (2026-11-10 addition)
+- 2026-11-10 — Generally available at $2/$10 per M tokens, doubling 1 Dec — [briefing](../daily/2026-11-10.md)
+
+## `entity:google` (2026-11-10 addition)
+- 2026-11-10 — Opens Gemini 4 Carbon to all users — [briefing](../daily/2026-11-10.md)
+
+## `entity:meta` (2026-11-10 addition)
+- 2026-11-10 — Launches Muse Ember small model at $0.10/$0.50 per M tokens — [briefing](../daily/2026-11-10.md)
+
+## `entity:muse-ember` (2026-11-10 addition)
+- 2026-11-10 — Meta small model; ~34 on AA Intelligence Index at ~$0.12/task — [briefing](../daily/2026-11-10.md)
+
+## `entity:artificial-analysis` (2026-11-10 addition)
+- 2026-11-10 — Ranks Fable 5.2 #1 (65); places Muse Ember on cost/intelligence frontier — [briefing](../daily/2026-11-10.md)
+
+## `entity:simon-willison` (2026-11-10 addition)
+- 2026-11-10 — Covers Gemini 4 Carbon, Muse Ember, Fable 5.2 prompting guidance — [briefing](../daily/2026-11-10.md)

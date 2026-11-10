@@ -6,6 +6,11 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-10
+- Fable 5.2 tops Artificial Analysis, but SemiAnalysis measures cost per task up 31% — [briefing](../daily/2026-11-10.md)
+- Google opens Gemini 4 Carbon to everyone at $2/$10 (doubling 1 Dec) — [briefing](../daily/2026-11-10.md)
+- Meta launches Muse Ember at $0.10/$0.50 per M tokens — [briefing](../daily/2026-11-10.md)
+
 ### 2026-11-06
 - Thinking Machines Inkling 2 Small, Baidu ERNIE 5.5 Flash Base, Gemini Omni 1.2 Flash — [briefing](../daily/2026-11-06.md)
 
@@ -159,6 +164,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-11-10
+- Anthropic launches IPO roadshow: 825M shares at $70–78, Nasdaq 'ANT' — [briefing](../daily/2026-11-10.md)
 
 ### 2026-11-05
 - Apple trims internal AI budgets — [briefing](../daily/2026-11-05.md)
@@ -414,6 +422,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-11-10
+- Anthropic guidance: 'ownership framing' makes Fable 5.2 refactor repeated code — [briefing](../daily/2026-11-10.md)
 
 ### 2026-10-16
 - Claude Code team: code review runs continuously, Claude fixes most changes before human review — [briefing](../daily/2026-10-16.md)

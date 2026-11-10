@@ -53,3 +53,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-11-09
 
 - [ ] 🎙️ **Handshake AI: What Frontier Labs Buy** — Latent Space · Podcast (164 min) · [link](https://latent.space/p/handshake/) · *The specialised-data market frontier labs pay for.*
+
+## 2026-11-10
+
+- [ ] 🎙️ **Designing for Agents: Zeno Rocha, Resend** — Latent Space · Podcast (86 min) · [link](https://latent.space/p/resend/) · *Making products discoverable and usable by coding agents.*
