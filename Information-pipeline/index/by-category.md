@@ -464,3 +464,11 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - 🧠 Models & Capabilities — Fable 5.2 loosens its cyber and biology classifiers — [briefing](../daily/2026-11-09.md)
 - 💰 Business & Funding — Anthropic IPO: roadshow timing in doubt — [briefing](../daily/2026-11-09.md)
 - 🛠️ Product Practice — Hide agent-written PR descriptions behind `<details>` — [briefing](../daily/2026-11-09.md)
+
+### 2026-11-11 additions
+- 🧠 Models & Capabilities — Gemini 4 Carbon gets independent results: strong value, mixed behaviour — [briefing](../daily/2026-11-11.md)
+- 📦 Products & Tooling — Google's Gemini Decisions API: a cheap model just for judgments — [briefing](../daily/2026-11-11.md)
+- 📦 Products & Tooling — AWS releases an official local emulator — [briefing](../daily/2026-11-11.md)
+- 💰 Business & Funding — Anthropic roadshow video and S-1 figures — [briefing](../daily/2026-11-11.md)
+- 💰 Business & Funding — Mercor raises $750M Series D at $20B — [briefing](../daily/2026-11-11.md)
+- 🛠️ Product Practice — OpenAI on working with Codex: cloud environments and voice — [briefing](../daily/2026-11-11.md)

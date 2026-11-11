@@ -626,3 +626,13 @@
 
 ## `entity:simon-willison` (2026-11-10 addition)
 - 2026-11-10 — Covers Gemini 4 Carbon, Muse Ember, Fable 5.2 prompting guidance — [briefing](../daily/2026-11-10.md)
+
+## 2026-11-11 additions
+- `entity:anthropic` — 2026-11-11 — Roadshow video: four chip families, "compute multipliers"; S-1 run rate figures — [briefing](../daily/2026-11-11.md)
+- `entity:google` — 2026-11-11 — Gemini Decisions API; Gemini 4 Carbon independent evals — [briefing](../daily/2026-11-11.md)
+- `entity:gemini-4-carbon` — 2026-11-11 — #3 on Vals at $10.51/test; mixed hallucination reports — [briefing](../daily/2026-11-11.md)
+- `entity:claude-fable-5` — 2026-11-11 — Cost-per-test comparison vs Carbon — [briefing](../daily/2026-11-11.md)
+- `entity:mercor` — 2026-11-11 — $750M Series D at $20B, $3B annualised revenue — [briefing](../daily/2026-11-11.md)
+- `entity:aws` — 2026-11-11 — Releases official local emulator — [briefing](../daily/2026-11-11.md)
+- `entity:openai` — 2026-11-11 — Codex working practices; Businesses in ChatGPT beta — [briefing](../daily/2026-11-11.md)
+- `entity:codex` — 2026-11-11 — Cloud environments and voice workflow — [briefing](../daily/2026-11-11.md)
