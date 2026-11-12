@@ -636,3 +636,13 @@
 - `entity:aws` — 2026-11-11 — Releases official local emulator — [briefing](../daily/2026-11-11.md)
 - `entity:openai` — 2026-11-11 — Codex working practices; Businesses in ChatGPT beta — [briefing](../daily/2026-11-11.md)
 - `entity:codex` — 2026-11-11 — Cloud environments and voice workflow — [briefing](../daily/2026-11-11.md)
+
+## 2026-11-12 additions
+- `entity:anthropic` — 2026-11-12 — Fable 5.2 Arena #1 and reported price cut; IPO reportedly oversubscribed — [briefing](../daily/2026-11-12.md)
+- `entity:google` — 2026-11-12 — Gemini Decision 1 benchmarks vs Jev — [briefing](../daily/2026-11-12.md)
+- `entity:gemini-decision-1` — 2026-11-12 — $345/M tasks, 211 ms; multimodal — [briefing](../daily/2026-11-12.md)
+- `entity:typesafe-jev` — 2026-11-12 — Jev 1.14 production stories (Glean, UiPath, Workday) — [briefing](../daily/2026-11-12.md)
+- `entity:claude-fable-5` — 2026-11-12 — Arena #1, $8/$40 reported — [briefing](../daily/2026-11-12.md)
+- `entity:cloudflare` — 2026-11-12 — Hybrid decider/reasoner agent pattern — [briefing](../daily/2026-11-12.md)
+- `entity:google-deepmind` — 2026-11-12 — libsignal Lean proofs; AlphaGenome 2 — [briefing](../daily/2026-11-12.md)
+- `entity:goodhart-labs` — 2026-11-12 — HoneyBench v0.2 — [briefing](../daily/2026-11-12.md)

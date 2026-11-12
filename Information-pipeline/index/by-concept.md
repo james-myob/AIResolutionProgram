@@ -30,3 +30,6 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ## `concept:weight-space-programming`
 - 2026-11-05 — Agents read and rewrite a model's weights directly instead of retraining — [briefing](../daily/2026-11-05.md)
+
+## `concept:system-one-models`
+- 2026-11-12 — Non-generative models returning choices/scores, called from application code instead of prompt chains — [briefing](../daily/2026-11-12.md)

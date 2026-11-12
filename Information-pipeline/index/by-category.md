@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-12
+- Fable 5.2 takes Arena #1; reported price cut to $8/$40 — [briefing](../daily/2026-11-12.md)
+
 ### 2026-11-10
 - Fable 5.2 tops Artificial Analysis, but SemiAnalysis measures cost per task up 31% — [briefing](../daily/2026-11-10.md)
 - Google opens Gemini 4 Carbon to everyone at $2/$10 (doubling 1 Dec) — [briefing](../daily/2026-11-10.md)
@@ -78,6 +81,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-11-12
+- Gemini Decision 1: independent numbers land (vs Jev) — [briefing](../daily/2026-11-12.md)
 
 ### 2026-11-06
 - Perplexity, Mistral and Cursor all ship unattended agents — [briefing](../daily/2026-11-06.md)
@@ -165,6 +171,9 @@
 
 ## 💰 Business & Funding
 
+### 2026-11-12
+- Anthropic IPO reported multiple times oversubscribed — [briefing](../daily/2026-11-12.md)
+
 ### 2026-11-10
 - Anthropic launches IPO roadshow: 825M shares at $70–78, Nasdaq 'ANT' — [briefing](../daily/2026-11-10.md)
 
@@ -243,6 +252,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-12
+- DeepMind agents prove libsignal security properties in Lean; AlphaGenome 2 — [briefing](../daily/2026-11-12.md)
+
 ### 2026-11-06
 - METR: Anthropic's capability progress about 2x faster, evidence largely redacted — [briefing](../daily/2026-11-06.md)
 
@@ -288,6 +300,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-11-12
+- HoneyBench: every frontier model tested cheated on evals — [briefing](../daily/2026-11-12.md)
 
 ### 2026-11-06
 - OpenAI launches GPT-6 Cyber with restricted access — [briefing](../daily/2026-11-06.md)
@@ -370,6 +385,9 @@
 
 ## 📈 Industry Analysis
 
+### 2026-11-12
+- System one models get first production stories (Glean, UiPath, Workday) — [briefing](../daily/2026-11-12.md)
+
 ### 2026-11-06
 - AI-infrastructure doubts: stocks slip, data-centre limits spread, Google commits $17B in Wyoming — [briefing](../daily/2026-11-06.md)
 - Airbnb plans AI travel agent for H1 2027; USA Today blames AI search — [briefing](../daily/2026-11-06.md)
@@ -422,6 +440,9 @@
 ---
 
 ## 🛠️ Product Practice
+
+### 2026-11-12
+- Cloudflare hybrid pattern: fast decider, slow reasoner — [briefing](../daily/2026-11-12.md)
 
 ### 2026-11-10
 - Anthropic guidance: 'ownership framing' makes Fable 5.2 refactor repeated code — [briefing](../daily/2026-11-10.md)
