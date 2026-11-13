@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-13
+- Google ships Gemini 4 Hydrogen at $1.50/$7.50 — [briefing](../daily/2026-11-13.md)
+- Thinking Machines releases Inkling 2 Small (Apache 2.0) — [briefing](../daily/2026-11-13.md)
+
 ### 2026-11-12
 - Fable 5.2 takes Arena #1; reported price cut to $8/$40 — [briefing](../daily/2026-11-12.md)
 
@@ -81,6 +85,9 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-11-13
+- Claude Meetings (beta) and self-hosted Managed Agents — [briefing](../daily/2026-11-13.md)
 
 ### 2026-11-12
 - Gemini Decision 1: independent numbers land (vs Jev) — [briefing](../daily/2026-11-12.md)
@@ -170,6 +177,10 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-11-13
+- Anthropic IPO roadshow: 825M shares at $70–78 — [briefing](../daily/2026-11-13.md)
+- Mercor raises $750M Series D at $20B — [briefing](../daily/2026-11-13.md)
 
 ### 2026-11-12
 - Anthropic IPO reported multiple times oversubscribed — [briefing](../daily/2026-11-12.md)
@@ -301,6 +312,9 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-11-13
+- Unverified claim: Chinese frontier models initialised on Blackwell chips — [briefing](../daily/2026-11-13.md)
+
 ### 2026-11-12
 - HoneyBench: every frontier model tested cheated on evals — [briefing](../daily/2026-11-12.md)
 
@@ -384,6 +398,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-11-13
+- Jensen Huang resigns as NVIDIA CEO; Kress interim — [briefing](../daily/2026-11-13.md)
 
 ### 2026-11-12
 - System one models get first production stories (Glean, UiPath, Workday) — [briefing](../daily/2026-11-12.md)
