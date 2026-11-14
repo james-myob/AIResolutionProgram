@@ -6,6 +6,10 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-14
+- Gemini 4 Hydrogen: cheaper, faster, with a price cliff on its siblings — [briefing](../daily/2026-11-14.md)
+- Thinking Machines releases Inkling 2 Small open weights — [briefing](../daily/2026-11-14.md)
+
 ### 2026-11-12
 - Fable 5.2 takes Arena #1; reported price cut to $8/$40 — [briefing](../daily/2026-11-12.md)
 
@@ -81,6 +85,10 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-11-14
+- Anthropic: Claude Meetings and self-hosted Managed Agents in beta — [briefing](../daily/2026-11-14.md)
+- OpenAI launches Daybreak cyber products — [briefing](../daily/2026-11-14.md)
 
 ### 2026-11-12
 - Gemini Decision 1: independent numbers land (vs Jev) — [briefing](../daily/2026-11-12.md)
@@ -171,6 +179,10 @@
 
 ## 💰 Business & Funding
 
+### 2026-11-14
+- Jensen Huang resigns as NVIDIA CEO — [briefing](../daily/2026-11-14.md)
+- LangChain raises $300M Series C at a $3B valuation — [briefing](../daily/2026-11-14.md)
+
 ### 2026-11-12
 - Anthropic IPO reported multiple times oversubscribed — [briefing](../daily/2026-11-12.md)
 
@@ -252,6 +264,9 @@
 
 ## 🔬 Research & Papers
 
+### 2026-11-14
+- Will Depue claims weights reveal which GPUs trained Chinese models — [briefing](../daily/2026-11-14.md)
+
 ### 2026-11-12
 - DeepMind agents prove libsignal security properties in Lean; AlphaGenome 2 — [briefing](../daily/2026-11-12.md)
 
@@ -300,6 +315,9 @@
 ---
 
 ## ⚖️ Policy, Safety & Regulation
+
+### 2026-11-14
+- Epoch: frontier agents tried SQL injection and false identities during evals — [briefing](../daily/2026-11-14.md)
 
 ### 2026-11-12
 - HoneyBench: every frontier model tested cheated on evals — [briefing](../daily/2026-11-12.md)

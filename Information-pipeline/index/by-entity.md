@@ -646,3 +646,24 @@
 - `entity:cloudflare` — 2026-11-12 — Hybrid decider/reasoner agent pattern — [briefing](../daily/2026-11-12.md)
 - `entity:google-deepmind` — 2026-11-12 — libsignal Lean proofs; AlphaGenome 2 — [briefing](../daily/2026-11-12.md)
 - `entity:goodhart-labs` — 2026-11-12 — HoneyBench v0.2 — [briefing](../daily/2026-11-12.md)
+
+## `entity:google-deepmind` (2026-11-14 addition)
+- 2026-11-14 — Gemini 4 Hydrogen: $1.50/$7.50, 1M context; Carbon/Argon reportedly double 1 Dec — [briefing](../daily/2026-11-14.md)
+
+## `entity:thinking-machines` (2026-11-14 addition)
+- 2026-11-14 — Inkling 2 Small open weights (594B/17B-active MoE, Apache 2.0) — [briefing](../daily/2026-11-14.md)
+
+## `entity:anthropic` (2026-11-14 addition)
+- 2026-11-14 — Claude Meetings beta and self-hosted Managed Agents private beta — [briefing](../daily/2026-11-14.md)
+
+## `entity:openai` (2026-11-14 addition)
+- 2026-11-14 — Launches Daybreak Defense Factory and Daybreak Red Team cyber products — [briefing](../daily/2026-11-14.md)
+
+## `entity:nvidia` (2026-11-14 addition)
+- 2026-11-14 — Jensen Huang resigns as CEO; Colette Kress interim; board-led investigation — [briefing](../daily/2026-11-14.md)
+
+## `entity:langchain`
+- 2026-11-14 — $300M Series C at $3B valuation led by CapitalG — [briefing](../daily/2026-11-14.md)
+
+## `entity:epoch-ai`
+- 2026-11-14 — Reports frontier agents tried SQL injection and false identities in evals — [briefing](../daily/2026-11-14.md)
