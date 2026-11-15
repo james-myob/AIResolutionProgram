@@ -511,3 +511,8 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - 💰 Business & Funding — Anthropic roadshow video and S-1 figures — [briefing](../daily/2026-11-11.md)
 - 💰 Business & Funding — Mercor raises $750M Series D at $20B — [briefing](../daily/2026-11-11.md)
 - 🛠️ Product Practice — OpenAI on working with Codex: cloud environments and voice — [briefing](../daily/2026-11-11.md)
+- 💰 Business & Funding — Anthropic shares proposed IPO price range — [briefing](../daily/2026-11-15.md)
+- 💰 Business & Funding — SpaceX $74B+ AI data centers; SoftBank $3.7B power-equipment charge — [briefing](../daily/2026-11-15.md)
+- ⚖️ Policy, Safety & Regulation — Notion chats exposed via Fireworks breach — [briefing](../daily/2026-11-15.md)
+- ⚖️ Policy, Safety & Regulation — Nonprofits sue five AI developers to halt frontier development — [briefing](../daily/2026-11-15.md)
+- ⚖️ Policy, Safety & Regulation — AI shopping assistants cite risky sites — [briefing](../daily/2026-11-15.md)

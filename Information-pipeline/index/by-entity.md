@@ -667,3 +667,24 @@
 
 ## `entity:epoch-ai`
 - 2026-11-14 — Reports frontier agents tried SQL injection and false identities in evals — [briefing](../daily/2026-11-14.md)
+
+## `entity:anthropic`
+- 2026-11-15 — Proposed IPO price range $70-78; named in nonprofit suit — [briefing](../daily/2026-11-15.md)
+
+## `entity:spacex`
+- 2026-11-15 — Plans $74B+ AI data centers; named in nonprofit suit — [briefing](../daily/2026-11-15.md)
+
+## `entity:softbank`
+- 2026-11-15 — $3.7B charge on data-center power equipment — [briefing](../daily/2026-11-15.md)
+
+## `entity:notion`
+- 2026-11-15 — Customer chats exposed via Fireworks breach — [briefing](../daily/2026-11-15.md)
+
+## `entity:fireworks-ai`
+- 2026-11-15 — Breach exposed Notion customer chat transcripts — [briefing](../daily/2026-11-15.md)
+
+## `entity:openai`
+- 2026-11-15 — Named in nonprofit suit to halt frontier development — [briefing](../daily/2026-11-15.md)
+
+## `entity:perplexity`
+- 2026-11-15 — Shopping answers cited risky sites in 15% of tests — [briefing](../daily/2026-11-15.md)
