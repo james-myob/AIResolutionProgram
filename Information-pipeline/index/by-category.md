@@ -516,3 +516,11 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - ⚖️ Policy, Safety & Regulation — Notion chats exposed via Fireworks breach — [briefing](../daily/2026-11-15.md)
 - ⚖️ Policy, Safety & Regulation — Nonprofits sue five AI developers to halt frontier development — [briefing](../daily/2026-11-15.md)
 - ⚖️ Policy, Safety & Regulation — AI shopping assistants cite risky sites — [briefing](../daily/2026-11-15.md)
+
+## 2026-11-16 additions
+- 🧠 Models & Capabilities — Edge0-145B open model claims on-device run — [briefing](../daily/2026-11-16.md)
+- 🧠 Models & Capabilities — Meituan LongCat-2.5 1.6T open-weight, trained without Nvidia — [briefing](../daily/2026-11-16.md)
+- 📦 Products & Tooling — OpenAI ChatGPT Wallet for agent purchases — [briefing](../daily/2026-11-16.md)
+- 📦 Products & Tooling — United blocks booking agents; Sierra Poppy 1.0 adoption — [briefing](../daily/2026-11-16.md)
+- 💰 Business & Funding — Nvidia CEO Jensen Huang resigns — [briefing](../daily/2026-11-16.md)
+- ⚖️ Policy, Safety & Regulation — Fed flags AI risk; US allies guard AI supply chains — [briefing](../daily/2026-11-16.md)

@@ -57,3 +57,7 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-11-10
 
 - [ ] 🎙️ **Designing for Agents: Zeno Rocha, Resend** — Latent Space · Podcast (86 min) · [link](https://latent.space/p/resend/) · *Making products discoverable and usable by coding agents.*
+
+## 2026-11-16
+
+- [ ] 🎙️ **Building Visual Intelligence: Black Forest Labs** — Latent Space · Podcast (98 min) · [link](https://latent.space/p/bfl/) · *Learning general intelligence from pixels, motion and sound.*

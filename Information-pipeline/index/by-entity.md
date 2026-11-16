@@ -688,3 +688,16 @@
 
 ## `entity:perplexity`
 - 2026-11-15 — Shopping answers cited risky sites in 15% of tests — [briefing](../daily/2026-11-15.md)
+
+## 2026-11-16 additions
+- `entity:edge0` — Edge0-145B open model — [briefing](../daily/2026-11-16.md)
+- `entity:meituan` — LongCat-2.5 1.6T open-weight model — [briefing](../daily/2026-11-16.md)
+- `entity:nvidia` — CEO Huang resigns; Hugging Face deal in question — [briefing](../daily/2026-11-16.md)
+- `entity:openai` — ChatGPT Wallet launch — [briefing](../daily/2026-11-16.md)
+- `entity:chatgpt` — Wallet for agent purchases — [briefing](../daily/2026-11-16.md)
+- `entity:united` — Blocks unauthorised AI booking agents — [briefing](../daily/2026-11-16.md)
+- `entity:sierra` — Poppy 1.0 agent-permission protocol — [briefing](../daily/2026-11-16.md)
+- `entity:shopify` — Enabled Poppy across stores — [briefing](../daily/2026-11-16.md)
+- `entity:hugging-face` — Pending $13B Nvidia acquisition questioned — [briefing](../daily/2026-11-16.md)
+- `entity:coreweave` — Sold off on Nvidia turmoil — [briefing](../daily/2026-11-16.md)
+- `entity:us-government` — Allies agree to guard AI supply chains — [briefing](../daily/2026-11-16.md)
