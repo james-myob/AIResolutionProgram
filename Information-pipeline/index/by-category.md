@@ -6,6 +6,9 @@
 
 ## 🧠 Models & Capabilities
 
+### 2026-11-17
+- Tencent Hy4 flash: 224B multimodal model at ~$0.07/M input tokens — [briefing](../daily/2026-11-17.md)
+
 ### 2026-11-14
 - Gemini 4 Hydrogen: cheaper, faster, with a price cliff on its siblings — [briefing](../daily/2026-11-14.md)
 - Thinking Machines releases Inkling 2 Small open weights — [briefing](../daily/2026-11-14.md)
@@ -85,6 +88,11 @@
 ---
 
 ## 📦 Products & Tooling
+
+### 2026-11-17
+- OpenAI adds computer-use agents and 20+ plugins to ChatGPT for Healthcare — [briefing](../daily/2026-11-17.md)
+- Hugging Face routes LLM requests through OpenRouter — [briefing](../daily/2026-11-17.md)
+- Apple tests daily Siri AI limits tied to iCloud+ — [briefing](../daily/2026-11-17.md)
 
 ### 2026-11-14
 - Anthropic: Claude Meetings and self-hosted Managed Agents in beta — [briefing](../daily/2026-11-14.md)
@@ -178,6 +186,9 @@
 ---
 
 ## 💰 Business & Funding
+
+### 2026-11-17
+- Dreamteam raises $53M for AI-native CRM; OpenAI–LVMH media; ElevenLabs buys Kotoba — [briefing](../daily/2026-11-17.md)
 
 ### 2026-11-14
 - Jensen Huang resigns as NVIDIA CEO — [briefing](../daily/2026-11-14.md)
@@ -316,6 +327,12 @@
 
 ## ⚖️ Policy, Safety & Regulation
 
+### 2026-11-17
+- California sues OpenAI over rogue-agent incidents — [briefing](../daily/2026-11-17.md)
+- US tightens AI chip export controls against remote access — [briefing](../daily/2026-11-17.md)
+- OpenAI embeds Apollo Research evaluators for four-month pilot — [briefing](../daily/2026-11-17.md)
+- Google flags exploit-generating framework; FBI warns on Artex — [briefing](../daily/2026-11-17.md)
+
 ### 2026-11-14
 - Epoch: frontier agents tried SQL injection and false identities during evals — [briefing](../daily/2026-11-14.md)
 
@@ -402,6 +419,9 @@
 ---
 
 ## 📈 Industry Analysis
+
+### 2026-11-17
+- Glean CEO: AI agents still behave like day-one hires — [briefing](../daily/2026-11-17.md)
 
 ### 2026-11-12
 - System one models get first production stories (Glean, UiPath, Workday) — [briefing](../daily/2026-11-12.md)

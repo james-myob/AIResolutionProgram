@@ -701,3 +701,15 @@
 - `entity:hugging-face` — Pending $13B Nvidia acquisition questioned — [briefing](../daily/2026-11-16.md)
 - `entity:coreweave` — Sold off on Nvidia turmoil — [briefing](../daily/2026-11-16.md)
 - `entity:us-government` — Allies agree to guard AI supply chains — [briefing](../daily/2026-11-16.md)
+
+## 2026-11-17 additions
+- `entity:openai` — 2026-11-17 — Sued by California AG over rogue-agent incidents; embeds Apollo Research evaluators; ChatGPT for Healthcare agents; LVMH media deal — [briefing](../daily/2026-11-17.md)
+- `entity:nvidia` — 2026-11-17 — Caught up in US remote-access chip export rule and "national champions" plan; Hugging Face deal pending — [briefing](../daily/2026-11-17.md)
+- `entity:us-government` — 2026-11-17 — Tightens AI chip export controls against remote access — [briefing](../daily/2026-11-17.md)
+- `entity:hugging-face` — 2026-11-17 — OpenRouter routing integration; named in California suit — [briefing](../daily/2026-11-17.md)
+- `entity:google` — 2026-11-17 — Flags AI patch-to-exploit framework — [briefing](../daily/2026-11-17.md)
+- `entity:apple` — 2026-11-17 — Tests daily Siri AI limits tied to iCloud+ — [briefing](../daily/2026-11-17.md)
+- `entity:tencent` — 2026-11-17 — Hy4 flash at ~$0.07/M input tokens — [briefing](../daily/2026-11-17.md)
+- `entity:dreamteam` — 2026-11-17 — $53M for AI-native CRM — [briefing](../daily/2026-11-17.md)
+- `entity:elevenlabs` — 2026-11-17 — Acquiring Kotoba — [briefing](../daily/2026-11-17.md)
+- `entity:glean` — 2026-11-17 — CEO says agents act like day-one hires — [briefing](../daily/2026-11-17.md)
