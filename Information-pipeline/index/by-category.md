@@ -544,3 +544,13 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - 📦 Products & Tooling — United blocks booking agents; Sierra Poppy 1.0 adoption — [briefing](../daily/2026-11-16.md)
 - 💰 Business & Funding — Nvidia CEO Jensen Huang resigns — [briefing](../daily/2026-11-16.md)
 - ⚖️ Policy, Safety & Regulation — Fed flags AI risk; US allies guard AI supply chains — [briefing](../daily/2026-11-16.md)
+
+## 2026-11-18 additions
+- 🧠 Models & Capabilities — OpenAI GPT-6.2 Astra and Sol launch — [briefing](../daily/2026-11-18.md)
+- 🧠 Models & Capabilities — Microsoft MAI Code 2 and Flash — [briefing](../daily/2026-11-18.md)
+- 📦 Products & Tooling — OpenAI ChatGPT for Sales — [briefing](../daily/2026-11-18.md)
+- 📦 Products & Tooling — Google Spark becomes Tasks in Gemini — [briefing](../daily/2026-11-18.md)
+- 📦 Products & Tooling — Gemini chat retention extended to ~two months — [briefing](../daily/2026-11-18.md)
+- ⚖️ Policy, Safety & Regulation — Nvidia exits China; China threatens retaliation — [briefing](../daily/2026-11-18.md)
+- ⚖️ Policy, Safety & Regulation — Models name civilians as targets when framed as a game — [briefing](../daily/2026-11-18.md)
+- 📈 Industry Analysis — AI-spending jitters (Paulson, Jassy, Porat) — [briefing](../daily/2026-11-18.md)

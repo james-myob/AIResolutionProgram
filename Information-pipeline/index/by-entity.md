@@ -713,3 +713,11 @@
 - `entity:dreamteam` — 2026-11-17 — $53M for AI-native CRM — [briefing](../daily/2026-11-17.md)
 - `entity:elevenlabs` — 2026-11-17 — Acquiring Kotoba — [briefing](../daily/2026-11-17.md)
 - `entity:glean` — 2026-11-17 — CEO says agents act like day-one hires — [briefing](../daily/2026-11-17.md)
+
+## 2026-11-18 additions
+- `entity:openai` — 2026-11-18 — GPT-6.2 Astra/Sol; ChatGPT for Sales — [briefing](../daily/2026-11-18.md)
+- `entity:microsoft` — 2026-11-18 — MAI Code 2 models — [briefing](../daily/2026-11-18.md)
+- `entity:google` — 2026-11-18 — Gemini Tasks; two-month chat retention — [briefing](../daily/2026-11-18.md)
+- `entity:nvidia` — 2026-11-18 — Reportedly exits China after Huang ouster — [briefing](../daily/2026-11-18.md)
+- `entity:us-government` — 2026-11-18 — China threatens retaliation over remote-access chip rule — [briefing](../daily/2026-11-18.md)
+- `entity:vals` — 2026-11-18 — Civilian-targeting game-framing eval — [briefing](../daily/2026-11-18.md)
