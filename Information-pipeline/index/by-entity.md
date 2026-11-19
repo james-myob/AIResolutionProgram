@@ -721,3 +721,10 @@
 - `entity:nvidia` — 2026-11-18 — Reportedly exits China after Huang ouster — [briefing](../daily/2026-11-18.md)
 - `entity:us-government` — 2026-11-18 — China threatens retaliation over remote-access chip rule — [briefing](../daily/2026-11-18.md)
 - `entity:vals` — 2026-11-18 — Civilian-targeting game-framing eval — [briefing](../daily/2026-11-18.md)
+
+## 2026-11-19 additions
+- `entity:google` — 2026-11-19 — Gemini 4 Neon; Stitch Loop — [briefing](../daily/2026-11-19.md)
+- `entity:openai` — 2026-11-19 — ChatGPT for Accounting; research/chip-design results; GPT-6.2 reviews — [briefing](../daily/2026-11-19.md)
+- `entity:anthropic` — 2026-11-19 — Prices IPO at $83/share — [briefing](../daily/2026-11-19.md)
+- `entity:nvidia` — 2026-11-19 — No further licensed China shipments — [briefing](../daily/2026-11-19.md)
+- `entity:citi` — 2026-11-19 — Holds customers liable for AI-agent activity — [briefing](../daily/2026-11-19.md)
