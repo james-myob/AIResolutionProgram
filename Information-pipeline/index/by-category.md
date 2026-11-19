@@ -554,3 +554,13 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - ⚖️ Policy, Safety & Regulation — Nvidia exits China; China threatens retaliation — [briefing](../daily/2026-11-18.md)
 - ⚖️ Policy, Safety & Regulation — Models name civilians as targets when framed as a game — [briefing](../daily/2026-11-18.md)
 - 📈 Industry Analysis — AI-spending jitters (Paulson, Jassy, Porat) — [briefing](../daily/2026-11-18.md)
+
+## 2026-11-19 additions
+- 🧠 Models & Capabilities — Google launches Gemini 4 Neon — [briefing](../daily/2026-11-19.md)
+- 🧠 Models & Capabilities — Early GPT-6.2 reviews criticise Astra — [briefing](../daily/2026-11-19.md)
+- 📦 Products & Tooling — OpenAI ChatGPT for Accounting — [briefing](../daily/2026-11-19.md)
+- 📦 Products & Tooling — Google Stitch Loop — [briefing](../daily/2026-11-19.md)
+- 💰 Business & Funding — Anthropic prices IPO at $83/share — [briefing](../daily/2026-11-19.md)
+- 🔬 Research & Papers — OpenAI research-task success and chip-design results — [briefing](../daily/2026-11-19.md)
+- ⚖️ Policy, Safety & Regulation — Nvidia: no further licensed China shipments — [briefing](../daily/2026-11-19.md)
+- 📈 Industry Analysis — Banks put AI-agent liability on customers — [briefing](../daily/2026-11-19.md)
