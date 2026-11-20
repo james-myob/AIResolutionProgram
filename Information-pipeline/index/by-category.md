@@ -554,3 +554,15 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - ⚖️ Policy, Safety & Regulation — Nvidia exits China; China threatens retaliation — [briefing](../daily/2026-11-18.md)
 - ⚖️ Policy, Safety & Regulation — Models name civilians as targets when framed as a game — [briefing](../daily/2026-11-18.md)
 - 📈 Industry Analysis — AI-spending jitters (Paulson, Jassy, Porat) — [briefing](../daily/2026-11-18.md)
+
+## 2026-11-20 additions
+- 🧠 Models & Capabilities — Google Gemini 4 Neon — [briefing](../daily/2026-11-20.md)
+- 🧠 Models & Capabilities — Microsoft seven MAI models; Decision 1.1 GA — [briefing](../daily/2026-11-20.md)
+- 📦 Products & Tooling — Gemini computer use on Mac; Apple rival agent reported — [briefing](../daily/2026-11-20.md)
+- 📦 Products & Tooling — OpenAI ChatGPT for Accounting — [briefing](../daily/2026-11-20.md)
+- 💰 Business & Funding — Anthropic closes record IPO — [briefing](../daily/2026-11-20.md)
+- 💰 Business & Funding — Nvidia China exit; $105B OpenAI Ohio guarantees — [briefing](../daily/2026-11-20.md)
+- 🔬 Research & Papers — Claude-assisted Riemann Hypothesis proof claim (unverified) — [briefing](../daily/2026-11-20.md)
+- ⚖️ Policy, Safety & Regulation — Banks shift AI-agent liability to customers — [briefing](../daily/2026-11-20.md)
+- ⚖️ Policy, Safety & Regulation — AI-assisted attack on European Commission; Meta Muse data mix-up — [briefing](../daily/2026-11-20.md)
+- ⚖️ Policy, Safety & Regulation — Schools push back on AI in Google Search — [briefing](../daily/2026-11-20.md)

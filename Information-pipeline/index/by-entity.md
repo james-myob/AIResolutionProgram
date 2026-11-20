@@ -721,3 +721,14 @@
 - `entity:nvidia` — 2026-11-18 — Reportedly exits China after Huang ouster — [briefing](../daily/2026-11-18.md)
 - `entity:us-government` — 2026-11-18 — China threatens retaliation over remote-access chip rule — [briefing](../daily/2026-11-18.md)
 - `entity:vals` — 2026-11-18 — Civilian-targeting game-framing eval — [briefing](../daily/2026-11-18.md)
+
+## 2026-11-20 additions
+- `entity:anthropic` — 2026-11-20 — Closes record IPO (ANT, $83); Claude-assisted Riemann Hypothesis proof claim — [briefing](../daily/2026-11-20.md)
+- `entity:google` — 2026-11-20 — Gemini 4 Neon; Gemini computer use on Mac; schools push back on AI Search — [briefing](../daily/2026-11-20.md)
+- `entity:openai` — 2026-11-20 — ChatGPT for Accounting; Ohio data-centre guarantees — [briefing](../daily/2026-11-20.md)
+- `entity:nvidia` — 2026-11-20 — Stops China shipments; up to $105B OpenAI guarantees; IPO placement buyer — [briefing](../daily/2026-11-20.md)
+- `entity:microsoft` — 2026-11-20 — Seven MAI models; Decision 1.1 GA — [briefing](../daily/2026-11-20.md)
+- `entity:apple` — 2026-11-20 — Reportedly building computer-controlling agent — [briefing](../daily/2026-11-20.md)
+- `entity:meta` — 2026-11-20 — Muse agent exposes private data to testers — [briefing](../daily/2026-11-20.md)
+- `entity:moonshot-ai` — 2026-11-20 — Cancels $150M Nvidia deal — [briefing](../daily/2026-11-20.md)
+- `entity:citi` — 2026-11-20 — Customers liable for third-party AI agent activity — [briefing](../daily/2026-11-20.md)
