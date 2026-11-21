@@ -566,3 +566,10 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - ⚖️ Policy, Safety & Regulation — Banks shift AI-agent liability to customers — [briefing](../daily/2026-11-20.md)
 - ⚖️ Policy, Safety & Regulation — AI-assisted attack on European Commission; Meta Muse data mix-up — [briefing](../daily/2026-11-20.md)
 - ⚖️ Policy, Safety & Regulation — Schools push back on AI in Google Search — [briefing](../daily/2026-11-20.md)
+
+## 2026-11-21 additions
+- 📦 Products & Tooling — ChatGPT live dictation; GPT-Live-1.1 — [briefing](../daily/2026-11-21.md)
+- 💰 Business & Funding — Nvidia reportedly nears Inception acquisition; Mercury API shuts 28 Dec — [briefing](../daily/2026-11-21.md)
+- 💰 Business & Funding — Google picks Blue Origin for 2029 AI satellites — [briefing](../daily/2026-11-21.md)
+- 🔬 Research & Papers — Google simulated internet to train Chrome agents — [briefing](../daily/2026-11-21.md)
+- ⚖️ Policy, Safety & Regulation — US data centres ~2% of electricity — [briefing](../daily/2026-11-21.md)

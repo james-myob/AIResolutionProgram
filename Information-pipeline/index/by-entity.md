@@ -732,3 +732,10 @@
 - `entity:meta` — 2026-11-20 — Muse agent exposes private data to testers — [briefing](../daily/2026-11-20.md)
 - `entity:moonshot-ai` — 2026-11-20 — Cancels $150M Nvidia deal — [briefing](../daily/2026-11-20.md)
 - `entity:citi` — 2026-11-20 — Customers liable for third-party AI agent activity — [briefing](../daily/2026-11-20.md)
+
+## 2026-11-21 additions
+- `entity:nvidia` — 2026-11-21 — Reportedly nears Inception acquisition (≥$500M) — [briefing](../daily/2026-11-21.md)
+- `entity:inception` — 2026-11-21 — Mercury diffusion models; API shuts 28 Dec — [briefing](../daily/2026-11-21.md)
+- `entity:openai` — 2026-11-21 — ChatGPT live dictation; GPT-Live-1.1 — [briefing](../daily/2026-11-21.md)
+- `entity:google` — 2026-11-21 — Blue Origin satellite deal; simulated internet for Chrome agents — [briefing](../daily/2026-11-21.md)
+- `entity:blue-origin` — 2026-11-21 — Launches Google AI satellites from Q1 2029 — [briefing](../daily/2026-11-21.md)
