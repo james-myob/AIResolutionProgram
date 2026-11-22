@@ -573,3 +573,7 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - 💰 Business & Funding — Google picks Blue Origin for 2029 AI satellites — [briefing](../daily/2026-11-21.md)
 - 🔬 Research & Papers — Google simulated internet to train Chrome agents — [briefing](../daily/2026-11-21.md)
 - ⚖️ Policy, Safety & Regulation — US data centres ~2% of electricity — [briefing](../daily/2026-11-21.md)
+
+### 2026-11-22
+- 🔬 Research & Papers — OpenAI proposes pretraining perplexity as cross-lab metric — [briefing](../daily/2026-11-22.md)
+- 📈 Industry Analysis — ChatPRD "token fraud" ends free trials — [briefing](../daily/2026-11-22.md)

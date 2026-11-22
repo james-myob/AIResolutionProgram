@@ -739,3 +739,5 @@
 - `entity:openai` — 2026-11-21 — ChatGPT live dictation; GPT-Live-1.1 — [briefing](../daily/2026-11-21.md)
 - `entity:google` — 2026-11-21 — Blue Origin satellite deal; simulated internet for Chrome agents — [briefing](../daily/2026-11-21.md)
 - `entity:blue-origin` — 2026-11-21 — Launches Google AI satellites from Q1 2029 — [briefing](../daily/2026-11-21.md)
+- `entity:openai` — 2026-11-22 — Pretraining perplexity data and proposed shared metric — [briefing](../daily/2026-11-22.md)
+- `entity:chatprd` — 2026-11-22 — Token fraud; ends free trials — [briefing](../daily/2026-11-22.md)
