@@ -741,3 +741,10 @@
 - `entity:blue-origin` — 2026-11-21 — Launches Google AI satellites from Q1 2029 — [briefing](../daily/2026-11-21.md)
 - `entity:openai` — 2026-11-22 — Pretraining perplexity data and proposed shared metric — [briefing](../daily/2026-11-22.md)
 - `entity:chatprd` — 2026-11-22 — Token fraud; ends free trials — [briefing](../daily/2026-11-22.md)
+
+- `entity:thinking-machines` — 2026-11-23 — Inkling 2 Mini looped open-weights model — [briefing](../daily/2026-11-23.md)
+- `entity:openai` — 2026-11-23 — Shirudo open-sourced with Cisco — [briefing](../daily/2026-11-23.md)
+- `entity:openai-codex` — 2026-11-23 — Codex-generated shield in Shirudo test — [briefing](../daily/2026-11-23.md)
+- `entity:cisco` — 2026-11-23 — Co-releases Shirudo with OpenAI — [briefing](../daily/2026-11-23.md)
+- `entity:nvidia` — 2026-11-23 — Huang reinstated as CEO — [briefing](../daily/2026-11-23.md)
+- `entity:architect-labs` — 2026-11-23 — Frostbite AI-designed CPU claim — [briefing](../daily/2026-11-23.md)
