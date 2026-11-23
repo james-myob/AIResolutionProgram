@@ -577,3 +577,9 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 ### 2026-11-22
 - 🔬 Research & Papers — OpenAI proposes pretraining perplexity as cross-lab metric — [briefing](../daily/2026-11-22.md)
 - 📈 Industry Analysis — ChatPRD "token fraud" ends free trials — [briefing](../daily/2026-11-22.md)
+
+## 2026-11-23 additions
+- 🧠 Models & Capabilities — Thinking Machines Inkling 2 Mini, looped open-weights model — [briefing](../daily/2026-11-23.md)
+- 📦 Products & Tooling — OpenAI and Cisco open-source Shirudo live-patching runtime — [briefing](../daily/2026-11-23.md)
+- 💰 Business & Funding — Nvidia reinstates Jensen Huang as CEO — [briefing](../daily/2026-11-23.md)
+- 🔬 Research & Papers — Architect Labs AI-designed Frostbite CPU claim — [briefing](../daily/2026-11-23.md)
