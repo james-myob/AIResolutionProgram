@@ -577,3 +577,21 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 ### 2026-11-22
 - 🔬 Research & Papers — OpenAI proposes pretraining perplexity as cross-lab metric — [briefing](../daily/2026-11-22.md)
 - 📈 Industry Analysis — ChatPRD "token fraud" ends free trials — [briefing](../daily/2026-11-22.md)
+
+## 2026-11-24 additions
+### 🧠 Models & Capabilities
+- Z.ai ships GLM-5.4, its first looped transformer (weights not yet open) — [briefing](../daily/2026-11-24.md)
+### 📦 Products & Tooling
+- Anthropic opens Claude Ship beta in Claude Code — [briefing](../daily/2026-11-24.md)
+- OpenAI and Cisco release Shirudo, open-source eBPF shields for unpatched Linux — [briefing](../daily/2026-11-24.md)
+- OpenAI OpenWorks pays local partners to onboard small businesses — [briefing](../daily/2026-11-24.md)
+### 💰 Business & Funding
+- Nvidia reinstates Jensen Huang as CEO — [briefing](../daily/2026-11-24.md)
+- Amazon reportedly buys Decart optimisation tech for $7.5B — [briefing](../daily/2026-11-24.md)
+### 🔬 Research & Papers
+- DeepMind Gemini 4 agents cut quantum algorithm costs up to ~12x, Lean-verified — [briefing](../daily/2026-11-24.md)
+- OpenAI: GPT-6 protein design, ~11-13% lab hit rates — [briefing](../daily/2026-11-24.md)
+### ⚖️ Policy, Safety & Regulation
+- Oregon and Virginia sue SpaceX over Grok sexual imagery — [briefing](../daily/2026-11-24.md)
+### 📈 Industry Analysis
+- Microsoft joins OpenAI's shared perplexity metric (MAI-2 at 0.819) — [briefing](../daily/2026-11-24.md)

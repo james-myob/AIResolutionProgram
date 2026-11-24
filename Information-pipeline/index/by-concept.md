@@ -33,3 +33,6 @@ A concept earns an entry when the term is genuinely new in the discourse or bein
 
 ## `concept:system-one-models`
 - 2026-11-12 — Non-generative models returning choices/scores, called from application code instead of prompt chains — [briefing](../daily/2026-11-12.md)
+
+## `concept:looped-transformer`
+- 2026-11-24 — Same layers re-run several times per token for more depth without more parameters (Z.ai GLM-5.4, Thinking Machines Inkling 2 Mini) — [briefing](../daily/2026-11-24.md)
