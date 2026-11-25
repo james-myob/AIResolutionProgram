@@ -595,3 +595,22 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 - Oregon and Virginia sue SpaceX over Grok sexual imagery — [briefing](../daily/2026-11-24.md)
 ### 📈 Industry Analysis
 - Microsoft joins OpenAI's shared perplexity metric (MAI-2 at 0.819) — [briefing](../daily/2026-11-24.md)
+
+### 📦 Products & Tooling — 2026-11-25
+- Claude artifacts become desktop apps; Skills and Tasks over MCP — [briefing](../daily/2026-11-25.md)
+- Meta Muse in Instagram DMs, Walmart Black Friday tie-up — [briefing](../daily/2026-11-25.md)
+
+### 💰 Business & Funding — 2026-11-25
+- Anthropic shares fall below $83 IPO price — [briefing](../daily/2026-11-25.md)
+- Nvidia: Megaspeed blacklisted, Huang still faces Congress — [briefing](../daily/2026-11-25.md)
+
+### 🔬 Research & Papers — 2026-11-25
+- OpenClaw ShellBench: harness swaps move scores up to ~10 pts — [briefing](../daily/2026-11-25.md)
+- OpenAI Astra exoplanet search; unvalidated 9/4 matrix-multiplication preprint — [briefing](../daily/2026-11-25.md)
+
+### ⚖️ Policy, Safety & Regulation — 2026-11-25
+- Amazon: open-source agent autonomously exploited a zero-day — [briefing](../daily/2026-11-25.md)
+- UK FCA sets agentic AI expectations — [briefing](../daily/2026-11-25.md)
+
+### 📈 Industry Analysis — 2026-11-25
+- Lab insiders worry about releasing capable models; DeepMind four paths to superintelligence — [briefing](../daily/2026-11-25.md)
