@@ -614,3 +614,19 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 
 ### 📈 Industry Analysis — 2026-11-25
 - Lab insiders worry about releasing capable models; DeepMind four paths to superintelligence — [briefing](../daily/2026-11-25.md)
+
+## 2026-11-26 additions
+
+### 📦 Products & Tooling — 2026-11-26
+- Anthropic migrates Messages API to Rust with Claude agents — [briefing](../daily/2026-11-26.md)
+- OpenAI merges ChatGPT Chat and Work usage limits — [briefing](../daily/2026-11-26.md)
+- OpenAI private inference pilot — [briefing](../daily/2026-11-26.md)
+
+### 💰 Business & Funding — 2026-11-26
+- Amazon and Meta discuss lifting block on Muse shopping agent — [briefing](../daily/2026-11-26.md)
+
+### ⚖️ Policy, Safety & Regulation — 2026-11-26
+- FCC approves SpaceX orbital data-centre network; NY bans AI chatbot toys — [briefing](../daily/2026-11-26.md)
+
+### 📈 Industry Analysis — 2026-11-26
+- US export rules reportedly freeze lending for Asian AI build-out — [briefing](../daily/2026-11-26.md)
