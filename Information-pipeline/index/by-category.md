@@ -614,3 +614,21 @@ Quick Hits are not indexed individually — see each daily file's Quick Hits sec
 
 ### 📈 Industry Analysis — 2026-11-25
 - Lab insiders worry about releasing capable models; DeepMind four paths to superintelligence — [briefing](../daily/2026-11-25.md)
+
+### 📦 Products & Tooling — 2026-11-27
+- OpenAI merges ChatGPT Chat and Work usage limits; pricing error patched — [briefing](../daily/2026-11-27.md)
+- Anthropic's Claude agents rebuild its Messages API in Rust (~70% less CPU) — [briefing](../daily/2026-11-27.md)
+
+### 💰 Business & Funding — 2026-11-27
+- Nvidia pauses Southeast Asia shipments as export controls tighten — [briefing](../daily/2026-11-27.md)
+- SpaceX gets FCC approval for up to 1M orbital AI data-centre satellites — [briefing](../daily/2026-11-27.md)
+
+### 🔬 Research & Papers — 2026-11-27
+- DeepMind AlphaProof Code verifies key security properties of Signal's encryption code — [briefing](../daily/2026-11-27.md)
+
+### ⚖️ Policy, Safety & Regulation — 2026-11-27
+- Microsoft (ARTEX) and Swiss agency document real AI-agent cyberattacks — [briefing](../daily/2026-11-27.md)
+- New York bans AI-chatbot toys for five years; AGs challenge Character.AI chat auction — [briefing](../daily/2026-11-27.md)
+
+### 📈 Industry Analysis — 2026-11-27
+- Amazon and Meta reportedly negotiate access for Muse shopping agent — [briefing](../daily/2026-11-27.md)

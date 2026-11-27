@@ -61,3 +61,4 @@ A pick that's been consumed can be checked off with `[x]` (and optionally annota
 ## 2026-11-16
 
 - [ ] 🎙️ **Building Visual Intelligence: Black Forest Labs** — Latent Space · Podcast (98 min) · [link](https://latent.space/p/bfl/) · *Learning general intelligence from pixels, motion and sound.*
+- [ ] 🎙️ **The Revolution vs The Renaissance — Thariq Shihipar** — Latent Space · Podcast (54 min) · [link](https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/) · *Practitioner view on coding agents from someone who just moved from Anthropic to OpenAI.*
